@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import {FlatList} from 'react-native';
 import styled from 'styled-components/native';
 import FavoritesIcon from '../assets/img/favorites.svg';
-
+import hinario from '../api/hinario.json';
 const HinoContainerUp = styled.View`
     flex-direction:row;
     margin-top:10px;
@@ -79,18 +79,20 @@ const Autor = styled.Text`
     text-align:right;
     margin-top:2px;
 `;
-
+const HinaHD = styled.View`
+    flex-direction:row;
+`; 
 
 
 export default() =>{
     const [list, setList] = useState([]);
 
     const getH =() =>{
-        return fetch('https://pokeapi.co/api/v2/pokemon')
+        return fetch('https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json')
         .then((response) => response.json())
         .then((json) => {
-            console.log(json.results);
-            return setList(json.results);
+            console.log(json.hinos);
+            return setList(json.hinos);
             
         }).catch((error) => {
             /* console.error(error); */
@@ -104,31 +106,37 @@ export default() =>{
 
     return(
         <HinoContainerUp>
-            <FlatList 
-            data={list}
-            keyExtractor={(item) => item.name}
-            contentContainerStyle={{flexGrow:1}}
-            renderItem={HunosGet}>
-            </FlatList>
+            <Hino>
+                
+                <FlatList 
+                data={list}
+                keyExtractor={(item) => item.name}
+                contentContainerStyle={{flexGrow:1}}
+                renderItem={HunosGet}>
+                </FlatList>
+            
+            </Hino>
         </HinoContainerUp>
     );
 
     
     function HunosGet(item){
 
-        const {name,url}=item.item;
+        const {titulo,numero_view,titulo_ingles}=item.item;
 
         return(
-            <Hino>
+
+            <HinaHD>
+                
                 <HinoLeft>
                     <HinoBotao>
-                        <NumeroHino>001</NumeroHino>
+                        <NumeroHino>{numero_view}</NumeroHino>
                     </HinoBotao>
                 </HinoLeft>
                 <HinoRigth>
                     <BotaoTitulo>
-                        <TituloHino>{name}</TituloHino>
-                        <TituloHinoIngles>Before Jehova´s Awful Throne</TituloHinoIngles>
+                        <TituloHino>{titulo}</TituloHino>
+                        <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
                     </BotaoTitulo>
                     <FavoritoAutor>
                         <Favoritos>
@@ -142,8 +150,9 @@ export default() =>{
                         </Autores>
                     </FavoritoAutor>
                 </HinoRigth>
-            </Hino>
-        )
+
+            </HinaHD>
+                )
     }
 
 }
