@@ -59,6 +59,36 @@
                     "estrofe":"Ele criou o Universo e a Terra;{'\n'} Vinde e adorai-O com fé e oração;{'\n'} Límpida fonte de bênçãos encerra,{'\n'} Fonte de graça e de redenção."
                 }
             ]
+        },
+        {
+            "id":3,
+            "titulo":" O Deus Eterno Reina",
+            "titulo_ingles":"The Lord in Zion Reigneth",
+            "numero":3,
+            "numero_view":"003",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "Autores":[
+                {
+                    "nome":"Fanny Jane Crosby (1820-1915)"
+                },
+                {
+                    "nome":"Hart Pease Danks (1834-1903)"
+                }
+            ],
+            "texto_biblico":"Salmo 99:1-3",
+            "coro":"",
+            "estrofes":[
+                {
+                    "estrofe":"0 Deus eterno reina no monte de Sião. {'\n'} Chegai-vos ante o trono Seu em santa adoração.{'\n'}  Trazei, humildemente, o vosso coração{'\n'}  Ao Deus eterno e Rei dos reis, Senhor da redenção."
+                },
+                {
+                    "estrofe":"0 Deus eterno reina no monte de Sião.{'\n'}  Os astros na amplidão sem fim, sustenta com a mão.{'\n'} A Ele seja a honra, a glória e o poder,{'\n'} E ascendam os louvores mil ao mais sublime Ser."
+                },
+                {
+                    "estrofe":"0 Deus eterno reina no monte de Sião.{'\n'}  Entrai no santo templo Seu, buscai o Seu perdão.{'\n'} Buscando Sua face, a paz encontrareis;{'\n'} E reine para sempre, enfim, o eterno Rei dos reis."
+                }
+            ]
         }
     ]
 }

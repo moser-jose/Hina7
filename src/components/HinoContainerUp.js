@@ -88,7 +88,7 @@ export default() =>{
     const [list, setList] = useState([]);
 
     const getH =() =>{
-        return fetch('https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json')
+        return fetch('../api/hinario.json')
         .then((response) => response.json())
         .then((json) => {
             console.log(json.hinos);
@@ -100,14 +100,14 @@ export default() =>{
         });
     }
     useEffect(()=> {
-        getH();
+        /* getH(); */
     }, []);
 
 
     return(
         <FlatList 
-        data={list}
-        keyExtractor={(item) => item.name}
+        data={hinario.hinos}
+        keyExtractor={(item) => item.titulo}
         contentContainerStyle={{flexGrow:1}}
         renderItem={HunosGet}>
         </FlatList>
