@@ -1,64 +1,64 @@
 {
-   "hinos":[
-    {
-        "id":1,
-        "titulo":"Ó Deus de Amor",
-        "titulo_ingles":"Before Jehova´s Awful Throne",
-        "numero":1,
-        "numero_view":"001",
-        "categoria":"Adoração",
-        "sub_categoria":"Adoração e Louvor",
-        "Autores":[
-            {
-                "nome":"Isaac Watts (1674 - 1748)"
-            },
-            {
-                "nome":"John Hatton (c. 1710 - 1793)"
-            }
-        ],
-        "texto_biblico":"Gênesis 1:1",
-        "coro":"",
-        "estrofes":[
-            {
-                "estrofe":"Ó Deus de amor,{'\n'} vimos nós te adorar.{'\n'} Vós, ó nações, rendei louvor!{'\n'} És tu, Senhor,{'\n'} o poderoso Vencedor,{'\n'} És Criador e Rei sem par.{'\n'}{'\n'}"
-            },
-            {
-                "estrofe":"Por teu poder nos criaste, Senhor, deste-nos vida e perfeição; E ao desviar-nos de teu plano de amor, veio em Jesus à salvação."
-            },
-            {
-                "estrofe":"Teu é o poder e o louvor, nosso Deus; Teu, nosso amor, fervor também. Qual rocha firme a verdade ficará, Deus eternal, Senhor. Amém."
-            }
-        ]
-    },
-    {
-        "id":2,
-        "titulo":"Antes de Tudo",
-        "titulo_ingles":"Before Jehova´s Awful Throne",
-        "numero":1,
-        "numero_view":"001",
-        "categoria":"Adoração",
-        "sub_categoria":"Adoração e Louvor",
-        "Autores":[
-            {
-                "nome":"Isaac Watts (1674 - 1748)"
-            },
-            {
-                "nome":"John Hatton (c. 1710 - 1793)"
-            }
-        ],
-        "texto_biblico":"Gênesis 1:1",
-        "coro":"",
-        "estrofes":[
-            {
-                "estrofe":"Ó Deus de amor,{'\n'} vimos nós te adorar.{'\n'} Vós, ó nações, rendei louvor!{'\n'} És tu, Senhor,{'\n'} o poderoso Vencedor,{'\n'} És Criador e Rei sem par.{'\n'}{'\n'}"
-            },
-            {
-                "estrofe":"Por teu poder nos criaste, Senhor, deste-nos vida e perfeição; E ao desviar-nos de teu plano de amor, veio em Jesus à salvação."
-            },
-            {
-                "estrofe":"Teu é o poder e o louvor, nosso Deus; Teu, nosso amor, fervor também. Qual rocha firme a verdade ficará, Deus eternal, Senhor. Amém."
-            }
-        ]
-    }
-]
+    "hinos":[
+        {
+            "id":1,
+            "titulo":"Ó Deus de Amor",
+            "titulo_ingles":"Before Jehova´s Awful Throne",
+            "numero":1,
+            "numero_view":"001",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "Autores":[
+                {
+                    "nome":"Isaac Watts (1674 - 1748)"
+                },
+                {
+                    "nome":"John Hatton (c. 1710 - 1793)"
+                }
+            ],
+            "texto_biblico":"Gênesis 1:1",
+            "coro":"",
+            "estrofes":[
+                {
+                    "estrofe":"Ó Deus de amor,{'\n'} vimos nós te adorar.{'\n'} Vós, ó nações, rendei louvor!{'\n'} És tu, Senhor,{'\n'} o poderoso Vencedor,{'\n'} És Criador e Rei sem par.{'\n'}{'\n'}"
+                },
+                {
+                    "estrofe":"Por teu poder nos criaste, Senhor, deste-nos vida e perfeição; E ao desviar-nos de teu plano de amor, veio em Jesus à salvação."
+                },
+                {
+                    "estrofe":"Teu é o poder e o louvor, nosso Deus; Teu, nosso amor, fervor também. Qual rocha firme a verdade ficará, Deus eternal, Senhor. Amém."
+                }
+            ]
+        },
+        {
+            "id":2,
+            "titulo":" Ó, Adorai o Senhor",
+            "titulo_ingles":"O Worship the Lord",
+            "numero":2,
+            "numero_view":"002",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "Autores":[
+                {
+                    "nome":"John Samuel Bewley Monsell (1811-1875)"
+                },
+                {
+                    "nome":"Edwin Barnes (1864-1930)"
+                }
+            ],
+            "texto_biblico":"Salmo 96:9",
+            "coro":"",
+            "estrofes":[
+                {
+                    "estrofe":"Ó, adorai o Senhor na beleza {'\n'} Da santidade, da glória e poder;{'\n'} Vinde e prostrai-vos à Sua grandeza;{'\n'} Ele é o princípio, e sempre há de ser."
+                },
+                {
+                    "estrofe":"Vinde a Seus pés, Ele é caridade,{'\n'} Grande e piedoso, tardio em furor;{'\n'} Vinde adorá-Lo por Sua bondade,{'\n'} Pela grandeza do Seu santo amor."
+                },
+                {
+                    "estrofe":"Ele criou o Universo e a Terra;{'\n'} Vinde e adorai-O com fé e oração;{'\n'} Límpida fonte de bênçãos encerra,{'\n'} Fonte de graça e de redenção."
+                }
+            ]
+        }
+    ]
 }

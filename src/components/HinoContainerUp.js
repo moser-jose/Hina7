@@ -105,18 +105,13 @@ export default() =>{
 
 
     return(
-        <HinoContainerUp>
-            <Hino>
-                
-                <FlatList 
-                data={list}
-                keyExtractor={(item) => item.name}
-                contentContainerStyle={{flexGrow:1}}
-                renderItem={HunosGet}>
-                </FlatList>
-            
-            </Hino>
-        </HinoContainerUp>
+        <FlatList 
+        data={list}
+        keyExtractor={(item) => item.name}
+        contentContainerStyle={{flexGrow:1}}
+        renderItem={HunosGet}>
+        </FlatList>
+        
     );
 
     
@@ -125,10 +120,11 @@ export default() =>{
         const {titulo,numero_view,titulo_ingles}=item.item;
 
         return(
-
-            <HinaHD>
+                <HinoContainerUp>
+            <Hino>
                 
-                <HinoLeft>
+               
+            <HinoLeft>
                     <HinoBotao>
                         <NumeroHino>{numero_view}</NumeroHino>
                     </HinoBotao>
@@ -151,7 +147,10 @@ export default() =>{
                     </FavoritoAutor>
                 </HinoRigth>
 
-            </HinaHD>
+            
+            </Hino>
+        </HinoContainerUp>
+            
                 )
     }
 
