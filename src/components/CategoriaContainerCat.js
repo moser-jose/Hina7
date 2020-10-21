@@ -45,7 +45,7 @@ const CategoriaText = styled.Text`
 
 export default({nome,back}) =>{
     return(
-
+        
 
         <CategoriaContainerCat>
             

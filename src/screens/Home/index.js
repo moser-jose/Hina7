@@ -24,6 +24,9 @@ import {
 import TextContTitulo from '../../components/TextContTitulo';
 import TabTop from '../../components/TabTopHome';
 import CategoriaHol from '../../components/CategoriaHol';
+
+
+import HinoContainerHorizontal from '../../components/HinoContainerHorizontal';
 import PartilharContainer from '../../components/PartilharContainer';
 import FavoritesIcon from '../../assets/img/favorites.svg';
 import { ScrollView } from 'react-native-gesture-handler';
@@ -35,9 +38,7 @@ import FavoritosIconWhite from '../../assets/img/favorite_icon_white.svg';
 export default () => {
     const navigation=useNavigation();
 
-    const handleClick = () => {
-        navigation.navigate('Hino');
-    }
+    
     
     const [favorited, setFavorited]=useState(false);
     const handlerClickFav=() =>{
@@ -47,115 +48,13 @@ export default () => {
         <Container>
             <TabTop titulo={"Favoritos"}></TabTop>
             <Scroler>
-            <TextContTitulo  nome={"Vistos Recentemente"}></TextContTitulo>
-            <ScrollView showsHorizontalScrollIndicator={false} horizontal style={{flexDirection:'row'}}>
-                <HinoContainer>
-                <Hino>
-                    <HinoLeft>
-                        <HinoBotao onPress={handleClick}>
-                            <NumeroHino>001</NumeroHino>
-                        </HinoBotao>
-                    </HinoLeft>
-                    <HinoRigth>
-                        <BotaoTitulo onPress={handleClick}>
-                            <TituloHino>Ó Deus de Amor</TituloHino>
-                            <TituloHinoIngles>Before Jehova´s Awful Throne</TituloHinoIngles>
-                        </BotaoTitulo>
-                        <FavoritoAutor>
-                            <Favoritos>
-                                <FavoritosBotao>
-                                <FavoritesIcon fill="#29C17E"/>
-                                </FavoritosBotao>
-                            </Favoritos>
-                            <Autores>
-                                <Autor>Isaac Watts (1674 - 1748)</Autor>
-                                <Autor>John Hatton (c. 1710 - 1793)</Autor>
-                            </Autores>
-                        </FavoritoAutor>
-                    </HinoRigth>
-                </Hino>
-                </HinoContainer>
-                <HinoContainer>
-                    <Hino>
-                    <HinoLeft>
-                        <HinoBotao >
-                            <NumeroHino>001</NumeroHino>
-                        </HinoBotao>
-                    </HinoLeft>
-                    <HinoRigth>
-                        <BotaoTitulo>
-                            <TituloHino>Ó Deus de Amor</TituloHino>
-                            <TituloHinoIngles>Before Jehova´s Awful Throne</TituloHinoIngles>
-                        </BotaoTitulo>
-                        <FavoritoAutor>
-                            <Favoritos>
-                                <FavoritosBotao>
-                                <FavoritesIcon fill="#29C17E"/>
-                                </FavoritosBotao>
-                            </Favoritos>
-                            <Autores>
-                                <Autor>Isaac Watts (1674 - 1748)</Autor>
-                                <Autor>John Hatton (c. 1710 - 1793)</Autor>
-                            </Autores>
-                        </FavoritoAutor>
-                    </HinoRigth>
-                </Hino>
-                </HinoContainer>
-                <HinoContainer>
-                    <Hino>
-                    <HinoLeft>
-                        <HinoBotao>
-                            <NumeroHino>001</NumeroHino>
-                        </HinoBotao>
-                    </HinoLeft>
-                    <HinoRigth>
-                        <BotaoTitulo>
-                            <TituloHino>Ó Deus de Amor</TituloHino>
-                            <TituloHinoIngles>Before Jehova´s Awful Throne</TituloHinoIngles>
-                        </BotaoTitulo>
-                        <FavoritoAutor>
-                            <Favoritos>
-                                <FavoritosBotao>
-                                <FavoritesIcon fill="#29C17E"/>
-                                </FavoritosBotao>
-                            </Favoritos>
-                            <Autores>
-                                <Autor>Isaac Watts (1674 - 1748)</Autor>
-                                <Autor>John Hatton (c. 1710 - 1793)</Autor>
-                            </Autores>
-                        </FavoritoAutor>
-                    </HinoRigth>
-                </Hino>
-                </HinoContainer>
-                <HinoContainer>
-                    <Hino>
-                    <HinoLeft>
-                        <HinoBotao>
-                            <NumeroHino>001</NumeroHino>
-                        </HinoBotao>
-                    </HinoLeft>
-                    <HinoRigth>
-                        <BotaoTitulo>
-                            <TituloHino>Ó Deus de Amor</TituloHino>
-                            <TituloHinoIngles>Before Jehova´s Awful Throne</TituloHinoIngles>
-                        </BotaoTitulo>
-                        <FavoritoAutor>
-                            <Favoritos>
-                                <FavoritosBotao>
-                                <FavoritesIcon fill="#29C17E"/>
-                                </FavoritosBotao>
-                            </Favoritos>
-                            <Autores>
-                                <Autor>Isaac Watts (1674 - 1748)</Autor>
-                                <Autor>John Hatton (c. 1710 - 1793)</Autor>
-                            </Autores>
-                        </FavoritoAutor>
-                    </HinoRigth>
-                </Hino>
-                </HinoContainer>
-            </ScrollView>
+                
+            <TextContTitulo  nome={"Hinos"}></TextContTitulo>
+            <HinoContainerHorizontal ></HinoContainerHorizontal>
+
             <TextContTitulo nome={"Categorias"} ></TextContTitulo>
-            <ScrollView showsHorizontalScrollIndicator={false} horizontal style={{flexDirection:'row', width:'100%'}}>
+            <CategoriaHol></CategoriaHol>
+            {/* <ScrollView showsHorizontalScrollIndicator={false} horizontal style={{flexDirection:'row', width:'100%'}}>
                 <CategoriaHol nome={"Adoração"} back={require('../../assets/img/adoracao.jpg')}></CategoriaHol>
                 
                 
@@ -163,8 +62,8 @@ export default () => {
                 
                 <CategoriaHol nome={"Jusus Cristo"} back={require('../../assets/img/jesus_back.jpg')} ></CategoriaHol>
                 <CategoriaHol nome={"Espirito Santo"} back={require('../../assets/img/espirito_santo_back.jpg')} ></CategoriaHol>
-            {/*  <CategoriaHol nome={'Cânticos Responsivos'}></CategoriaHol> */}
-            </ScrollView>
+           
+            </ScrollView> */}
 
             <TextContTitulo nome={"Favoritos"}></TextContTitulo>
             <ScrollView  showsHorizontalScrollIndicator={false} horizontal style={{flexDirection:'row', width:'100%'}}>

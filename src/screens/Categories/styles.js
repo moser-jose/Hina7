@@ -7,9 +7,7 @@ export const Container = styled.SafeAreaView`
     position: relative;
 `;
 export const Scroller = styled.ScrollView`
-    flex: 1;
     padding:10px;
-    height:100%;
 `;
 export const CategoriaContCont = styled.View`
     flex-direction:row;

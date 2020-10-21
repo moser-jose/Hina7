@@ -1,10 +1,11 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
-import {useNavigation} from '@react-navigation/native';
+import {useNavigation,useRoute} from '@react-navigation/native';
+import {FlatList} from 'react-native'
 import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
 
 import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
-
+import IconLeft from '../assets/img/Icon_left.svg';
 
 const HinoContainer = styled.View`
 `;
@@ -82,19 +83,35 @@ const Hino = styled.View`
 const HinoT = styled.View`
     background-color:#fff;
     padding:10px;
+    flex:1;
 `;
 const Estrofe = styled.Text`
-   font-size:18px;
+   font-size:16px;
    font-family:"Poppins-Regular";
+   margin-bottom:5px;
 `;
 
 const TabTopTituloleftFavor = styled.TouchableOpacity`
   
 `;
 
+const HinoEstrofes = styled.View`
+    
+`;
+
+const NumeroEstrofe = styled.Text`
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:5px;
+`;
+
+const Scroller = styled.ScrollView`
+`;
+
 
 export default() =>{
     const navigation=useNavigation();
+    const route=useRoute();
     const [favorited, setFavorited]=useState(false);
     const voltar =()=>{
         navigation.goBack();
@@ -102,17 +119,31 @@ export default() =>{
     const handlerClick=() =>{
         setFavorited(!favorited);
     }
+
+   const [hinoInfo, setHinoInfo]=useState({
+
+        id: route.params.id,
+        titulo: route.params.titulo,
+        numero_view: route.params.numero_view,
+        titulo_ingles: route.params.titulo_ingles,
+        autores: route.params.autores,
+        texto_biblico: route.params.texto_biblico,
+        coro: route.params.coro,
+        estrofes: route.params.estrofes
+   });
+
     return(
+        <Scroller>
         <HinoContainer>
             <TabTopHino>
                 <TabTopVoltarBotao onPress={voltar}>
-                    <TabTopVoltar>{'<'} Voltar </TabTopVoltar>
+                    <TabTopVoltar><IconLeft/> Voltar </TabTopVoltar>
                 </TabTopVoltarBotao>
                 <TabTopTitulo>
-                <TabTopTituloText>Ó Deus de Amor</TabTopTituloText>
+                <TabTopTituloText>{hinoInfo.titulo}</TabTopTituloText>
                 <TabTopTituloEng>
-                    <TabTopTituloEngText>Before Jehova´s Awful Throne</TabTopTituloEngText>
-                    <TabTopTituloEngTextBib>Génesis 1:1</TabTopTituloEngTextBib>
+                    <TabTopTituloEngText>{hinoInfo.titulo_ingles}</TabTopTituloEngText>
+                    <TabTopTituloEngTextBib>{hinoInfo.texto_biblico}</TabTopTituloEngTextBib>
                 </TabTopTituloEng>
                 <TabTopTituloBase>
                     <TabTopTituloLeft>
@@ -126,28 +157,82 @@ export default() =>{
 
                     </TabTopTituloLeft>
                     <TabTopTituloMiddle>
-                        <TabTopTituloMiddleText>001</TabTopTituloMiddleText>
+                        <TabTopTituloMiddleText>{hinoInfo.numero_view}</TabTopTituloMiddleText>
                     </TabTopTituloMiddle>
                     <TabTopTituloRigth>
-                        <TabTopTituloRigthText>Isaac Watts (1674 - 1748)</TabTopTituloRigthText>
-                        <TabTopTituloRigthText>John Hatton (c. 1710 - 1793)</TabTopTituloRigthText>
+                            <FlatList
+                                    data={hinoInfo.autores}
+                                    keyExtractor={(item) => item.nome}
+                                    contentContainerStyle={{flexGrow:1}}
+                                    showsVerticalScrollIndicator={false}
+                                    renderItem={HinosGetAutores}>
+                            </FlatList>
                     </TabTopTituloRigth>
                 </TabTopTituloBase>
             </TabTopTitulo>
             </TabTopHino>
-            <Hino>
-                <HinoT>
-                    <Estrofe>
-                    Ó Deus de amor,{'\n'} vimos nós te adorar.{'\n'} Vós, ó nações, rendei louvor!{'\n'} És tu, Senhor,{'\n'} o poderoso Vencedor,{'\n'} És Criador e Rei sem par.{'\n'}{'\n'}
+              
+                
+                    <Hino>
+                        <HinoT>
+                            <FlatList
+                                data={hinoInfo.estrofes.slice(0, 1)}
+                                keyExtractor={(item) => item.estrofe}
+                                contentContainerStyle={{flexGrow:1}}
+                                showsVerticalScrollIndicator={false}
+                                renderItem={HinosGetEstrofes}>
+                            </FlatList>
 
-                    Por teu poder nos criaste, Senhor, deste-nos vida e perfeição; E ao desviar-nos de teu plano de amor, veio em Jesus à salvação.
+                            <FlatList
+                                data={hinoInfo.coro}
+                                keyExtractor={(item) => item.coro}
+                                contentContainerStyle={{flexGrow:1}}
+                                showsVerticalScrollIndicator={false}
+                                renderItem={HinosGetCoro}>
+                            </FlatList>
 
-                    Por teu poder nos criaste, Senhor, deste-nos vida e perfeição; E ao desviar-nos de teu plano de amor, veio em Jesus à salvação.
-
-                    Por teu poder nos criaste, Senhor, deste-nos vida e perfeição; E ao desviar-nos de teu plano de amor, veio em Jesus à salvação.
-                    </Estrofe>
-                </HinoT>
-            </Hino>
-        </HinoContainer>
+                            <FlatList
+                            data={hinoInfo.estrofes.slice(1, 5)}
+                            keyExtractor={(item) => item.estrofe}
+                            contentContainerStyle={{flexGrow:1}}
+                            showsVerticalScrollIndicator={false}
+                            renderItem={HinosGetEstrofes}>
+                        </FlatList>
+                        </HinoT>
+                    </Hino>
+     
+                
+              
+              </HinoContainer>
+              </Scroller>
     );
+    function HinosGetAutores(item){
+        const {nome}=item.item;
+        return(
+                <TabTopTituloRigthText>{nome}</TabTopTituloRigthText>
+            )
+    }
+    function HinosGetCoro(item){
+        const {coro,nome_coro}=item.item;
+
+            if(coro!=null){
+                return(
+                    <HinoEstrofes>
+                        <NumeroEstrofe>{nome_coro}</NumeroEstrofe>
+                        <Estrofe>{coro}</Estrofe>
+                    </HinoEstrofes>
+                )
+            }
+    }
+    
+    function HinosGetEstrofes(item){
+        const {estrofe,numero}=item.item;
+
+            return(
+                <HinoEstrofes>
+                    <NumeroEstrofe>{numero}</NumeroEstrofe>
+                    <Estrofe>{estrofe}</Estrofe>
+                </HinoEstrofes>
+            )
+    }
 }

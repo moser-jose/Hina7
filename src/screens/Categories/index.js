@@ -1,5 +1,11 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {Text, LogBox} from 'react-native';
+//console.disableYellowBox = true;
+// Ignore log notification by message:
+LogBox.ignoreLogs(['Warning: ...']);
+
+// Ignore all log notifications:
+LogBox.ignoreAllLogs();
 import { 
     Container,
     CategoriaContCont,
@@ -12,12 +18,13 @@ import CategoriaContainerCat from '../../components/CategoriaContainerCat';
 export default () => {
 
     return(
+        
         <Container>
             <TabTop titulo={"Categorias"}></TabTop>
         
-        <Scroller showsVerticalScrollIndicator={false}>
-            
-        <PartilharContainer></PartilharContainer>
+        
+            <Scroller showsVerticalScrollIndicator={false}>
+        {/* <PartilharContainer></PartilharContainer> */}
         <CategoriaContCont>
                 <CategoriaContainerCat nome={"Adoração"}  back={require('../../assets/img/adoracao.jpg')} ></CategoriaContainerCat>
                 
@@ -57,8 +64,9 @@ export default () => {
                 <CategoriaContainerCat nome={"Améns"}  back={require('../../assets/img/escritura.jpg')}></CategoriaContainerCat>
             </CategoriaContCont>
 
-        </Scroller>
         
+            </Scroller>
         </Container>
+        
     );
 }

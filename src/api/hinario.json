@@ -8,7 +8,7 @@
             "numero_view":"001",
             "categoria":"Adoração",
             "sub_categoria":"Adoração e Louvor",
-            "Autores":[
+            "autores":[
                 {
                     "nome":"Isaac Watts (1674 - 1748)"
                 },
@@ -17,76 +17,254 @@
                 }
             ],
             "texto_biblico":"Gênesis 1:1",
-            "coro":"",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
             "estrofes":[
                 {
-                    "estrofe":"Ó Deus de amor,{'\n'} vimos nós te adorar.{'\n'} Vós, ó nações, rendei louvor!{'\n'} És tu, Senhor,{'\n'} o poderoso Vencedor,{'\n'} És Criador e Rei sem par.{'\n'}{'\n'}"
+                    "numero":"I",
+                    "estrofe":"Ó Deus de amor,\n vimos nós te adorar.\n Vós, ó nações, rendei louvor!\n És tu, Senhor,\n o poderoso Vencedor,\n És Criador e Rei sem par."
+                },
+                
+                {
+                    "numero":"II",
+                    "estrofe":"Por teu poder nos criaste, Senhor,\n deste-nos vida e perfeição; \n E ao desviar-nos de teu plano de amor,\n veio em Jesus à salvação."
                 },
                 {
-                    "estrofe":"Por teu poder nos criaste, Senhor, deste-nos vida e perfeição; E ao desviar-nos de teu plano de amor, veio em Jesus à salvação."
-                },
-                {
-                    "estrofe":"Teu é o poder e o louvor, nosso Deus; Teu, nosso amor, fervor também. Qual rocha firme a verdade ficará, Deus eternal, Senhor. Amém."
+                    "numero":"III",
+                    "estrofe":"Teu é o poder e o louvor, nosso Deus;\n Teu, nosso amor, fervor também.\n Qual rocha firme a verdade ficará,\n Deus eternal, Senhor. Amém."
                 }
             ]
         },
         {
             "id":2,
-            "titulo":" Ó, Adorai o Senhor",
+            "titulo":"Ó, Adorai o Senhor",
             "titulo_ingles":"O Worship the Lord",
             "numero":2,
             "numero_view":"002",
             "categoria":"Adoração",
             "sub_categoria":"Adoração e Louvor",
-            "Autores":[
+            "autores":[
                 {
-                    "nome":"John Samuel Bewley Monsell (1811-1875)"
+                    "nome":"John Monsell (1811-1875)"
                 },
                 {
                     "nome":"Edwin Barnes (1864-1930)"
                 }
             ],
             "texto_biblico":"Salmo 96:9",
-            "coro":"",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
             "estrofes":[
                 {
-                    "estrofe":"Ó, adorai o Senhor na beleza {'\n'} Da santidade, da glória e poder;{'\n'} Vinde e prostrai-vos à Sua grandeza;{'\n'} Ele é o princípio, e sempre há de ser."
+                    "numero":"I",
+                    "estrofe":"Ó, adorai o Senhor na beleza\n Da santidade, da glória e poder;\n Vinde e prostrai-vos à Sua grandeza;\n Ele é o princípio, e sempre há de ser."
                 },
                 {
-                    "estrofe":"Vinde a Seus pés, Ele é caridade,{'\n'} Grande e piedoso, tardio em furor;{'\n'} Vinde adorá-Lo por Sua bondade,{'\n'} Pela grandeza do Seu santo amor."
+                    "numero":"II",
+                    "estrofe":"Vinde a Seus pés, Ele é caridade,\n Grande e piedoso, tardio em furor;\n Vinde adorá-Lo por Sua bondade,\n Pela grandeza do Seu santo amor."
                 },
                 {
-                    "estrofe":"Ele criou o Universo e a Terra;{'\n'} Vinde e adorai-O com fé e oração;{'\n'} Límpida fonte de bênçãos encerra,{'\n'} Fonte de graça e de redenção."
+                    "numero":"III",
+                    "estrofe":"Ele criou o Universo e a Terra;\n Vinde e adorai-O com fé e oração;\n Límpida fonte de bênçãos encerra,\n Fonte de graça e de redenção."
                 }
             ]
         },
         {
             "id":3,
-            "titulo":" O Deus Eterno Reina",
+            "titulo":"O Deus Eterno Reina",
             "titulo_ingles":"The Lord in Zion Reigneth",
             "numero":3,
             "numero_view":"003",
             "categoria":"Adoração",
             "sub_categoria":"Adoração e Louvor",
-            "Autores":[
+            "autores":[
                 {
-                    "nome":"Fanny Jane Crosby (1820-1915)"
+                    "nome":"Fanny J. Crosby (1820-1915)"
                 },
                 {
-                    "nome":"Hart Pease Danks (1834-1903)"
+                    "nome":"Hart P. Danks (1834-1903)"
                 }
             ],
             "texto_biblico":"Salmo 99:1-3",
-            "coro":"",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
             "estrofes":[
                 {
-                    "estrofe":"0 Deus eterno reina no monte de Sião. {'\n'} Chegai-vos ante o trono Seu em santa adoração.{'\n'}  Trazei, humildemente, o vosso coração{'\n'}  Ao Deus eterno e Rei dos reis, Senhor da redenção."
+                    "numero":"I",
+                    "estrofe":"0 Deus eterno reina no monte de Sião.\n Chegai-vos ante o trono Seu em santa adoração.\n  Trazei, humildemente, o vosso coração\n Ao Deus eterno e Rei dos reis, Senhor da redenção."
                 },
                 {
-                    "estrofe":"0 Deus eterno reina no monte de Sião.{'\n'}  Os astros na amplidão sem fim, sustenta com a mão.{'\n'} A Ele seja a honra, a glória e o poder,{'\n'} E ascendam os louvores mil ao mais sublime Ser."
+                    "numero":"II",
+                    "estrofe":"0 Deus eterno reina no monte de Sião.\n  Os astros na amplidão sem fim, sustenta com a mão.\n A Ele seja a honra, a glória e o poder,\n E ascendam os louvores mil ao mais sublime Ser."
                 },
                 {
-                    "estrofe":"0 Deus eterno reina no monte de Sião.{'\n'}  Entrai no santo templo Seu, buscai o Seu perdão.{'\n'} Buscando Sua face, a paz encontrareis;{'\n'} E reine para sempre, enfim, o eterno Rei dos reis."
+                    "numero":"III",
+                    "estrofe":"0 Deus eterno reina no monte de Sião.\n  Entrai no santo templo Seu, buscai o Seu perdão.\n Buscando Sua face, a paz encontrareis;\n E reine para sempre, enfim, o eterno Rei dos reis."
+                }
+            ]
+        },
+        {
+            "id":6,
+            "titulo":"Por Belezas Naturais",
+            "titulo_ingles":"For the Beauty of the Earth",
+            "numero":6,
+            "numero_view":"006",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Folliott S. Pierpoint (1835-1917)"
+                },
+                {
+                    "nome":"Conrad Kocher (1786-1872)"
+                }
+            ],
+            "texto_biblico":"Salmo 107:1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Por belezas naturais, pelo azul do lindo céu,\n Por encantos imortais, ó Senhor, ao trono Teu.\n Se erguerá, e com fervor, nossa voz em Teu louvor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Por amigos e irmãos, pela luz do puro amor,\n Por poderem nossas mãos trabalhar em Teu favor,\n Se erguerá, também, Senhor, nossa voz em Teu louvor."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Por Jesus, o Salvador, que por nós morreu na cruz,\n Pelo Espírito de amor que à verdade nos conduz,\n Se erguerá, também, Senhor, nossa voz em Teu louvor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":7,
+            "titulo":"Sejas Louvado",
+            "titulo_ingles":"Lobe den Herren",
+            "numero":7,
+            "numero_view":"007",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Joachim Neander (1650-1680)"
+                },
+                {
+                    "nome":" Compositor Desconhecido"
+                }
+            ],
+            "texto_biblico":"Salmo 9:1-2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Sejas louvado, Rei Criador da natura!,\n Louva, minha alma, louva com zelo e ternura!\n Louva ao Senhor pelo insondável amor,\n Cálido amor que perdura!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Sejas louvado, Tu que o Universo conduzes!\n Sob Tuas asas, paz e conforto produzes!\n Haja louvor pelo Teu dom redentor,\n Príncipe eterno das luzes!"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Sejas louvado, pelo cuidado paterno!\n sobre a verdade ergues Teu reino superno!\n Teu, o louvor seja somente, Senhor,\n Por Teu amor sempiterno!"
+                }
+            ]
+        },
+        {
+            "id":26,
+            "titulo":"Luzes da Aurora",
+            "titulo_ingles":"Light After Darkness",
+            "numero":26,
+            "numero_view":"026",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Matutino",
+            "autores":[
+                {
+                    "nome":"Em. Bonnard"
+                },
+                {
+                    "nome":"Ira D. Sankey (1840-1908)"
+                }
+            ],
+            "texto_biblico":"Provérbios 4:18",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Luzes da aurora faze brilhar,\n Ó Pai, agora, ao despertar;\n Sim, bem cedinho,faze luzir,\n Hoje, o caminho meu a seguir;"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Cresça Teu brilho, luz divinal,\n Sobre meu trilho, longe do mal;\n Eu me humilho ante teus pés,\n Pois sou teu filho; meu Deus tu és."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Dia após dia, dá-me, Senhor,\n Mais alegria e mais fervor;\n Felicidade na retidão,\n E santidade de coração."
+                }
+            ]
+        },
+        {
+            "id":27,
+            "titulo":"Perto do Lar",
+            "titulo_ingles":"Light After Darkness",
+            "numero":27,
+            "numero_view":"027",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Vespertino",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"J. McGranahan (1840-1907)"
+                }
+            ],
+            "texto_biblico":"Romanos 13:11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Perto do lar, perto do lar,\nPerto, sim, do lar dos Céus!\nDesse tão lindo lar\nCom fontes de cristal,\nDo país do eterno Deus."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Desce o Sol atrás dos montes,\nE a tarde já chegou.\nCalma e quieta vem a noite,\nMais um dia terminou;\nJá se foi com sua luta,\nLogo a negra noite vem,\nMas é doce a lembrança:\nPerto está o lar de além."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Mui cansado o peregrino\nQuer do dia ao fim chegar;\nDo labor, que é tão penoso,\nOutra vez vai descansar.\nTal a vida, neste mundo,\nQue havemos de passar,\nMas as sombras nos relembram:\nPerto está o eterno lar."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Mais um dia na viagem\nPara a casa paternal;\nJá mais perto está o rio\nDo país celestial.\nA cidade já refulge,\nVislumbramos seu fulgor;\n Cada vez mais perto estamos\nDo glorioso lar de amor."
                 }
             ]
         }

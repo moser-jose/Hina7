@@ -1,7 +1,7 @@
-import React from 'react';
-import {Image} from 'react-native';
+import React,{useEffect} from 'react';
+import {Image,FlatList} from 'react-native';
 import styled from 'styled-components/native';
-
+import categoria from '../api/categorias.json';
 
 const CategoriaHol = styled.View`
     flex-direction:row;
@@ -42,21 +42,45 @@ const CategoriaText = styled.Text`
     
 `; 
 
-export default({nome,back}) =>{
+
+
+
+
+
+export default() =>{
+    useEffect(()=> {
+    }, []);
     return(
-        <CategoriaHol>
-            <CategoriaContainer>
-                    <Image source={back} style={{height:70,resizeMode: "cover" }}>
-                    </Image>
-                <CategoriaBotao >
-                    <CategoriaBotaoRigth>
-                        <CategoriaText>
-                            {nome}
-                        </CategoriaText>
-                    </CategoriaBotaoRigth>
-                </CategoriaBotao>
-            </CategoriaContainer>
-        </CategoriaHol>
+        <FlatList 
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            data={categoria.categorias}
+            keyExtractor={(item, index) => item.categoria}
+            contentContainerStyle={{flexGrow:1}}
+            showsVerticalScrollIndicator={false}
+            renderItem={getCategorias}>
+        </FlatList>
     );
+
+    function getCategorias(item) {
+        const {categoria, background}=item.item;
+        return(
+            <CategoriaHol>
+                <CategoriaContainer>
+                    
+                        <Image source={{uri: background}} style={{height:70,resizeMode: "cover" }}>
+                        </Image>
+                    <CategoriaBotao >
+                        <CategoriaBotaoRigth>
+                            <CategoriaText>
+                                {categoria}
+                            </CategoriaText>
+                        </CategoriaBotaoRigth>
+                    </CategoriaBotao>
+                </CategoriaContainer>
+            </CategoriaHol>
+        );
+
+    }
 }
                 
