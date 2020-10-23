@@ -6,6 +6,7 @@ import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
 
 import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 import IconLeft from '../assets/img/Icon_left.svg';
+import IconPoint from '../assets/img/Icon_menu_point_v.svg';
 
 const HinoContainer = styled.View`
 `;
@@ -16,15 +17,21 @@ const TabTopHino = styled.View`
 `;
 
 
-const TabTopVoltarBotao = styled.TouchableOpacity`
-`;
-
-
-const TabTopVoltar = styled.Text`
-    font-size:16px;
+const TabTopVoltarBotao = styled.View`
+    flex-direction:row;
+    flex:1;
     padding:10px;
-
 `;
+const TabTopVoltar = styled.TouchableOpacity`
+    flex-direction:row;
+    flex:1;
+    align-items:center;
+`;
+const TabText = styled.Text`
+    padding-left:6px;
+    font-size:16;
+`;
+
 const TabTopTitulo = styled.View`
     
     width:100%;
@@ -107,7 +114,9 @@ const NumeroEstrofe = styled.Text`
 
 const Scroller = styled.ScrollView`
 `;
-
+const TabTopConfig = styled.TouchableOpacity`
+    padding-right:4px;
+`;
 
 export default() =>{
     const navigation=useNavigation();
@@ -136,9 +145,15 @@ export default() =>{
         <Scroller>
         <HinoContainer>
             <TabTopHino>
-                <TabTopVoltarBotao onPress={voltar}>
-                    <TabTopVoltar><IconLeft/> Voltar </TabTopVoltar>
-                </TabTopVoltarBotao>
+                    <TabTopVoltarBotao>
+                    
+                        <TabTopVoltar  onPress={voltar}>
+                            <IconLeft></IconLeft>
+                            <TabText>Voltar</TabText>
+                        </TabTopVoltar>
+                        <TabTopConfig><IconPoint></IconPoint></TabTopConfig>
+                   
+                </TabTopVoltarBotao> 
                 <TabTopTitulo>
                 <TabTopTituloText>{hinoInfo.titulo}</TabTopTituloText>
                 <TabTopTituloEng>

@@ -7,7 +7,6 @@ const CategoriaHol = styled.View`
     flex-direction:row;
     margin-top:10px;
     height:70px;
-    background-color:red;
     margin-right:10px;
 `;
 
@@ -64,11 +63,53 @@ export default() =>{
 
     function getCategorias(item) {
         const {categoria, background}=item.item;
+        const getBackgroundSource =(background) =>{
+            let r=require("../assets/img/adoracao.jpg");
+            switch(background){
+                case "adoracao.jpg":
+                    r=require("../assets/img/adoracao.jpg");
+                    break;
+                case "Deus.jpg":
+                    r=require("../assets/img/Deus.jpg");
+                    break;
+                case "jesus_back.jpg":
+                    r=require("../assets/img/jesus_back.jpg");
+                    break;
+                case "espirito_santo_back.jpg":
+                    r=require("../assets/img/espirito_santo_back.jpg");
+                    break;
+                case "escritura.jpg":
+                    r=require("../assets/img/escritura.jpg");
+                    break;
+                case "evangelho.jpg":
+                    r=require("../assets/img/evangelho.jpg");
+                    break;
+                case "vida_crista.jpg":
+                    r=require("../assets/img/vida_crista.jpg");
+                break;
+                    case "lar.jpg":
+                    r=require("../assets/img/lar.jpg");
+                    break;
+                case "igreja.jpg":
+                    r=require("../assets/img/igreja.jpg");
+                    break;
+                case "canticos.jpg":
+                    r=require("../assets/img/canticos.jpg");
+                    break;
+                case "amem.jpg":
+                    r=require("../assets/img/amem.jpg");
+                    break;
+                default:
+                    break;
+            }
+            return r;
+        }
+
         return(
             <CategoriaHol>
                 <CategoriaContainer>
-                    
-                        <Image source={{uri: background}} style={{height:70,resizeMode: "cover" }}>
+                   
+                        <Image source={getBackgroundSource(background)} style={{height:70,resizeMode: "cover" }}>
                         </Image>
                     <CategoriaBotao >
                         <CategoriaBotaoRigth>

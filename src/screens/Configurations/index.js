@@ -17,9 +17,13 @@ import IconSetings from '../../assets/img/settings.svg';
 import IconRight from '../../assets/img/Icon_right.svg';
 import IconInfo from '../../assets/img/info.svg';
 import IconHand from '../../assets/img/hand.svg';
-
+import {useNavigation} from '@react-navigation/native';
 export default () => {
-
+    const navigation=useNavigation();
+    
+    const handleClick = () => {
+        navigation.push('Config');
+    }
     return(
         <Container>
             <TabTop titulo={"Configurações"}></TabTop>
@@ -27,7 +31,7 @@ export default () => {
             <Scroller>
 
                 <Configurations>
-                     <ConfigurationsBotao>
+                     <ConfigurationsBotao onPress={handleClick}>
                         <ConfigurationsBotaoLeft>
                             <IconSetings></IconSetings>
                         </ConfigurationsBotaoLeft>
@@ -71,7 +75,7 @@ export default () => {
                         </ConfigurationsBotaoRight>
                     
                     </ConfigurationsBotao> 
-                    <Line></Line>
+                    
                 </Configurations>
 
             </Scroller>
