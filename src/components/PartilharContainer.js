@@ -11,7 +11,7 @@ const PartilharContainer = styled.View`
     width:100%;
     margin-right:10px;
     margin-bottom:10px;
-    background-color:#fff;
+    background-color:${props=>props.theme.container};
     border-radius:3px;
     justify-content:center;
     elevation:2;
@@ -40,6 +40,7 @@ const PartilharCimaTexto = styled.Text`
     font-size:14px;
     text-align:right;
     font-family:"Poppins-LightItalic";
+    color:${props=>props.theme.title};;
 
 `;
 const PartilharBaixo = styled.View`

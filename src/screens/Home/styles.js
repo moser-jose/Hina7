@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
-    background-color:#F4F7FA;
+    background-color:${props=>props.theme.background};
     flex: 1;
     position: relative;
     justify-content:center;
@@ -70,6 +70,7 @@ export const TextoTituloLeft = styled.Text`
     font-size:12px;
     font-weight:700;
     letter-spacing:1px;
+    color:#272A3F;
 `;
 export const TextoTituloRight = styled.Text`
     text-align:right;
@@ -77,6 +78,7 @@ export const TextoTituloRight = styled.Text`
     font-size:12px;
     font-weight:700;
     letter-spacing:1px;
+    color:#272A3F;
 `;
 
 
@@ -173,7 +175,7 @@ export const Autores = styled.View`
     
 export const Autor = styled.Text`
     font-size:10px;
-    
+    color:#272A3F;
     margin-top:2px;
 `;
 

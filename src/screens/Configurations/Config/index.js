@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components/native';
-import {Image} from 'react-native';
 import TabTopConf from '../../../components/TabTopConf';
 import ThemeLight from '../../../assets/img/light.svg';
 import ThemeDark from '../../../assets/img/dark.svg';
@@ -8,10 +7,11 @@ import IconCheck from '../../../assets/img/Icon_check.svg';
 import IconUnCheck from '../../../assets/img/Icon_uncheck.svg';
 
 const Scroller = styled.ScrollView`
-
+background-color:${props=>props.theme.background};
 `;
 const Container = styled.View`
     padding:0 10px;
+    
 `;
 const Temas = styled.View`
     flex:1;
@@ -19,9 +19,11 @@ const Temas = styled.View`
     elevation:4px;
     height:160px;
     width:100%;
-    margin:8px 1px 20px 1px;
-    background-color:#fff;
+    margin:0 1px 30px;
+    background-color:${props=>props.theme.container};
     border-radius:2px;
+
+    /* ${props=>props.theme.background} */
 `;
 
 
@@ -31,7 +33,7 @@ const TemasLeft = styled.View`
     align-items:center;
     padding:10px 0;
 `;
-const TemasLeftTheme = styled.View`
+const TemasLeftTheme = styled.TouchableOpacity`
     flex:1;
     elevation:2;
     height:100px;
@@ -48,25 +50,17 @@ const TemasRigt = styled.View`
     padding:10px 0;
 
 `;
-const ThemesTitule = styled.Text`
-    letter-spacing:1px;
-    font-size:20px;
-    font-weight:700;
-    color:#292C35;
-
-
-`;
 const Lista = styled.TouchableOpacity`
     flex-direction:row;
     justify-content:space-between;
-    padding:14px 0;
+    padding:18px 0;
 `;
 
 const ListaLi = styled.Text`
     letter-spacing:1px;
     font-size:18px;
     font-weight:400;
-    color:#292C35;
+    color:${props=>props.theme.title};
 `;
 const Line = styled.View`
     background-color:#ccc;
@@ -79,8 +73,8 @@ const Line = styled.View`
 const TemasLista = styled.View`
     elevation:4px;
     width:100%;
-    margin:8px 1px 20px 1px;
-    background-color:#fff;
+    margin:0 1px 20px 1px;
+    background-color:${props=>props.theme.container};
     border-radius:2px;
     padding:0 12px 10px;
 `;
@@ -93,37 +87,70 @@ const ListaLiInf = styled.Text`
 `;
 export default () => {
 
+    const [light, setLight]=useState(true);
+    const [dark, setdark]=useState(false);
+    const [phone, setphone]=useState(false);
+
+    const handleClickLight=()=>{
+        setphone(false);
+        setLight(true);
+        setdark(false);
+    }
+    const handleClickDark=()=>{
+        setphone(false);
+        setLight(false);
+        setdark(true);
+    }
+    const handleClickPhone=()=>{
+        setphone(true);
+        setLight(false);
+        setdark(false);
+    }
+
     return(
         <Scroller>
-            <TabTopConf></TabTopConf>
+            <TabTopConf Texto={"Temas"}></TabTopConf>
                 <Container>
                     <Temas>
                         <TemasLeft>
-                            <TemasLeftTheme>
+                            <TemasLeftTheme  onPress={handleClickLight}>
                                 <ThemeLight></ThemeLight>
                             </TemasLeftTheme>
                         </TemasLeft>
                         <TemasRigt>
-                            <TemasLeftTheme>
+                            <TemasLeftTheme onPress={handleClickDark}>
                                 <ThemeDark></ThemeDark>
                             </TemasLeftTheme>
                         </TemasRigt>
                     </Temas>
                         
                     <TemasLista>
-                        <Lista>
-                            <ListaLi>Claro</ListaLi>
+                        <Lista onPress={handleClickLight}>
+                            <ListaLi >Claro</ListaLi>
+                            {light ? 
+                            <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
+                            :
                             <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
+                            }
+                            
                         </Lista>
                         <Line></Line>
-                        <Lista>
+                        <Lista onPress={handleClickDark}>
                             <ListaLi>Escuro</ListaLi>
+                            {dark ? 
+                            <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
+                            :
                             <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
+                            }
                         </Lista>
                         <Line></Line>
-                        <Lista>
+                        <Lista onPress={handleClickPhone}>
                             <ListaLi>Automático</ListaLi>
+                            {phone ? 
+                            <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
+                            :
                             <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
+                            }
                         </Lista>
                         <ListaLiInf>Usar as configurações do dispositivo</ListaLiInf>
                     </TemasLista>

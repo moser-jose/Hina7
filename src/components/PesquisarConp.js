@@ -1,10 +1,13 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
+import {useNavigation} from '@react-navigation/native';
+
+
 import FilterIcon from '../assets/img/filter.svg';
 import SearchIcon from '../assets/img/search.svg';
 
 const PesquisarConp = styled.View`
-    background-color:#fff;
+    background-color:${props=>props.theme.container};
     flex-direction:row;
     height: 50px;
     elevation:4;
@@ -15,7 +18,8 @@ const PesquisarConp = styled.View`
 `;
 
 const PesquisarConpLeft = styled.View`
-    flex:8;
+    flex:1;
+    background-color:${props=>props.theme.container};
 `;
 
 const PesquisarConpMiddle = styled.View`
@@ -44,25 +48,33 @@ const TextImput = styled.TextInput`
     flex:1;
     align-items:center;
     font-size:16px;
+    color:${props=>props.theme.title};
+    background-color:${props=>props.theme.container};
 `;
 
 export default() =>{
+    const navigation=useNavigation();
+    const [showModal, setShowModal]=useState(false);
+    const handleClickShowModal =()=>{
+        setShowModal(true);
+    }
+
     return(
             <PesquisarConp>
-            <PesquisarConpLeft>
-                <TextImput placeholder="Introduza o número do hino"></TextImput>
-            </PesquisarConpLeft>
-            <PesquisarConpMiddle>
-                <PesquisarCompMiddleBotao>
-                    <SearchIcon fill="#8890A6"></SearchIcon>
-                </PesquisarCompMiddleBotao>
-            </PesquisarConpMiddle>
-            <PesquisarConpRight>
-                <PesquisarConpRightBotao>
-                    <FilterIcon></FilterIcon>
-                </PesquisarConpRightBotao>
-            </PesquisarConpRight>
-        </PesquisarConp>
+                <PesquisarConpLeft>
+                    <TextImput placeholder="Introduza o número do hino"></TextImput>
+                </PesquisarConpLeft>
+                <PesquisarConpMiddle>
+                    <PesquisarCompMiddleBotao>
+                        <SearchIcon fill="#8890A6"></SearchIcon>
+                    </PesquisarCompMiddleBotao>
+                </PesquisarConpMiddle>
+                <PesquisarConpRight>
+                    <PesquisarConpRightBotao onPress={handleClickShowModal}>
+                        <FilterIcon></FilterIcon>
+                    </PesquisarConpRightBotao>
+                </PesquisarConpRight>
+            </PesquisarConp>
         
     );
 }

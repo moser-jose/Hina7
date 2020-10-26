@@ -9,9 +9,10 @@ import IconLeft from '../assets/img/Icon_left.svg';
 import IconPoint from '../assets/img/Icon_menu_point_v.svg';
 
 const HinoContainer = styled.View`
+flex:1;
 `;
 const TabTopHino = styled.View`
-    background-color:#fff;
+    background-color:${props=>props.theme.container};
     elevation:2;
     margin-bottom:10px;
 `;
@@ -19,17 +20,16 @@ const TabTopHino = styled.View`
 
 const TabTopVoltarBotao = styled.View`
     flex-direction:row;
-    flex:1;
     padding:10px;
 `;
 const TabTopVoltar = styled.TouchableOpacity`
     flex-direction:row;
-    flex:1;
     align-items:center;
 `;
 const TabText = styled.Text`
     padding-left:6px;
     font-size:16;
+    color:${props=>props.theme.title};;
 `;
 
 const TabTopTitulo = styled.View`
@@ -41,6 +41,7 @@ const TabTopTituloText = styled.Text`
     font-size:18px;
     font-weight:700;
     letter-spacing:1px;
+    color:${props=>props.theme.title};
 `;
 const TabTopTituloEng = styled.View`
     flex-direction:row;
@@ -50,10 +51,12 @@ const TabTopTituloEng = styled.View`
 const TabTopTituloEngText = styled.Text`
     font-size:12px;
     font-family:"Poppins-LightItalic";
+    color:${props=>props.theme.title};
 `;
 const TabTopTituloEngTextBib = styled.Text`
     font-size:12px;
     font-family:"Poppins-LightItalic";
+    color:${props=>props.theme.title};
 `;
 const TabTopTituloBase = styled.View`
     flex-direction:row;
@@ -71,6 +74,7 @@ const TabTopTituloRigthText = styled.Text`
    font-size:12px;
    font-family:"Poppins-LightItalic";
    text-align:right;
+   color:${props=>props.theme.title};
 `;
 const TabTopTituloMiddle = styled.View`
     justify-content:center;
@@ -81,6 +85,7 @@ const TabTopTituloMiddle = styled.View`
 const TabTopTituloMiddleText = styled.Text`
    font-size:25px;
    font-family:"Poppins-Bold";
+   color:${props=>props.theme.title};
 `;
 
 const Hino = styled.View`
@@ -88,7 +93,7 @@ const Hino = styled.View`
     
 `;
 const HinoT = styled.View`
-    background-color:#fff;
+    background-color:${props=>props.theme.background};;
     padding:10px;
     flex:1;
 `;
@@ -96,6 +101,7 @@ const Estrofe = styled.Text`
    font-size:16px;
    font-family:"Poppins-Regular";
    margin-bottom:5px;
+   color:${props=>props.theme.title};
 `;
 
 const TabTopTituloleftFavor = styled.TouchableOpacity`
@@ -109,13 +115,11 @@ const HinoEstrofes = styled.View`
 const NumeroEstrofe = styled.Text`
     font-size:20px;
     font-weight:700;
+    color:${props=>props.theme.title};;
     margin-bottom:5px;
 `;
 
 const Scroller = styled.ScrollView`
-`;
-const TabTopConfig = styled.TouchableOpacity`
-    padding-right:4px;
 `;
 
 export default() =>{
@@ -142,17 +146,14 @@ export default() =>{
    });
 
     return(
-        <Scroller>
+        
         <HinoContainer>
             <TabTopHino>
                     <TabTopVoltarBotao>
-                    
                         <TabTopVoltar  onPress={voltar}>
                             <IconLeft></IconLeft>
                             <TabText>Voltar</TabText>
                         </TabTopVoltar>
-                        <TabTopConfig><IconPoint></IconPoint></TabTopConfig>
-                   
                 </TabTopVoltarBotao> 
                 <TabTopTitulo>
                 <TabTopTituloText>{hinoInfo.titulo}</TabTopTituloText>
@@ -186,14 +187,14 @@ export default() =>{
                 </TabTopTituloBase>
             </TabTopTitulo>
             </TabTopHino>
-              
+            <Scroller>
                 
                     <Hino>
                         <HinoT>
                             <FlatList
                                 data={hinoInfo.estrofes.slice(0, 1)}
                                 keyExtractor={(item) => item.estrofe}
-                                contentContainerStyle={{flexGrow:1}}
+                                
                                 showsVerticalScrollIndicator={false}
                                 renderItem={HinosGetEstrofes}>
                             </FlatList>
@@ -201,7 +202,6 @@ export default() =>{
                             <FlatList
                                 data={hinoInfo.coro}
                                 keyExtractor={(item) => item.coro}
-                                contentContainerStyle={{flexGrow:1}}
                                 showsVerticalScrollIndicator={false}
                                 renderItem={HinosGetCoro}>
                             </FlatList>
@@ -209,17 +209,17 @@ export default() =>{
                             <FlatList
                             data={hinoInfo.estrofes.slice(1, 5)}
                             keyExtractor={(item) => item.estrofe}
-                            contentContainerStyle={{flexGrow:1}}
                             showsVerticalScrollIndicator={false}
                             renderItem={HinosGetEstrofes}>
                         </FlatList>
                         </HinoT>
+                        
                     </Hino>
-     
+                    </Scroller>
                 
               
               </HinoContainer>
-              </Scroller>
+              
     );
     function HinosGetAutores(item){
         const {nome}=item.item;

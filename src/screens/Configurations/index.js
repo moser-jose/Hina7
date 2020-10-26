@@ -21,8 +21,11 @@ import {useNavigation} from '@react-navigation/native';
 export default () => {
     const navigation=useNavigation();
     
-    const handleClick = () => {
+    const handleClickConf = () => {
         navigation.push('Config');
+    }
+    const handleClickSobre = () => {
+        navigation.push('Sobre');
     }
     return(
         <Container>
@@ -31,7 +34,7 @@ export default () => {
             <Scroller>
 
                 <Configurations>
-                     <ConfigurationsBotao onPress={handleClick}>
+                     <ConfigurationsBotao onPress={handleClickConf}>
                         <ConfigurationsBotaoLeft>
                             <IconSetings></IconSetings>
                         </ConfigurationsBotaoLeft>
@@ -61,7 +64,7 @@ export default () => {
                     
                     </ConfigurationsBotao> 
                     <Line></Line>
-                    <ConfigurationsBotao>
+                    <ConfigurationsBotao onPress={handleClickSobre}>
                         <ConfigurationsBotaoLeft>
                             <IconInfo></IconInfo>
                         </ConfigurationsBotaoLeft>

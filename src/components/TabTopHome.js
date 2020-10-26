@@ -4,7 +4,7 @@ import ImagemTop from '../assets/img/imagem-top.svg';
 import Logo from '../assets/img/logo.svg';
 
 const TabTop = styled.View`
-    background-color:#fff;
+    background-color:${props=>props.theme.container};;
     flex-direction:row;
     height: 80px;
     elevation:2;
@@ -31,13 +31,13 @@ const TabTopMiddleTitleBold = styled.Text`
     font-size:25px;
     font-family:"Poppins-Bold";
     letter-spacing: 1px;
-    color:#272A3F;
+    color:${props=>props.theme.title};
 `;
 const TabTopMiddleTitleLight = styled.Text`
     font-size:10px;
     font-family:"Poppins-LightItalic";
     letter-spacing: 1px;
-    color:#272A3F;
+    color:${props=>props.theme.title};
     margin-top:-8px;
 `;
 

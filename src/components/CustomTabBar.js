@@ -11,7 +11,7 @@ const TabArea = styled.View`
     height:60px;
     flex-direction: row;
     elevation:2;
-    background-color: #fff;
+    background-color: ${props=>props.theme.container};;
 `;
 
 const TabItem = styled.TouchableOpacity`
@@ -39,9 +39,9 @@ export default ({state, navigation}) => {
     const goTo=(screenName) => {
         navigation.navigate(screenName);
     }
-
     return(
         <TabArea>
+            
             <TabItem onPress={() =>goTo('Search')}>
                 <SearchIcon  fill={state.index===0? "#29C17E" : "#8890A6"}  width="24" height="24"  />
             </TabItem>

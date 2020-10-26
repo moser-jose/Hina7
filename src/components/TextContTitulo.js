@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/native';
+import {useNavigation} from '@react-navigation/native';
 
 const TextContTitulo = styled.View`
    
@@ -21,20 +22,28 @@ const TextoTituloLeft = styled.Text`
     font-size:12px;
     font-weight:700;
     letter-spacing:1px;
+    color:${props=>props.theme.title};
 `;
 const TextoTituloRight = styled.Text`
     font-size:12px;
     font-weight:700;
     letter-spacing:1px;
+    color:${props=>props.theme.title};
 `;
 export default ({nome}) => {
+    const navigation=useNavigation();
+
+    const handleClick=()=>{
+        navigation.navigate('HinosTodos');
+    }
+
     return(
         <TextContTitulo>
             <TextoTituloConatiner>
                 <TextoTituloLeft>
                     {nome}
                 </TextoTituloLeft>
-                <BotaoVerTodos>
+                <BotaoVerTodos onPress={handleClick}>
                     <TextoTituloRight>
                         Ver Todos {">"}
                     </TextoTituloRight>

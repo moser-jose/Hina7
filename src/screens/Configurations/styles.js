@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
-    background-color:#F4F7FA;
+    background-color:${props=>props.theme.background};
     flex: 1;
     position: relative;
 `;
@@ -13,7 +13,7 @@ export const Scroller = styled.ScrollView`
 `;
 export const Configurations = styled.View`
     flex: 1;
-    background-color:#fff;
+    background-color:${props=>props.theme.container};
     elevation:4;
     border-radius:2px;
     margin:1px;
@@ -30,7 +30,7 @@ export const Line = styled.View`
 
 export const ConfigurationsBotao = styled.TouchableOpacity`
     flex-direction:row;
-    padding:12px;
+    padding:16px 12px;
 `;
 export const ConfigurationsBotaoLeft = styled.View`
     flex:1.5;
@@ -47,6 +47,7 @@ export const ConfigurationsBotaoMiddle = styled.View`
 export const ConfigurationsBotaoMiddleText = styled.Text`
     font-size:18px;
     letter-spacing:1px;
+    color:${props=>props.theme.title};;
 `;
 export const ConfigurationsBotaoRight = styled.View`
     flex:1;

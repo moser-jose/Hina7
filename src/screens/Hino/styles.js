@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
-    background-color:#F4F7FA;
+    background-color:${props=>props.theme.background};;
     flex: 1;
     position: relative;
 `;

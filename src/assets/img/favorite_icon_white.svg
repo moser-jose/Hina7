@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="19" height="17.212" viewBox="0 0 19 17.212"><g transform="translate(0.5 0.5)"><path d="M1.379,8.274A4.841,4.841,0,0,1,0,4.889,4.963,4.963,0,0,1,9,2.077a4.963,4.963,0,0,1,9,2.812A4.845,4.845,0,0,1,16.493,8.4L9,16Z" fill="#fff" stroke="#29c17e" stroke-width="1"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="17.212" viewBox="0 0 19 17.212">
+  <g id="Icon_love" transform="translate(0.5 0.5)">
+    <g id="Icon_love-2" data-name="Icon_love">
+      <path id="Path" d="M1.379,8.274A4.841,4.841,0,0,1,0,4.889,4.963,4.963,0,0,1,9,2.077a4.963,4.963,0,0,1,9,2.812A4.845,4.845,0,0,1,16.493,8.4L9,16Z" fill="none" stroke="#29c17e" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

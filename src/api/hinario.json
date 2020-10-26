@@ -116,6 +116,44 @@
             ]
         },
         {
+            "id":4,
+            "titulo":"Louvor ao Trino Deus",
+            "titulo_ingles":"For the Beauty of the Earth",
+            "numero":4,
+            "numero_view":"004",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Folliott S. Pierpoint (1835-1917)"
+                },
+                {
+                    "nome":"Conrad Kocher (1786-1872)"
+                }
+            ],
+            "texto_biblico":"Salmo 107:1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó anjos e homens, dai a Deus louvores,\nPois Sua graça dá aos pecadores.\nÓ firmamento, Céus, e mar e Terra,\nSim, dai louvor a Deus!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Vós, ó remidos, dai louvor a Cristo,\nTal sacrifício, oh! jamais foi visto!\nA Sua morte Seu amor revela,\nSim, adorai Jesus!"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Quão insondável é o amor divino!\nO Santo Espírito ilumina o mundo;\nÉ tão sublime, luz ao peregrino,\nLuz que ao Céu conduz!"
+                }
+            ]
+        },
+        {
             "id":6,
             "titulo":"Por Belezas Naturais",
             "titulo_ingles":"For the Beauty of the Earth",
@@ -152,8 +190,7 @@
                     "estrofe":"Por Jesus, o Salvador, que por nós morreu na cruz,\nPelo Espírito de amor que à verdade nos conduz,\nSe erguerá, também, Senhor, nossa voz em Teu louvor."
                 }
             ]
-        }
-        ,
+        },
         {
             "id":7,
             "titulo":"Sejas Louvado",
@@ -189,6 +226,310 @@
                 {
                     "numero":"III",
                     "estrofe":"Sejas louvado, pelo cuidado paterno!\nsobre a verdade ergues Teu reino superno!\nTeu, o louvor seja somente, Senhor,\nPor Teu amor sempiterno!"
+                }
+            ]
+        },
+        {
+            "id":8,
+            "titulo":"Ati Rendemos Gloria",
+            "titulo_ingles":"All Glory, Laud, and Honor",
+            "numero":8,
+            "numero_view":"008",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Theodulph de Orleans (750-821)"
+                },
+                {
+                    "nome":"Melchior Teschner (1584-1635)"
+                }
+            ],
+            "texto_biblico":"Salmo 106:48",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"A Ti rendemos glórias, Ó Rei e Redentor,\nA quem crianças rendem, também, o seu louvor.\nSenhor, nos inclinamos aos Teus sagrados pés,\nE a Ti nós adoramos, pois Deus eterno és."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"A voz dos anjos santos, em sons transcendentais,\nAqui na Terra ecoa na voz dos vis mortais.\nSó Tu, ó Deus bondoso, és o Pastor fiel,\nO Rei dos reis vindouro, Senhor de Israel."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Louvor Te deram antes da cruz e da paixão;\nE nós também cantamos o dom da salvação,\nPois Teu, Senhor, é o reino, a glória e o poder,\nE a Ti, pra sempre, os salvos, mui gratos hão de ser."
+                }
+            ]
+        },
+        {
+            "id":9,
+            "titulo":"Prece ao Trino Deus",
+            "titulo_ingles":"Come, Thou Almighty King",
+            "numero":9,
+            "numero_view":"009",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Autor Desconhecido"
+                },
+                {
+                    "nome":"Felice de Giardini (1716-1796)"
+                }
+            ],
+            "texto_biblico":"Salmo 138",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó grande e eterno Deus! Ouve-nos lá dos Céus;\nEis a oração: Vem, Pai, presente estar,\nVem, Teu poder nos dar,\nCom Tua voz falar Ao coração."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ó encarnado Deus, Sim, Te adoramos nós,\nBom Redentor; Vem nos purificar,\nVem nos santificar;\nDá-nos a Tua paz E o Teu amor."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Ó, vem, Consolador, Com tua voz falar\nAo coração; E vem em nós morar,\nConsolação nos dar,\nTambém nos confirmar Na redenção."
+                }
+            ]
+        },
+        {
+            "id":10,
+            "titulo":"Louvemos O Rei",
+            "titulo_ingles":"O Worship the King",
+            "numero":10,
+            "numero_view":"010",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Robert Grant (1779-1838)"
+                },
+                {
+                    "nome":"Johann M. Haydn (1737-1806)"
+                }
+            ],
+            "texto_biblico":"Salmo 146:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Louvemos o Rei, glorioso Senhor\nOh, vamos cantar de Seu infindo amor!\nEscudo seguro é Seu grande poder,\nE sempre Seus filhos está a defender."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Falemos de Deus, da graça sem-par,\nDo grande Senhor do Céu, da Terra e mar,\nQue forma a chuva, o vento e a luz.\nA forte tormenta o Seu poder traduz."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Cantemos do Seu cuidado por nós,\nE demos ao Pai louvor em alta voz,\nLouvemos, louvemos ao bom Criador,\nAmigo sincero, fiel e Redentor."
+                }
+            ]
+        },
+        {
+            "id":11,
+            "titulo":"Ao Deus de Abraão Louvai",
+            "titulo_ingles":"The God of Abraham Praise",
+            "numero":11,
+            "numero_view":"011",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Thomas Olivers (1725-1799)"
+                },
+                {
+                    "nome":"Melodia T. Judaica"
+                }
+            ],
+            "texto_biblico":"Êxodo 3:14 e 15",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ao Deus de Abraão louvai, supremo Criador,\nEterno Deus, bondoso Pai e Rei Senhor.\nO grande Deus EU SOU, Céu, Terra e mar formou,\nMeu ser também dará louvor ao Deus de amor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ao Deus de Abraão louvai, Eterno Benfeitor.\nO povo Seu um dia vai ao lar de amor.\nO mundo vil deixei, seu gozo e seu prazer,\nE filho então de Deus serei até morrer."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Ao Deus de Abraão louvai; os anjos dão louvor,\nE vós também louvores daí ao Deus de amor.\nAo Deus de Abraão e meu, no além irei louvar.\nEternamente eu louvarei ao Deus sem-par."
+                }
+            ]
+        },
+        {
+            "id":12,
+            "titulo":"Vinde, Povo do Senhor",
+            "titulo_ingles":"Come, Ye Thankful People",
+            "numero":12,
+            "numero_view":"012",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Henry Alford (1810-1871)"
+                },
+                {
+                    "nome":"George J. Elvery (1816-1893)"
+                }
+            ],
+            "texto_biblico":"Salmo 95:1-6",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Vinde povo do Senhor, adorai-O com louvor,\nAo Deus trino exaltai: a Jesus, a Deus, o Pai,\nE ao Espírito de luz que em bondade nos conduz.\nVinde, povo do Senhor, adorai o Deus de amor"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Observemos com fervor este dia do Senhor,\nPois as bênçãos lá do Céu, aos fiés as prometeu.\nAtentai à Sua voz com amor falar a nós.\nVinde, povo do Senhor, exaltai o Criador."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Quando a igreja se tornar triunfante,\nNossas Lutas findarão, e virá a redenção.\nMal e dor ficando atrás, reinará amor e paz.\nVinde, povo do Senhor, aclamai o redentor."
+                }
+            ]
+        },
+        {
+            "id":13,
+            "titulo":"Louvamos-Te, ó Deus",
+            "titulo_ingles":"Revive Us Again",
+            "numero":13,
+            "numero_view":"013",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Willian P. MacKay (1837-1885)"
+                },
+                {
+                    "nome":"Jonh J. Husband (1760-1825)"
+                }
+            ],
+            "texto_biblico":"Salmo 113:1-2",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Aleluia! Toda gloria\nTe rendemos sem fim\nAleluia! Tua graça\nImploramos. Amém."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Louvamos-Te, ó Deus, pelo dom de Jesus,\nQue por nós, pecadores, foi morto na cruz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Louvamos-Te, ó Deus, pelo Espírito-Luz\nQue nos tira das trevas e a Cristo conduz."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Ó vem nos encher de celeste fervor,\nDe esperança e bondade, de fé, zelo e amor."
+                }
+            ]
+        },
+        {
+            "id":14,
+            "titulo":"Jubilosos Te Adoramos",
+            "titulo_ingles":"Joyful,Joyful, We Adore Thee",
+            "numero":14,
+            "numero_view":"014",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Henry v. Dyke (1852-1933)"
+                },
+                {
+                    "nome":"Ludwig v. Beethoven (1770-1827)"
+                }
+            ],
+            "texto_biblico":"Salmo 105:1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Jubilosos Te adoramos, Deus da glória, Deus do amor.\nNosso Coração transborda em louvor a Ti, Senhor.\nRompe as nuvens da tristeza, do pecado e do tremor.\nDoador da eterna graça, enche-nos do Teu amor!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"\nTuas obras anunciam Teu poder e resplendor.\nCéus e Terra cantam hinos em louvor a Ti, Senhor.\nVales, montes e campinas, lindos prados, verde mar,\nAves, fontes cristalinas, todos querem te adorar!"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Aleluia, aleluia, a Jesus, o Redentor!\n Aleluia eternamente em louvor a Ti, Senhor.\n Ao Consolador dai glória, pois conforto e vida traz,\n Aleluia ao Pai eterno, Deus da graça, Deus da paz!"
+                }
+            ]
+        },
+        {
+            "id":15,
+            "titulo":"Vós, Criaturas do Senhor",
+            "titulo_ingles":"All Creatures of Our God and King",
+            "numero":15,
+            "numero_view":"015",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Francisco de Assis (1182-1226)"
+                },
+                {
+                    "nome":"GEISTLICHE KIRCHENGESÃNGE, 1623"
+                }
+            ],
+            "texto_biblico":"Salmo 148",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Vós, criaturas do Senhor,\nOh, elevai a Deus louvor!\nOh, louvai-O! Aleluia!\nTu, Sol dourado a refugir;\nTu, Lua em prata a reluzir!\nOh, louvai-O! Oh, Louvai-O!\nAleluia! Aleluia! Aleluia!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"\nÓ Terra e Céu, a Deus honrai;\nPreito de amor e graças dai!\nOh, louvai-O! Aleluia!\nFlores, erguei-vos em canção\n Ao grande Deus da criação!\nOh, louvai-O! Oh, louvai-O!\nAleluia! Aleluia! Aleluia!"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Vós, homens sábios e de bem,\nDai ao Senhor louvor também!\nOh, louvai-O! Aleluia!\n Dai glória ao Filho, glória ao Pai,\nE ao Santo Espírito louvai!\nOh, louvai-O! Oh, louvai-O!\nAleluia! Aleluia! Aleluia!"
                 }
             ]
         },
@@ -233,7 +574,45 @@
         {
             "id":27,
             "titulo":"Perto do Lar",
-            "titulo_ingles":"Light After Darkness",
+            "titulo_ingles":"Nearer Home",
+            "numero":27,
+            "numero_view":"027",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Vespertino",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"J. McGranahan (1840-1907)"
+                }
+            ],
+            "texto_biblico":"Romanos 13:11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Perto do lar, perto do lar,\nPerto, sim, do lar dos Céus!\nDesse tão lindo lar\nCom fontes de cristal,\nDo país do eterno Deus."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Desce o Sol atrás dos montes,\nE a tarde já chegou.\nCalma e quieta vem a noite,\nMais um dia terminou;\nJá se foi com sua luta,\nLogo a negra noite vem,\nMas é doce a lembrança:\nPerto está o lar de além."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Mui cansado o peregrino\nQuer do dia ao fim chegar;\nDo labor, que é tão penoso,\nOutra vez vai descansar.\nTal a vida, neste mundo,\nQue havemos de passar,\nMas as sombras nos relembram:\nPerto está o eterno lar."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Mais um dia na viagem\nPara a casa paternal;\nJá mais perto está o rio\nDo país celestial.\nA cidade já refulge,\nVislumbramos seu fulgor;\n Cada vez mais perto estamos\nDo glorioso lar de amor."
+                }
+            ]
+        },
+        {
+            "id":27,
+            "titulo":"Perto do Lard",
+            "titulo_ingles":"Nearer Home",
             "numero":27,
             "numero_view":"027",
             "categoria":"Adoração",
@@ -268,5 +647,6 @@
                 }
             ]
         }
+ 
     ]
 }

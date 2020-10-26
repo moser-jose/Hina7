@@ -1,16 +1,33 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import { useNavigation } from '@react-navigation/native';
+import Hinario from '../../api/hinario.json';
 import { 
     Container,
+    IconLoading,
+    IconLoad,
     TituloApp,
     TituloBold,
     TituloLightItalic,
     BemvindoApp,
-    BemvindoAppText
+    BemvindoAppText,
+    BemvindoAppVersao
 } from './styles';
 
 import Logo from '../../assets/img/logo.svg';
 
 export default () => {
+
+    const navigation=useNavigation();
+    useEffect(()=>{
+        const entrar =()=>{
+            setTimeout(() => {
+                navigation.navigate('MainTab'/* ,{
+                    hinario:Hinario.hinos
+                } */);
+            },100);
+        }
+        entrar();
+    });
 
     return(
         <Container>
@@ -19,9 +36,14 @@ export default () => {
                 <TituloBold>Hinário</TituloBold>
                 <TituloLightItalic>Adventista do 7º dia</TituloLightItalic>
             </TituloApp>
+           <IconLoad>
+            <IconLoading size="large"  color="#29c17e">
 
+                </IconLoading>
+           </IconLoad>
             <BemvindoApp>
-                <BemvindoAppText> Bem Vindo</BemvindoAppText>
+                <BemvindoAppText>Bem Vindo</BemvindoAppText>
+                <BemvindoAppVersao>Versão 1.0.1</BemvindoAppVersao>
             </BemvindoApp>
         </Container>
     );

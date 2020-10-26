@@ -3,8 +3,11 @@ import styled from 'styled-components/native';
 import FavoritesIcon from '../assets/img/favorites.svg';
 import hinario from '../api/hinario.json';
 
+
+import AutoresHino from '../components/Autores';
+
 import {useNavigation} from '@react-navigation/native';
-const HinoContainerUp = styled.View`
+const HinoContainerHorizontal = styled.View`
     flex-direction:row;
     margin-top:10px;
     height:90px;
@@ -12,18 +15,18 @@ const HinoContainerUp = styled.View`
 
 const Hino = styled.View`
     flex-direction:row;
-    width:100%;
     elevation:2;
-    padding:4px;
-    background-color:${props=>props.theme.container};
+    margin-right:10px;
+    padding:4px 8px;
+    background-color:${props=>props.theme.container};;
+    
     overflow:hidden;
-    `;
+`; 
 const HinoLeft = styled.View`
     justify-content: center;
     align-items:center;
 `;
 const HinoRigth = styled.View`
-    width:85%;
 `;
 const HinoBotao = styled.TouchableOpacity`
     
@@ -35,7 +38,6 @@ const NumeroHino = styled.Text`
     padding-right:10px;
 `; 
 const BotaoTitulo = styled.TouchableOpacity`
-    width:100%;
 `; 
 const TituloHino = styled.Text`
     color:${props=>props.theme.title};
@@ -56,7 +58,7 @@ const FavoritoAutor = styled.View`
     margin-top:2px;
     padding:5px;
     justify-content:space-between;
-    flex:1;
+    
 `; 
 const Favoritos = styled.View`
     align-self:center;
@@ -64,11 +66,10 @@ const Favoritos = styled.View`
 const FavoritosBotao = styled.TouchableOpacity`
     
 `; 
-
-
 const Autores = styled.View`
-`; 
     
+    justify-content:flex-end;
+`; 
 const Autor = styled.Text`
     font-size:10px;
     text-align:right;
@@ -81,60 +82,33 @@ const FlatListUp = styled.FlatList`
 
 const TextoBiblico = styled.Text`
     font-size:10px;
+    text-align:right;
     margin-top:2px;
+    padding:0 20px;
     align-self:center;
     font-family:"Poppins-Italic";
     color:${props=>props.theme.title};
 
 `;
-export default() =>{
+
+export default({data}) =>{
+    const [list, setList]=useState([]);
+    
     useEffect(()=> {
-        /* getH(); */
+        setList(data.autores);
     }, []);
-
-    
-
-    const navigation=useNavigation();
-    
-   
-    return(
-        //.slice(0,1) important
-        <FlatListUp 
-        
-        data={hinario.hinos}
-        keyExtractor={(item) => item.titulo}
-        showsVerticalScrollIndicator={false}
-        renderItem={HinosGet}>
-        </FlatListUp>
-        
-    );
-    function HinosGet(item){
-
-        const {id,titulo,numero_view,titulo_ingles,autores,texto_biblico,coro,estrofes}=item.item;
-        const handleClick = () => {
-            navigation.navigate('Hino',{
-                id:id,
-                titulo:titulo,
-                numero_view:numero_view,
-                titulo_ingles:titulo_ingles,
-                autores:autores,
-                texto_biblico:texto_biblico,
-                coro:coro,
-                estrofes:estrofes
-            });
-        }
         return(
-            <HinoContainerUp>
+            <HinoContainerHorizontal>
                 <Hino>
                     <HinoLeft>
-                        <HinoBotao onPress={handleClick}>
-                            <NumeroHino>{numero_view}</NumeroHino>
+                        <HinoBotao>
+                            <NumeroHino>{data.numero_view}</NumeroHino>
                         </HinoBotao>
                     </HinoLeft>
                     <HinoRigth>
-                        <BotaoTitulo onPress={handleClick}>
-                            <TituloHino>{titulo}</TituloHino>
-                            <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
+                        <BotaoTitulo>
+                            <TituloHino>{data.titulo}</TituloHino>
+                            <TituloHinoIngles>{data.titulo_ingles}</TituloHinoIngles>
                         </BotaoTitulo>
                         <FavoritoAutor>
                             <Favoritos>
@@ -142,28 +116,20 @@ export default() =>{
                                 <FavoritesIcon fill="#29C17E"/>
                                 </FavoritosBotao>
                             </Favoritos>
-                            <TextoBiblico>{texto_biblico}</TextoBiblico>
+                                <TextoBiblico>{data.texto_biblico}</TextoBiblico>
                             <Autores>
-                                <FlatListUp 
-                                    data={autores}
-                                    keyExtractor={(item) => item.nome}
-                                    showsVerticalScrollIndicator={false}
-                                    renderItem={HinosGetAutores}>
-                                </FlatListUp>
+                                {list.map((item, k)=>(
+                                    <AutoresHino data={item} key={k}></AutoresHino>
+                                ))}
                             </Autores>   
                             
                         </FavoritoAutor>
                     </HinoRigth>
                 </Hino>
-            </HinoContainerUp>
+            </HinoContainerHorizontal>
         )
     }
-    function HinosGetAutores(item){
-        const {nome}=item.item;
-        return(
-                <Autor>{nome}</Autor>
-            )
-    }
 
-}
                 
+
+

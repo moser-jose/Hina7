@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import ImagemTop from '../assets/img/imagem-top.svg';
 
 const TabTop = styled.View`
-    background-color:#fff;
+    background-color:${props=>props.theme.container};
     flex-direction:row;
     height: 80px;
     elevation:2;
@@ -19,6 +19,7 @@ const TabTopLeft = styled.View`
 const TabTopLeftText=styled.Text`
     font-size:20px;
     font-family:"Poppins-Light";
+    color:${props=>props.theme.title};
 `;
 
 const TabTopRight = styled.View`
