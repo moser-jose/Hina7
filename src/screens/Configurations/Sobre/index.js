@@ -10,19 +10,16 @@ background-color:${props=>props.theme.background};
 flex:1;
 `;
 const Container = styled.View`
-    padding: 10px 30px;
+    padding: 0 20px;
     position: relative;
-    flex:1;
 `;
 
 const Versao = styled.View`
-    position:absolute;
-    width:100%;
-    bottom:10px;
+    margin-top:30px;
 `;
 
 const VersaoTexto = styled.Text`
-    font-size:14px;
+    font-size:12px;
     font-family:"Poppins-Bold";
     text-align:center;
     letter-spacing:1px;
@@ -54,7 +51,7 @@ const SobreTexto = styled.Text`
     color:${props=>props.theme.title};
     font-size: 16px;
     letter-spacing: 1px;
-    margin:40px 0;
+    margin:20px 0;
 `;
 
 const SobreContaneir = styled.View`
@@ -132,12 +129,13 @@ export default () => {
                     </SobreContaneirBotao>
                 </SobreContaneir>
 
-               {/*  <Versao>
+                
+                </Container>
+                <Versao>
                     <VersaoTexto>
                         Versão 1.0.0
                     </VersaoTexto>
-                </Versao> */}
-                </Container>
+                </Versao>
         </Scroller>
     );
 }

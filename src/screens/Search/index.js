@@ -7,6 +7,7 @@ import {
     Scroller
 } from './styles';
 
+import HinoContainerUp from '../../components/HinoContainerUp';
 import TabTopCustom from '../../components/TabTopCustom';
 /* import PesquisarConp from '../../components/PesquisarConp'; */
 import ModalPesquisa from '../../components/ModalPesquisa';
@@ -89,6 +90,9 @@ export default () => {
                         </PesquisarConpRightBotao>
                     </PesquisarConpRight>
                 </PesquisarConp>
+            
+                <HinoContainerUp></HinoContainerUp>
+           
             </Scroller>
 
             <ModalPesquisa

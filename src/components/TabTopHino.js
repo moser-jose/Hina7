@@ -102,6 +102,15 @@ const Estrofe = styled.Text`
    font-family:"Poppins-Regular";
    margin-bottom:5px;
    color:${props=>props.theme.title};
+   letter-spacing:1px;
+`;
+
+const Coro = styled.Text`
+   font-size:16px;
+   font-family:"Poppins-Bold";
+   margin-bottom:5px;
+   color:${props=>props.theme.title};
+
 `;
 
 const TabTopTituloleftFavor = styled.TouchableOpacity`
@@ -234,7 +243,7 @@ export default() =>{
                 return(
                     <HinoEstrofes>
                         <NumeroEstrofe>{nome_coro}</NumeroEstrofe>
-                        <Estrofe>{coro}</Estrofe>
+                        <Coro>{coro}</Coro>
                     </HinoEstrofes>
                 )
             }

@@ -1,17 +1,21 @@
 import React,{useState} from 'react';
-import {StatusBar} from 'react-native';
+import {StatusBar,useColorScheme} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {ThemeProvider} from 'styled-components';
 import MainStack from './src/stacks/MainStack';
-import ThemeLight from './src/assets/themes/light';
-import ThemeDark from './src/assets/themes/dark';
+import themes from './src/assets/themes/themes';
+
 export default () => {
-  const [dark, setDark]=useState(false);
+  const deviceTheme=useColorScheme();
+  const [dark, setDark]=useState(true);
+  console.log(deviceTheme);
+  const theme =themes[deviceTheme] || themes.light;
+  
   return(
-    <ThemeProvider theme={dark ? ThemeDark : ThemeLight}>
+    <ThemeProvider theme={theme}>
       <StatusBar  
-      barStyle={dark ? "light-content" : "dark-content"}
-      backgroundColor={dark ? ThemeDark.container : ThemeLight.container}   />
+      barStyle={deviceTheme ? "dark-content":"light-content" }
+      backgroundColor={deviceTheme ? theme.container : theme.container}   />
       <NavigationContainer>
         <MainStack/>
       </NavigationContainer>
