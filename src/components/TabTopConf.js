@@ -22,7 +22,7 @@ const TabTopVoltar = styled.TouchableOpacity`
 `;
 const TabText = styled.Text`
     padding-left:6px;
-    font-size:16;
+    font-size:16px;
     color:${props=>props.theme.title};
 `;
 

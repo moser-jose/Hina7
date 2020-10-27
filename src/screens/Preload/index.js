@@ -21,9 +21,9 @@ export default () => {
     useEffect(()=>{
         const entrar =()=>{
             setTimeout(() => {
-                navigation.navigate('MainTab'/* ,{
-                    hinario:Hinario.hinos
-                } */);
+                navigation.reset({
+                    routes:[{name:'MainTab'}]
+                });
             },100);
         }
         entrar();

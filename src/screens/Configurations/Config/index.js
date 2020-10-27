@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import styled from 'styled-components/native';
+import AsyncStorage from '@react-native-community/async-storage';
 import TabTopConf from '../../../components/TabTopConf';
 import ThemeLight from '../../../assets/img/light.svg';
 import ThemeDark from '../../../assets/img/dark.svg';
 import IconCheck from '../../../assets/img/Icon_check.svg';
 import IconUnCheck from '../../../assets/img/Icon_uncheck.svg';
+import {useStateValue} from '../../../state/ContextProvider';
 
 const Scroller = styled.ScrollView`
 background-color:${props=>props.theme.background};
@@ -16,14 +18,12 @@ const Container = styled.View`
 const Temas = styled.View`
     flex:1;
     flex-direction:row;
-    elevation:4px;
+    elevation:2;
     height:160px;
     width:100%;
     margin:0 1px 30px;
     background-color:${props=>props.theme.container};
     border-radius:2px;
-
-    /* ${props=>props.theme.background} */
 `;
 
 
@@ -71,7 +71,7 @@ const Line = styled.View`
 
 
 const TemasLista = styled.View`
-    elevation:4px;
+    elevation:2;
     width:100%;
     margin:0 1px 20px 1px;
     background-color:${props=>props.theme.container};
@@ -86,27 +86,69 @@ const ListaLiInf = styled.Text`
     color:#aaa;
 `;
 export default () => {
-
+    const [, dispach]=useStateValue();
     const [light, setLight]=useState(true);
-    const [dark, setdark]=useState(false);
-    const [phone, setphone]=useState(false);
+    const [dark, setDark]=useState(false);
+    const [phone, setPhone]=useState(false);
 
     const handleClickLight=()=>{
-        setphone(false);
+        setPhone(false);
         setLight(true);
-        setdark(false);
+        setDark(false);
+        dispach({
+            type:"lighTheme",
+        })
     }
     const handleClickDark=()=>{
-        setphone(false);
+        setPhone(false);
         setLight(false);
-        setdark(true);
+        setDark(true);
+        dispach({
+            type:"darkTheme",
+        })
     }
     const handleClickPhone=()=>{
-        setphone(true);
+        setPhone(true);
         setLight(false);
-        setdark(false);
+        setDark(false);
+        dispach({
+            type:"deviceTheme",
+        })
     }
 
+
+    
+  useEffect(()=>{
+    async function getInitialState(){
+      const darkModeKey= await AsyncStorage.getItem("Theme");
+    
+      if(darkModeKey=== '1'){
+            setPhone(false);
+            setLight(true);
+            setDark(false);
+            return;
+      }
+      else if(darkModeKey=== '2'){
+            setPhone(false);
+            setLight(false);
+            setDark(true);
+            return;
+      }
+      else{
+            setPhone(true);
+            setLight(false);
+            setDark(false);
+            return;
+      }
+    
+    }
+    getInitialState();
+  },[]);
+
+
+
+
+   
     return(
         <Scroller>
             <TabTopConf Texto={"Temas"}></TabTopConf>
@@ -127,17 +169,19 @@ export default () => {
                     <TemasLista>
                         <Lista onPress={handleClickLight}>
                             <ListaLi >Claro</ListaLi>
-                            {light ? 
-                            <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
-                            :
-                            <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
+                            {
+                                light ? 
+                                
+                                <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
+                                :
+                                <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
                             }
                             
                         </Lista>
                         <Line></Line>
                         <Lista onPress={handleClickDark}>
                             <ListaLi>Escuro</ListaLi>
-                            {dark ? 
+                            {dark ?
                             <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
                             :
                             <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
