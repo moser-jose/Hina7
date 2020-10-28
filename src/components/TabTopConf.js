@@ -2,9 +2,9 @@ import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation,useRoute} from '@react-navigation/native';
 import IconLeft from '../assets/img/Icon_left.svg';
+
 const ConfContainer = styled.View`
     elevation:2;
-    margin-bottom:30px;
 `;
 const ConfContainerCont = styled.View`
     background-color:${props=>props.theme.container};
@@ -23,6 +23,8 @@ const TabTopVoltar = styled.TouchableOpacity`
 const TabText = styled.Text`
     padding-left:6px;
     font-size:16px;
+    font-weight:bold;
+    letter-spacing:1px;
     color:${props=>props.theme.title};
 `;
 
@@ -32,8 +34,6 @@ const Scroller = styled.ScrollView`
 
 const TabTop = styled.View`
     flex-direction:row;
-    /* height: 60px;
-    margin-bottom:10px; */
     justify-content:space-between;
     padding:10px;
 `;
@@ -43,7 +43,7 @@ const TabTopLeft = styled.View`
     align-items: center;
 `;
 const TabTopLeftText=styled.Text`
-    font-size:30px;
+    font-size:25px;
     font-family:"Poppins-Black";
     color:${props=>props.theme.title};
 `;

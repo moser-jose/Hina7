@@ -43,7 +43,7 @@ const CategoriaText = styled.Text`
     
 `; 
 
-export default({nome,back}) =>{
+export default({nome,back, num}) =>{
     return(
         
 
@@ -55,7 +55,7 @@ export default({nome,back}) =>{
                     </Image>
                 
                 <CategoriaBotao >
-                    <CategoriaBotaoRigth>
+                    <CategoriaBotaoRigth >
                         <CategoriaText>
                             {nome}
                         </CategoriaText>

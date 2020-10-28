@@ -25,7 +25,7 @@ export default () => {
         initialRouteName="Home"
         /* params={hino.hinos} */
     >
-        <Tab.Screen name="Search" component={Search} />
+        <Tab.Screen name="Search"  component={Search} />
         <Tab.Screen name="Categories" component={Categories} />
         <Tab.Screen name="Home"  component={Home} />
         <Tab.Screen name="Favorites" component={Favorites} />

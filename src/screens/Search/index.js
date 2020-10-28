@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState,useEffect,Component} from 'react';
 import {Text} from 'react-native';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
@@ -62,44 +62,41 @@ const TextImput = styled.TextInput`
     background-color:${props=>props.theme.container};
 `;
 
-
-
-
-export default () => {
-
+export default ()=>{
+        
     const [showModal, setShowModal]=useState(false);
     const handleClickShowModal =()=>{
         setShowModal(true);
     }
-    return(
-        <Container>
-            <TabTopCustom titulo={"Pesquisar"}></TabTopCustom>
-            <Scroller>
-                <PesquisarConp>
-                    <PesquisarConpLeft>
-                        <TextImput placeholderTextColor="#aaa" placeholder="Introduza o número do hino"></TextImput>
-                    </PesquisarConpLeft>
-                    <PesquisarConpMiddle>
-                        <PesquisarCompMiddleBotao>
-                            <SearchIcon fill="#8890A6"></SearchIcon>
-                        </PesquisarCompMiddleBotao>
-                    </PesquisarConpMiddle>
-                    <PesquisarConpRight>
-                        <PesquisarConpRightBotao onPress={handleClickShowModal}>
-                            <FilterIcon></FilterIcon>
-                        </PesquisarConpRightBotao>
-                    </PesquisarConpRight>
-                </PesquisarConp>
-            
-                <HinoContainerUp></HinoContainerUp>
-           
-            </Scroller>
-
-            <ModalPesquisa
-            show={showModal}
-            setShow={setShowModal}>
+        return(
+            <Container>
+                <TabTopCustom titulo={"Pesquisar"}></TabTopCustom>
+                <Scroller>
+                    <PesquisarConp>
+                        <PesquisarConpLeft>
+                            <TextImput placeholderTextColor="#aaa" placeholder="Introduza o número do hino"></TextImput>
+                        </PesquisarConpLeft>
+                        <PesquisarConpMiddle>
+                            <PesquisarCompMiddleBotao>
+                                <SearchIcon fill="#8890A6"></SearchIcon>
+                            </PesquisarCompMiddleBotao>
+                        </PesquisarConpMiddle>
+                        <PesquisarConpRight>
+                            <PesquisarConpRightBotao onPress={handleClickShowModal}>
+                                <FilterIcon></FilterIcon>
+                            </PesquisarConpRightBotao>
+                        </PesquisarConpRight>
+                    </PesquisarConp>
                 
-            </ModalPesquisa>
-        </Container>
-    );
+                    <HinoContainerUp></HinoContainerUp>
+               
+                </Scroller>
+    
+                <ModalPesquisa
+                show={showModal}
+                setShow={setShowModal}>
+                    
+                </ModalPesquisa>
+            </Container>
+        );
 }

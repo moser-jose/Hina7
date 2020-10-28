@@ -648,5 +648,274 @@
             ]
         }
  
+    ],
+    "categorias":[
+        {
+            "id":1,
+            "categoria":"Adoração",
+            "background":"adoracao.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Adoração e Louvor",
+                    "hinos":"1 - 20"
+                },
+                {
+                    "titulo":"Culto Matutino",
+                    "hinos":"21 - 26"
+                },
+                {
+                    "titulo":"Culto Vespertino",
+                    "hinos":"27 - 30"
+                }
+            ]
+            
+        },
+        {
+            "id":2,
+            "categoria":"Deus, o Pai",
+            "background":"Deus.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Deus, o Pai",
+                    "hinos":"31 - 40"
+                }
+            ]
+            
+        }
+        ,
+        {
+            "id":3,
+            "categoria":"Jesus Cristo",
+            "background":"jesus_back.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Natal",
+                    "hinos":"41 - 51"
+                },
+                {
+                    "titulo":"Vida e Ministério",
+                    "hinos":"52 - 58"
+                },
+                {
+                    "titulo":"Sofrimento e Morte",
+                    "hinos":"59 - 68"
+                },
+                {
+                    "titulo":"Ressurreição e Glorificação",
+                    "hinos":"69 - 86"
+                },
+                {
+                    "titulo":"Pastor e Amigo",
+                    "hinos":"87 - 125"
+                },
+                {
+                    "titulo":"Segunda Vinda",
+                    "hinos":"126 - 153"
+                }
+            ]
+            
+        },
+        {
+            "id":4,
+            "categoria":"Espirito Santo",
+            "background":"espirito_santo_back.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Espirito Santo",
+                    "hinos":"154 - 161"
+                }
+            ]
+            
+        }
+        ,
+        {
+            "id":5,
+            "categoria":"Santa Escritura",
+            "background":"escritura.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Santa Escritura",
+                    "hinos":"162 - 166"
+                }
+            ]
+            
+        },
+        {
+            "id":6,
+            "categoria":"O Evangelho",
+            "background":"evangelho.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Chamado",
+                    "hinos":"167 - 187"
+                }, {
+                    "titulo":"Graça e Redenção",
+                    "hinos":"162 - 166"
+                }
+            ]
+            
+        }
+        ,
+        {
+            "id":7,
+            "categoria":"Vida Cristã",
+            "background":"vida_crista.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Alegria e Paz",
+                    "hinos":"216 - 239"
+                },
+                {
+                    "titulo":"Gratidão e Louvor",
+                    "hinos":"240 - 250"
+                }
+                ,
+                {
+                    "titulo":"Fé e Confiança",
+                    "hinos":"251 - 275"
+                },
+                {
+                    "titulo":"Consagração e Lealdade",
+                    "hinos":"276 - 305"
+                },
+                {
+                    "titulo":"Serviço Cristão",
+                    "hinos":"306 - 333"
+                },
+                {
+                    "titulo":"Peregrinação",
+                    "hinos":"334 - 341"
+                },
+                {
+                    "titulo":"Luta",
+                    "hinos":"342 - 348"
+                },
+                {
+                    "titulo":"Consolo e Segurança",
+                    "hinos":"349 - 390"
+                },
+                {
+                    "titulo":"Petição",
+                    "hinos":"391 - 411"
+                },
+                {
+                    "titulo":"oração e Comunhão",
+                    "hinos":"412 - 427"
+                },
+                {
+                    "titulo":"Vitória e Recompensa",
+                    "hinos":"428 - 446"
+                }
+            ]
+            
+        }
+        ,
+        {
+            "id":8,
+            "categoria":"Lar Cristão",
+            "background":"lar.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Casamento",
+                    "hinos":"447 - 449"
+                },
+                {
+                    "titulo":"Lar",
+                    "hinos":"450 - 454"
+                },{
+                    "titulo":"Crianças",
+                    "hinos":"455 - 468"
+                },{
+                    "titulo":"Jovens",
+                    "hinos":"469 - 503"
+                }
+            ]
+            
+        }
+        ,
+        {
+            "id":9,
+            "categoria":"Igreja e Doutrina",
+            "background":"igreja.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Igreja",
+                    "hinos":"504 - 507"
+                },
+                {
+                    "titulo":"Escola Sabatina",
+                    "hinos":"508 - 509"
+                },
+                {
+                    "titulo":"Batismo",
+                    "hinos":"510 - 518"
+                }, {
+                    "titulo":"Santa Ceia",
+                    "hinos":"519 - 522"
+                }
+                , {
+                    "titulo":"Ordenação",
+                    "hinos":"523 - 524"
+                }, {
+                    "titulo":"Lei de Deus",
+                    "hinos":"525 - 526"
+                }, {
+                    "titulo":"Sábado",
+                    "hinos":"527 - 532"
+                }, {
+                    "titulo":"Justificação",
+                    "hinos":"533 - 542"
+                }, {
+                    "titulo":"Juízo Final",
+                    "hinos":"543 - 546"
+                }, {
+                    "titulo":"Nova Terra",
+                    "hinos":"547 - 572"
+                }
+            ]
+            
+        }
+        ,
+        {
+            "id":10,
+            "categoria":"Cânticos Responsivos",
+            "background":"canticos.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Entrada à Plataforma",
+                    "hinos":"573 - 580"
+                },
+                {
+                    "titulo":"Doxologia",
+                    "hinos":"581 - 588"
+                },
+                {
+                    "titulo":"Ofertório",
+                    "hinos":"589 - 591"
+                },
+                {
+                    "titulo":"Responsos",
+                    "hinos":"592 -599"
+                },
+                {
+                    "titulo":"Fim Culto",
+                    "hinos":"600 - 609"
+                }
+            ]
+            
+        }
+        ,
+        {
+            "id":11,
+            "categoria":"Améns",
+            "background":"amem.jpg",
+            "sub_categorias":[
+                {
+                    "titulo":"Améns",
+                    "hinos":"610"
+                }
+            ]
+            
+        }
     ]
 }

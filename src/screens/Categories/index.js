@@ -24,9 +24,9 @@ export default () => {
         
         
             <Scroller showsVerticalScrollIndicator={false}>
-        {/* <PartilharContainer></PartilharContainer> */}
+
         <CategoriaContCont>
-                <CategoriaContainerCat nome={"Adoração"}  back={require('../../assets/img/adoracao.jpg')} ></CategoriaContainerCat>
+                <CategoriaContainerCat  nome={"Adoração"}  back={require('../../assets/img/adoracao.jpg')} ></CategoriaContainerCat>
                 
                 
                 <CategoriaContainerCat nome={"Deus, o Pai"} back={require('../../assets/img/Deus.jpg')} ></CategoriaContainerCat>

@@ -1,8 +1,8 @@
-import React,{useEffect} from 'react';
+import React,{useEffect, useState} from 'react';
 import {Image,FlatList} from 'react-native';
 import styled from 'styled-components/native';
-import categoria from '../api/categorias.json';
-
+import categoria from '../api/hinario.json';
+import {useNavigation,useRoute} from '@react-navigation/native';
 const CategoriaHol = styled.View`
     flex-direction:row;
     margin-top:10px;
@@ -47,6 +47,7 @@ const CategoriaText = styled.Text`
 
 
 export default() =>{
+    const navigation=useNavigation();
     useEffect(()=> {
     }, []);
     return(
@@ -62,7 +63,7 @@ export default() =>{
     );
 
     function getCategorias(item) {
-        const {categoria, background}=item.item;
+        const {id, sub_categorias,categoria, background}=item.item;
         const getBackgroundSource =(background) =>{
             let r=require("../assets/img/adoracao.jpg");
             switch(background){
@@ -104,6 +105,14 @@ export default() =>{
             }
             return r;
         }
+        const handleClick = () => {
+            navigation.navigate('Categorie',{
+                id:id,
+                sub_categorias:sub_categorias,
+                categoria:categoria,
+                background:background
+            });
+        }
 
         return(
             <CategoriaHol>
@@ -111,8 +120,8 @@ export default() =>{
                    
                         <Image source={getBackgroundSource(background)} style={{height:70,resizeMode: "cover" }}>
                         </Image>
-                    <CategoriaBotao >
-                        <CategoriaBotaoRigth>
+                    <CategoriaBotao onPress={handleClick}>
+                        <CategoriaBotaoRigth >
                             <CategoriaText>
                                 {categoria}
                             </CategoriaText>

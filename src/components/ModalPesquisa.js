@@ -13,7 +13,7 @@ const Modal = styled.Modal`
 const ModalArea = styled.View`
 
     flex:1;
-    background-color:rgba(0,0,0,.5);
+    background-color:rgba(0,0,0,.8);
     justify-content:flex-end;
 `;
 const ModalBody =styled.View`
