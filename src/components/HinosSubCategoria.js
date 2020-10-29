@@ -89,16 +89,14 @@ const TextoBiblico = styled.Text`
 
 const Hin = styled.View`
 `;
-
 export default({data}) =>{
     const navigation=useNavigation();
     const [list, setList]=useState([]);
     const [autores, setAutores]=useState([]);
-
    useEffect(()=> {
     
-       setList(data);
-       setAutores(data.autores);
+    setList(data);
+    setAutores(data.autores);
    }, []);
    const handleClick = () => {
     navigation.navigate('Hino',{
@@ -113,8 +111,9 @@ export default({data}) =>{
     });
 }
     return(
-
-        <Hin>     
+        
+        <Hin>
+                 
             <HinoContainerUp>
             <Hino>
             <HinoLeft>

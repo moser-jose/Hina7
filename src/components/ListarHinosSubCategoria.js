@@ -23,20 +23,30 @@ export default () => {
    })
 
    const [list, setList]=useState([]);
-   const [loading, setLoading]=useState(false);
+   const [loading, setLoading]=useState(true);
+
+   function PegarHinos() {
+        setLoading(true);
+        setList(hino);
+        setLoading(false);
+    }
 
    useEffect(()=> {
-       setList(hino);
+        PegarHinos();
    }, []);
+
+   
+
     return(
         
         <Tab>
                 {loading && <IconLoading size="large"  color="#29c17e"></IconLoading>}
-                { list.map((item, k) => (
-                    
+                {list.map((item, k) => (
                     <HinosSubCategoria data={item} key={k}></HinosSubCategoria>
-                    
                 ))}
+                
+
+                
         </Tab>
     );
 }

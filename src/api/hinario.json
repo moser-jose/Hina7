@@ -611,43 +611,278 @@
         },
         {
             "id":28,
-            "titulo":"Perto do Lard",
-            "titulo_ingles":"Nearer Home",
+            "titulo":"Morre o Dia",
+            "titulo_ingles":"Day is Dying in the West",
             "numero":28,
             "numero_view":"028",
             "categoria":"Adoração",
             "sub_categoria":"Culto Vespertino",
             "autores":[
                 {
-                    "nome":null
+                    "nome":"Mary A. Lathbury (1841-1913)"
                 },
                 {
-                    "nome":"J. McGranahan (1840-1907)"
+                    "nome":"William F. Sherwin (1826-1888)"
                 }
             ],
-            "texto_biblico":"Romanos 13:11",
+            "texto_biblico":"Lucas 24:28 e 29",
             "coro":[
                 {
                     "nome_coro":"Coro",
-                    "coro":"Perto do lar, perto do lar,\nPerto, sim, do lar dos Céus!\nDesse tão lindo lar\nCom fontes de cristal,\nDo país do eterno Deus."
+                    "coro":"Santo, santo, santo és, nosso Deus!\nToda a Terra e altos Céus\nDão-Te graças e louvor,\nA Ti, Senhor."
                 }
             ],
             "estrofes":[
                 {
                     "numero":"I",
-                    "estrofe":"Desce o Sol atrás dos montes,\nE a tarde já chegou.\nCalma e quieta vem a noite,\nMais um dia terminou;\nJá se foi com sua luta,\nLogo a negra noite vem,\nMas é doce a lembrança:\nPerto está o lar de além."
+                    "estrofe":"Morre o dia, põe-se o Sol;\nDesce à Terra, na amplidão,\nSuave calma, doce paz;\nVem, medita em oração,\nEm oração"
                 },
                 {
                     "numero":"II",
-                    "estrofe":"Mui cansado o peregrino\nQuer do dia ao fim chegar;\nDo labor, que é tão penoso,\nOutra vez vai descansar.\nTal a vida, neste mundo,\nQue havemos de passar,\nMas as sombras nos relembram:\nPerto está o eterno lar."
+                    "estrofe":"Quando as sombras sobrevêm,\nCobre-nos com Tua mão.\nTu, que lá no Céu estás,\nVem ao nosso coração,\nAo coração.."
                 },
                 {
                     "numero":"III",
-                    "estrofe":"Mais um dia na viagem\nPara a casa paternal;\nJá mais perto está o rio\nDo país celestial.\nA cidade já refulge,\nVislumbramos seu fulgor;\n Cada vez mais perto estamos\nDo glorioso lar de amor."
+                    "estrofe":"Quando a noite a nós vier,\nE chegar a escuridão,\nQue em Tua graça, ó Deus,\nHaja, enfim, ressurreição,\nRessurreição."
+                }
+            ]
+        },
+        {
+            "id":33,
+            "titulo":"Castelo Forte",
+            "titulo_ingles":"Ein feste Burg ist unser Gott",
+            "numero":33,
+            "numero_view":"033",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"Martinho Lutero (1483-1546)"
+                },
+                {
+                    "nome":null
+                }
+            ],
+            "texto_biblico":"Salmo 46:1",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Castelo forte é nosso Deus, refúgio e fortaleza.\nCom Seu poder defende os Seus, e os livra com presteza.\nCom fúria pertinaz, nos segue Satanás,\nCom artimanhas tais e astúcias tão cruéis\nQue iguais não há na Terra."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"A nossa força nada faz, estamos, sim, perdidos;\nMas nosso Deus socorro traz, e somos protegidos.\nSabeis quem é Jesus, o que venceu na cruz?\nSenhor dos altos Céus, e, sendo o próprio Deus,\nTriunfa na batalha."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Se nos quisessem devorar, demônios não contados,\nNão nos iriam assustar, nem somos derrotados.\nO grande acusador dos servos do Senhor,\nJá condenado está; vencido cairá\nPor uma só palavra."
+                },
+                {
+                    "numero":"IV",
+                    "estrofe":"Sim, que a palavra vencerá, sabemos com certeza;\nE nada nos assustará, com Cristo por defesa.\nSe temos de deixar parentes, bens e lar,\nEmbora a vida vá, por nós Jesus está\nE dar-nos-á Seu reino."
+                }
+            ]
+        },
+        {
+            "id":34,
+            "titulo":"Quão Grande És Tu",
+            "titulo_ingles":"How Great Thou Art",
+            "numero":34,
+            "numero_view":"034",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"Carl Gustaf Boberg (1859-1940)"
+                },
+                {
+                    "nome":"Compositor Desconhecido"
+                }
+            ],
+            "texto_biblico":"Salmo 46:1",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Então minh’alma canta a Ti, Senhor:\nQuão grande és Tu! Quão grande és Tu!\nEntão minh’alma canta a Ti, Senhor:\nQuão grande és Tu! Quão grande és Tu!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Senhor meu Deus, quando eu, maravilhado,\nFico a pensar nas obras de Tuas mãos,\nEstrelas mil a cintilar no espaço,\nDe Teu poder, em manifestação,"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se ao caminhar por campos e florestas,\nEscuto as aves belas a cantar;\nSe estendo o olhar do alto da montanha\nE a fonte além eu ouço a murmurar,"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Se penso, então, que sem poupar Teu Filho,\nO enviaste pra morrer por mim,\nLevando à cruz os meus pecados todos,\nPara eu viver eternamente assim,"
+                },
+                {
+                    "numero":"IV",
+                    "estrofe":"E ao vir Jesus em resplendor e glória,\nPara levar-me ao lar dos filhos Seus,\nProstrar-me-ei em gratidão infinda,\nE exclamarei: Quão grande és Tu, meu Deus!"
                 }
             ]
         }
- 
+        ,
+        {
+            "id":35,
+            "titulo":"Tu És Fiel, Senhor",
+            "titulo_ingles":"Great is Thy Faithfunlness",
+            "numero":35,
+            "numero_view":"035",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"Thomas O. Chisholm (1866-1960)"
+                },
+                {
+                    "nome":"William M. Runyan (1870-1957)"
+                }
+            ],
+            "texto_biblico":"Lamentações 3:22 e 23",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Tu és fiel, Senhor! Tu és fiel, Senhor!\nDias após dia Tuas bênçãos nos dás.\nTua mercê nos sustenta e nos guarda;\nSim, para sempre, ó Deus, fiel serás."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Tu és fiel, Senhor, ó Deus eterno!\nTeus filhos sabem que não falharás!\nNunca mudaste, Tu nunca falhaste;\nTal como eras, sim, sempre serás."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Nuvens no azul do céu, Sol refulgente,\nMontes e vales, campinas em flor,\nTudo criaste na terra e nos ares,\nE todos louvam-Te, fiel Senhor."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Pleno perdão nos dás, que segurança!\nSempre nos guias na senda do bem;\nE no porvir, oh! Que doce esperança!\nTu nos receberás no lar de além."
+                }
+            ]
+        }
+        ,
+        {
+            "id":35,
+            "titulo":"O Mundo é de Meus Deus",
+            "titulo_ingles":"This Is My Father’s World",
+            "numero":35,
+            "numero_view":"035",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"Maltbie D. Babcock (1858-1901)"
+                },
+                {
+                    "nome":"Franklin L. Sheppard (1852-1930)"
+                }
+            ],
+            "texto_biblico":"Salmo 24:1",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"0 mundo é de meu Deus, Senhor da criação.\nE todo ser que vida tem O louva em gratidão.\nO mundo é de meu Deus; conforta assim pensar.\nDeus fez o Sol e o lindo céu, Deus fez a terra e O mar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"0 mundo é de meu Deus; as aves na amplidão,\nO lírio branco e o arrebol provêm de Sua mão.\nO mundo é de meu Deus, em tudo posso ver;\nAté na brisa a sussurrar, percebo Seu poder"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"0 mundo é de meu Deus, jamais olvidarei.\nEm toda a vasta criação, somente Deus é Rei.\nO mundo é de meu Deus; e o Salvador Jesus,\nPara esta Terra resgatar, a vida deu na cruz."
+                }
+            ]
+        }
+        ,
+        {
+            "id":39,
+            "titulo":"O Céu Azul",
+            "titulo_ingles":"The Spacious Firmament",
+            "numero":39,
+            "numero_view":"039",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"Joseph Adilson (1672-1719)"
+                },
+                {
+                    "nome":"Franz J. Haydn (1732-1809)"
+                }
+            ],
+            "texto_biblico":"Salmo 19:1-4",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"O céu azul na amplidão,\nEstrelas mil em multidão,\nA luz do céu e seu fulgor\nProclamarão o Criador.\nO Sol de luz, com seu calor,\nLouvor dará ao seu Autor,\nE sem falar, a resplender,\nDirá de Deus e Seu poder."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ao grande Deus, o som do mar,\nA flor gentil, a voz do ar,\nA doce paz da noite azul\nAclamarão de norte a sul.\nAssim dirão o céu e o mar,\nDo Seu poder e amor sem par.\nE vós, nações clamai também!\nLouvai a Deus, Senhor! Amém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":40,
+            "titulo":"Filhos do Pai Celeste",
+            "titulo_ingles":"Children of the Heavenly Father",
+            "numero":40,
+            "numero_view":"040",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"Carolina V. Sandell-Berg (1832-1903)"
+                },
+                {
+                    "nome":"Compositor Desconhecido"
+                }
+            ],
+            "texto_biblico":"Salmo 103:13",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Deus é nosso Pai celeste,\nSomos sempre bem guardados;\nNem às aves e às estrelas;\nEle mostra tais cuidados."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Deus, com zelo, com ternura,\nSeus filhinhos alimenta;\nDo pecado Ele os livra\nE em Seus braços os sustenta."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":" Na tristeza ou na bonança,\nNunca os filhos Deus olvida;\nSeu desejo é guardá-los\nPuros, santos para a vida."
+                }
+            ]
+        }
     ],
     "categorias":[
         {

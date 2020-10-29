@@ -29,15 +29,14 @@ export default () => {
        setList(categoria.sub_categorias);
    }, []);
 
-    return(
-             
-        
-        <Tab>
-                <ListArea>
-                    { list.map((item, k) => (
-                        <SubCategoriaItems data={item} key={k}></SubCategoriaItems>
-                    ))}
-                </ListArea>
-        </Tab>
-    );
+   return(
+
+    <Tab>
+            <ListArea>
+                { list.map((item, k) => (
+                    <SubCategoriaItems data={item} key={k}></SubCategoriaItems>
+                ))}
+            </ListArea>
+    </Tab>
+);
 }
