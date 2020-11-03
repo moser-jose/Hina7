@@ -9,7 +9,10 @@ Este projecto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``,
  <div align="center">
 
 [![Version](https://img.shields.io/github/package-json/v/moser-jose/Hina7)](https://github.com/moser-jose/Hina7)
+[![LastCommit](https://img.shields.io/github/last-commit/moser-jose/hina7)](https://github.com/moser-jose/Hina7)
 [![The MIT License](https://img.shields.io/github/license/moser-jose/Hina7)](http://opensource.org/licenses/MIT)
+
+
 
 </div>
 
