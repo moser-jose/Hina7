@@ -34,7 +34,15 @@ export default ({nome}) => {
     const navigation=useNavigation();
 
     const handleClick=()=>{
-        navigation.navigate('HinosTodos');
+        if(nome=="Hinos"){
+            navigation.navigate('HinosTodos');
+        }
+        else if(nome=="Categorias"){
+            navigation.navigate('AllCategories');
+        }
+        else{
+            navigation.navigate('HinosTodos');
+        }
     }
 
     return(

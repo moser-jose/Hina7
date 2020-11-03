@@ -1,11 +1,10 @@
 import React,{useState,useEffect} from 'react';
 import { 
     Container,
-    Sco
+    Scroller
 } from './styles';
 import TabTopConf from '../../../components/TabTopConf';
 import HinoContainerUp from '../../../components/HinoContainerUp';
-import { SectionList } from 'react-native';
 
 export default () => {
 
@@ -13,9 +12,9 @@ export default () => {
         <Container>
             
             <TabTopConf Texto={"Hinos"}></TabTopConf>
-            <Sco>
+            <Scroller>
                 <HinoContainerUp></HinoContainerUp>
-            </Sco>
+            </Scroller>
                 
         </Container>
     );

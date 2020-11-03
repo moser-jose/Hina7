@@ -6,12 +6,15 @@ import ListarHinos from '../../../components/ListarHinosSubCategoria';
 
 const Tudol = styled.ScrollView`
    background-color:${props=>props.theme.background};
-    flex:30;
     padding:0 10px;
+    margin-top:10px;
+    ;
+    
 `;
 const Tudo = styled.View`
    background-color:${props=>props.theme.background};
-    flex:1;
+   flex:1;
+   padding-bottom:10px;
 `;
 export default () => {
 

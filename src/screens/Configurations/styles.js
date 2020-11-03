@@ -18,6 +18,7 @@ export const Configurations = styled.View`
     border-radius:2px;
     margin:1px;
     padding:6px 16px;
+    margin-top:10px;
 `;
 export const Line = styled.View`
     align-self:center;

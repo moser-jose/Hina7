@@ -8,19 +8,17 @@ import {Text, LogBox} from 'react-native';
 LogBox.ignoreAllLogs();
 import { 
     Container,
-    CategoriaContCont,
     Scroller
 } from './styles';
-import PartilharContainer from '../../components/PartilharContainer';
-import TabTop from '../../components/TabTopCustom';
-import CategoriaContainerCatCat from '../../components/CategoriaContainerCatCat';
+import TabTopConf from '../../../components/TabTopConf';
+import CategoriaContainerCatCat from '../../../components/CategoriaContainerCatCat';
 
 export default () => {
 
     return(
         
         <Container>
-            <TabTop titulo={"Categorias"}></TabTop>
+            <TabTopConf Texto={"Categorias"}></TabTopConf>
             <Scroller 
                 showsVerticalScrollIndicator={false}
             >

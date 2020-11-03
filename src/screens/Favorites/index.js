@@ -4,8 +4,7 @@ import {
     Scroller
 } from './styles';
 import TabTop from '../../components/TabTopCustom';
-import HinoContainerUp from '../../components/HinoContainerUp';
-import { SectionList } from 'react-native';
+import HinosFavoritos from '../../components/HinosFavoritos';
 
 export default () => {
 
@@ -13,7 +12,7 @@ export default () => {
         <Container>
             <TabTop titulo={"Favoritos"}></TabTop>
             <Scroller>
-                <HinoContainerUp></HinoContainerUp>
+                <HinosFavoritos></HinosFavoritos>
             </Scroller>
         </Container>
     );

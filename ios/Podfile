@@ -10,6 +10,8 @@ target 'Hin7' do
 
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
+  pod 'RealmJS', :path => '../node_modules/realm'
+
   target 'Hin7Tests' do
     inherit! :complete
     # Pods for testing

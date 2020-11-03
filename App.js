@@ -35,14 +35,13 @@ export default () => {
     }
     getStorageDarkMode();
   },[]);
-
   return(
     <ThemeProvider theme={state.theme}>
       <StatusBar  
       barStyle={state.theme.statusBarStyle }
       backgroundColor={state.theme.container}   />
       <NavigationContainer>
-        <MainStack/>
+        <MainStack state={state.theme.container}/>
       </NavigationContainer>
     </ThemeProvider>
   );

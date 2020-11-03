@@ -3,12 +3,12 @@ import styled from 'styled-components/native';
 import {useNavigation,useRoute} from '@react-navigation/native';
 import {FlatList} from 'react-native'
 import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
-
 import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 import IconLeft from '../assets/img/Icon_left.svg';
 import IconPoint from '../assets/img/Icon_menu_point_v.svg';
 
-const HinoContainer = styled.View`
+const HinoContainer = styled.SafeAreaView`
+
 flex:1;
 `;
 const TabTopHino = styled.View`
@@ -29,6 +29,7 @@ const TabTopVoltar = styled.TouchableOpacity`
 const TabText = styled.Text`
     padding-left:6px;
     font-size:16px;
+    font-weight:bold;
     color:${props=>props.theme.title};;
 `;
 
@@ -128,9 +129,9 @@ const NumeroEstrofe = styled.Text`
     margin-bottom:5px;
 `;
 
-const Scroller = styled.View`
-    flex:1;
-    background-color:red;
+const Scroller = styled.ScrollView`
+    
+flex:1;
 `;
 
 export default() =>{
@@ -226,11 +227,9 @@ export default() =>{
                         </HinoT>
                         
                     </Hino>
-                    </Scroller>
-                
-              
+             </Scroller>
+
               </HinoContainer>
-              
     );
     function HinosGetAutores(item){
         const {nome}=item.item;
@@ -250,7 +249,6 @@ export default() =>{
                 )
             }
     }
-    
     function HinosGetEstrofes(item){
         const {estrofe,numero}=item.item;
 

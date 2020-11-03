@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image} from 'react-native';
+import {Image, Share} from 'react-native';
 import styled from 'styled-components/native';
 
 import ShareIcon from '../assets/img/share.svg';
@@ -54,9 +54,19 @@ const PartilharBotao = styled.TouchableOpacity`
 
 
 export default() =>{
+
+    const handleClickShare=()=>{
+        Share.share({
+            title:"alguma coisa",
+            url:"www.google.com"/* ,
+            message:"ok vou partilhar" */
+        },{
+            dialogTitle:"ok estando partilhar"
+        })
+    }
+
+
     return(
-
-
         <PartilharContainer>
             <PartilharContainerLeft>
                 <ShareIcon width="100%" heigth="190"></ShareIcon>
@@ -72,7 +82,7 @@ export default() =>{
                 </PartilharCima>
 
                 <PartilharBaixo>
-                    <PartilharBotao>
+                    <PartilharBotao onPress={handleClickShare}>
                         <ShareIconShare></ShareIconShare>
                     </PartilharBotao>
                 </PartilharBaixo>

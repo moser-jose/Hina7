@@ -6,7 +6,7 @@ import TabTopConf from '../components/TabTopConf';
 import { ScrollView } from 'react-native-gesture-handler';
 
 const ListArea = styled.ScrollView`
-    padding:0 10px;
+    margin:10px;
 `;
 const Tab = styled.View`
 `;
@@ -14,8 +14,11 @@ const TabF = styled.View`
     
 `;
 export default () => {
+
     
+
     const route=useRoute();
+
     const [categoria]=useState({
         id:route.params.id,
         sub_categorias:route.params.sub_categorias,
@@ -24,6 +27,7 @@ export default () => {
    });
 
    const [list, setList]=useState([]);
+  
    
    useEffect(()=> {
        setList(categoria.sub_categorias);
@@ -32,10 +36,14 @@ export default () => {
    return(
 
     <Tab>
-            <ListArea>
-                { list.map((item, k) => (
-                    <SubCategoriaItems data={item} key={k}></SubCategoriaItems>
-                ))}
+            <ListArea >
+                { list.map((item,k) => (
+
+                    
+                        <SubCategoriaItems data={item} key={k}></SubCategoriaItems>
+                )
+
+                )}
             </ListArea>
     </Tab>
 );

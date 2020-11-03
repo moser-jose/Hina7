@@ -154,6 +154,44 @@
             ]
         },
         {
+            "id":5,
+            "titulo":"Supremo Criador",
+            "titulo_ingles":"My Maker and My King",
+            "numero":5,
+            "numero_view":"005",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Anne Steels (1716-1778)"
+                },
+                {
+                    "nome":"HYMNS AND TUNES, 1869"
+                }
+            ],
+            "texto_biblico":"Salmo 105:1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Supremo Criador, do bem és manancial;\nCom Tua graça e Teu amor livraste-me do mal:\nCom Tua graça e Teu amor livraste-me do mal. "
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Feitura Tua sou; de Ti a vida vem;\nO Teu maravilhoso amor me ampara e me sustém;\nO Teu maravilhoso amor me ampara e me sustém."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Que sempre Teu poder impere, Ó Deus, aqui;\nE faz-me sempre ser fiel me unindo, Ó Deus, a ti;\nE faz-me sempre ser fiel me unindo, ó Deus, a Ti."
+                }
+            ]
+        },
+        {
             "id":6,
             "titulo":"Por Belezas Naturais",
             "titulo_ingles":"For the Beauty of the Earth",
@@ -532,6 +570,400 @@
                     "estrofe":"Vós, homens sábios e de bem,\nDai ao Senhor louvor também!\nOh, louvai-O! Aleluia!\n Dai glória ao Filho, glória ao Pai,\nE ao Santo Espírito louvai!\nOh, louvai-O! Oh, louvai-O!\nAleluia! Aleluia! Aleluia!"
                 }
             ]
+        }
+        ,
+        {
+            "id":16,
+            "titulo":"A Deus Demos Glória",
+            "titulo_ingles":"To God Be the Glory",
+            "numero":16,
+            "numero_view":"016",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"William H. Doane (1832-1915)"
+                }
+            ],
+            "texto_biblico":"Salmo 107:21 e 22",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Exultai! Exultai! Vinde todos louvar\n A Jesus Salvador; a Jesus Redentor.\n A Deus demos glória, por quanto do céu,\n Seu Filho bendito por nós todos deu.\n "
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"A Deus demos glória com grande fervor,\nSeu Filho bendito por nďż˝s todos deu.\nA graça concede ao mais vil pecador,\nAbrindo-lhe a porta de entrada no Céu. "
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Oh! graça real! Foi assim que Jesus,\nMorrendo, Seu sangue por nós derramou!\nHerança nos Céus, com os santos em luz,\nComprou-nos Jesus, pois o preço pagou."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"A crer nos convida tal prova de amor,\nNos merecimentos do Filho de Deus.\nE quem, pois, confia no seu Salvador,\nVai vê-lo sentado na glória do Céu."
+                }
+            ]
+        },
+        
+        {
+            "id":17,
+            "titulo":"Nós Te Adoramos",
+            "titulo_ingles":"Nous T´adorons, Dieu Vivant",
+            "numero":17,
+            "numero_view":"017",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Edmond L. Budry (1854-1932)"
+                },
+                {
+                    "nome":"Franz J. Haydn (1732-1809)"
+                }
+            ],
+            "texto_biblico":"Salmo Salmo 95:6",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Nós Te adoramos, Deus infinito,\nE a Teu Filho, Rei, Salvador;\nTeu nome e terno é sempre bendito;\nTeu Espírito traz-nos amor.\nGlória rendemos, honra, louvor,\nE adoraçăo a Ti, ó Senhor!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Éramos presos pelo pecado,\nTu nos livras-te dessa prisăo;\nE por Teu Filho imaculado,\nOfertaste-nos a salvaçăo.\nGlória rendemos, honra, louvor,\nE adoraçăo a Ti, Redentor!"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Tu nos convences dos vis pecados,\nE da justiça, luzes nos dás,\nE ŕ verdade somos guiados,\nÓ Espírito Santo de paz.\nGlória rendemos, honra, louvor,\nE adoraçăo, ó consolador!"
+                }
+            ]
+        },
+        {
+            "id":18,
+            "titulo":"Santo! Santo! Santo!",
+            "titulo_ingles":"Holy, Holy, Holy",
+            "numero":18,
+            "numero_view":"018",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"Reginald Heber (1783-1826)"
+                },
+                {
+                    "nome":"John B. Dykes (1823-1876)"
+                }
+            ],
+            "texto_biblico":"Isaías 6:1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Santo! Santo! Santo! Deus onipotente!\nCedo de manhă cantaremos Teu louvor.\nSanto! Santo! Santo! Deus Jeová triúno!\nÉs Deus excelso, nosso Criador."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Santo! Santo! Santo! Nós, os pecadores,\nNăo podemos ver Tu a glória sem tremor.\nTu somente és santo, justo e compassivo,\nPuro e perfeito, nosso Redentor."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Santo! Santo! Santo! Deus onipotente!\nTua criaçăo manifesta o Teu amor.\nAntes de criares todo o Céu e a Terra,\nEras e sempre hás de ser, Senhor."
+                }
+            ]
+        },
+        {
+            "id":19,
+            "titulo":"Ao Coro dos Arcanjos",
+            "titulo_ingles":"Pour Chanter les Louanges",
+            "numero":19,
+            "numero_view":"019",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":"ECOLES DU DIMANCHE"
+                },
+                {
+                    "nome":"Wolfgang A. Mozart (1756-1791)"
+                }
+            ],
+            "texto_biblico":"Isaías 92:1-4",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ao coro dos arcanjos eu uno meu louvor,\nE adoro humildemente o grande Criador.\nEnquanto os passarinhos voando pelo ar\nEntoam seus louvores, eu ergo meu cantar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se ŕs vezes sou tentado a ouvir a voz do mal,\nEscuto, entăo, dos anjos, o coro divinal.\nEu canto em voz mais alta que a voz do tentador,\nE nesse mesmo instante renovo meu vigor."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Nas horas de tristeza, nas lutas e na dor,\nNos dias de saudade do eterno lar de amor,\nEu ouço a natureza, feliz, rejubilar,\nE sinto da harmonia a paz me confortar."
+                }
+            ]
+        },
+        {
+            "id":20,
+            "titulo":"A Ti Toda Glória",
+            "titulo_ingles":"We Gather Together",
+            "numero":20,
+            "numero_view":"020",
+            "categoria":"Adoração",
+            "sub_categoria":"Adoração e Louvor",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Melodia T. Holandesa"
+                }
+            ],
+            "texto_biblico":"I Pedro 1:3-5",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"A Ti, toda glória e louvores rendemos,\nSenhor do Universo e Deus, Criador!\nReunidos, rogamos as Tuas santas bęnçăos,\nE graças ofertamos por Teu grande amor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ó fonte perene de bęnçăos constantes,\nFruindo Tua graça queremos viver;\nSustém-nos os passos, pois, săo mui vacilantes;\nSomente pela fé nós podemos vencer."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Louvores rendemos por Tua bondade.\nTeu Filho querido nos deste, na cruz;\nSua morte nos trouxe perdăo e eternidade,\nE abriu-nos os portais para o reino de luz."
+                }
+            ]
+        },
+        {
+            "id":21,
+            "titulo":"Vigiar e Orar",
+            "titulo_ingles":"",
+            "numero":21,
+            "numero_view":"021",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Matutino",
+            "autores":[
+                {
+                    "nome":"Alfredo da Silva (1872-1950)"
+                },
+                {
+                    "nome":"Sophia Zuberbuhler(1833-1893)"
+                }
+            ],
+            "texto_biblico":"Salmo 55: 16-17",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Bem de manhã, e sem cessar;\nVigiar sim, e orar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Bem de manhã, embora o céu sereno\nPareça um dia calmo anunciar,\nVigia e ora; o coração pequeno\nUm temporal pode abrigar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ao meio-dia, quando os sons da Terra\nAbafam mais de Deus a voz de amor,\nRecorre à oração, evita a guerra,\nE goza paz com o Senhor."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Ao fim do dia, após os teus lidares,\nRelembra as bênçãos do celeste amor,\nE conta a Deus prazeres e pesares,\nDeixando em Suas mãos a dor."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"E sem cessar, vigia a cada instante,\nQue o inimigo ataca sem parar;\nSó com Jesus, em comunhão constante,\nPode o mortal ao Céu chegar"
+                }
+            ]
+        },
+        {
+            "id":22,
+            "titulo":"Bem de Manhã",
+            "titulo_ingles":"Still, Still With Thee",
+            "numero":22,
+            "numero_view":"022",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Matutino",
+            "autores":[
+                {
+                    "nome":"Harriet E. B. Stowe (1812-1896)"
+                },
+                {
+                    "nome":"Felix Mendelssohn-Bartholdy (1809-1847)"
+                }
+            ],
+            "texto_biblico":"Salmo 59: 16",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Bem de manhã, sereno surge o dia;\nJá aves mil entoam seu louvor.\nLuz vem encher o mundo de alegria.\nBem de manhã, contigo estou, Senhor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Bem de manhã, alegre, a natureza\nDá seu louvor ao Deus da criação.\nSó, com fervor, eu busco mais pureza;\nEu venho a Ti, ó Deus, em oração."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Pai, quando enfim a luz fugir do mundo,\nJá quando o céu escuro e negro for,\nVem conceder, em Teu amor profundo,\nLuz, proteção, descanso em Ti, Senhor."
+                }
+            ]
+        },
+        
+        {
+            "id":23,
+            "titulo":"De Manhã Bem Cedo Busco",
+            "titulo_ingles":"I Will Early Seek the Saviour",
+            "numero":23,
+            "numero_view":"023",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Matutino",
+            "autores":[
+                {
+                    "nome":"Sra. L. M. B. Bateman"
+                },
+                {
+                    "nome":"Frederick A. Filmore (1856- ?)"
+                }
+            ],
+            "texto_biblico":"Salmo 5: 3",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Ele me ama, Ele me ama,\nCristo me ama, bem o sei.\nTenho a prova no Calvário;\nPara sempre ama-lo-ei."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"De manhã bem cedo busco,\nDe Jesus, a direção,\nPra seguir sempre Seus passos,\nNo conforto ou na aflição."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Eu, embora pequenino,\nObedeço ao Seu mandar.\nSigo a estrada que Ele mostra,\nSem temer nem hesitar."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Ele é forte, me protege,\nE me guarda de pecar.\nSe tentado corro a Ele,\nQue me livra sem tardar."
+                }
+            ]
+        },
+        {
+            "id":24,
+            "titulo":"Desponta o Sol",
+            "titulo_ingles":"Lord, in the Morning",
+            "numero":24,
+            "numero_view":"024",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Matutino",
+            "autores":[
+                {
+                    "nome":"Isaac Watts (1674-1748)"
+                },
+                {
+                    "nome":"Aaron Williams (1731-1776)"
+                }
+            ],
+            "texto_biblico":"Salmo 5: 1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Desponta o Sol, e eu venho a Ti,\nSenhor dos altos Céus;\nOuvir-me-ás a voz aqui,\nA voz dos rogos meus?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Bem cedo, ó Pai, irás me ouvir,\nSim, desde o arrebol;\nCom Tua mão me conduzir;\nAté o pôr-do-sol."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"E quando enfim voltar Jesus,\nCom glória e resplendor;\nQue eu possa então, brilhando em luz,\nSubir ao lar de amor."
+                }
+            ]
+        },
+        
+        {
+            "id":25,
+            "titulo":"Bendito Seja Deus",
+            "titulo_ingles":"When Morning Gilds the Skies",
+            "numero":25,
+            "numero_view":"025",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Matutino",
+            "autores":[
+                {
+                    "nome":"KATOLICHES GESANGBUCH, 1828"
+                },
+                {
+                    "nome":"Joseph Barnby (1838-1896)"
+                }
+            ],
+            "texto_biblico":"Salmo 113: 1-2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Na luz da alvorada,\nMinh'alma acorda e brada:\nBendito seja Deus!\nE quando o dia aquece,\nEu canto em minha prece:\nBendito seja Deus!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Então a vil fraqueza\nTransforma-se em firmeza:\nBendito seja Deus!\nNo meio da agonia,\nDeus manda-me alegria:\nBendito seja Deus!"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Cantai, com alegria,\nA doce melodia:\nBendito seja Deus!\nA quem minh'alma adora,\nDizei, nações, agora:\nBendito seja Deus!"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"E seja o nosso canto\nSincero, puro e santo:\nBendito seja Deus!\nCantai, ó cristandade,\nPor toda a eternidade:\nBendito seja Deus!"
+                }
+            ]
         },
         {
             "id":26,
@@ -648,19 +1080,171 @@
             ]
         },
         {
+            "id":29,
+            "titulo":"Já, o Dia Longe Vai",
+            "titulo_ingles":"Spftly Now the Light of Day",
+            "numero":29,
+            "numero_view":"029",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Vespertino",
+            "autores":[
+                {
+                    "nome":"George W. Doane (1799-1859)"
+                },
+                {
+                    "nome":"Carl M. v. Weber (1786-1826)"
+                }
+            ],
+            "texto_biblico":"Lucas 42:8",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Já o dia longe vai;\nCom negror a noite cai.\nLivre, agora, do labor,\nVenho a Ti, meu bom Senhor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Tu, que a todos vês dos Céus,\nVês também os erros meus,\nMas às faltas contra a lei,\nDá perdão, bondoso Rei."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Minha noite triste cai,\nLonge a luz do Sol se vai.\nQuero, pois, em Ti, meu Deus,\nRepousar dos fardos meus."
+                }
+            ]
+        },
+        {
+            "id":30,
+            "titulo":"Hora Feliz do Pôr do Sol",
+            "titulo_ingles":"How Sweet the Light",
+            "numero":30,
+            "numero_view":"030",
+            "categoria":"Adoração",
+            "sub_categoria":"Culto Vespertino",
+            "autores":[
+                {
+                    "nome":"James Edmeston (1791-1867)"
+                },
+                {
+                    "nome":"Timothy R. Matthews (1826-1910)"
+                }
+            ],
+            "texto_biblico":"Salmo 4:8",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Hora feliz do pôr-do-sol,\nHora de paz e comunhão,\nHora de luz celestial,\nHora de fé e de oração."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Bênçãos de paz, de amor e luz,\nPara os fiéis vem dar Senhor.\nVimos a Ti com gratidão,\nPara cantar em Teu louvor."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Oh! Como é bom aqui sentir\nTeu divinal e eterno amor!\nDá-nos, ó Deus, o Teu perdão,\nGraça e poder, ó bom Senhor!"
+                }
+            ]
+        },
+        {
+            "id":31,
+            "titulo":"Sublime Amor",
+            "titulo_ingles":"The Love of God",
+            "numero":31,
+            "numero_view":"031",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"F.M.L."
+                },
+                {
+                    "nome":"Frederick M. Lehman (1868-1953)"
+                }
+            ],
+            "texto_biblico":"João 15:13",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sublime amor, o amor de Deus!\nOh! Maravilha sem-par!\nPôr esse amor, eternamente,\nA Deus iremos louvar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Sublime amor, o amor de Deus,\nQue lira não traduzirá!\nMaior que o mar, maior que o céu,\nJamais alguém compreenderá!\nAo pecador em aflição,\nSeu Filho, Deus entregou;\nAo sofredor deu Ele a mão,\nE as culpas lhe perdoou."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se em tinta o mar se transformasse,\nE em papel o céu também,\nE a pena ágil deslizasse,\nDizendo o que esse amor contém,\nDaria fim ao grande mar,\nAo esse amor descrever,\nE o céu seria mui pequeno\nPra tal relato conter."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Excelso amor; o amor de Deus,\nQue nos remiu da perdição!\nEm gratidão proclamaremos\nTão grande amor e salvação.\nE quando enfim no lar dos Céus,\nEm gozo e glória eternal,\nPra sempre ali desfrutaremos\nDo grande amor divinal."
+                }
+            ]
+        },
+        {
+            "id":32,
+            "titulo":"Deus é Nosso Pai Amado",
+            "titulo_ingles":"God in Heaven Is Your Father",
+            "numero":32,
+            "numero_view":"032",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"H. G"
+                },
+                {
+                    "nome":"Halen Griggs"
+                }
+            ],
+            "texto_biblico":"Mateus 6:26-30",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Deus é nosso Pai amado,\nQue das aves zela bem;\nDá ao lírio tanta glória !\nSim, te atenderá também."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Jamais teu coração se turbe,\nNem nele haja algum temor;\nPois Deus, do Céu, de ti bem cuida;\nOh, confia em teu Senhor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"O fardo pode ser pesado,\nGrande a cruz a conduzir;\nevando a Cristo teu cuidado,\nVais com Ele o repartir."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"No céu, se negras nuvens pairam,\nDando a ti perturbação,\nOh, busca em Cristo novo alento;\nNEle há consolação."
+                }
+            ]
+        },
+        {
             "id":33,
             "titulo":"Castelo Forte",
-            "titulo_ingles":"Ein feste Burg ist unser Gott",
+            "titulo_ingles":"God in Heaven Is Your Father",
             "numero":33,
             "numero_view":"033",
             "categoria":"Deus, o Pai",
             "sub_categoria":"Deus, o Pai",
             "autores":[
                 {
-                    "nome":"Martinho Lutero (1483-1546)"
+                    "nome":"M. L"
                 },
                 {
-                    "nome":null
+                    "nome":"Martinho Lutero (1483-1546)"
                 }
             ],
             "texto_biblico":"Salmo 46:1",
@@ -692,24 +1276,24 @@
         {
             "id":34,
             "titulo":"Quão Grande És Tu",
-            "titulo_ingles":"How Great Thou Art",
+            "titulo_ingles":"How Great Thow Art",
             "numero":34,
             "numero_view":"034",
             "categoria":"Deus, o Pai",
             "sub_categoria":"Deus, o Pai",
             "autores":[
                 {
-                    "nome":"Carl Gustaf Boberg (1859-1940)"
+                    "nome":"Carl B. (1859-1940) e Stuart H. (1899-1989)"
                 },
                 {
-                    "nome":"Compositor Desconhecido"
+                    "nome":"Melodia T. Sueca"
                 }
             ],
-            "texto_biblico":"Salmo 46:1",
+            "texto_biblico":"Salmo 8",
             "coro":[
                 {
                     "nome_coro":"Coro",
-                    "coro":"Então minh’alma canta a Ti, Senhor:\nQuão grande és Tu! Quão grande és Tu!\nEntão minh’alma canta a Ti, Senhor:\nQuão grande és Tu! Quão grande és Tu!"
+                    "coro":"Então minh'alma canta a Ti, Senhor:\nQuão grande és Tu! Quão grande és Tu!\nEntão minh'alma canta a Ti, Senhor:\nQuão grande és Tu! Quão grande és Tu!"
                 }
             ],
             "estrofes":[
@@ -719,7 +1303,7 @@
                 },
                 {
                     "numero":"II",
-                    "estrofe":"Se ao caminhar por campos e florestas,\nEscuto as aves belas a cantar;\nSe estendo o olhar do alto da montanha\nE a fonte além eu ouço a murmurar,"
+                    "estrofe":"Se ao calminhar por campos e florestas,\nEscuto as aves belas a cantar;\nSe estendo o olhar do alto da montanha\nE a fonte além eu ouço a murmurar,"
                 },
                 {
                     "numero":"III",
@@ -730,8 +1314,7 @@
                     "estrofe":"E ao vir Jesus em resplendor e glória,\nPara levar-me ao lar dos filhos Seus,\nProstrar-me-ei em gratidão infinda,\nE exclamarei: Quão grande és Tu, meu Deus!"
                 }
             ]
-        }
-        ,
+        },
         {
             "id":35,
             "titulo":"Tu És Fiel, Senhor",
@@ -772,11 +1355,11 @@
         }
         ,
         {
-            "id":35,
+            "id":36,
             "titulo":"O Mundo é de Meus Deus",
             "titulo_ingles":"This Is My Father’s World",
-            "numero":35,
-            "numero_view":"035",
+            "numero":36,
+            "numero_view":"036",
             "categoria":"Deus, o Pai",
             "sub_categoria":"Deus, o Pai",
             "autores":[
@@ -806,6 +1389,79 @@
                 {
                     "numero":"III",
                     "estrofe":"0 mundo é de meu Deus, jamais olvidarei.\nEm toda a vasta criação, somente Deus é Rei.\nO mundo é de meu Deus; e o Salvador Jesus,\nPara esta Terra resgatar, a vida deu na cruz."
+                }
+            ]
+        } ,
+        {
+            "id":37,
+            "titulo":"Tudo Que Há em Terra e Mar",
+            "titulo_ingles":"All Things Bright and Beauful",
+            "numero":37,
+            "numero_view":"037",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"Cecil F. Alexeander (1818-1895)"
+                },
+                {
+                    "nome":"Melodia T. Inglesa"
+                }
+            ],
+            "texto_biblico":"Salmo 24:1",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Tudo que há em terra e mar;\nBelezas que há no céu;\nTudo que o bom Deus criou\nTraz honra ao nome Seu."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"A linda flor se abrindo,\nE o canto do pardal,\nDe Deus o amor revelam,\nCom graça divinal."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Florestas e montanhas,\nO rio a correr;\nO pôr-de-sol tão lindo,\nDeus fez com Seu poder."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Deu olhos para vermos,\nE lábios pra cantar;\nO Seu amor infindo,\nOh, vamos proclamar!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":38,
+            "titulo":"Encanto Sem Igual",
+            "titulo_ingles":"The Wonder of It All ",
+            "numero":38,
+            "numero_view":"038",
+            "categoria":"Deus, o Pai",
+            "sub_categoria":"Deus, o Pai",
+            "autores":[
+                {
+                    "nome":"G. B. S."
+                },
+                {
+                    "nome":"George B. Shea (1909- )"
+                }
+            ],
+            "texto_biblico":"I João 3:1",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Há encanto sem igual, encanto sem igual,\nEm ter Deus me amado assim;\nHá encanto sem igual, encanto sem igual,\nEm ter Deus amor por mim.."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Há encantos no sol pela tarde,\nEncantos no lindo arrebol;\nMas encanto de encantos será pra mim,\nTer-me Deus amado assim."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Há encantos no céu, numa estrela,\nNos vales e campos em flor;\nMas encanto de encantos será pra mim,\nEsse amor de Deus, sem fim."
                 }
             ]
         }
@@ -883,6 +1539,2662 @@
                 }
             ]
         }
+        ,
+        {
+            "id":41,
+            "titulo":"Gloria ao Rei que vos Nasceu",
+            "titulo_ingles":"Hark! the herald Angels Sing",
+            "numero":41,
+            "numero_view":"041",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"Charles Wesley (1707-1788)"
+                },
+                {
+                    "nome":"Felix M.-Bartholdy (1809-1847) "
+                }
+            ],
+            "texto_biblico":"Lucas 2: 13 e 14",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Já soou por todo o céu:\n''Glória ao Rei que vos nasceu!''\nGraça e paz Deus quer doar,\nHomens vis, reconciliar.\nVós nações, cantai louvor;\nÓ, cantai de Deus o amor;\nProclamai, pois, vós também,\nQuem nasceu lá em Belém.\nJá soou por todo o céu:\n''Glória ao Rei que vos nasceu!''"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Dêem louvor os anjos Seus,\nCristo é o eterno Deus;\nTerra e céu, e mar sabei\nQue nasceu o grande Rei.\nPara nós, no mundo, paz,\nCristo lá do Céu nos traz.\nAtravés de cruz e fel,\nSer-nos-á ''Emanuel''.\nJá soou por todo o céu:\n''Glória ao Rei que vos nasceu!''"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Proclamai o Rei da paz,\nRei que a nós justiça traz;\nVida e luz a todos dá\nPobre Rei, em palha está!\nGlória e Céu abandonou!\nOh! sim, Deus o mundo amou!\nCom amor nos dá perdão\nE eternal ressurreição.\nJá soou por todo o céu:\n''Glória ao Rei que vos nasceu!''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":42,
+            "titulo":"Noite de Paz",
+            "titulo_ingles":"Stile Nacht",
+            "numero":42,
+            "numero_view":"042",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"Joseph Mohr (1792-1848)"
+                },
+                {
+                    "nome":"Franz X. Gruber (1787-1863)"
+                }
+            ],
+            "texto_biblico":"Lucas 2: 4-7",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Tudo é paz! Tudo amor!\nDormem todos em redor.Em Belém Jesus nasceu,\nRei da paz, da Terra e Céu;\nNosso Salva dor é Jesus, Senhor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"''Glória a Deus! Glória a Deus!''\nCantam anjos lá nos Céus;\nBoas novas de perdão,\nGraça eterna, salvação.\nProva desse amor, dá o Redentor."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Rei da paz, Rei do amor,\nÉ Jesus o Salvador.\nVinde todos Lhe pedir\nQue nos venha conduzir;\nDeste mundo, a luz é o Senhor Jesus."
+                }
+            ]
+        }
+        ,
+        {
+            "id":43,
+            "titulo":"Soou em Meio à Noite Azul",
+            "titulo_ingles":"It Came Upon the Midnight Clear",
+            "numero":43,
+            "numero_view":"043",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"Edmundo H. Sears (1810-1876)"
+                },
+                {
+                    "nome":"Richard S. Willis(1819-1900)"
+                }
+            ],
+            "texto_biblico":"Lucas 2: 13 e 14",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Soou em meio à noite azul, um hino divinal;\nJamais com tal beleza assim, ouviu algum mortal.\nDo Céu ao mundo, graça e paz! Excelso dom gentil!\nDos anjos essa doce voz encheu o céu anil."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Enquanto os anjos inda estão cantando, com prazer,\nLouvor por todo o céu sem fim ao mais sublime Ser,\nEntão, suave e meiga voz, descendo como um véu,\nCantou que já nasceu Jesus e uniu a Terra ao Céu."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Oh! quem nos dera sempre ouvir as vozes divinais!\nSentir a paz do Céu de luz, país dos imortais!\nLouvar a Cristo, o Rei dos reis, com anjos em canção!\nNo lar possamos nós também cantar a salvação!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":44,
+            "titulo":"Natal! Feliz Natal!",
+            "titulo_ingles":"The First Noel",
+            "numero":44,
+            "numero_view":"044",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Melodia T. Inglesa"
+                }
+            ],
+            "texto_biblico":"Mateus 2: 9-11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Natal, feliz natal!\nNatal, Natal!\nEis que nasceu\nNosso Rei divinal!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Natal, feliz Natal! No céu de Belém,\nUma luz que surgiu fez vibrar, lá no além,\nA voz de querubins em sons divinais,\nQue do Céu proclamou salvação aos mortais."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"A paz então reinou em, céu, terra e mar,\nAo descer sobre o Rei uma luz tutelar;\nA luz do Salvador brilhou mais e mais,\nE guiou a Seus pés nobres reis orientais."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"A luz que fez remar a paz divinal,\nQue encheu todo o céu de fulgor sideral,\nA luz que ainda está no céu a luzir,\nVem também nossos pés a Jesus conduzir."
+                }
+            ]
+        }
+        ,
+        {
+            "id":45,
+            "titulo":"Nasce Jesus",
+            "titulo_ingles":null,
+            "numero":45,
+            "numero_view":"045",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"Robert H. Moreton (1844-1917)"
+                },
+                {
+                    "nome":"Robert Lowry (1826-1899)"
+                }
+            ],
+            "texto_biblico":"Lucas 2:8-14",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Nasce Jesus fonte de luz!\nOh! glória a Deus nas alturas!\nPaz na Terra, aos homens\nA quem quer Ele bem."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Nasce Jesus, fonte de luz!\nDescem os anjos cantando.\nNasce Jesus, é nossa luz,\nTrevas vem, pois, dissipando.\nNasce Jesus, fonte de luz!\nOh! glória a Deus nas alturas!\nVede a redenção raiar, Cristo ao mundo vem!\nSe, pois, bem-vindo! Firma Teu justo império!\nHonras e glórias, anjos e homens dêem!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Deus nos amou, Deus nos mandou\nCristo, Seu Filho querido.\nDeus nos amou, Deus encarnou.\nVede o Menino nascido!\nDeus nos amou! Deus nos salvou!\nDigam-no todos os povos;\nPodem salvação fruir, todos os que crêem!\nReino bendito! Reino do amor divino!\nEis que resgate, todos, por Cristo, têm!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":46,
+            "titulo":"Estrela de Luz",
+            "titulo_ingles":"'Tis Shining Still",
+            "numero":46,
+            "numero_view":"046",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"F. E. B"
+                },
+                {
+                    "nome":"Francklin E. Belden (1858-1945)"
+                }
+            ],
+            "texto_biblico":"Mateus 2:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Brilhando inda está, brilhando inda está,\nA estrela de luz, de raro fulgor\nBrilhando inda está, brilhando inda está,\nA estrela a indicar o Deus Salvador"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Estrela de luz um dia brilhou,\nCom raro fulgor, e os magos guiou\nAo pobre curral da humilde Belém,\nAo meigo Jesus, a fonte do bem."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Já por Balaáo, da estrela porvir,\nOuviram falar, em terra oriental;\nE logo que a vêem, a estão a seguir,\nE vão encontrar Jesus, afinal."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"A fim de encontrar e ter salvação,\nHavemos também de a estrela seguir;\nE achando a Jesus, felizes, então,\nDo amor e da paz iremos fruir."
+                }
+            ]
+        }
+        ,
+        {
+            "id":47,
+            "titulo":"Belém, bendita És",
+            "titulo_ingles":"O Little Town of Bethlehem",
+            "numero":47,
+            "numero_view":"047",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"Philips Brooks (1835-1893)"
+                },
+                {
+                    "nome":"Lewis H. Redner (1830-1908)"
+                }
+            ],
+            "texto_biblico":"Miqueias 5:2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Belém, bendita és entre as cidades de Judá;\nEnquanto assim tu dormes, oh! que bênção Deus te dá!\nEmbora obscura, brilha em ti a eterna luz,\nA luz das esperanças que os mortais a Deus conduz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Em ti já é nascido o Messias Redentor;\nNo Céu os santos anjos cantam glórias, dão louvor.\nÓ vós, estrelas d'alva, a nova anunciai;\nA Deus erguei hosanas, e a nós a paz cantai!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ó, vem, Senhor e Mestre que nasceste em Belém;\nVisita-nos e nasce em nosso coração também.\nA voz dos anjos soa, a paz a proclamar.\nJesus, agora mesmo vem, sim, vem em nós morar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":48,
+            "titulo":"Ó Vinde, Adoremos",
+            "titulo_ingles":"O Come, All Ye Faithful",
+            "numero":48,
+            "numero_view":"048",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"Hino latino, séc. XVIII"
+                },
+                {
+                    "nome":"CANTUS DIVERSI, 1751"
+                }
+            ],
+            "texto_biblico":"Mateus 2:11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Ó, vinde, adoremos!\nÓ, vinde, adoremos!\nÓ, vinde, adoremos o Rei Salvador!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Chegai-vos, ó crentes, vinde jubilosos\nSigamos a estrela do céu de Belém!\nEis que é nascido Cristo, Rei da glória!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ó coros celestes, plenos de harmonia,\nUni-vos aos povos, cantai com fervor!\nÓ, dai hosanas, glória nas alturas!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Com altos louvores, glória a Deus rendemos,\nPor Cristo que ao mundo desceu lá do além!\nOh! para sempre temos Deus conosco!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":49,
+            "titulo":"Surgem Anjos Proclamando",
+            "titulo_ingles":"Angels We Have Heard on High",
+            "numero":49,
+            "numero_view":"049",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Melodia T. Francesa"
+                }
+            ],
+            "texto_biblico":"Lucas 2: 13 e 14",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Glória, glória a Deus nas alturas!\nGlória, glória a Deus nas alturas!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Surgem anjos proclamando\nPaz na Terra, e a Deus, louvor.\nVão seus hinos ecoando\nNas montanhas, ao redor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Vão-se alegres os pastores\nVer o Infante celestial,\nE acrescentam seus louvores\nAo louvor angelical."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Berço rude, Lhe foi dado,\nMas do Céu Lhe vem louvor.\nEle é o Salvador amado,\nBem merece o nosso amor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Povos, tribos, celebrai-O !\n''Glória a Deus'', também dizei.\nDe joelhos adorai-O;\nEle é o Cristo, o grande Rei!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":50,
+            "titulo":"Num Berço de Palha",
+            "titulo_ingles":"Away in a Manger",
+            "numero":50,
+            "numero_view":"050",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"LITLE C. BOOK, 1885"
+                },
+                {
+                    "nome":"James R. Murray (1841-1905)"
+                }
+            ],
+            "texto_biblico":"Lucas 2: 15 e 16",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Num berço de palha dormia Jesus,\n0 meigo Menino, coberto de luz,\nNum rude presépio, à noite, em Belém,\nEnquanto as estrelas brilhavam além."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Acorda o Menino o gado a mugir,\nMas Ele não chora, Se põe a sorrir.\nEu Te amo, Menino nascido em Belém;\nÓ, guia meus pés no caminho do bem."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Bem perto de nós permanece, ó Senhor,\nGuardando-nos sempre com Teu santo amor;\nContigo queremos pra sempre ficar;\nÓ, dá-nos entrada no Teu doce lar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":51,
+            "titulo":"Clara Noite",
+            "titulo_ingles":"Lord, Dismiss Us With Thy Blessing",
+            "numero":51,
+            "numero_view":"051",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Natal",
+            "autores":[
+                {
+                    "nome":"Dario P. Araújo (1937- )"
+                },
+                {
+                    "nome":"Melodia T. Siciliana"
+                }
+            ],
+            "texto_biblico":"Lucas 2: 4-7",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Clara noite, feliz e calma;\nDoce paz já envolve o céu.\nVibram vozes em nossa alma,\nPois Jesus, nosso Rei, nasceu.\nRompam as fontes da alegria,\nPois já nasceu o Salvador.\nRompam as fontes da alegria,\nPois já nasceu o Salvador."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Cantam anjos no firmamento\nUm louvor ao Menino Deus;\nBrilha a estrela, por um momento,\nA indicar o Senhor dos Céus.\nTodos cantemos: ''Deus conosco,\nNoite feliz, feliz Natal!''\nTodos cantemos: ''Deus conosco,\nNoite feliz, feliz Natal!''"
+                }
+            ]
+        } ,
+        {
+            "id":52,
+            "titulo":"Vestido em Linho",
+            "titulo_ingles":"Ivory Palaces",
+            "numero":52,
+            "numero_view":"052",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Vida e Ministério",
+            "autores":[
+                {
+                    "nome":"H. B."
+                },
+                {
+                    "nome":"Henry Barraclough (1891-1983)"
+                }
+            ],
+            "texto_biblico":"Salmo 45:8",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Vindo ao mundo, deixou no Céu\nPalácios de marfim;\nGlória não quis; em dor morreu.\nA cruz suportou por mim."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Vestido em linho Jesus desceu,\nTrazendo salvação;\nDe mirra o bálsamo traz do Céu,\nBeleza e perfeição."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Trazendo em Si de aloés o odor,\nA morte atroz sofreu;\nProvou aqui amargura e dor;\nAo mundo abriu o Céu"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Olor de cássia as vestes têm:\nSim, Ele ressurgiu;\nE junto ao Pai Se assentou no além;\nAo homem redimiu."
+                }
+            ]
+        }
+        ,
+        {
+            "id":53,
+            "titulo":"Conta-me a História de Cristo",
+            "titulo_ingles":"Tell Me the Story of Jesus",
+            "numero":53,
+            "numero_view":"053",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Vida e Ministério",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"John R. Sweney (1837-1899)"
+                }
+            ],
+            "texto_biblico":"Isaías 53:4 e 5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Conta-me a história de Cristo;\nGrava-a em meu coração.\nConta-me a história preciosa;\nConta-me com emoção!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Conta-me a história de Cristo,\nGrava-a em meu coração.\nConta-me a história preciosa,\nConta-me com emoção.\nConta-me como Seus anjos\nDeram-Lhe honra ao nascer:\n''Glória ao Senhor, paz na Terra'',\nAo Céu fizeram ascender."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Conta-me a história de Cristo,\nQuando na Cruz expirou.\nConta-me como O choraram,\nE como ressuscitou.\nNessa história tão terna,\nVejo o Seu grande amor.\nQuero pra sempre servi-Lo;\nÉ meu Senhor e Salvador."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Essa história bendita,\nDeves contar com amor,\nAo mundo todo falando,\nDe Seu poder salvador.\nHoje no Céu intercede,\nEsse fiel Redentor;\nVida eterna concede,\nAos que aceitam Seu favor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":55,
+            "titulo":"Cantarei a Linda História",
+            "titulo_ingles":"I Will Sing the Wondrous Story",
+            "numero":55,
+            "numero_view":"055",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Vida e Ministério",
+            "autores":[
+                {
+                    "nome":"Francis H. Rowley (1854-1952)"
+                },
+                {
+                    "nome":"Peter P. Bilhorn (1865-1936)"
+                }
+            ],
+            "texto_biblico":"I Timóteo 1: 14 e 15",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Cantarei a linda história\nDe Jesus e Seu amor;\nCom fervor, na Sua glória,\nLouvarei ao Salvador"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Cantarei a linda história\nDe Jesus, o Salvador\nQue deixou Seu lar na glória\nPra salvar o pecador."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Eu andei, do lar, distante,\nPrestes já a perecer,\nMas Jesus, então, buscou-me\nE salvou meu pobre ser."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Muitas vezes dias tristes\nE aflições me sobrevêm,\nMas Jesus depressa estende\nSua mão que me sustém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":56,
+            "titulo":"As Mãos do Senhor",
+            "titulo_ingles":null,
+            "numero":56,
+            "numero_view":"056",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Vida e Ministério",
+            "autores":[
+                {
+                    "nome":"William C. Poole (1875-1949)"
+                },
+                {
+                    "nome":"Bentley D. Ackley (1872-1958)"
+                }
+            ],
+            "texto_biblico":"João 20:27",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh! belas mãos, as mãos do Senhor;\nCrucificadas por ti!\nMãos que serviram em santo labor;\nMãos que inda velam por ti!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eu vi essas mãos de meu Mestre,\nQue pão deram à multidão,\nChamando gentis criancinhas\nE abençoando-as então."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Aos pobres e fracos erguiam,\nCuravam qualquer sofredor;\nServiam choupanas humildes,\nExemplificavam o amor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Sim, hoje a caminho à cidade,\nDa qual é Deus Pai construtor,\nEstão essas mãos a indicar-nos,\nE estendem-se a ti, pecador."
+                }
+            ]
+        }
+        ,
+        {
+            "id":57,
+            "titulo":"Eu Quisera Andar com Cristo",
+            "titulo_ingles":null,
+            "numero":57,
+            "numero_view":"057",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Vida e Ministério",
+            "autores":[
+                {
+                    "nome":"F. G. J."
+                },
+                {
+                    "nome":"Frederico G. Jr (1925- )"
+                }
+            ],
+            "texto_biblico":"Mateus 13:17",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Com Cristo andar, com Cristo andar,\nSentir em mim essa emoção;\nBem sei, Senhor, que um dia a sentirei,\nBem junto a Ti, Jesus, no eterno lar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eu quisera andar com Cristo,\nSobre o mar da Galiléia;\nAo Seu lado, pela Judéia,\nPartilhar da celestial missão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Eu quisera andar com Cristo,\nVer Suas santas mãos curando,\nOs Seus lábios sempre pregando\nDo infinito e divinal amor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Eu quisera andar com Cristo,\nDe joelhos lá no horto,\nImplorando de Deus conforto\nPra Seu Filho suportar na cruz."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Eu quisera andar com Cristo,\nQuando ao Céus subiu na nuvem;\nEu quisera subir com Ele,\nPra sempre tê-Lo junto a mim."
+                }
+            ]
+        }
+        ,
+        {
+            "id":58,
+            "titulo":"Conta-me a Velha História",
+            "titulo_ingles":"Tell Me the Old, Old Story",
+            "numero":58,
+            "numero_view":"058",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Vida e Ministério",
+            "autores":[
+                {
+                    "nome":"Arabella K. Hankey (1834-1911)"
+                },
+                {
+                    "nome":"William H. Doane (1832-1915)"
+                }
+            ],
+            "texto_biblico":"João 3:16",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Conta-me a velha história,\nVelha e sublime história!\nConta-me, pois, a história\nDo meigo Salvador!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Conta-me a velha história, suave, com dulçor,\nDe meu Jesus e Sua glória, de Cristo e Seu amor,\nCom calma e com paciência, pois quero alcançar\nA altura do mistério: que Deus nos pode amar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Fala-me com doçura do meigo Redentor,\nDe Seu amor e Sua graça, pois sou um pecador,\nSim, para o meu conforto, em tempos de aflição,\nRepete a velha história de amor e salvação."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Se o brilho deste mundo toldar do Céu a luz,\nRepete então a mesma história da graça de Jesus!\nE quando, enfim, a glória do mundo além raiar,\nOh, conta a mesma história: que veio aqui salvar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":59,
+            "titulo":"'Stavas Lá?",
+            "titulo_ingles":"Were You There?",
+            "numero":59,
+            "numero_view":"059",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Negro Spiritual"
+                }
+            ],
+            "texto_biblico":"Marcos 15: 21-25",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"'Stavas lá, ao pregarem meu Jesus?\n'Stavas lá, ao pregarem meu Jesus?\nOh! nisto pensando, quanto tremo, tremo, tremo!\n'Stavas lá, ao pregarem meu Jesus?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"'Stavas lá, quando o Sol não quis brilhar?\n'Stavas lá, quando o Sol não quis brilhar?\nOh! nisto pensando, quanto tremo, tremo, tremo!\n'Stavas lá, quando o Sol não quis brilhar?"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"'Stavas lá, quando Ele ressurgiu?\n'Stavas lá, quando Ele ressurgiu?\nOh! nisto pensando, quanto tremo, tremo, tremo!\n'Stavas lá, quando Ele ressurgiu?"
+                }
+            ]
+        }
+        ,
+        {
+            "id":60,
+            "titulo":"Foi por Você Também",
+            "titulo_ingles":null,
+            "numero":60,
+            "numero_view":"060",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"W. S. C. J."
+                },
+                {
+                    "nome":"Williams S. C. Jr (1951- )"
+                }
+            ],
+            "texto_biblico":"Romanos 5:8-10",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Foi por você também,\nFoi por você também que Jesus Se entregou.\nVejo os cravos a rasgar Suas mãos e pés sem-par!\nFoi por você também que Jesus Se entregou!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Foi por você também,\nFoi por você também que o Mestre agonizou.\nVejo o sangue de Jesus deslizando sobre a Cruz!\nFoi por você também que o Mestre agonizou!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Foi por você também,\nFoi por você também que Jesus mostrou amor.\nPadeceu sem merecer e sofreu até morrer!\nFoi por você também que Jesus mostrou amor!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":61,
+            "titulo":"Ao Ver a Cruz",
+            "titulo_ingles":"Remember Calvary",
+            "numero":61,
+            "numero_view":"061",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"C. H. L."
+                },
+                {
+                    "nome":"Carl H. Lowden (1883-1963)"
+                }
+            ],
+            "texto_biblico":"Romanos 5:8-10",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Vejo o Calvário, o monte tão cruel!\nAli, Jesus, pregado foi na cruz.\nVejo o Calvário, o monte do amor!\nA minha culpa ali Jesus pagou."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ao ver a cruz, meu rude coração\nFica em silêncio ante tanto horror!\nPenso nos pregos sobre Suas mãos,\nE como a sós morreu por ter-me amor!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Aos olhos vêm as cenas tão cruéis,\nE humildemente eu penso em Seu amor.\nEntão minh'alma em muda contrição,\nEterna graça rende ao Salvador."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ao meditar nas dores que sofreu,\nEu sinto mais amor por meu Jesus.\nSe foi ali que Seu perdão me deu,\nFeliz eu sou, e grato ao ver a cruz."
+                }
+            ]
+        }
+        ,
+        {
+            "id":62,
+            "titulo":"Ao Ver a Cruz",
+            "titulo_ingles":"On a Rugged Hill",
+            "numero":62,
+            "numero_view":"062",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"K. W."
+                },
+                {
+                    "nome":"Keith Whitford (1917-2000)"
+                }
+            ],
+            "texto_biblico":"João 19:17 e 18",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Monte, monte do Calvário,\nOnde meu Jesus morreu por mim!\nTriste, ei-Lo assim ferido;\nSó, em agonia pereceu.\nPuro, carregou meu fardo,\nPara libertar-me do pecar.\nEste foi o dia mais feliz:\nPois morreu pra me salvar!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Lá, num monte além, eis a rude cruz,\nOnde Alguém está em aflição.\nÉ o me Senhor, que do Céu desceu,\nPara conceder-me a salvação."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Lá, num monte além, eis a multidão\nA escarnecer do Salvador.\nMas não foi em vão que Jesus desceu\nPara resgatar o pecador."
+                }
+            ]
+        }
+        ,
+        {
+            "id":63,
+            "titulo":"Ao Ver a Cruz",
+            "titulo_ingles":"There Was One Who Was Willing",
+            "numero":63,
+            "numero_view":"063",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"Carrie E. Breck (1855-1934)"
+                },
+                {
+                    "nome":"Grant C. Tullar (1869-1950)"
+                }
+            ],
+            "texto_biblico":"Filipenses 2:5-8",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Lá estão sobre a cruz,\nLá estão sobre a cruz,\nMeus pecados na cruz já estão.\nCom que angústia JesusvCaminhou para a cruz!\nSanto que me deu salvação!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Houve Alguém que Se achando disposto a morrer\nPor um vil pecador que sou eu,\nNo caminho da cruz suportou o sofrer:\nMeus pecados ali esqueceu."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ele é meigo comigo, paciente e leal,\nPelo Seu grande amor salvo sou;\nLiberdade me deu, gozo e paz perenal,\nMinhas faltas na cruz já pregou."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Grato sou a Jesus, Ele deu-me o perdão,\nE com Ele feliz sempre sou.\nEm meus lábios terei esta linda canção:\n''Meus pecados Jesus perdoou.''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":64,
+            "titulo":"Cristo no Horto",
+            "titulo_ingles":"Into the Woods My Master Went",
+            "numero":64,
+            "numero_view":"064",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"Sidney C. Lanier (1842-1881)"
+                },
+                {
+                    "nome":"Peter C. Lutkin (1858-1931)"
+                }
+            ],
+            "texto_biblico":"Lucas 29:39-44",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Cristo entra no horto, a sós, e inclina-Se a orar.\nTriste, ergue a Deus a voz; dispõe-Se a nos salvar.\nQue angústia ao orar em dor!\nEm sangue se torna o Seu suor!\n''Afasta este cálix Meu,\n0 Pai, se possível for!''"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Quanto sofrimento atroz provou o Salvador!\nVede quanto amor por nós, divino e Santo amor!\nAos ombros suportou a cruz,\nPor nós Se dispôs à morte e à dor,\nMas logo ressurgiu em luz,\nTornando-Se vencedor!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":65,
+            "titulo":"Oh! Fronte Ensanguentada!",
+            "titulo_ingles":"Salve Caput Cruentatum",
+            "numero":65,
+            "numero_view":"065",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"Poema Latino Mediaval"
+                },
+                {
+                    "nome":"Hans L. Hassler (1564-1612)"
+                }
+            ],
+            "texto_biblico":"Mateus 27:29 e 30",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Oh! fronte ensangüentada, em sofrimento e dor!\nCruel coroa fere Tua fronte, ó Salvador!\nA turba escarnece de Tua condição,\nE zomba destas dores, ferindo o coração!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Sem luz estão Teus olhos; não brilham mais, assim;\nPor que, Senhor, se apagam? Oh! sim, bem sei : por mim!\nTão grandes sofrimentos os meus pecados vis\nCausaram ao meu Mestre, que o Sol brilhar não quis."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Jesus, meu grande Amigo, morreste em meu lugar!\nEm dor desfaleceste, a fim de me salvar!\nPalavras não expressam a minha gratidão\nPor Tua imensa graça, bendita redenção!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":66,
+            "titulo":"Na Senda do Calvário",
+            "titulo_ingles":"Follow Me",
+            "numero":66,
+            "numero_view":"066",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"I. F. S"
+                },
+                {
+                    "nome":"Ira F. Stanphill (1914-1993)"
+                }
+            ],
+            "texto_biblico":"Mateus 16:24 e 25",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Seguia tristemente e só, ninguém a me observar;\nCurvado ao fardo andava eu e quis desesperar;\nQueixei-me então a Cristo, do mundo a me atrair,\nE Sua voz suave pude ouvir:\n''Na senda do Calvário, Meus pés também cansei,\nE sob a cruz pesada, sem forças Me prostrei;\nCansado peregrino, a noite chega ao fim;\nÓ, toma a cruz e segue junto a Mim.''"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Do esforço meu por Ti, Jesus, às vezes me gabei:\nQuão grande sacrifício fiz, na senda estreita andei;\nDeixei fortuna e fama a fim de Te seguir;\nE Tua voz suave pude ouvir:\n''Deixei o trono e a glória, deixei do Céu a luz,\nE Minhas mãos pregaram sobre uma rude cruz;\nCom tua mão na Minha, sigamos, pois, assim;\nÓ, toma a cruz e segue junto a Mim.''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":67,
+            "titulo":"Desceu Lá do Céu",
+            "titulo_ingles":"The Saviour for Me",
+            "numero":67,
+            "numero_view":"067",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"W. M. R."
+                },
+                {
+                    "nome":"William M. Runyan (1870-1967)"
+                }
+            ],
+            "texto_biblico":"Filipenses 2:5-8",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Jesus a este mundo desceu,\nPara ser Salvador de um qual eu.\nE o fardo cairá de quem turbado está,\nRecorrendo a Jesus que morreu."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Desceu, lá do Céu, o bom Filho de Deus,\npra ser teu e meu salvador.\nDesprezou o penar para nos resgatar;\nOh, sim, Ele é meu salvador!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Não tinha um lugar para ali repousar;\nOh! como sofreu meu Senhor!\nLá no monte a orar, foi sozinho ficar;\nOh, sim, Ele é meu salvador!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Sofrendo traição, a sentença Lhe dão;\nÉ morto qual vil salteador;\nMas em vendo eu a cruz, digo a Jesus:\n''Oh, sim, Tu és meu Salvador!''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":68,
+            "titulo":"Quando no Calvário",
+            "titulo_ingles":"When I See My Savior",
+            "numero":68,
+            "numero_view":"068",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Sofrimento e Morte",
+            "autores":[
+                {
+                    "nome":"Maud Frazer, 1911"
+                },
+                {
+                    "nome":"Robert Harkness (1880-1961)"
+                }
+            ],
+            "texto_biblico":"Lucas 23:44-46",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Quando no Calvário, contemplo o Salvador\nEm grande agonia por mim vil pecador,\nSinto-me cativo, e meu coração\nQueda-se humilhado ante o excelso dom."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Vendo aquelas gotas rútilas a rolar\nDas feridas feitas a fim de me salvar,\nPossa eu tal cena nunca esquecer,\nMesmo em meio às lutas, quase a perecer."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"''Pai, Me abandonaste?'' Cristo então bradou.\nCoração partido, a vida entregou;\nMas o Filho amado não morreu em vão,\nPois, Seu sacrifício deu-nos salvação."
+                }
+            ]
+        }
+        ,
+        {
+            "id":69,
+            "titulo":"Cristo Já Ressuscitou",
+            "titulo_ingles":"Christ the Lord Is Risen Today",
+            "numero":69,
+            "numero_view":"069",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Charles Wesley (1707-1788)"
+                },
+                {
+                    "nome":"LYRA DAVIDICA, 1708"
+                }
+            ],
+            "texto_biblico":"Mateus 28:5-7",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Cristo já ressuscitou! Aleluia!\nSobre a morte triunfou! Aleluia!\nTudo consumado está! Aleluia!\nSalvação de graça dá! Aleluia!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Gratos hinos entoai! Aleluia!\nAo Senhor Jesus honrai! Aleluia!\nPois à morte quis baixar! Aleluia!\nPecadores quis salvar! Aleluia!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Uma vez na cruz sofreu! Aleluia!\nUma vez por nós morreu! Aleluia!\nMas agora vivo está! Aleluia!\nE pra sempre reinará! Aleluia!"
+                }
+            ]
+        },
+        {
+            "id":70,
+            "titulo":"Porque Ele vive",
+            "titulo_ingles":"Because He Lives",
+            "numero":70,
+            "numero_view":"070",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Gloria S. Gaither (1942- )"
+                },
+                {
+                    "nome":"William J. Gaither (1936- )"
+                }
+            ],
+            "texto_biblico":"João 14:19",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Porque Ele vive, posso crer no amanha;\nPorque Ele vive, temor não há\nEu sei que minha vida não será mais vã,\nPois meu futuro em Suas mãos agora está."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Deus enviou Seu Filho amado\nPara sofrer em meu lugar;\nNa cruz morreu mas vivo agora está,\nPois ressurgiu e para sempre viverá."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Quão grato é viver com Cristo,\nE desfrutar Seu doce amor,\nE certo estar de Sua proteção,\nNos dias calmos ou nas horas de aflição."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"E quando, enfim, chegar a hora\nDe aqui cessar o meu viver,\nNão temerei, pois Cristo vivo está,\nE eu viverei , pois, vida nova me dará."
+                }
+            ]
+        },
+	    {
+            "id":71,
+            "titulo":"Saudai o Nome de Jesus (I)",
+            "titulo_ingles":"All Hail the Power of Jesus' Name",
+            "numero":71,
+            "numero_view":"071",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Edward Perronet (1726-1792)"
+                },
+                {
+                    "nome":"James Ellor (1819-1899)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 5: 11-13",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Com glória, glória, glória,\nGlória, com glória coroai!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó escolhida geração\nDo bom e eterno Pai,\nDo bom e eterno Pai,\nO grande Autor da salvação,"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ó perdoados por Jesus,\nAlegres adorai,\nAlegres adorai;\nO Deus de paz, o Deus de luz,"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"O raças, tribos e naçôes,\nAo Rei divino honrai,\nAo Rei divino honrai!;\nA quem quebrou os vis grilhões,"
+                }
+            ]
+        },
+        {
+            "id":72,
+            "titulo":"Saudai o Nome de Jesus (II)",
+            "titulo_ingles":"All Hail the Power of Jesus' Name",
+            "numero":72,
+            "numero_view":"072",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Edward Perronet (1726-1792)"
+                },
+                {
+                    "nome":"Oliver Holden (1765-1844)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 5: 11-13",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Saudai o nome de Jesus;\nÓ anjos, vos prostrai.\nO Filho do glorioso Deus,\nCom glória coroai!\nO Filho do glorioso Deus,\nCom glória coroai!,"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ó escolhida geração\nDo bom e eterno Pai,\nO grande Autor da salvação,Com glória coroai!\nO grande Autor da salvação,\nCom glória coroai!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ó perdoados por Jesus,\nAlegres adorai;\nO Deus de paz, o Deus de luz,Com glória coroai!\nO Deus de paz, o Deus de luz,\nCom glória coroai!"
+                },
+                {
+                    "numero":"IV",
+                    "estrofe":"Ó raças, tribos e nações,\nAo Rei divino honrai;\nA quem quebrou os vis grilhões,\nCom glória coroai!\nA quem quebrou os vis grilhões,\nCom glória coroai!"
+                }
+            ]
+        },
+        {
+            "id":73,
+            "titulo":"Rei dos Reis",
+            "titulo_ingles":"Majesty",
+            "numero":73,
+            "numero_view":"073",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"J. W. H."
+                },
+                {
+                    "nome":"Jack W. Hayford (1934- )"
+                }
+            ],
+            "texto_biblico":"Apocalipse 17: 14",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Rei dos reis! Deus, criador do Céu!\nHonra e glória ao Deus infinito em poder!\nTerra e Céu, cantai ao grande Rei!\nDeus criador, Deus redentor, Deus, Rei dos reis!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Adorai, glorificai o nome de Cristo!\nExaltai, magnificai Jesus, o senhor!\nTerra e Céu, cantai louvor a Deus!\nEle morreu! Ele venceu! É Rei dos reis!"
+                }
+                
+            ]
+        },
+	    {
+            "id":74,
+            "titulo":"Sempre vencendo",
+            "titulo_ingles":"Victory Through Grace",
+            "numero":74,
+            "numero_view":"074",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"John R. Sweney (1837-1899)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 6: 2",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Não é dos fortes a vitória,\nNem dos que correm melhor\nMas dos fiéis e sinceros,\nComo nos diz o Senhor."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Sempre vencendo, mui vitorioso,\nCristo Jesus, o Senhor!\nChefe bendito, Chefe glorioso,\nEm tudo é vencedor.\nEi-Lo supremo, guiando\nCom Seu poder e valor!\nTodos avante, ó crentes,\nTodos seguindo ao Senhor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Sempre vencendo, mui vitorioso,\nCristo Jesus, o Senhor!\nEis Suas hostes inumeráveis,\nSeu refulgente esplendor!\nCristo, que é nosso Monarca,\nÉ Salvador, Deus e Pai;\nSempre nos ama, nos guarda,\nSempre conosco Ele vai."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Sempre vencendo, mui vitorioso,\nCristo Jesus, o Senhor!\nReis e monarcas, príncipes fortes\nBuscam também Seu favor.\nHumildemente Te peço\nOue me permitas lutar,\nSó ao Teu lado, seguro,\nTé minha vida findar."
+                }
+            ]
+        }
+        ,
+        {
+                "id":75,
+                "titulo":"Jesus Conquista",
+                "titulo_ingles":"Ride 0n, King Jesus",
+                "numero":75,
+                "numero_view":"075",
+                "categoria":"Jesus Cristo",
+                "sub_categoria":"Ressurreição e Glorificação",
+                "autores":[
+                    {
+                        "nome":"H. F."
+                    },
+                    {
+                        "nome":"Henry de Fluiter (1872-1970)"
+                    }
+                ],
+                "texto_biblico":"Apocalipse 15:2 e 3",
+                "coro":[
+                    {
+                        "nome_coro":"Coro",
+                        "coro":"Conquista, ó Cristo! Conquista já, ó Rei!\nCom glória grandeza, poder celestial!\nConquista, ó Cristo! Conquista já, ó Rei!\nDomina sobre terra e céus, Ó Rei universal"
+                    }
+                ],
+                "estrofes":[
+                    {
+                        "numero":"I",
+                        "estrofe":"Donde vêm estes guerreiros\nRevestidos de luz?\nEles vêm de reais domínios,\nGuiados por Jesus."
+                    },
+                    {
+                        "numero":"II",
+                        "estrofe":"Aclamai, cantai, ó crentes,\nRedimidos sereis\nVem o fim das vossas lutas,\nSim, vem o Rei dos reis."
+                    }
+                    ,
+                    {
+                        "numero":"III",
+                        "estrofe":"Já se finda a escura noite,\nEis que o dia já vem.\nCristo lá no Céu Se apressa,\nE os anjos Seus também."
+                    },
+                    {
+                        "numero":"IV",
+                        "estrofe":"Vem depressa, ó dia alegre!\nu suspiro por ti.\nJá pressinto a glória eterna\nQue perto me sorri."
+                    }
+                ]
+        },
+        {
+            "id":76,
+            "titulo":"Louvai a Cristo",
+            "titulo_ingles":"Praise Him! Praise Him!",
+            "numero":76,
+            "numero_view":"076",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"Chester G. Allen (1838-1877)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 15: 11-14",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Exaltai-O pelas excelsas grandezas\nDesta graça que hoje aos perdidos dá."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó, louvai-O: Cristo, o bom Mestre divino!\nPra salvar-nos, a Sua vida deu.\nGraça e força hoje aos contritos outorga,\nPois Seu sangue por todos nós verteu.\nSim, louvai-O; seja pra sempre honrado!\nPor Seus filhos, um mediador será."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ó, louvai-O: Cristo, o bom Mestre divino!\nBons conselhos dá Ele ao pecador.\nDai ao mundo dádivas maravilhosas,\nConcedidas por esse Salvador.\nIde, todos, servos fiéis de Cristo,\nEle nunca vos abandonará."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ó, louvai-O: Cristo, o bom Mestre divino!\nEntre os povos, Seu grande amor cantai.\nCristo volta com os milhares de anjos;\nLogo ao mundo esta mensagem dai.\nQual pastor bom cuida do seu rebanho,\nCristo os salvos sempre conduzirá."
+                }
+            ]
+        },
+        {
+            "id":77,
+            "titulo":"É Jesus o Senhor",
+            "titulo_ingles":"We Have Heard Joyful Sound",
+            "numero":77,
+            "numero_view":"077",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Priscilla J. Owens (1829-1907)"
+                },
+                {
+                    "nome":"William J. Kirkpatrick (1838-1921)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 2:10 e 11",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Escutai a voz de Deus: é Jesus o Salvador!\nÓ clamai, vós filhos Seus: é Jesus o Salvador.\nProclamai com grande ardor salvação ao pecador,\nPois Jesus aqui morreu para ser o Salvador!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Abraçai o excelso dom: é Jesus o Salvador!\nPela cruz vos dá perdão: é Jesus o Salvador\nMultidões, ó, exultai; Seu amor considerai!\nAnjos Seus também clamai: é Jesus o Salvador"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ó fiéis, a voz erguei: é Jesus o Salvador!\nVós, nações, louvor rendei: é Jesus o Salvador!\nSalvação de graça dá, e perdão ao pecador!\nGlórias mil a Deus Jeová, pois Jesus é o Salvador!"
+                }
+            ]
+        },
+        {
+            "id":78,
+            "titulo":"Coroai-O Rei dos Reis",
+            "titulo_ingles":"Look, Ye Saints",
+            "numero":78,
+            "numero_view":"078",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Thomas Kelly (1769-1855)"
+                },
+                {
+                    "nome":null
+                }
+            ],
+            "texto_biblico":"Apocalipse 4: 10-11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Coroai-O, vós, remidos,\nCoroai-O Rei dos reis!\nCoroai-O, vós, remidos,\nCoroai-O Rei dos reis!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eis que Chefe tão glorioso\nÉ Jesus, o bom Senhor,\nQue lutou mui vitorioso\nPara ser o salvador!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Vinde, todos, coroá-Lo:\nNosso salvador capaz!\nNo poder entronizá-Lo\nPríncipe da nossa paz!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Escutai o grande aplauso!\nTriunfou o bom Jesus!\nEle toma, já, Seu reino,\nCoroado Rei na luz!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":79,
+            "titulo":"Glória ao Salvador",
+            "titulo_ingles":"What If It Were Today",
+            "numero":79,
+            "numero_view":"079",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"L. N. M."
+                },
+                {
+                    "nome":"Lelia N. Morris (1862-1929)"
+                }
+            ],
+            "texto_biblico":"1 Timóteo 1: 15-17",
+            "coro":[
+                {
+                    "nome_coro":"Glória, glória, demos ao Salvador!\nGlória, glória, por Seu tão grande amor!\nGlória, glória! Temos a paz com Deus!\nGlória, glória, vamos cantar nos Céus!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Veio Jesus a este mundo vil,\nPara nos libertar;\nFoi rejeitado por gente hostil;\nVeio pra nos salvar.\nGlória e poder no Céu deixou, Ingratidão no mundo achou,\nTudo Ele fez, pois nos amou,\nPara nos resgatar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Nosso castigo Jesus levou,\nPara nos libertar;Tudo na cruz Ele consumou;\nVeio pra nos salvar.\nQuem entre nós já compreendeu\nTodas as dores que sofreu,\nA condição em que morreu,\nPara nos resgatar?!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Cristo morreu numa cruz de dor,\nPara nos libertar;\nE agora chama-nos com amor;\nVeio pra nos salvar\nVamos a Cristo em contrição,\nTendo certeza do perdão,\nPois Ele estende a Sua mão\nPara nos resgatar."
+                }
+            ]
+        },
+        
+		{
+            "id":80,
+            "titulo":"Há Tais Cantos Lá no Céu",
+            "titulo_ingles":"Holy, Holy, Is What The Angels Sing",
+            "numero":80,
+            "numero_view":"080",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Johnson Oatman, Jr. (1856-1922)"
+                },
+                {
+                    "nome":"John R. Sweney (1837-1899)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 14:2 e 3",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Santo! Santo!\nÉ o canto de anjos bons.\nEu hei de um dia unir\nA voz a tais aclamações!\nMas quando eu lhes contar a história\nDesta redenção: Mudez!\nNão podem compreender\nTão grande salvação!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Há tais cantos lá no Céu,\nQue aqui ninguém jamais ouviu!\nSempre os anjos cantam glórias\nAo Cordeiro do Senhor.\nHarpas sempre em harmonia,\nSempre a voz em claros tons.\nQuem nos dera ser assim,\nServindo ao Rei e Salvador!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Mesmo que eu não seja um anjo,\nLá no Céu hei de cantar.\nVou unir-me ao grande coro\nDos remidos do Senhor\nLouvarei meu salvador\nQue sobre a cruz por mim morreu,\nQue pagou as minhas culpas\nE libertação me deu."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Esse canto de vitória,\nSim, os anjos ouvirão.\nÉ qual voz de muitas águas,\nVoz de grande multidão.\nO Universo inteiro pára,\nEm espanto e admiração,\nAnte o canto dos remidos\nAo Senhor da redenção!"
+                }
+            ]
+        },
+        
+		{
+            "id":81,
+            "titulo":"Louvores ao Meu Rei",
+            "titulo_ingles":null,
+            "numero":81,
+            "numero_view":"081",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Henry M. Wright (1849-1931)"
+                },
+                {
+                    "nome":"SALVATION ARMY MUSIC-II"
+                }
+            ],
+            "texto_biblico":"Apocalipse 1: 5 e 6",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"O sangue de Jesus me lavou, me lavou!\nO sangue de Jesus me lavou, me lavou!\nAlegre cantarei louvores a meu Rei,\nA meu Senhor Jesus que me salvou!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"O, vinde crentes e entoai louvores a Jesus,\nQue para nossa salvação foi morto numa cruz.\nSeu sangue derramou, de tudo me lavou,\nMais alvo do que a neve me tornou."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Conosco vinde vos unir na guerra contra o mal,\nE com o nosso Salvador em marcha triunfal;\nA todos proclamar a graça e seu poder;\nSeu sangue derramou pra nos salvar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"O grande Autor da salvação é Cristo, o Salvador,\nO Rei dos reis, o Redentor, Jesus, o bom Senhor;\nPois tudo vencerá, vitória nos dará,\nÁ glória, salvos, nos conduzirá."
+                }
+            ]
+        },
+		{
+            "id":82,
+            "titulo":"Aleluia, Glória a Cristo!",
+            "titulo_ingles":"Alleluia! Sing to Jesus",
+            "numero":82,
+            "numero_view":"082",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"William C. Dix (1837-1898)"
+                },
+                {
+                    "nome":"Rowland H. Pritchard (1811-1887)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 5:11 e 12",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Honras demos ao fiel Senhor,\nGlorioso Deus, capaz.\nCristo deu na cruz a vida;\nGlória ao príncipe da paz!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Aleluia! Glória a Cristo!\nGlória ao Rei e Vencedor!\nAleluia! Exaltemos\nSeu poder e grande amor!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Oh, cantemos co'alegria,\nPois do Céu desceu Jesus!\nAleluia! Adoremos,\nCom fervor, ao Rei da luz!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Toda graça vem do alto\nPra salvar o pecador!\nAleluia! Glória a Cristo!\nGlória ao Rei e Salvador!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":83,
+            "titulo":"Glórias ao Rei de Amor",
+            "titulo_ingles":"Crown Him With Many Crowns",
+            "numero":83,
+            "numero_view":"083",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Matthew Bridges (1800-1894)"
+                },
+                {
+                    "nome":"George J. Elvery (1816-1893)"
+                }
+            ],
+            "texto_biblico":"Judas 24 e 25",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Glórias ao Rei de amor, ao Rei, Senhor Jesus!\nO Seu divino e santo amor provou ali na cruz.\nA Cristo, o Redentor, darei louvor sem fim,\nLouvor ao santo Rei de amor, que a vida deu por mim."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Glórias ao Rei da luz, do bem o manancial!\nLouvor ao nobre Rei da luz, ao dom celestial.\nSenhor da Terra e mar, da luz que ao Céu conduz,\nLouvor ao nobre Rei da luz, ao Rei que a Deus traduz."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Glórias ao Rei da paz, ao Rei, Senhor e Deus!\nLouvor ao grande Rei da paz, ao Rei dos altos Céus;\nO Rei, por Teu favor, ali irei morar,\nGozar a eterna e doce paz, a paz do eterno lar."
+                }
+            ]
+        }
+        ,
+		{
+            "id":84,
+            "titulo":"O Cântico dos Salvos",
+            "titulo_ingles":"Souls of Men",
+            "numero":84,
+            "numero_view":"084",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Ruben Sailens (1855-1942)"
+                },
+                {
+                    "nome":"Melodia T Inglesa"
+                }
+            ],
+            "texto_biblico":"Apocalipse 15:3",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Ouve as vozes de vitória,\nEm caminho para a glória,\nProclamando a doce história\nDe Jesus e Seu amor!\nProclamando a doce história\nDe Jesus e Seu amor!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Oh! que canto que, soando,\nEnche os ares de dulçor!\nSão os salvos entoando\nGraças mil ao Redentor!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Deus excelso! Resgatou-nos\nE nos deu libertação!\nCom poder Ele salvou-nos\nDa eterna perdição!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Graça infinda! Deus aceita\nOs rebeldes, com favor!\nPois jamais Cristo rejeita\nO contrito pecador!"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Aceitai, pois, sem limite,\nA divina compaixão!\nDeus estende Seu convite,\nAbraçai a salvação!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":85,
+            "titulo":"Lindo És, Meu Mestre",
+            "titulo_ingles":"Schonster Herr Jesu, herrscher aller Erden",
+            "numero":85,
+            "numero_view":"085",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"MUNSTER GESANGBUCH, 1677"
+                },
+                {
+                    "nome":"Melodia T Silesiana"
+                }
+            ],
+            "texto_biblico":"Salmo 45:2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Lindo és, meu Mestre,\nRei do Céu, da Terra!\nÓ Homem-Deus, Senhor Jesus!\nTeu é o reino, é Tua a honra,\nÉs minha glória e minha luz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Flores do campo, como sois tão lindas!\nSois o fulgor de prados mil!\nMais belo é Cristo, mais puro e lindo;\nÉ sempre meigo, bom, gentil."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Lua brilhante! Sol, tão resplendente!\nQuão divinal é vossa luz!\nMas há um brilho mais fulgurante:\nO brilho do Senhor Jesus."
+                }
+            ]
+        }
+        ,
+		{
+            "id":86,
+            "titulo":"Ó, Alegrai-vos, Filhos de Sião",
+            "titulo_ingles":"Thine Is the Glory",
+            "numero":86,
+            "numero_view":"086",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Ressurreição e Glorificação",
+            "autores":[
+                {
+                    "nome":"Edmond L. Budry (1854-1932)"
+                },
+                {
+                    "nome":"Georg F. Haendel (1685-1759)"
+                }
+            ],
+            "texto_biblico":"I Coríntios 15:54-57",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Ó, alegrai-vos, filhos de Sião!\nEis que vem raiando vossa redenção!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó, alegrai-vos filhos de Sião!\nEis que vem raiando vossa redenção.\nHonras e louvores dai ao Rei do Céu,\nPois a própria morte, Ele já venceu!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Glória ao nome santo de Jesus,\nQue ressuscitando, triunfou em luz.\nAnjos poderosos, cheios de esplendor,\nDeram glória a Cristo, o Conquistador!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ó Rei eterno, nosso grande Deus!\nJá venceste a morte, já estás nos Céus.\nMais que vencedores, faze-nos também,\nE Te louvaremos lá no lar de além!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":87,
+            "titulo":"O Meu Pastor é o Bom Jesus",
+            "titulo_ingles":"The Lord's My Shepherd",
+            "numero":87,
+            "numero_view":"087",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"SCOTTISH PSALTER. 1650"
+                },
+                {
+                    "nome":"Jessie S. Irvine (1836-1887)"
+                }
+            ],
+            "texto_biblico":"Salmo 23",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"O meu Pastor é o bom Jesus,\nJamais me deixará.\nÀs águas calmas me conduz,\nE me protegerá."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Jesus minh'alma quer nutrir,\nEm pastos de amor;\nE meu caminho dirigir,\nPor onde quer que for."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Com Seu cajado e Seu bordão\nJesus me guardará;\nE quando em vale de aflição,\nConsolo me dará."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Com óleo puro vem me ungir;\nNão mais terei temor.\nE para sempre habitarei\nNa casa do Senhor."
+                }
+            ]
+        }
+        ,
+		{
+            "id":88,
+            "titulo":"Achei um Grande Amigo",
+            "titulo_ingles":"I've Found a Friend in Jesus",
+            "numero":88,
+            "numero_view":"088",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"Charles W. Fry (1837-1882)"
+                },
+                {
+                    "nome":"Melodia Tradicional Inglesa"
+                }
+            ],
+            "texto_biblico":"João 15: 14 e 15",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Achei um grande Amigo, Jesus, o Salvador;\nContarei quão grandes coisas fez por mim.\nEstando eu perdido, indigno pecador,\nResgatou-me e agora eu sirvo a Ele enfim.\nE em Seu amor imenso, por mim morreu na cruz,\nE o perdão dos meus pecados outorgou.\nAssim me regozijo, vivendo em Sua luz;\nAleluia! Jesus Cristo me salvou!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Por este grande Amigo, desejo aqui viver,\nE com Ele sempre estar em comunhão;\nServi-Lo fielmente, seguindo Seu querer;\nVou a Cristo consagrar meu coração.\nSe o mundo me persegue, se tenho tentação,\nCom Jesus em minha vida, vencerei;\nE a cada dia Cristo conduz-me pela mão,\nE na Sua graça sempre confiarei."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Já vem chegando o dia, a Bíblia assim o diz,\nEm que Cristo a este mundo voltará;\nMomento mui alegre! Que dia tão feliz!\nSim, que dia esplendoroso então será!\nE assim com Ele sempre no Céu habitarei,\nJá liberto do pecado e da dor;\nE lá, constantemente, Seu rosto então verei,\nE estarei pra sempre junto ao Salvador."
+                }
+            ]
+        }
+        ,
+		{
+            "id":89,
+            "titulo":"Meu Redentor, Meu Amigo e Irmão ",
+            "titulo_ingles":"Longing",
+            "numero":89,
+            "numero_view":"089",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":null
+                }
+            ],
+            "texto_biblico":"João 15:15",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Tenho saudades de Ti, meu Jesus!\nRaie depressa Teu dia de luz!\nJuntos no lar sempre morar!\nOh! que saudades que anseios!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Meu Redentor, meu Amigo e Irmão,\nÉs o meu Mestre divino!\nDe Ti me vêm bênçãos em profusão;\nJesus, tudo és para mim!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Nada no mundo me pode afastar\nNunca, do Mestre divino!\nTenho o desejo de sempre cantar;\nJesus, tudo és para mim!."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Mais do que o mar é profundo esse amor\nDe Cristo, o Mestre divino!\nSinto enlevar-me tão grande favor;\nJesus, tudo és para mim!"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Podem amigos aqui me trair,\nMas nunca o Mestre divino!\nSeu grande amor não me deixa cair;\nJesus, tudo és para mim!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":90,
+            "titulo":"A Voz de Jesus",
+            "titulo_ingles":null,
+            "numero":90,
+            "numero_view":"090",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"J. M. S."
+                },
+                {
+                    "nome":"Jonas M. de Souza (1916-2004)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 3:20",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eu ouvi mui doce a falar-me co'amor;\nA divina voz de Jesus:\n''Ô querido filho. sou teu Salvador\nDeixa as trevas, vem para a luz.''\nDesprezei o mundo e a Jesus me entreguei,\nDei-Lhe todo o meu coração.\nSó então a paz celestial desfrutei;\nNEle eu encontrei salvação."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Hoje Sua voz com ternura me diz:\n''Alcançaste pleno perdão.\nDize a todos que Eu te tornei mui feliz,\nE que ao mundo dou salvação.''\nConsagrado a Ele desejo anunciar\nSeu incomparável amor.\nPela Sua graça está pronto a aceitar,\nAté o mais vil pecador"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Tenho a mais ditosa esperança de ouvir\nSua linda voz musical,\nSalvo já na glória do eterno porvir,\nLá na pátria celestial.\nPara o eterno lar, afinal, partirei;\nEste mundo não me seduz.\nCom os santos anjos ali viverei,\nSempre ouvindo a voz de Jesus."
+                }
+            ]
+        }
+        ,
+		{
+            "id":91,
+            "titulo":"Jesus é Melhor",
+            "titulo_ingles":"I'd Rather Have Jesus",
+            "numero":91,
+            "numero_view":"091",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"Rhea F. Miller (1894-1966)"
+                },
+                {
+                    "nome":"George B. Shea (1909- )"
+                }
+            ],
+            "texto_biblico":"Apocalipse 3:20",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Pode ser um rei com poder nas mãos,\nMas do mal escravo, sim.\nMil vezes prefiro o meu Jesus,\nE servi-lo até o fim."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Jesus é melhor, sim, que ouro e bens.\nJesus é melhor do que tudo que tens;\nMelhor que riquezas e posições;\nMelhor muito mais do que milhões"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Jesus é melhor que qualquer valor;\nAmigo leal, no prazer e na dor;\nMelhor do que tudo, Ele é pra mim,\nMelhor que qualquer amigo, enfim."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Jesus é mais puro que a linda flor;\nJesus é o Sol da Justiça e do amor;\nJesus é a fonte que satisfaz,\nCaminho do bem, verdade e paz."
+                }
+            ]
+        }
+        ,
+		{
+            "id":92,
+            "titulo":"Eu Te Amo, Meu Mestre ",
+            "titulo_ingles":"I Love Thee",
+            "numero":92,
+            "numero_view":"092",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"CRISTIAN HARMONY, 1805"
+                },
+                {
+                    "nome":"Melodia Tradicional Americana"
+                }
+            ],
+            "texto_biblico":"João 21:15",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eu Te amo, meu Mestre, meu bom Salvador;\nNão posso em palavras contar este amor.\nEu Te amo deveras, pra sempre direi;\nE pelos meus atos o confirmarei."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Que grande ventura, que glória, meu Deus,\nSaber que em breve eu vou para os Céus!\nDe longe diviso as glórias do além;\nOh, como eu almejo fruí-las também!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Teu nome eu exalto, ó Rei de Salém,vPois sempre Teus filhos nos braços susténs.vEu quero louvar-Te, cantar Teu amor.\nEu Te amo, meu Mestre, meu bom Salvador."
+                }
+            ]
+        }
+         ,
+		{
+            "id":93,
+            "titulo":"Precioso é Jesus Para Min",
+            "titulo_ingles":"He Is So Precious to Me",
+            "numero":93,
+            "numero_view":"093",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"C. H. G."
+                },
+                {
+                    "nome":"Charles H. Gabriel (1856-1932)"
+                }
+            ],
+            "texto_biblico":"Filipenses 3:8",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Precioso é Jesus para mim,\nPrecioso é Jesus para mim.\nÉ meu Redentor meu fiel Protetor;\nPrecioso é Jesus para mim."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Precioso é Jesus, o meu Rei, Salvador;\nA Ele somente darei meu louvor.\nÉ fonte divina de força e vigor;\nPrecioso é Jesus para mim."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Jesus bate à porta do meu coração,\nE espera paciente, quer dar-me o perdão.\nQue Seu sacrifício não seja em vão;\nPrecioso é Jesus para mim."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Preciosas promessas eu tenho do Rei;\nCom Ele num lar perenal morarei;\nNum reino de luz Sua face verei;\nPrecioso é Jesus para mim."
+                }
+            ]
+        }
+        ,
+		{
+            "id":94,
+            "titulo":"Sou de Jesus Agora",
+            "titulo_ingles":"Now I Belong to Jesus",
+            "numero":94,
+            "numero_view":"094",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"N. J. C."
+                },
+                {
+                    "nome":"Norman J. Clayton (1903-1992)"
+                }
+            ],
+            "texto_biblico":"I Coríntios 6:20",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sou de Jesus agora,\nMeu é Jesus também;\nMeu Ele é agora,\nMeu para sempre. Amém."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Cristo me tem fiel amizade,\nNEle encontrarei real liberdade,\nPois sobre a cruz minh'alma comprou,\nDEle, por tanto, eu sou."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Cristo salvou-me; sinto em minha'alma\nGrata esperança e a mais doce calma.\nPra libertar-me o preço pagou,\nDEle, portanto, eu sou."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quando perdido em dor e pecado,\nCristo salvou-me, fui libertado.\nVida eternal Jesus me outorgou,\nDEle, portanto, eu sou."
+                }
+            ]
+        }
+        ,
+		{
+            "id":95,
+            "titulo":"Cristo é Tudo Para Mim",
+            "titulo_ingles":"Jesus Is All the World to Me",
+            "numero":95,
+            "numero_view":"095",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"W. L. T."
+                },
+                {
+                    "nome":"Will L. Thompson (1847-1909)"
+                }
+            ],
+            "texto_biblico":"Filipenses 3:7 e 8",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Cristo é tudo para mim: viver, sonhar, cantar;\nÉ minha força, meu bordão, sem Ele, que penar!\nQuando em pesar a Ele vou, pois meu Jesus jamais falhou.\nQuando em pesar, faz-me alegrar; Cristo é meu!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Cristo é tudo para mim: Amigo em aflição.\nEu dEle bênçãos vou buscar, e dá-me em profusão.\nEnvia chuva, sol e luz, colheita farta, dons a flux;\nSol, chuva e luz, bênçãos a flux, Cristo é meu!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Cristo é tudo para mim; leal eu Lhe serei.\nEle é amigo tão fiel! Jamais O negarei.\nQuando ao Seu lado, alegre vou; em Sua mão seguro estou;\nSó com Jesus tudo reluz; Cristo é meu!"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Cristo é tudo para mim; só Ele satisfaz.\nA confiança nEle pus, não mais me falta paz.\nTendo a Jesus comigo assim, minha alegria não tem fim:\nVida eternal, livre do mal! Cristo é meu!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":96,
+            "titulo":"A Cristo Eu Amo",
+            "titulo_ingles":"That's Why I Love Him",
+            "numero":96,
+            "numero_view":"096",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"S. L."
+                },
+                {
+                    "nome":"Scott Lawrence"
+                }
+            ],
+            "texto_biblico":"I João 4:14-16",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"A Cristo eu amo; oh, quanto o amo!\nNa cruz a vida Ele deu!\nCom Seu sangue, Jesus me salvou, assim,\nE em gratidão sou Seu."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Cristo é tudo para mim: viver, sonhar, cantar;\nÉ minha força, meu bordão, sem Ele, que penar!\nQuando em pesar a Ele vou, pois meu Jesus jamais falhou.\nQuando em pesar, faz-me alegrar; Cristo é meu!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Oh! que alegria é servir a Jesus;\nDesejo amá-Lo mais;\nSempre com Ele, eu vivo na luz;\nDesejo amá-Lo mais."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Bem cedo ao Céu Ele me levará,\nDesejo amá-Lo mais;\nEternamente Ele me guiará;\nDesejo amá-Lo mais."
+                }
+            ]
+        }
+        ,
+		{
+            "id":97,
+            "titulo":"Meu Divino Protetor",
+            "titulo_ingles":"Jesus, Lover of My Soul",
+            "numero":97,
+            "numero_view":"097",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"Charles Wesley (1707-1788)"
+                },
+                {
+                    "nome":"Simeon B. Marsh (1798-1975)"
+                }
+            ],
+            "texto_biblico":"Salmo 46:1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Meu divino Protetor, quero em Ti me refugiar,\nPois as ondas de terror ameaçam me tragar!\nQuase estou a perecer! Dá-me a Tua proteção!\nPois guardado em Teu poder, não receio o furacão!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"És amparo, meu Jesus ! Sem alento venho a Ti.\nNão me deixes sem a luz que ilumina a senda aqui.\nEu confio em Teu amor e na Tua compaixão;\nÉs meu forte defensor; que me ampare Tua mão."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Graça imensa em Ti se achou, para tudo perdoar;\nSangue Teu se derramou, nele quero me lavar.\nFonte és de todo bem; dá-me sempre de beber!\nConfortar minh'alma vem; quero em Teu amor viver."
+                }
+            ]
+        }
+        ,
+		{
+            "id":98,
+            "titulo":"Por Que me Amou Assim?",
+            "titulo_ingles":null,
+            "numero":98,
+            "numero_view":"098",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"R. H."
+                },
+                {
+                    "nome":"Robert Harkness (1880-1961)"
+                }
+            ],
+            "texto_biblico":"Hebreus 12:2 e 3",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Por que me amou assim?\nPor que me amou assim?\nPor que sofreu meu Jesus por mim?\nPor que me amou assim?"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Morte cruel padeceu meu Jesus;\nPor que me amou assim?\nEu merecera sofrer nessa cruz;\nPor que me amou assim?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Foi meu pecado que O crucificou;\nPor que me amou assim?\nPara salvar-me, que dor suportou!\nPor que me amou assim?"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Oh! que agonia, que grande aflição!\nPor que me amou assim?\nHei de aceitar tão imenso perdão!\nPor que me amou assim?"
+                }
+            ]
+        }
+        ,
+		{
+            "id":99,
+            "titulo":"Noventa e Nove Ovelhas",
+            "titulo_ingles":"The Ninety and Nine",
+            "numero":99,
+            "numero_view":"099",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"Elizabeth C. Clephane (1830-1869)"
+                },
+                {
+                    "nome":"Ira D. Sankey (1840-1908)"
+                }
+            ],
+            "texto_biblico":"Lucas 15:4-7",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Noventa e nove ovelhas há, seguras no curral,\nMas uma longe se afastou do aprisco pastoral;\nA errar nos montes de terror, distante do fiel Pastor,\nDistante do fiel Pastor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"''Com tantas outras, bom Pastor, não Te contestarás?''\n''A errante é Minha'', replicou, ''pertence-Me a fugaz.\nVou ao deserto procurar a ovelha que ouço em dor balar,\nA ovelha que ouço em dor balar.''"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Nenhum remido imaginou quão negra escuridão,\nQuão fundas águas que passou, trazendo a salvação.\nE quando foi pra socorrer, a errante estava a perecer,\nA errante estava a perecer."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"''Por toda a estrada donde vens, que sangue enxergo ali?''\n''Busquei a ovelha com dolor, o sangue Meu verti.''\n''Ferida vejo a tua mão.''\n''A angústia encheu-Me o coração,\nA angústia encheu-Me o coração.''"
+                }
+                ,
+                {
+                    "numero":"V",
+                    "estrofe":"Nenhum remido imaginou quão negra escuridão,\nQuão fundas águas que passou, trazendo a salvação.\nE quando foi pra socorrer, a errante estava a perecer,\nA errante estava a perecer."
+                }
+            ]
+        }
+        ,
+		{
+            "id":100,
+            "titulo":"Há um Amigo",
+            "titulo_ingles":"Somebody Cares",
+            "numero":100,
+            "numero_view":"100",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"Fannie E. Stafford"
+                },
+                {
+                    "nome":"Homer A. Rodeheaver (1880-1955)"
+                }
+            ],
+            "texto_biblico":"Salmo 37:5",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Há um amigo que sabe dos ais que da alma se vão,\nE no momento oportuno os torna em suave canção.\nHá um amigo que sabe tuas tristezas e dor;\nEle deseja mostrar-te o Seu inefável amor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Há um amigo que sabe que o mal anda sempre ao redor;\nSente também suas dores; das quedas te ergue co'amor.\nQuando estás fraco e abatido, muito distante a vagar,\nHá um amigo que aguarda do pródigo filho voltar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Há um amigo que te ama, se forte, se fraco tu estás.\nNunca abandona um Seu filho nas mãos do inimigo voraz.\nDe Sua vista, distante, nunca tu estás, meu irmão.\nQual é Seu nome, perguntas? - Jesus, que nos dá salvação!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":101,
+            "titulo":"Não Há Nome Mais Amável",
+            "titulo_ingles":"There's No Other Name Like Jesus",
+            "numero":101,
+            "numero_view":"101",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"F. E. B."
+                },
+                {
+                    "nome":"Franklin E. Belden (1858-1945)"
+                }
+            ],
+            "texto_biblico":"Salmo 113:1-3",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Jesus! Jesus!\nNão há nome mais amável!\nJesus! Jesus!\nNome santo e venerável."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Outro nome não existe\nComo o nome de Jesus;\nEle a glória é dos anjos,\nDos cristãos fiéis, a luz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Outro nome não existe,\nQuando aflito o coração.\nNele encontro segurança,\nPaz, amor, consolação."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Sempre abrigo esta esperança,\nQuando Cristo aqui voltar,\nDe Lhe ver o lindo rosto\nE de ouvi-Lo a me chamar."
+                }
+            ]
+        }
+        ,
+		{
+            "id":102,
+            "titulo":"Que Grande Amigo!",
+            "titulo_ingles":"I've Found a Friend",
+            "numero":102,
+            "numero_view":"102",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"James G. Snall (1817-1888)"
+                },
+                {
+                    "nome":"George C. Stebbins (1846-1945)"
+                }
+            ],
+            "texto_biblico":"Provérbios 18:24",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Que grande Amigo é meu Jesus,\nTão bom, leal e terno!\nSem outro igual, é Seu poder,\nE Seu amor superno.\nPara esta ovelha sem vigor\nOlhou com simpatia,\nE Sua tão bondosa mão\nServiu-me então de guia."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Que grande Amigo é meu Jesus,\nDe longe quis buscar-me!\nDesceu do Céu, sofreu, morreu,\nA fim de resgatar-me!\nAs glórias mil do santo lar\nRenovam meu alento,\nPois breve irei ali obter\nO Seu acolhimento."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Que grande Amigo é meu Jesus,\nMeu Guia tão prudente,\nMeu Protetor tão ideal,\nMeu Rei eternamente!\nJesus é meu e dele eu sou\nPor tempo, sim, eterno;\nPois logo irei fruir no Céu\nDo Seu favor paterno."
+                }
+            ]
+        }
+        ,
+		{
+            "id":103,
+            "titulo":"Nome Precioso",
+            "titulo_ingles":"Take the Name of Jesus With You",
+            "numero":103,
+            "numero_view":"103",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"Lydia Baxter (1809-1874)"
+                },
+                {
+                    "nome":"William H. Doane (1832-1915)"
+                }
+            ],
+            "texto_biblico":"Isaías 9:6",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Nome bom, doce à fé,\nA esperança do porvir;\nNome bom, doce à fé,\nA esperança do porvir."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Leva tu contigo o nome\nDe Jesus, o Salvador,\nEste nome dá consolo,\nSeja no lugar que for."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Este nome, leva, sempre,\nPara bem te defender.\nEle é arma ao teu alcance,\nQuando o mal te aparecer."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Oh! que nome tão precioso!\nTraz conforto ao coração.\nSendo Por Jesus aceito,\nHás de ter o Seu perdão."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Nome Santo e venerável,\nCristo, Príncipe da paz!\nRei dos reis, Senhor eterno!\nLá no Céu o aclamarás!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":104,
+            "titulo":"Jesus, Teu Nome Satisfaz",
+            "titulo_ingles":"The Name of Jesus Is So Sweet",
+            "numero":104,
+            "numero_view":"104",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"W. C. Martin (séc. XIX)"
+                },
+                {
+                    "nome":"Edmund S. Lorenz (1854-1942)"
+                }
+            ],
+            "texto_biblico":"Filipenses 2:9 e 11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Cristo, nome de valor!\nCristo, forte Redentor!\nCristo, sumo e bom Pastor,\nLouvar-Te-ei pra sempre!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Jesus, Teu nome satisfaz;\nPor toda a Terra espalha paz;\nPrazer infindo e vida traz,\nJesus, Senhor amado!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Com Teu poder, é Salvador,\nAo coração tão sofredor\nConcedes forças e vigor,\nJesus, Senhor amado!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Se fraco estou, em tentação,\nPoder me vem de Tua mão\nSe busco a Ti em oração,\nJesus, senhor amado!"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Jesus, Teu nome é sem igual,\nTão meigo e bom, gentil, leal!\nÉs meu Pastor celestial,\nJesus, Senhor amado!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":105,
+            "titulo":"A Terna Voz do Salvador",
+            "titulo_ingles":"The Great Physician Now Is Near",
+            "numero":105,
+            "numero_view":"105",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"William Hunter (1811-1877)"
+                },
+                {
+                    "nome":"John H. Stockton (1813-1877"
+                }
+            ],
+            "texto_biblico":"Filipenses 2:9 e 11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Nunca dos homens se ouvirá,\nMesmo no Céu de amor e luz,\nCom tanto ardor mais doce som,\nQue o nome de Jesus!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"A terna voz do Salvador\nCom graça nos convida,\nChamando-nos em Seu amor,\nQuerendo dar-nos vida."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Do cálice da amarga dor,\nNão foi Jesus poupado,\nA fim de dar ao pecador\nPerdão do seu pecado."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Por essa grande salvação,\nRendei louvor ardente!\nÉ digna de celebração,\nAgora e eternamente!"
+                }
+            ]
+        }
+
+        ,
+		{
+            "id":105,
+            "titulo":"A Terna Voz do Salvador",
+            "titulo_ingles":"The Great Physician Now Is Near",
+            "numero":105,
+            "numero_view":"105",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"William Hunter (1811-1877)"
+                },
+                {
+                    "nome":"John H. Stockton (1813-1877)"
+                }
+            ],
+            "texto_biblico":"Filipenses 2:9 e 11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Nunca dos homens se ouvirá,\nMesmo no Céu de amor e luz,\nCom tanto ardor mais doce som,\nQue o nome de Jesus!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"A terna voz do Salvador\nCom graça nos convida,\nChamando-nos em Seu amor,\nQuerendo dar-nos vida."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Do cálice da amarga dor,\nNão foi Jesus poupado,\nA fim de dar ao pecador\nPerdão do seu pecado."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Por essa grande salvação,\nRendei louvor ardente!\nÉ digna de celebração,\nAgora e eternamente!"
+                }
+            ]
+        }
+        ,
+		{
+            "id":106,
+            "titulo":"Amigo Mui Precioso",
+            "titulo_ingles":"My Lord and I",
+            "numero":106,
+            "numero_view":"106",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Pastor e Amigo",
+            "autores":[
+                {
+                    "nome":"Mary A. Shorey (1851- ?)"
+                },
+                {
+                    "nome":"Hubert P. Main (1839-1925)"
+                }
+            ],
+            "texto_biblico":"João 15: 14 e 15",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Amigo mui precioso eu tenho em meu Jesus;\nEnvolve-me seu doce amor, meus pés no bem conduz.\nSem Ele aqui não posso andar, até chegar ao Céu;\nAssim andamos juntos: Jesus e eu."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Por vezes sou tentado nas lutas e na dor,\nEntão Jesus me mostra a mão ferida por amor.\nDe Seu amor a prova deu, por mim na cruz morreu;\nE juntos nós andamos: Jesus e eu."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Eu conto-Lhe tristezas, e todo o meu prazer;\nEm Seu amor encontro a paz, e forças pra viver;\nE enquanto sigo rumo ao lar, irei ao lado Seu,\nPois juntos nós andamos: Jesus e eu."
+                }
+            ]
+        }
+        
     ],
     "categorias":[
         {
@@ -1034,7 +4346,7 @@
                     "hinos":"391 - 411"
                 },
                 {
-                    "titulo":"oração e Comunhão",
+                    "titulo":"Oração e Comunhão",
                     "hinos":"412 - 427"
                 },
                 {

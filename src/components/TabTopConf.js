@@ -29,7 +29,7 @@ const TabText = styled.Text`
 `;
 
 
-const Scroller = styled.ScrollView`
+const Scroller = styled.View`
 `;
 
 const TabTop = styled.View`

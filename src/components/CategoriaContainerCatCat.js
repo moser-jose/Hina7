@@ -4,41 +4,37 @@ import styled from 'styled-components/native';
 import categoria from '../api/hinario.json';
 import {useNavigation,useRoute} from '@react-navigation/native';
 const CategoriaHol = styled.View`
-    flex-direction:row;
     margin-top:10px;
     height:70px;
     margin-right:10px;
+    width:50%;
 `;
 
 const CategoriaContainer = styled.View`
-    flex-direction:row;
     elevation:2;
     overflow:hidden;
-    height:70px;
     border-radius:2px;
-    
-`; 
-
-const CategoriaBotao = styled.TouchableOpacity`
-    flex-direction:row;
-    position:absolute;
-    align-self:center;
-    padding: 0 10px;
+    height:70px;
     width:100%;
 `; 
 
-const CategoriaBotaoRigth= styled.View`
-    align-self:center;
-`;
+const CategoriaBotao = styled.TouchableOpacity`
+    flex:1;
+    flex-direction:row;
+    position:absolute;
+    padding: 0 10px;
+    width:100%;
+    height:70px;
+    align-items:center;
+    justify-content:center;
+`; 
 
 const CategoriaText = styled.Text`
     color:#fff;
-    font-size:18px;
+    font-size:16px;
     letter-spacing: 1px;
     font-family:"Poppins-Bold";
     text-align:center;
-    
-    
 `; 
 
 
@@ -54,6 +50,7 @@ export default() =>{
         <FlatList 
             showsVerticalScrollIndicator={false}
             data={categoria.categorias}
+            numColumns={2}
             keyExtractor={(item, index) => item.categoria}/* 
             contentContainerStyle={{flexGrow:1}} */
             showsVerticalScrollIndicator={false}
@@ -120,11 +117,9 @@ export default() =>{
                         <Image source={getBackgroundSource(background)} style={{height:70,resizeMode: "cover" }}>
                         </Image>
                     <CategoriaBotao onPress={handleClick}>
-                        <CategoriaBotaoRigth >
                             <CategoriaText>
                                 {categoria}
                             </CategoriaText>
-                        </CategoriaBotaoRigth>
                     </CategoriaBotao>
                 </CategoriaContainer>
             </CategoriaHol>

@@ -6,16 +6,19 @@ import Logo from '../../../assets/img/logo.svg';
 import {  } from './styles';
 
 const Scroller = styled.ScrollView`
-background-color:${props=>props.theme.background};
-flex:1;
-`;
-const Container = styled.View`
-    padding: 0 20px;
+    background-color:${props=>props.theme.background};
+    padding:20px 20px 0 20px;
     position: relative;
+    flex:1;
+`;
+const Container = styled.SafeAreaView`
+    flex:1;
+    background-color:${props=>props.theme.background};
+    
 `;
 
 const Versao = styled.View`
-    margin-top:30px;
+margin-top:20px;
 `;
 
 const VersaoTexto = styled.Text`
@@ -51,7 +54,7 @@ const SobreTexto = styled.Text`
     color:${props=>props.theme.title};
     font-size: 16px;
     letter-spacing: 1px;
-    margin:20px 0;
+    margin:20px 0 10px;
 `;
 
 const SobreContaneir = styled.View`
@@ -68,7 +71,7 @@ const SobreTextoCenterAutor = styled.Text`
     font-family:"Poppins-Bold";
     letter-spacing: 1px;
     text-align:center;
-    margin-top:30px;
+    margin-top:20px;
 `;
 
 
@@ -83,9 +86,10 @@ const SobreTextoCenterAutorT = styled.Text`
 
 export default () => {
     return(
-        <Scroller>
+        <Container>
             <TabTopConf Texto={"Sobre a App"}></TabTopConf>
-                <Container>
+                
+                    <Scroller showsVerticalScrollIndicator={false}>
                 <Logo width="100%" height="90" />
                 <TituloApp>
                     <TituloBold>Hinário</TituloBold>
@@ -93,20 +97,8 @@ export default () => {
                 </TituloApp>
 
                 <SobreTexto>
-                São mais de 600 hinos, para louvor e adoração a Deus, tira o maior proveito
+                São mais de 600 hinos, que podem ser entoados não apenas no culto congregacional mas também no culto familiar, nas reuniões de jovens, na devoção particular e muito mais. Tira o maior proveito. Deus o abençoe.
                 </SobreTexto>
-
-                <SobreContaneir >
-                    <SobreTextoCenterAutor>
-                        Autor:
-                    </SobreTextoCenterAutor>
-                    <SobreContaneirBotao onPress={() => Linking.openURL('https://github.com/moser-jose?tab=repositories')}>
-                        <SobreTextoCenterAutorT>
-                            @moser-jose
-                        </SobreTextoCenterAutorT>
-                    </SobreContaneirBotao>
-                </SobreContaneir>
-
                 <SobreContaneir >
                     <SobreTextoCenterAutor>
                         Agradecimentos:
@@ -129,13 +121,25 @@ export default () => {
                     </SobreContaneirBotao>
                 </SobreContaneir>
 
+                <SobreContaneir >
+                    <SobreTextoCenterAutor>
+                        Envie sugestões para:
+                    </SobreTextoCenterAutor>
+                    <SobreContaneirBotao onPress={() => Linking.openURL('mailto:hina7@gmail.com')}>
+                        <SobreTextoCenterAutorT>
+                        hina7@gmail.com
+                        </SobreTextoCenterAutorT>
+                    </SobreContaneirBotao>
+                </SobreContaneir>
+
                 
-                </Container>
+                
                 <Versao>
                     <VersaoTexto>
-                        Versão 1.0.0
+                        Versão 1.0.1
                     </VersaoTexto>
                 </Versao>
         </Scroller>
+        </Container>
     );
 }
