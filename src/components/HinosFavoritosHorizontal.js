@@ -1,7 +1,10 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
+import FavoritesIcon from '../assets/img/favorites.svg';
 import hinario from '../api/hinario.json';
+import getRealm from '../api/realm/realm';
 import {useNavigation} from '@react-navigation/native';
+
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
     margin-top:10px;
@@ -53,8 +56,13 @@ const FavoritoAutor = styled.View`
     margin-top:2px;
     justify-content:space-between;
     
-`;
-
+`; 
+const Favoritos = styled.View`
+    align-self:center;
+`; 
+const FavoritosBotao = styled.View`
+    
+`; 
 const Autores = styled.View`
     
     justify-content:flex-end;
@@ -73,6 +81,7 @@ const TextoBiblico = styled.Text`
     font-size:10px;
     text-align:right;
     margin-top:2px;
+    
     padding-right:40px;
     align-self:center;
     font-family:"Poppins-Italic";
@@ -84,15 +93,39 @@ export default() =>{
     
     const navigation=useNavigation();
     const [list, setList]=useState([]);
+   async function handlerActClickf(){
+    const realm =await getRealm();
+    const d = realm.objects('Favoritos').filtered('favorito=true');
+    var dataObj = hinario.hinos;
+    var dataObj2 = [];
+    var datad='{"hinos":[';
+    var dataf="";
+    for (let p=0; p<d.length; p++) {
+        dataObj2=dataObj.filter((item, key)=>item.id==d[p].id);
+        const vb=JSON.stringify(dataObj2);
+        const lo=vb.slice(1,-1);
+        if(d.length-1==p){
+            dataf+=lo;
+        }
+        else{
+            dataf+=lo+",";
+        }
+    }
+    var go=datad+dataf+"]}"
+    var ad=JSON.parse(go);
+    setList(ad.hinos);
+}
+    
+   
     
     useEffect(()=> {
-        setList(hinario.hinos);
+        handlerActClickf();
     }, []);
     return(
         <FlatListUp 
         horizontal
         showsHorizontalScrollIndicator={false}
-        data={hinario.hinos}
+        data={list}
         keyExtractor={(item) => item.titulo}
         showsVerticalScrollIndicator={false}
         renderItem={HinosGet}>
@@ -128,6 +161,11 @@ export default() =>{
                                 <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
                             </BotaoTitulo>
                             <FavoritoAutor>
+                                {/* <Favoritos>
+                                    <FavoritosBotao>
+                                    <FavoritesIcon fill="#29C17E"/>
+                                    </FavoritosBotao>
+                                </Favoritos> */}
                                     <TextoBiblico>{texto_biblico}</TextoBiblico>
                                 <Autores>
                                     <FlatListUp 

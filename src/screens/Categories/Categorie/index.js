@@ -19,7 +19,7 @@ export default () => {
     return(
         
            <Tudo>
-                <TabTopConf Texto={"Sub-Categorias"}></TabTopConf>
+                <TabTopConf Texto={"Sub-Secções"}></TabTopConf>
                 <Tudol>
                     <SubCategoria></SubCategoria>
                 </Tudol>

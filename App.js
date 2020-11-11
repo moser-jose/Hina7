@@ -41,7 +41,7 @@ export default () => {
       barStyle={state.theme.statusBarStyle }
       backgroundColor={state.theme.container}   />
       <NavigationContainer>
-        <MainStack state={state.theme.container}/>
+        <MainStack  state={state.theme.container}/>
       </NavigationContainer>
     </ThemeProvider>
   );

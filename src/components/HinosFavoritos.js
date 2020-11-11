@@ -8,7 +8,7 @@ import SearchIcon from '../assets/img/search.svg';
 import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
 import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 
-
+import getRealm from '../api/realm/realm';
 const HinoPesq = styled.SafeAreaView`
    
 `;
@@ -66,13 +66,6 @@ const FavoritoAutor = styled.View`
     justify-content:space-between;
     flex:1;
 `; 
-const Favoritos = styled.View`
-    align-self:center;
-`; 
-const FavoritosBotao = styled.View`
-    
-`; 
-
 
 const Autores = styled.View`
 `; 
@@ -103,53 +96,6 @@ const IconLoading = styled.ActivityIndicator`
 const Div = styled.View`
 
 `;
-
-
-
-
-const PesquisarConp = styled.View`
-    background-color:${props=>props.theme.container};
-    flex-direction:row;
-    height: 50px;
-    elevation:4;
-    margin:10px .5px;
-    justify-content:space-between;
-    padding:0 5px;
-    border-radius:2px;
-`;
-
-const PesquisarConpLeft = styled.View`
-    flex:8;
-`;
-
-const PesquisarConpMiddle = styled.View`
-    flex-direction:row;
-    align-self:center;
-    justify-content:center;
-    
-`;
-const PesquisarCompMiddleBotao = styled.View`
-    
-`;
-
-
-const PesquisarConpRight = styled.View`
-    flex-direction:row;
-    justify-content:center;
-    align-self:center;
-    flex:1;
-    
-`;
-const PesquisarConpRightBotao = styled.TouchableOpacity`
-    
-`;
-const TextImput = styled.TextInput`
-    flex:1;
-    align-items:center;
-    font-size:16px;
-    color:${props=>props.theme.title};
-    background-color:${props=>props.theme.container};
-`;
 const FavoritosT = styled.View`
   
 `;
@@ -170,21 +116,12 @@ const FavoritosFText = styled.Text`
 export default() =>{
     const [data, setData]=useState([]);
     const [loading, setLoading]=useState(true);
-    const [query, setQuery]=useState("");
-    const [favoritos, setFavoritos]=useState(false);
-    const [favorited, setFavorited]=useState(false);
-
-    const getHinos=()=>{
-        setLoading(true);
-        setData(hinario.hinos);
-        setLoading(false);
-    }
     const navigation=useNavigation();
     filterItem = event => {
         var query = event.nativeEvent.text;
         setQuery(query);
         if (query == '') {
-            setData(hinario.hinos);
+            setData(data);
         } else {
           var dataObj = data;
           query = query.toLowerCase();
@@ -192,39 +129,39 @@ export default() =>{
           setData(dataObj);
         }
     };
-    
+
+    async function handlerActClickf(){
+        setLoading(true);
+        const realm =await getRealm();
+        const d = realm.objects('Favoritos').filtered('favorito=true');
+        var dataObj = hinario.hinos;
+        var dataObj2 = [];
+        var datad='{"hinos":[';
+        var dataf="";
+        for (let p=0; p<d.length; p++) {
+            dataObj2=dataObj.filter((item, key)=>item.id==d[p].id);
+            const vb=JSON.stringify(dataObj2);
+            const lo=vb.slice(1,-1);
+            if(d.length-1==p){
+                dataf+=lo;
+            }
+            else{
+                dataf+=lo+",";
+            }
+        }
+        var go=datad+dataf+"]}"
+        var ad=JSON.parse(go);
+        setData(ad.hinos);
+        setLoading(false);
+    }
     useEffect(()=> {
-        getHinos()
+        
+        handlerActClickf();
     }, []);
     return(
         <Div>
-            {favoritos ? 
+            {data !="" ? 
                 <FavoritosT>
-                <HinoPesq>
-                    <PesquisarConp>
-                            <PesquisarConpMiddle>
-                                <PesquisarCompMiddleBotao>
-                                    <SearchIcon fill="#8890A6"></SearchIcon>
-                                </PesquisarCompMiddleBotao>
-                            </PesquisarConpMiddle>
-                            <PesquisarConpLeft>
-                                <TextImput 
-                                placeholderTextColor="#aaa" 
-                                placeholder="Introduza o número do hino"
-                                autoCapitalize="none"
-                                autoCorrect={false}
-                                value={query}
-                                onChange={this.filterItem.bind(this)}
-                                ></TextImput>
-                            </PesquisarConpLeft>
-                            
-                            <PesquisarConpRight>
-                                <PesquisarConpRightBotao /* onPress={handleClickShowModal} */>
-                                    <FilterIcon></FilterIcon>
-                                </PesquisarConpRightBotao>
-                            </PesquisarConpRight>
-                        </PesquisarConp>
-                        </HinoPesq>
                 {loading && <IconLoading size="large"  color="#29c17e"></IconLoading>}
                 <FlatListUp 
                 
@@ -246,6 +183,7 @@ export default() =>{
     );
     function HinosGet(item){
         const {id,titulo,numero_view,titulo_ingles,autores,texto_biblico,coro,estrofes}=item.item;
+        
         const handleClick = () => {
             navigation.navigate('Hino',{
                 id:id,
@@ -272,11 +210,6 @@ export default() =>{
                             <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
                         </BotaoTitulo>
                         <FavoritoAutor>
-                            <Favoritos>
-                                <FavoritosBotao>
-                                    <FavoritosIconFull fill="#29C17E" ></FavoritosIconFull>
-                                </FavoritosBotao>
-                            </Favoritos>
                             <TextoBiblico>{texto_biblico}</TextoBiblico>
                             <Autores>
                                 <FlatListUp 

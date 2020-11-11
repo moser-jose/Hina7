@@ -1,6 +1,6 @@
 # `Hina7 é o Hinário Adventista do 7º Dia`
 
-Este projecto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, com os seus respectivos ``autores``, ``compositores`` e ``textos bíblicos``
+Este projecto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, com os seus respectivos ``autores``, ``compositores`` e ``textos bíblicos``, de forma totalmente organizada e com uma interface totalmente simples e interativa como nunca se viu.
 
 <p align="center">
     <img src="src/assets/img/logo.svg" width="30%">
@@ -9,9 +9,9 @@ Este projecto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``,
  <div align="center">
 
 [![Version](https://img.shields.io/github/package-json/v/moser-jose/Hina7)](https://github.com/moser-jose/Hina7)
-[![LastCommit](https://img.shields.io/github/last-commit/moser-jose/hina7)](https://github.com/moser-jose/Hina7)
+[![Last Commit](https://img.shields.io/github/last-commit/moser-jose/hina7)](https://github.com/moser-jose/Hina7)
 [![The MIT License](https://img.shields.io/github/license/moser-jose/Hina7)](http://opensource.org/licenses/MIT)
-
+[![Autor](https://img.shields.io/static/v1?label=autor&message=moser-jose&color=red)](https://github.com/moser-jose?tab=repositories)
 
 
 </div>

@@ -1,15 +1,13 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
-import FavoritesIcon from '../assets/img/favorites.svg';
 import hinario from '../api/hinario.json';
-import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 import {useNavigation} from '@react-navigation/native';
 import FilterIcon from '../assets/img/filter.svg';
 import SearchIcon from '../assets/img/search.svg';
-import ModalPesquisa from '../components/ModalPesquisa';
 import IconDown from '../assets/img/Icon_down.svg';
 import IconCheck from '../assets/img/Icon_check.svg';
 import IconUnCheck from '../assets/img/Icon_uncheck.svg';
+
 const HinoPesq = styled.SafeAreaView`
 
 `;
@@ -63,17 +61,9 @@ const TituloHinoIngles = styled.Text`
 const FavoritoAutor = styled.View`
     flex-direction:row;
     margin-top:2px;
-    padding:5px;
     justify-content:space-between;
     flex:1;
 `; 
-const Favoritos = styled.View`
-    align-self:center;
-`; 
-const FavoritosBotao = styled.TouchableOpacity`
-    
-`; 
-
 
 const Autores = styled.View`
 `; 
@@ -95,10 +85,6 @@ const TextoBiblico = styled.Text`
     font-family:"Poppins-Italic";
     color:${props=>props.theme.title};
 
-`;
-
-const IconLoading = styled.ActivityIndicator`
-    margin: 10px 0;
 `;
 
 const Div = styled.View`
@@ -235,36 +221,59 @@ const ModalFec =styled.View`
 export default() =>{
 
     const [data, setData]=useState([]);
-    const [loading, setLoading]=useState(true);
-    const [query, setQuery]=useState("");
+    const [loading, setLoading]=useState(false);
     const [pesquisa, setPesquisa]=useState(true);
     const [showModal, setShowModal]=useState(false);
+    const op=[];
     const getHinos=()=>{
-        setLoading(true);
         setData(hinario.hinos);
-        setLoading(false);
     }
     
 
     const navigation=useNavigation();
     
-    filterItem = event => {
-        var query = event.nativeEvent.text;
-        setQuery(query);
+    filterItem = query => {
+        /* var query = event.nativeEvent.text; */
+        /* setQuery(query); */
         if (query == '') {
             setData(hinario.hinos);
         } else {
-          var dataObj = data;
+          var dataObj = [];
           query = query.toLowerCase();
+          /* setQuery(query); */
           if(pesquisa){
-            dataObj = dataObj.filter(l => l.numero.toString().toLowerCase().match(query));
-          }
+            dataObj = data.filter(l => l.numero.toString().toLowerCase().match(query));
+            console.log(dataObj);
+            console.log(query);
+        }
           else{
             dataObj = dataObj.filter(l => l.titulo.toLowerCase().match(query));
           }
           
           setData(dataObj);
         }
+
+        
+    };
+
+    filtrar = query => {
+        if (query == '') {
+            return setData(hinario.hinos);
+        }
+        else{
+            const ob=hinario.hinos;
+            var newData=[];
+            if(pesquisa){
+                newData = ob.filter(item => {
+                    return item.numero==query;
+                });
+            }
+            else{
+                query = query.toLowerCase();
+                newData = ob.filter(l => l.titulo.toLowerCase().match(query));
+            }
+        }
+        setData(newData);
     };
 
     const handleClickShowModal =()=>{
@@ -282,8 +291,10 @@ export default() =>{
         setShowModal(false);
     }
     useEffect(()=> {
-        getHinos()
+       
+        getHinos();
     }, []);
+    
     return(
         <Div>
             <HinoPesq>
@@ -300,8 +311,10 @@ export default() =>{
                            placeholder="Introduza o número do hino"
                            autoCapitalize="none"
                            autoCorrect={false}
-                           value={query}
-                           onChange={this.filterItem.bind(this)}
+                           /* value={query} */
+                           
+                           /* onChange={this.filterItem.bind(this)} */
+                           onChangeText={query=>this.filtrar(query)}
                            ></TextImput>
                            :
                            <TextImput 
@@ -309,8 +322,8 @@ export default() =>{
                            placeholder="Introduza o titulo do hino"
                            autoCapitalize="none"
                            autoCorrect={false}
-                           value={query}
-                           onChange={this.filterItem.bind(this)}
+                           /* value={query} */
+                           onChangeText={query=>this.filtrar(query)}
                            ></TextImput>
                            }
                         </PesquisarConpLeft>
@@ -322,12 +335,13 @@ export default() =>{
                         </PesquisarConpRight>
                     </PesquisarConp>
                     </HinoPesq>
-            {loading && <IconLoading size="large"  color="#29c17e"></IconLoading>}
             <FlatListUp 
                 data={data}
                 keyExtractor={(item) => item.titulo}
                 showsVerticalScrollIndicator={false}
-                renderItem={HinosGet}>
+                renderItem={HinosGet}
+                maxToRenderPerBatch={20}
+                updateCellsBatchingPeriod={100}>
             </FlatListUp>
 
 
@@ -384,8 +398,8 @@ export default() =>{
         </Div>
         
     );
+    
     function HinosGet(item){
-
         const {id,titulo,numero_view,titulo_ingles,autores,texto_biblico,coro,estrofes}=item.item;
         const handleClick = () => {
             navigation.navigate('Hino',{
@@ -399,9 +413,10 @@ export default() =>{
                 estrofes:estrofes
             });
         }
+        
         return(
             <HinoContainerUp>
-                <Hino>
+                    <Hino>
                     <HinoLeft>
                         <HinoBotao onPress={handleClick}>
                             <NumeroHino>{numero_view}</NumeroHino>
@@ -413,11 +428,6 @@ export default() =>{
                             <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
                         </BotaoTitulo>
                         <FavoritoAutor>
-                            <Favoritos>
-                                <FavoritosBotao>
-                                <FavoritosIconWhite ></FavoritosIconWhite>
-                                </FavoritosBotao>
-                            </Favoritos>
                             <TextoBiblico>{texto_biblico}</TextoBiblico>
                             <Autores>
                                 <FlatListUp 

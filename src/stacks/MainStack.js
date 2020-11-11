@@ -9,7 +9,7 @@ import Sobre from '../screens/Configurations/Sobre';
 import Categorie from '../screens/Categories/Categorie';
 import HinosSubCategoria from '../screens/Hino/ListarHinosSubCategoria/HinosSubCategoria';
 import AllCategories from '../screens/Categories/AllCategories';
-
+import AllFavorites from '../screens/Favorites/AllFavorites';
 import HinosTodos from '../screens/Home/HinosTodos';
 const Stack = createStackNavigator();
 
@@ -29,6 +29,8 @@ export default () => (
         <Stack.Screen name="HinosSubCategoria" component={HinosSubCategoria} />
         <Stack.Screen name="AllCategories" component={AllCategories} />
         <Stack.Screen name="HinosTodos" component={HinosTodos} />
+        <Stack.Screen name="AllFavorites" component={AllFavorites} />
+        
         
         
     </Stack.Navigator>

@@ -41,7 +41,7 @@ export default ({nome}) => {
             navigation.navigate('AllCategories');
         }
         else{
-            navigation.navigate('HinosTodos');
+            navigation.navigate('AllFavorites');
         }
     }
 

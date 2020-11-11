@@ -30,11 +30,11 @@ export default () => {
     }
     const handleClickShare=()=>{
         Share.share({
-            title:"alguma coisa",
-            url:"www.google.com"/* ,
-            message:"ok vou partilhar" */
+            title:"Hina7",
+            url:"www.google.com",
+            message:"Instale o novo App do Hinário Adventista do 7º dia e desfrute do Hinário como nunca, faça o download em www.google.com"
         },{
-            dialogTitle:"ok estando partilhar"
+            dialogTitle:"Partilhe o App Hina7"
         })
     }
     return(

@@ -57,26 +57,9 @@ const FavoritoAutor = styled.View`
     justify-content:space-between;
     flex:1;
 `; 
-const Favoritos = styled.View`
-    align-self:center;
-`; 
-const FavoritosBotao = styled.TouchableOpacity`
-    
-`; 
-
 
 const Autores = styled.View`
 `; 
-    
-const Autor = styled.Text`
-    font-size:10px;
-    text-align:right;
-    margin-top:2px;
-    color:${props=>props.theme.title};
-`;
-const FlatListUp = styled.FlatList`
-    
-`;
 
 const TextoBiblico = styled.Text`
     font-size:10px;
@@ -127,11 +110,6 @@ export default({data}) =>{
                     <TituloHinoIngles>{list.titulo_ingles}</TituloHinoIngles>
                 </BotaoTitulo>
                 <FavoritoAutor>
-                    <Favoritos>
-                        <FavoritosBotao>
-                        <FavoritesIcon fill="#29C17E"/>
-                        </FavoritosBotao>
-                    </Favoritos>
                     <TextoBiblico>{list.texto_biblico}</TextoBiblico>
                         <Autores>
                             {autores.map((item, k)=>(

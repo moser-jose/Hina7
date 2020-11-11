@@ -11,6 +11,8 @@ import CategoriaHol from '../../components/CategoriaHol';
 
 
 import HinoContainerHorizontal from '../../components/HinoContainerHorizontal';
+import HinosFavoritosHorizontal from '../../components/HinosFavoritosHorizontal';
+
 import PartilharContainer from '../../components/PartilharContainer';
 
 
@@ -28,11 +30,11 @@ export default () => {
             <TextContTitulo  nome={"Hinos"}></TextContTitulo>
             <HinoContainerHorizontal ></HinoContainerHorizontal>
 
-            <TextContTitulo nome={"Categorias"} ></TextContTitulo>
+            <TextContTitulo nome={"Secções"} ></TextContTitulo>
             <CategoriaHol></CategoriaHol>
 
             <TextContTitulo nome={"Favoritos"}></TextContTitulo>
-            <HinoContainerHorizontal ></HinoContainerHorizontal>
+            <HinosFavoritosHorizontal ></HinosFavoritosHorizontal>
             <PartilharContainer>
                 
             </PartilharContainer>

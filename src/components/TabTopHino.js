@@ -7,6 +7,8 @@ import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 import IconLeft from '../assets/img/Icon_left.svg';
 import IconPoint from '../assets/img/Icon_menu_point_v.svg';
 
+import getRealm from '../api/realm/realm';
+
 const HinoContainer = styled.SafeAreaView`
 
 flex:1;
@@ -108,7 +110,7 @@ const Estrofe = styled.Text`
 
 const Coro = styled.Text`
    font-size:16px;
-   font-family:"Poppins-Bold";
+   font-family:"Poppins-Regular";
    margin-bottom:5px;
    color:${props=>props.theme.title};
 
@@ -138,12 +140,11 @@ export default() =>{
     const navigation=useNavigation();
     const route=useRoute();
     const [favorited, setFavorited]=useState(false);
-    const voltar =()=>{
-        navigation.goBack();
-    }
-    const handlerClick=() =>{
-        setFavorited(!favorited);
-    }
+   
+   
+
+    
+
 
    const [hinoInfo, setHinoInfo]=useState({
 
@@ -156,6 +157,54 @@ export default() =>{
         coro: route.params.coro,
         estrofes: route.params.estrofes
    });
+    async function SaveFavorites(hinoInfo, favor){
+        const data={
+            id:hinoInfo.id,
+            hino:hinoInfo.id,
+            titulo:hinoInfo.titulo,
+            favorito:favor,
+        };
+        const realm= await getRealm();
+
+        realm.write(()=>{
+            realm.create('Favoritos', data, 'modified');
+        });
+    }
+
+
+    async function RefreshFavorites(hinoInfo, favor){
+        await SaveFavorites(hinoInfo, favor);
+    }
+
+    async function handlerActClickf(){
+        const realm =await getRealm();
+        const dogs = realm.objects('Favoritos').filtered('id='+hinoInfo.id+'');
+        for (let p of dogs) {
+            setFavorited(p.favorito);
+        }
+    }
+
+    function handlerClick(){
+        if(favorited){
+            setFavorited(false);
+            RefreshFavorites(hinoInfo, false);
+        }
+        else{
+            setFavorited(true);
+            SaveFavorites(hinoInfo, true);
+        }
+        
+    }
+    function handlerActClick(){
+        handlerClick();
+    }
+    const voltar =()=>{
+        navigation.goBack();
+    }
+
+    useEffect(()=>{
+        handlerActClickf();
+    },[]);
 
     return(
         
@@ -175,7 +224,7 @@ export default() =>{
                 </TabTopTituloEng>
                 <TabTopTituloBase>
                     <TabTopTituloLeft>
-                        <TabTopTituloleftFavor onPress={handlerClick}>
+                        <TabTopTituloleftFavor onPress={handlerActClick}>
                             {favorited ?
                                 <FavoritosIconFull fill="#29C17E" ></FavoritosIconFull>
                                     :

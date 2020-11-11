@@ -8,23 +8,21 @@ import {Text, LogBox} from 'react-native';
 LogBox.ignoreAllLogs();
 import { 
     Container,
-    CategoriaContCont,
     Scroller
 } from './styles';
-import PartilharContainer from '../../components/PartilharContainer';
-import TabTop from '../../components/TabTopCustom';
-import CategoriaContainerCatCat from '../../components/CategoriaContainerCatCat';
+import TabTopConf from '../../../components/TabTopConf';
+import HinosFavoritos from '../../../components/HinosFavoritos';
 
 export default () => {
 
     return(
         
         <Container>
-            <TabTop titulo={"Secções"}></TabTop>
+            <TabTopConf Texto={"Hinos Favoritos"}></TabTopConf>
             <Scroller 
                 showsVerticalScrollIndicator={false}
             >
-                <CategoriaContainerCatCat></CategoriaContainerCatCat>
+                <HinosFavoritos></HinosFavoritos>
             </Scroller>
         </Container>
         
