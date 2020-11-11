@@ -20,10 +20,10 @@ Este projecto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``,
 ## Telas do App
 
 <p align="center">
-    <img src="src/assets/img/img_readme/home_white.png" width="20%">
-    <img src="src/assets/img/img_readme/categoria-white.png" width="20%">
-    <img src="src/assets/img/img_readme/home_dark.png" width="20%">
-    <img src="src/assets/img/img_readme/categoria-dark.png" width="20%">
+    <img src="src/assets/img/img_readme/light_home.png" width="20%">
+    <img src="src/assets/img/img_readme/light_seccoes.png" width="20%">
+    <img src="src/assets/img/img_readme/dark_home.png" width="20%">
+    <img src="src/assets/img/img_readme/dark_seccoes.png" width="20%">
 </p>
 
 
