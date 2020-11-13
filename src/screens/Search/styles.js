@@ -9,6 +9,6 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const Scroller = styled.ScrollView`
-    flex: 1;
+flex:1;
     padding:0 10px;
 `;

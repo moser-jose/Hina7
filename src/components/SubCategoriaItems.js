@@ -14,7 +14,7 @@ const SubCategoriaBotao = styled.TouchableOpacity`
 `;
 
 const SubCategoriaText = styled.Text`
-    font-size:18px;
+    font-size:14px;
     font-weight:bold;
     letter-spacing:1px;
     color:${props=>props.theme.title};

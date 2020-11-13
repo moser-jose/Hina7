@@ -13,16 +13,17 @@ const HinoPesq = styled.SafeAreaView`
 `;
 const HinoContainerUp = styled.View`
     flex-direction:row;
-    margin-top:10px;
-    height:90px;
+    background-color:${props=>props.theme.container};
+    border-radius:2px;
+    padding:8px;
+    margin:10px 1px 0 1px;
+    elevation:2;
+    width:100%;
 `;
 
 const Hino = styled.View`
     flex-direction:row;
-    width:100%;
-    elevation:2;
-    padding:4px;
-    background-color:${props=>props.theme.container};
+    
     overflow:hidden;
     `;
 const HinoLeft = styled.View`
@@ -37,7 +38,7 @@ const HinoBotao = styled.TouchableOpacity`
 `; 
 const NumeroHino = styled.Text`
     color:${props=>props.theme.title};
-    font-size:25px;
+    font-size:20px;
     font-weight:700;
     padding-right:10px;
 `; 
@@ -46,13 +47,13 @@ const BotaoTitulo = styled.TouchableOpacity`
 `; 
 const TituloHino = styled.Text`
     color:${props=>props.theme.title};
-    font-size:16px;
+    font-size:14px;
     letter-spacing: 1px;
     font-family:"Poppins-SemiBold";
 `; 
 const TituloHinoIngles = styled.Text`
     color:${props=>props.theme.title};
-    font-size:12px;
+    font-size:10px;
     font-family:"Poppins-LightItalic";
     letter-spacing: 1px;
     margin-top:-5px;
@@ -62,7 +63,6 @@ const FavoritoAutor = styled.View`
     flex-direction:row;
     margin-top:2px;
     justify-content:space-between;
-    flex:1;
 `; 
 
 const Autores = styled.View`
@@ -75,11 +75,10 @@ const Autor = styled.Text`
     color:${props=>props.theme.title};
 `;
 const FlatListUp = styled.FlatList`
-    
 `;
 
 const TextoBiblico = styled.Text`
-    font-size:10px;
+    font-size:8px;
     margin-top:2px;
     align-self:center;
     font-family:"Poppins-Italic";
@@ -221,7 +220,6 @@ const ModalFec =styled.View`
 export default() =>{
 
     const [data, setData]=useState([]);
-    const [loading, setLoading]=useState(false);
     const [pesquisa, setPesquisa]=useState(true);
     const [showModal, setShowModal]=useState(false);
     const op=[];
@@ -269,7 +267,7 @@ export default() =>{
                 });
             }
             else{
-                query = query.toLowerCase();
+                query=query.toLowerCase();
                 newData = ob.filter(l => l.titulo.toLowerCase().match(query));
             }
         }
@@ -340,8 +338,7 @@ export default() =>{
                 keyExtractor={(item) => item.titulo}
                 showsVerticalScrollIndicator={false}
                 renderItem={HinosGet}
-                maxToRenderPerBatch={20}
-                updateCellsBatchingPeriod={100}>
+                maxToRenderPerBatch={20}>
             </FlatListUp>
 
 

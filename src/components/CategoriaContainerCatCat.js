@@ -7,7 +7,8 @@ const CategoriaHol = styled.View`
     margin-top:10px;
     height:70px;
     margin-right:10px;
-    width:50%;
+    
+    width:48.5%;
 `;
 
 const CategoriaContainer = styled.View`

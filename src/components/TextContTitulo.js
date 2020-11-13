@@ -37,7 +37,7 @@ export default ({nome}) => {
         if(nome=="Hinos"){
             navigation.navigate('HinosTodos');
         }
-        else if(nome=="Categorias"){
+        else if(nome=="Secções"){
             navigation.navigate('AllCategories');
         }
         else{

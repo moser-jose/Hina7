@@ -1,4 +1,4 @@
-# `Hina7 é o Hinário Adventista do 7º Dia`
+# `Hinário Adventista do 7º Dia`
 
 Este projecto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, com os seus respectivos ``autores``, ``compositores`` e ``textos bíblicos``, de forma totalmente organizada e com uma interface totalmente simples e interativa como nunca se viu.
 

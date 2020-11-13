@@ -4,18 +4,19 @@ import hinario from '../api/hinario.json';
 import {useNavigation} from '@react-navigation/native';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
-    margin-top:10px;
-    height:90px;
+    margin:10px 1px 0;
+    padding: 8px;
+    border-radius:2px;
+    margin-right:10px;
+    elevation:2;
+    background-color:${props=>props.theme.container};;
 `;
 
 const Hino = styled.View`
     flex-direction:row;
-    elevation:2;
-    margin-right:10px;
-    padding:4px 8px;
-    background-color:${props=>props.theme.container};;
     
     overflow:hidden;
+    
 `; 
 const HinoLeft = styled.View`
     justify-content: center;
@@ -36,13 +37,13 @@ const BotaoTitulo = styled.TouchableOpacity`
 `; 
 const TituloHino = styled.Text`
     color:${props=>props.theme.title};
-    font-size:16px;
+    font-size:14px;
     letter-spacing: 1px;
     font-family:"Poppins-SemiBold";
 `; 
 const TituloHinoIngles = styled.Text`
     color:${props=>props.theme.title};
-    font-size:12px;
+    font-size:10px;
     font-family:"Poppins-LightItalic";
     letter-spacing: 1px;
     margin-top:-5px;
@@ -92,7 +93,7 @@ export default() =>{
         <FlatListUp 
         horizontal
         showsHorizontalScrollIndicator={false}
-        data={hinario.hinos}
+        data={list}
         keyExtractor={(item) => item.titulo}
         showsVerticalScrollIndicator={false}
         renderItem={HinosGet}>
