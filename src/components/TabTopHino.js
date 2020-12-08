@@ -140,11 +140,6 @@ export default() =>{
     const navigation=useNavigation();
     const route=useRoute();
     const [favorited, setFavorited]=useState(false);
-   
-   
-
-    
-
 
    const [hinoInfo, setHinoInfo]=useState({
 

@@ -5,10 +5,8 @@ export const Container = styled.SafeAreaView`
     background-color:${props=>props.theme.background};;
     flex: 1;
     position: relative;
-    padding-bottom:10px;
 `;
 
-export const Scroller = styled.ScrollView`
-flex:1;
+export const Scroller = styled.View`
     padding:0 10px;
 `;

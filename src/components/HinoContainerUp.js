@@ -8,8 +8,8 @@ import IconDown from '../assets/img/Icon_down.svg';
 import IconCheck from '../assets/img/Icon_check.svg';
 import IconUnCheck from '../assets/img/Icon_uncheck.svg';
 
-const HinoPesq = styled.SafeAreaView`
-
+const HinoPesq = styled.View`
+    width:100%;
 `;
 const HinoContainerUp = styled.View`
     flex-direction:row;
@@ -18,7 +18,6 @@ const HinoContainerUp = styled.View`
     padding:8px;
     margin:10px 1px 0 1px;
     elevation:2;
-    width:100%;
 `;
 
 const Hino = styled.View`
@@ -336,7 +335,7 @@ export default() =>{
             <FlatListUp 
                 data={data}
                 keyExtractor={(item) => item.titulo}
-                showsVerticalScrollIndicator={false}
+                showsVerticalScrollIndicator={true}
                 renderItem={HinosGet}
                 maxToRenderPerBatch={20}>
             </FlatListUp>

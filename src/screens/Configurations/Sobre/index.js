@@ -43,9 +43,9 @@ export default () => {
                             https://musicaeadoracao.com.br
                         </SobreTextoCenterAutorT>
                     </SobreContaneirBotao>
-                    <SobreContaneirBotao onPress={() => Linking.openURL('https://musicaeadoracao.com.br')}>
+                    <SobreContaneirBotao onPress={() => Linking.openURL('https://www.instagram.com/fabiosmoc/')}>
                         <SobreTextoCenterAutorT>
-                            @fabio-jose
+                            @fabiosmoc
                         </SobreTextoCenterAutorT>
                     </SobreContaneirBotao>
                
@@ -66,9 +66,9 @@ export default () => {
                     <SobreTextoCenterAutor>
                         Visite o Site em:
                     </SobreTextoCenterAutor>
-                    <SobreContaneirBotao onPress={() => Linking.openURL('mailto:hina7@gmail.com')}>
+                    <SobreContaneirBotao onPress={() => Linking.openURL('https://hinario-adventista.vercel.app/')}>
                         <SobreTextoCenterAutorT>
-                        hina7@gmail.com
+                        https://hinario-adventista.vercel.app/
                         </SobreTextoCenterAutorT>
                     </SobreContaneirBotao>
                 </SobreContaneir>

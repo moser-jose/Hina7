@@ -13366,6 +13366,1287 @@
                 }
             ]
         }
+        
+        ,
+        {
+            "id":334,
+            "titulo":"Sou Peregrino e Forasteiro",
+            "titulo_ingles":"I'm a Pilgrim",
+            "numero":334,
+            "numero_view":"334",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Peregrinação",
+            "autores":[
+                {
+                    "nome":"Mary S. B Diana (1810-1883)"
+                },
+                {
+                    "nome":"Melodia Tradicional Italiana"
+                }
+            ],
+            "texto_biblico":"Hebreus 11:13-16",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sou peregrino e forasteiro,\nUma noite aqui demoro e nada mais."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Sou peregrino e forasteiro,\nUma noite aqui demoro e nada mais. \nNão me detenhas, pois que vou indo\nPra onde há fontes sempre fluindo."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Oh! quanta glória lá brilha sempre!\nLá está meu anelante coração.\nAqui no mundo escuro e triste\nEu ando errante, e a dor existe."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Lá na cidade pra onde eu sigo,\nMeu Senhor, sim, meu Senhor é sua luz.\nLá não há pranto, não há tristeza,\nEm tudo há graça, real beleza."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Ó terra triste, eu vou deixar-te,\nMas um dia voltarás à perfeição.\nPor Cristo foste criada linda,\nE restaurada serás ainda."
+                }
+            ]
+        }
+        ,
+        {
+            "id":335,
+            "titulo":"Oh! Quão Doces as Novas",
+            "titulo_ingles":"How Sweet Are the Tidings",
+            "numero":335,
+            "numero_view":"335",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Peregrinação",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Melodia Tradicional Americana"
+                }
+            ],
+            "texto_biblico":"Hebreus 11:13-16",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sim, logo vem o bendito Salvador,\nVem Seu povo levar para o lar.\nPeregrinos, breve, hão de ao Céu subir\nE ao bom Rei, com louvor adorar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Oh! quão doces as novas ao triste viajor,\nEm exílio, distante do lar!\nMuito em breve virá Jesus Cristo, seu Senhor,\nE com Ele no reino há de entrar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ressurgindo os que dormem, da tumba sairão,\nPara ver o Senhor regressar.\nOh! que encontro feliz os remidos fruirão,\nQuando Cristo do Céu retomar!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Eis que o Éden perdido, de novo surgirá,\nAnte o toque da mão de Jesus;\nE do norte e do sul Cristo então recolherá\nOs remidos na pátria de luz."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Aleluia! Amém! Aleluia ao Rei Jesus!\nLogo mais estaremos no lar.\nMuito em breve, do Céu, com poder, em glória e luz,\nNós veremos Jesus regressar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":336,
+            "titulo":"Almejo o Lar",
+            "titulo_ingles":"Ich mochte Heim",
+            "numero":336,
+            "numero_view":"336",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Peregrinação",
+            "autores":[
+                {
+                    "nome":"Fredrich K Gerok (1815-1890)"
+                },
+                {
+                    "nome":"Josephine Lang (1815-1880)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 21:1-4",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Desejo ao lar, desejo ao lar,\nDesejo ao lar, ao lindo e eterno lar,\nSaudoso estou e canto em triste exílio:\nEu quero ao lar, ao doce lar!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Almejo o lar, paterno lar amado;\nDe meu Jesus ao peito estar;\nBem longe andar do mundo e do pecado,\nNo perenal e doce lar.\nCom sonhos mil eu comecei na lida,\nUm só, de todos, resta, em minha vida;\nMeu peito arde em forte desejar:\nAlmejo o lar, almejo o lar!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Almejo o lar; eu vi, em doce sonho,\nPaís melhor, a pátria além;\nMansões, jardins, e tudo tão risonho\nRefulge à luz, à paz e ao bem!\nNo mundo, aqui, as flores se murcharam,\nAs aves já seu ninho abandonaram,\nE a alma geme em triste suspirar:\nAlmejo o lar, almejo o lar!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Almejo o lar; o barco busca o porto;\nAs águas do regato, o mar.\nO filho vem da mãe ao seio, absorto;\nEu quero ir também ao lar.\nEm meu viver, em riso ou desventura,\nTambém cantei, e o eco só perdura,\nQual triste voz, dolente, a soluçar.\nAlmejo o lar, almejo o lar!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":337,
+            "titulo":"Sou Forasteiro Aqui",
+            "titulo_ingles":"The King's",
+            "numero":337,
+            "numero_view":"337",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Peregrinação",
+            "autores":[
+                {
+                    "nome":"Elijah T. Cassel (1849-1930)"
+                },
+                {
+                    "nome":"Flora H. Casel (1852-1911)"
+                }
+            ],
+            "texto_biblico":"Hebreus 11:13-16",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Eis a mensagem que nos deu,\nAquele que por nós morreu.\nReconciliai-vos já, é ordem que Ele dá,\nReconciliai-vos já, com Deus!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Sou forasteiro aqui, em terra estranha estou,\nDo reino lá do Céu embaixador eu sou.\nMeu Rei e Salvador vos manda em Seu amor\nAs boas novas de perdão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"É ordem do meu Rei que todo pecador,\nArrependido já, se volte ao Salvador,\nE salvação terá, pois Cristo prometeu\nDar o perdão, por Seu amor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"No meu eterno lar não haverá temor,\nNem lutas e aflições, nem mais tristeza ou dor;\nE os redimidos já, ali receberão\nAs boas-vindas do Senhor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":338,
+            "titulo":"Brilho Celeste",
+            "titulo_ingles":"Heavenly Sunlight",
+            "numero":338,
+            "numero_view":"338",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Peregrinação",
+            "autores":[
+                {
+                    "nome":"Henry J. Zelley (1859-1942)"
+                },
+                {
+                    "nome":"George H. Cook (1864-1948)"
+                }
+            ],
+            "texto_biblico":"Salmo 34:4 e 5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Brilho celeste! Brilho celeste!\nEnche minha alma, glória de Deus!\nAleluia! Sigo cantando,\nDando louvores, indo pra os Céus!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Peregrinando pelas montanhas,\nDentro dos vales, sempre na luz,\nCristo promete nunca deixar-me!\n''Eis-Me convosco'', disse Jesus."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se vejo sombras por toda parte,\nAo Salvador não hão de ocultar!\nPois Cristo é luz que nunca se apaga,\nBem ao Seu lado sempre hei de andar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Luzes benditas vão-me guiando\nEm meu caminho para Sião.\nMais e mais perto o Mestre seguindo,\nTenho alegria na salvação!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":339,
+            "titulo":"Inda é Longe Canaã?",
+            "titulo_ingles":"O The Way Is Long and Weary",
+            "numero":339,
+            "numero_view":"339",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Peregrinação",
+            "autores":[
+                {
+                    "nome":"G. F. R."
+                },
+                {
+                    "nome":"George F. Root (1820-1895)"
+                }
+            ],
+            "texto_biblico":"Deuteronômio 31:6-8",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"'Stamos fracos, tão cansados! ...\nJá viajamos por valados, por deserto abrasadorl\n'Stamos fracos, tão cansados!\nEstará inda longe Canaã?"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"O caminho é longo e mau, nossos pés feridos 'stão;\nInda é longe Canaã? Inda é longe Canaã?\nNo deserto anelamos mais e mais Sua proteção\nEstará inda longe Canaã?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Nós seguimos, por desertos, o caminho do cristão;\nInda é longe Canaã? Inda é longe Canaã?\nQuantas vezes tem faltado nosso leito, nosso pão.\nEstará inda longe Canaã?"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quanto anseiam nossas almas por um lar de paz e amor!\nInda é longe Canaã? Inda é longe Canaã?\nOnde não há mais pesares, não mais lutas, não mais dor.\nEstará inda longe Canaã?"
+                }
+            ]
+        }
+        ,
+        {
+            "id":340,
+            "titulo":"Saudade",
+            "titulo_ingles":"The Home-land Shore",
+            "numero":340,
+            "numero_view":"340",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Peregrinação",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"Stephen C. Foster (1826-1864)"
+                }
+            ],
+            "texto_biblico":"Isaías 65:17 e 18",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Da linda pátria estou mui longe, triste eu estou;\nEu tenho de Jesus saudade; quando será que vou?!\nPassarinhos, belas flores, fazem-me almejar\nAs maravilhas e esplendores do meu celeste lar!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Cristo me deu fiel promessa, vem me buscar;\nMeu coração está com pressa, eu quero já voar.\nMeus pecados eram muitos, e culpado sou,\nMas o Seu sangue põe-me limpo, e para a pátria vou."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Qual filho, do seu lar, saudoso, eu quero ir;\nQual passarinho para o ninho, eu quero ao Céu subir.\nÉ fiel, a vinda é certa; quando, não o sei,\nMas Ele me achará alerta; com Ele ao Céu irei!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":341,
+            "titulo":"Vinde Fiéis",
+            "titulo_ingles":"Come, Come, Ye Saints",
+            "numero":341,
+            "numero_view":"341",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Peregrinação",
+            "autores":[
+                {
+                    "nome":"William Clayton (1814-1879)"
+                },
+                {
+                    "nome":"Melodia Tradicional Americana"
+                }
+            ],
+            "texto_biblico":"Mateus 25:34",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Vinde fiéis, as lutas e o labor\nEnfrentai com fervor.\nSem timidez, avante, pois, marchai,\nSó em Deus confiai.\nMelhor será assim lutar;\nCuidados vãos irão passar.\nAvante pois até vencer,\nSem temor! Com prazer!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Tendes temor? Pesada é vossa cruz?\nContemplai a Jesus!\nComo esperar a glória conquistar,\nSem sair a lutar?\nCoragem pois tomai então\nE ireis sentir de Deus a mão;\nE em breve assim Jesus dirá:\nBem está! Bem está!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Logo entrareis no eterno lar de amor,\nCom Jesus, Salvador.\nRecebereis eterna vida e paz\nQue Jesus sempre traz.\nAli então louvor dareis\nEm doce voz ao Rei dos reis;\nE em meio à paz direis também:\nGlória ao Rei! Glória ao Rei!"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Mas se afinal a morte nos chamar,\nQue feliz há de ser\nQuando Jesus a vida restaurar\nAos fiéis, com poder.\nOh, que prazer quando Jesus\nVier dos Céus pra nos buscar!\nDirá então ao povo Seu:\nVinde ao lar! Vinde ao lar!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":342,
+            "titulo":"Grande Comandante",
+            "titulo_ingles":"Forward",
+            "numero":342,
+            "numero_view":"342",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Luta",
+            "autores":[
+                {
+                    "nome":"Carrie E. Breck (1855-1934)"
+                },
+                {
+                    "nome":"Grant C. Tullar (1869-1950)"
+                }
+            ],
+            "texto_biblico":"Josué 1:9",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sempre avante, manda o General.\nSempre avante! guerra contra o mal!\nFirmes, fortes, nunca vacilar!\nCom Jesus havemos de ganhar!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Grande Comandante Cristo nos será,\nNesta guerra santa à frente marchará;\nNunca Suas hostes abandonará;\nHá de até o fim lutar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Seu pendão glorioso vamos defender,\nHostes inimigas sempre combater;\nNosso General por certo irá vencer.\nSeguiremos a Jesus."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Na feroz batalha temos proteção,\nE afinal, em coro, junto à multidão,\nEntoaremos todos a real canção,\nQuando nós chegarmos lá"
+                }
+            ]
+        }
+        ,
+        {
+            "id":343,
+            "titulo":"Vamos Batalhar",
+            "titulo_ingles":"Sound the Battle Cry",
+            "numero":343,
+            "numero_view":"343",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Luta",
+            "autores":[
+                {
+                    "nome":"W. F. S."
+                },
+                {
+                    "nome":"William F. Sherwin (1826-1888)"
+                }
+            ],
+            "texto_biblico":"Salmo 144:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Vamos, crentes, vamos já avante,\nFirmes sempre, com o Rei da paz.\nCristo é nosso forte Comandante,\nEle é nosso General capaz."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Vamos batalhar, juntos pelejar,\nTodos a lutar, vamos já.\nEis que nosso Rei com as hostes vem\nTão glorioso! Quem O vencerá?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Vamos avançar, sem temor alçar,\nSim, fazer brilhar nossa luz.\nTrevas vão fugir, glórias hão de vir,\nVenham todos aclamar Jesus!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Deus, glorioso Pai, sempre à frente vai,\nFirmes, pois, Lutar com ardor.\nQuando o fim chegar, findo o batalhar,\nVem-nos coroar, por Teu amor!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":344,
+            "titulo":"Ó Cristãos, Avante!",
+            "titulo_ingles":"Onward, Christian Soldiers!",
+            "numero":344,
+            "numero_view":"344",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Luta",
+            "autores":[
+                {
+                    "nome":"Sabine B. Gould (1834-1924)"
+                },
+                {
+                    "nome":"Arthur S. Sullivan (1842-1900)"
+                }
+            ],
+            "texto_biblico":"Efésios 6.10-12",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Ó cristãos, avante!\nMarchar, marchar, marchar!\nPela cruz de Cristo,\nCom ardor lutar!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó cristãos, avante! Sem temor marchar!\nPela cruz de Cristo, com ardor lutar.\nCristo, o nosso Mestre, guia o batalhão;\nNo calor da guerra ergue Seu pendão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ó cristãos, avante, contra Satanás!\nA Jesus seguindo, príncipe da paz.\nNunca o inimigo prevalecerá!\nCom as hostes santas Cristo vencerá!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Reinos pereceram, tronos e nações,\nMas a Igreja vence, mesmo em aflições.\namos, pois, avante, com fervor marchar,\nRumo para a glória, nosso eterno lar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":345,
+            "titulo":"Lutai por Cristo",
+            "titulo_ingles":"Stand Up, Stand Up for Jesus",
+            "numero":345,
+            "numero_view":"345",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Luta",
+            "autores":[
+                {
+                    "nome":"George Duffield, Jr. (1818-1888)"
+                },
+                {
+                    "nome":"Adam Geibel (1855-1933)"
+                }
+            ],
+            "texto_biblico":"I Coríntios 9:25",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Lutai por Cristo,\nSoldados sois da cruz!\nAlçai Seu estandarte,\nBem alto deixei brilhar a luz!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Lutai, lutai por Cristo! Soldados sois da cruz.\nAlçai Seu estandarte, fazei brilhar a luz,\nA fim de que outros vejam o amor que nos conduz\nÀ mais feliz vitória, com Deus e com Jesus!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Estai bem preparados ao toque do clarim;\nSegui de perto a Cristo, até da luta o fim!\nAs armas empunhando, cobertos de valor;\nDispostos, bem ousados, marchai, pois, sem temor!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ó, confiai em Cristo, na Sua proteção,\nPois vem o fim da guerra, já vem a redenção!\nEntão, fiéis soldados, em luz resplendereis;\nNo lar do Rei da glória, em paz descansareis."
+                }
+            ]
+        }
+        ,
+        {
+            "id":346,
+            "titulo":"Cristãos, Despertai!",
+            "titulo_ingles":"O Christian, Awake!",
+            "numero":346,
+            "numero_view":"346",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Luta",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"Phili Philipps (1834-1895)"
+                }
+            ],
+            "texto_biblico":"Efésios 6:10-17",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sempre lutar!\nSim, combater!\nTe que o Senhor\nVos conceda vencer."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Cristãos, despertar e segui ao Senhor;\nCom fé avançai e lutai com ardor!\nSegui corajosos sem desfalecer,\nAté que o Senhor vos conceda vencer."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"O escudo da fé prontamente empunhai;\nCalçados os pés, nas fileiras entrai.\nA causa do Mestre deveis defender,\nAté que o Senhor vos conceda vencer."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"E seja o que for que tenhais de enfrentar,\nAtrás não volteis, para não fracassar.\nNa luta renhida deveis combater,\nAté que o Senhor vos conceda vencer."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Confiai em Jesus, vosso bom General,\nQue já triunfou sobre as hostes do mal.\nSó Ele a Seus filhos na luz guiará,\nE enfim o Senhor a vitória dará."
+                }
+            ]
+        }
+        ,
+        {
+            "id":347,
+            "titulo":"O Pendão Real",
+            "titulo_ingles":"The Banner of the Cross",
+            "numero":347,
+            "numero_view":"347",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Luta",
+            "autores":[
+                {
+                    "nome":"Daniel W. Whittle (1840-1901)"
+                },
+                {
+                    "nome":"James McGranahan (1840-1907)"
+                }
+            ],
+            "texto_biblico":"Salmo 20:5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Com valor, sem temor,\nPor Cristo prontos a sofrer;\nBem alto erguei o Seu pendão,\nFirmes sempre até morrer!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Um pendão real vos entregou o Rei,\nA vós, soldados Seus.\nCorajosos, pois, de tudo o defendei,\nMarchando para os Céus."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Eis que estão formados já os batalhões\nDo grande usurpador.\nDeclarai-vos hoje bravos campeões;\nAvante, sem temor!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quem tiver receio no seu coração,\nE fraco se mostrar,\nNão receberá o eterno galardão\nQue Cristo tem pra dar."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Ó, sejamos todos a Jesus leais,\nE a Seu real pendão.\nOs que na batalha sempre são fiéis,\nCom Ele reinarão."
+                }
+            ]
+        }
+        ,
+        {
+            "id":348,
+            "titulo":"Quantos Fiéis Descansam do Labor",
+            "titulo_ingles":"For All the Saints",
+            "numero":348,
+            "numero_view":"348",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Luta",
+            "autores":[
+                {
+                    "nome":"William W. How (1823-1897)"
+                },
+                {
+                    "nome":"Ralph V. Williams (1872-1958)"
+                }
+            ],
+            "texto_biblico":"Salmo 20:5",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Quantos fiéis descansam do labor!\nPor sua fé, por seu exemplo e amor,\nA Ti, Jesus, nós damos o louvor.\nAleluia! Aleluia!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Tu foste a Rocha forte, sem igual,\nE na batalha, grande General;\nNas densas trevas, brilho divinal.\nAleluia! Aleluia!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Que nós, Senhor, lutemos com valor,\nIguais aos santos, nobres, com vigor,\nAté galgarmos o eternal fulgor.\nAleluia! Aleluia!"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Um mais glorioso dia irá surgir,\nE os santos todos hão de ao Céu subir.\nAo Rei da glória irão, fiéis, servir.\nAleluia! Aleluia!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":349,
+            "titulo":"Consolação",
+            "titulo_ingles":"Leaning on the Everlasting Arms",
+            "numero":349,
+            "numero_view":"349",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Elisha A. Hoffman (1839-1929)"
+                },
+                {
+                    "nome":"Anthony J. Showalter (1858-1924)"
+                }
+            ],
+            "texto_biblico":"II Tessalonicenses 2. 16 e 17",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Descansando\nNos eternos braços do meu Deus,\nVou seguro\nDescansando no poder de Deus."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Que consolação tem meu coração,\nDescansando no poder de Deus!\nSigo com prazer neste meu viver,\nDescansando no poder de Deus."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Sempre avante vou, bem contente estou,\nDescansando no poder de Deus.\nSinto a grande paz que me satisfaz,\nDescansando no poder de Deus."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Lutas hei de ter, mas hei de vencer,\nDescansando no poder de Deus.\nNão terei temor, onde quer que for,\nDescansando no poder de Deus."
+                }
+            ]
+        }
+        ,
+        {
+            "id":351,
+            "titulo":"Nunca Me Deixar",
+            "titulo_ingles":"Never Alone",
+            "numero":351,
+            "numero_view":"351",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Ludie C. Day Pickett (1867-1953)"
+                },
+                {
+                    "nome":"Autor Desconhecido"
+                }
+            ],
+            "texto_biblico":"Isaías 41:13 e 14 ",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Nunca me deixar! Nunca me deixar!\nPois Ele mesmo promete comigo caminhar.\nNunca me deixar! Nunca me deixar!\nPois Ele mesmo promete que nunca me há de deixar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Neste mundo, sozinho não quero nem posso avançar,\nPois eu sou tão fraquinho, sem forças para lutar,\nMas Jesus vai comigo, disposto sempre a salvar,\nSim, Ele mesmo promete que nunca me há de deixar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Inimigos mui fortes procuram minh'alma vencer;\nE se sozinho andasse, que poderia fazer?\nCom Jesus ao meu lado, alegre posso avançar,\nSim, Ele mesmo promete que nunca me há de deixar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Nas tristezas da vida, nas dores e nas aflições,\nNa calma ou na lida, ao virem as tentações,\nCristo anda ao meu lado, comigo, para ajudar,\nSim, Ele mesmo promete que nunca me há de deixar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":352,
+            "titulo":"Meu Refúgio Está no Monte",
+            "titulo_ingles":"To the Mountain",
+            "numero":352,
+            "numero_view":"352",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Eliza E. Hewitt (1851-1920)"
+                },
+                {
+                    "nome":"Bentley D. Ackley (1872-1958)"
+                }
+            ],
+            "texto_biblico":"Mateus 14:23",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Bem cedinho e de tarde\nSempre vou me refugiar;\nVou subindo para o monte\nA beber da limpa fonte,\nBem cedinho e de tarde\nVou com Cristo me encontrar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Meu refúgio está no monte,\nOnde posso descansar\nE beber da limpa fonte\nDe água pura e salutar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Minha força está no monte,\nOnde fico a meditar;\nMeu poder provém da fonte,\nQuando estou humilde a orar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Minha glória está no monte\nEm que Cristo padeceu,\nOnde vejo a rubra fonte\nDe Seu sangue que verteu."
+                }
+            ]
+        }
+        ,
+        {
+            "id":353,
+            "titulo":"Meu Jesus me Guia Sempre",
+            "titulo_ingles":"All the Way",
+            "numero":353,
+            "numero_view":"353",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"Robert Lowry (1826-1899)"
+                }
+            ],
+            "texto_biblico":"Isaías 85:11",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Meu Jesus me guia sempre: que mais posso desejar?\nDuvidar do meu Amado? De meu Deus desconfiar?\nTenho paz perfeita infinda, gozo Sua proteção,\nPois eu sei que por mim vela Seu bondoso coração,\nPois eu sei que por mim vela Seu bondoso coração."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Meu Jesus me guia sempre, ensinando-me a viver,\nConcedendo graça e força para me desenvolver;\nPerecer jamais eu posso, pois quem pode resistir\nAo Deus forte, Pai eterno, que minh'alma quis remir?\nAo Deus forte, Pai eterno, que minh'alma quis remir?"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Meu Jesus me guia sempre, pelo Seu tão terno amor!\nVida santa, glória eterna me garante o Salvador.\nOh! mui breve vem o dia, o da grande redenção,\nQuando salva, transformada, há de ser a criação!\nQuando salva, transformada, há de ser a criação!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":354,
+            "titulo":"Entrega a Deus",
+            "titulo_ingles":null,
+            "numero":354,
+            "numero_view":"354",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"F. G. J."
+                },
+                {
+                    "nome":"Frederico G. Jr (1925- )"
+                }
+            ],
+            "texto_biblico":"Salmo 55:22",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Entrega a Deus as tuas horas tristes,\nQuando ninguém te pode confortar;\nRecorre a Deus, pois paz deseja dar\nAo coração quebrantado pela dor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Entrega a Deus as tuas amarguras;\nSem hesitar, confia-Lhe tua dor.\nNão deixará que sombras de temor\nCubram teu ser de tristezas e pesar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Entrega a Deus as lutas desta vida;\nSem mais tardar, entrega-Lhe teu ser,\nPois, afinal, sem dor e sem sofrer,\nDescansarás para sempre em Seu lar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":355,
+            "titulo":"Oh, Não Temas, Sou Contigo ",
+            "titulo_ingles":"I Will Pilot Thee",
+            "numero":355,
+            "numero_view":"355",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"E. D. W."
+                },
+                {
+                    "nome":"Emily D. Wilson (1865-1942)"
+                }
+            ],
+            "texto_biblico":"Isaías 41:10",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"''Oh, não temas, sou contigo,\nTeu Piloto até o fim!\nNão te importes co'o perigo;\nEis a mão, confia em Mim.''"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Quando a tentação me envolve\nE não posso a Cristo ver,\nEis que em meio à tempestade,\nOuço o Salvador dizer:"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Quando a alma está ferida\nPelas ondas da aflição,\nVolvo o olhar ao meu Piloto,\nE este canto escuto então:"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Se do mar à praia chego,\nMesmo havendo turbilhão,\nVejo meu Piloto ao lado,\nCreio em Sua direção."
+                }
+            ]
+        }
+        ,
+        {
+            "id":356,
+            "titulo":"Conduze-me, Meu Mestre",
+            "titulo_ingles":"So nimm meine Hande",
+            "numero":356,
+            "numero_view":"356",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Julie K. von Haussmann (1826-1901)"
+                },
+                {
+                    "nome":"Friedrich Silcher (1842-1860)"
+                }
+            ],
+            "texto_biblico":"Isaías 58:11",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Conduze-me, meu Mestre, com Tua mão,\nE assim jamais me falte a proteção.\nNão quero nem um passo sem Ti andar.\nOh, faze-me hoje e sempre na luz trilhar!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Em Teu amor envolve meu coração,\nE dá-lhe paz e calma em aflição.\nQue eu tenha em Ti repouso bem junto à cruz,\nE que jamais me afaste de Ti, Jesus."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"E mesmo quando a luta tremenda for,\nSeguro hás de guiar-me, meu Redentor.\nConduze-me, meu Mestre, com Tua mão,\nE assim jamais me falte a proteção."
+                }
+            ]
+        }
+        ,
+        {
+            "id":357,
+            "titulo":"Sob Suas Asas",
+            "titulo_ingles":"Under His Wings",
+            "numero":357,
+            "numero_view":"357",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Willian O. Cushing (1823-1902)"
+                },
+                {
+                    "nome":"Ira D. Sankey (1840-1908)"
+                }
+            ],
+            "texto_biblico":"Salmo 91:1-4",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Descansarei, descansarei\nSob Suas asas benditas,\nAo Seu abrigo, pois, gozarei\nPaz e alegria infinitas."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Sob Suas asas estou descansando,\nInda que noite, confiante eu estou;\nSob Suas asas vou sempre abrigado,\nFui redimido e Seu filho já sou."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Sob Suas asas refúgio eu encontro,\nMeu coração poderá descansar.\nE se este mundo não presta socorro,\nSob Suas asas a paz hei de achar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Sob Suas asas promessa preciosa!\nSempre me posso do mal ocultar.\nSalvo em Jesus e confiante na graça,\nNada no mundo me pode abalar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":358,
+            "titulo":"Guia, Cristo, Minha Nau",
+            "titulo_ingles":"Jesus, Salviour, Pilot Me",
+            "numero":358,
+            "numero_view":"358",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Willian O. Cushing (1823-1902)"
+                },
+                {
+                    "nome":"John E. Gould (1822-1875)"
+                }
+            ],
+            "texto_biblico":"Mateus 8:23-27",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Guia, Cristo, minha nau\nSobre o revoltoso mar.\nTão enfurecido e mau,\nQuer fazê-la naufragar.\nVem, Jesus, oh, vem guiar,\nMinha nau vem pilotar!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Como sabe serenar\nBoa mãe o filho seu,\nVem, acalma assim o mar\nQue se eleva até ao céu;\nVem, Jesus, oh, vem guiar,\nMinha nau vem pilotar!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Se, no porto, quando entrar,\nMais o mar se enfurecer,\nQue me possa deleitar\nEm ouvir Jesus dizer:\n''Entra, pobre viajor,\nNo descanso do Senhor.''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":359,
+            "titulo":"Dia a Dia",
+            "titulo_ingles":"Day By Day",
+            "numero":359,
+            "numero_view":"359",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Carolina V. Sandell-Berg (1832-1903)"
+                },
+                {
+                    "nome":"Oscar Ahnfelt (1813-1882)"
+                }
+            ],
+            "texto_biblico":"Salmo 68:19",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Dia a dia, em todos os momentos,\nForça encontro em lutas ou labor,\nPois de Deus recebo sempre alento;\nQue razão terei eu pra temor?\nDeus, que é bom, e sábio e compassivo,\nCada dia dá-me o que é melhor.\nUma dor, e logo um lenitivo;\nLuta e paz eu sinto em derredor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Cada dia Deus está bem perto,\nE conselhos dEle posso obter;\nSegurança e auxílio em tempo certo\nMe concede pelo Seu poder.\nCom carinho Deus protege e guia,\nQual zeloso pai, os filhos Seus;\n''Dar-te-ei poder a cada dia''\nÉ a certeza que Ele ofereceu."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quero, ó Deus, em cada sofrimento,\nConfiar em Teu cuidado e amor.\nE com fé, eu permaneça atento\nÀs promessas Tuas, meu Senhor.\nE que eu possa, em lutas, dores, trevas,\nAceitar, ó Deus, de Tua mão,\nUm a um, os dias que me entregas,\nNesta minha peregrinação."
+                }
+            ]
+        }
+        ,
+        {
+            "id":360,
+            "titulo":"Fixa Teus Olhos no Mestre",
+            "titulo_ingles":"Turn Your Eyes Upon Jesus",
+            "numero":360,
+            "numero_view":"360",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"H. H. L."
+                },
+                {
+                    "nome":"Helen H. Lemmel (1864-1961)"
+                }
+            ],
+            "texto_biblico":"Salmo 42:11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Fixa teus olhos no Mestre,\nConfia no bom Salvador;\nFruirás, na luta terrestre,\nMaravilhas do Seu doce amor."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Se amargas tristezas da vida\nCurvarem-te a fronte em dor,\nE vendo a esperança perdida,\nCaíres nas mãos do temor,"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se as ondas cruéis do oceano\nQuiserem a nave tragar,\nE as vagas do mal tão insano\nFizerem-te a fé vacilar,"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Se aflito, sem fé, sem coragem,\nVagando nas sendas do mal,\nDo mundo seguindo a miragem,\nNão ouves a voz divinal,"
+                }
+            ]
+        }
+        ,
+        {
+            "id":361,
+            "titulo":"Ó Tu Que Aflito Estás",
+            "titulo_ingles":"Come, Ye Disconsolate",
+            "numero":361,
+            "numero_view":"361",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Thomas Moore (1779-1852)"
+                },
+                {
+                    "nome":"Melodia Tradicional Alemã"
+                }
+            ],
+            "texto_biblico":"Mateus 11:28-30",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó tu que aflito estás, Deus, Pai bondoso,\nEm compaixão e amor, quer te livrar;\nQuer te salvar do mal, quer dar-te gozo.\nVem logo a Cristo, e paz hás de achar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ó meu irmão, se tens grandes tormentos,\nPõe tua mente em Deus, teu Protetor.\nSó Ele irá banir teus sofrimentos,\nSó Ele pode curar tua dor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Se pesaroso estás em tua lida,\nBusca teu Redentor, Cristo Jesus;\nSeu tão profundo amor traz luz e vida,\nDá forças para levar tua cruz."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Oh! que consolação temos em Cristo,\nPois da tristeza e dor nos livrará!\nSempre sustenta os Seus, somos benquistos,\nEle nos ama e forças nos dá."
+                }
+            ]
+        }
+        ,
+        {
+            "id":362,
+            "titulo":"Cristo Ajudará",
+            "titulo_ingles":null,
+            "numero":362,
+            "numero_view":"362",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Ada R. Habershon (1861-1918)"
+                },
+                {
+                    "nome":"Robert Harkness (1880-1961)"
+                }
+            ],
+            "texto_biblico":"Isaías 41:10",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Cristo ajudara,\nSim, me ajudara!\nSeu amor por mim não muda;\nSempre ajudara."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Vacilando minha fé,\nCristo ajudará.\nPerseguido, sem mercê,\nCristo ajudará."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Crente inútil eu serei\nSe não me valer,\nNem serviço prestarei,\nSem o Seu poder."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Com Seu sangue me comprou,\nNão me deixará;\nVida eterna me outorgou;\nSim, me ajudará."
+                }
+            ]
+        }
+        ,
+        {
+            "id":363,
+            "titulo":"Terra de Beulá",
+            "titulo_ingles":"Dwelling in Beulah Land",
+            "numero":363,
+            "numero_view":"363",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"C. A. M."
+                },
+                {
+                    "nome":"C. Austin Miles (1868-1946)"
+                }
+            ],
+            "texto_biblico":"Isaías 62:4 e 5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Vivo no alto da montanha,\nSob um céu de puro azul,\nJunto à fonte de águas vivas,\nQue nunca secara,\nE me alimento cada dia\nDesse bom maná do Céu,\nPois habito em Terra de Beulá."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ouço ao longe sons de lutas, brados de batalha,\nÉ a Terra envolta em guerra de pecado e dor;\nMas as coisas deste mundo já não me perturbam,\nPois habito em Terra de Beulá."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Lá distante a tempestade ruge sobre o mundo;\nDúvidas, temores grassam em todo lugar;\nMas estou bem firme na Palavra de meu Deus,\nPois habito em Terra de Beulá."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Nem as nuvens mais escuras podem assustar-me;\nEu não temo pois seguro estou nas mãos de Deus;\nVivo à luz do Sol e da presença de meu Rei,\nPois habito em Terra de Beulá."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Quando aqui eu vejo, de meu Deus, as maravilhas,\nQuedo-me silente e adoro em contemplação;\nCompreendo Seu amor e a grande salvação,\nPois habito em Terra de Beulá."
+                }
+            ]
+        }
+        ,
+        {
+            "id":364,
+            "titulo":"Sombras",
+            "titulo_ingles":"Shadows",
+            "numero":364,
+            "numero_view":"364",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"C. H. B."
+                },
+                {
+                    "nome":"Charles H. Barker"
+                }
+            ],
+            "texto_biblico":"João 8:12",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Cristo é o Sol que resplandece em nossa estrada,\nSombras vemos ao as costas Lhe voltar,\nVamos pois olhar a Cristo na jornada,\nE veremos toda sombra se afastar"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Muita vez das tristes sombras nós falamos,\nAo seguirmos pela senda rumo ao lar;\nMas as sombras, as mais densas, olvidamos,\nQuando ao Sol, então, volvemos nosso olhar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se o espírito sentires perturbado,\nÉ porque à luz as costas deste já;\nOlha a Cristo que teu coração cansado,\nInundado por Sua doce luz será."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Vamos, pois, volver a Cristo a alma aberta,\nEle que é do mundo a radiante luz,\nE das sombras desta vida nos liberta;\nE, felizes, seguiremos a Jesus. "
+                }
+            ]
+        }
+        ,
+        {
+            "id":365,
+            "titulo":"Vede o Lírio a Florescer",
+            "titulo_ingles":"Seht die Lilien auf dem Feld",
+            "numero":365,
+            "numero_view":"365",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Autor Desconhecido"
+                },
+                {
+                    "nome":"Melodia Tradicional Alemã"
+                }
+            ],
+            "texto_biblico":"Mateus 6:26 e 29",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Vede o lírio a florescer, terna e bela flor do prado!\nQuem assim o fez crescer, e por ele tem cuidado?\nQuem assim o adornou, de beleza o dotou,\nPra viver no lindo prado, sim, no lindo prado?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Deus foi quem o fez crescer, e lhe deu graça e beleza,\nPra alegrar nosso viver e afastar-nos a tristeza;\nPara a todos ensinar que a Deus devem olhar,\nE confiar em Sua graça, sim, em Sua graça."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Eia, pois, meu coração, abandona teus cuidados;\nDeixa teus anseios vãos, Deus é nosso Pai amado.\nQuem os lírios faz crescer, não nos deixa perecer;\nSomos pelo Pai lembrados, sim, do Pai lembrados."
+                }
+            ]
+        }
     ],
     "categorias":[
         {

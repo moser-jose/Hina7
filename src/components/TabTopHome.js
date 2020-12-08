@@ -28,13 +28,13 @@ const TabTopRight = styled.View`
 `;
 
 const TabTopMiddleTitleBold = styled.Text`
-    font-size:25px;
+    font-size:22px;
     font-family:"Poppins-Bold";
     letter-spacing: 1px;
     color:${props=>props.theme.title};
 `;
 const TabTopMiddleTitleLight = styled.Text`
-    font-size:10px;
+    font-size:9px;
     font-family:"Poppins-LightItalic";
     letter-spacing: 1px;
     color:${props=>props.theme.title};
