@@ -14647,6 +14647,1080 @@
                 }
             ]
         }
+        ,
+        {
+            "id":366,
+            "titulo":"O Anjo do Senhor",
+            "titulo_ingles":"Pillar of Fire",
+            "numero":366,
+            "numero_view":"366",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"F. E. B."
+                },
+                {
+                    "nome":"Franklin E. Belden (1858-1945)"
+                }
+            ],
+            "texto_biblico":"Salmo 34:7",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Ó nuvem luzente, nuvem de glória,\nGuia, guia-nos ao Céu!\nO nuvem luzente, nuvem de glória,\nGuia, guia-nos ao Céu!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"O anjo do Senhor se acampa\nAo redor dos que O temem;\nEle os guarda dia e noite,\nSem cessar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Quando em temores e perigos,\nO Senhor nos tem guardado;\nSob as Suas santas asas,\nTemos paz."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Em Tua direção confiamos,\nAtravés deste deserto,\nTé à Canaã chegarmos,\nLá no Céu."
+                }
+            ]
+        }
+        ,
+        {
+            "id":367,
+            "titulo":"Ao Passares Pelas Águas",
+            "titulo_ingles":"Through the Waters",
+            "numero":367,
+            "numero_view":"367",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"D. J. W."
+                },
+                {
+                    "nome":"Donald J. Wyrtzen (1942- )"
+                }
+            ],
+            "texto_biblico":"isaías 43:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"''Ao passares pelas águas, serei contigo;\nAo passares pelas águas, serei contigo.\nRios caudalosos a ti não podem submergir;\nAo passares pelo fogo não, oh, não te queimarás!\nAo passares pelas águas, serei contigo;\nAo passares pelas águas, serei contigo.''"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"''Ao passares pelas águas, serei contigo;\nAo passares pelas águas, serei contigo.\nAs duras provas a ti não podem derrotar;\nSe por Minha causa sofres, Tu me glorificarás.\nAo passares pelas águas, serei contigo;\nAo passares pelas águas, serei contigo.''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":368,
+            "titulo":"Mágoas",
+            "titulo_ingles":"Heartaches",
+            "numero":368,
+            "numero_view":"368",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"A. H. A."
+                },
+                {
+                    "nome":"Alfred H. Ackley (1887-1960)"
+                }
+            ],
+            "texto_biblico":"I Pedro 5:7",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Leva a Cristo as tuas mágoas,\nVai com Ele ter, vai sem mesmo te deter,\nLeva a Cristo as tuas mágoas\nQue Ele as muda todas em prazer."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Se tens mágoas volve agora a Cristo,\nO melhor Amigo que tu tens,\nEis que está a ti sempre achegado,\nPronto a dar-te Seus melhores bens."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se a ingratidão ferir-te a alma,\nSe amarguras vêm ao coração,\nVê então que Cristo está ao lado,\nE te dá consolo na aflição."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Cristo compreende as tuas dores,\nQuer tua alma enferma restaurar,\nOh, confia em Seu amor imenso,\nQue só Ele pode alívio dar!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":369,
+            "titulo":"Segura Minha Mão",
+            "titulo_ingles":"Hold Thou My Hands",
+            "numero":369,
+            "numero_view":"369",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Julie K. von Haussmann (1826-1901)"
+                },
+                {
+                    "nome":"Hubert P. Main (1839-1925)"
+                }
+            ],
+            "texto_biblico":"Salmo 73:23 e 24",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Com Tua mão segura bem a minha,\nPois eu tão fraco sou, ó Salvador,\nQue não me atrevo a dar nenhum só passo\nSem Teu amparo, meu Jesus, Senhor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Com Tua mão segura bem a minha,\nE faz-me assim mais firme em Ti, Jesus;\nPor Teu poder, que eu nunca me desvie\nDe Ti, Senhor, a minha vida e luz."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Com Tua mão segura bem a minha,\nE pelo mundo alegre seguirei;\nMesmo onde as sombras caem mais escuras,\nTeu rosto vendo, nada temerei."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"E se eu chegar à beira desse rio,\nQue Tu por mim quiseste atravessar,\nCom Tua mão segura bem a minha,\nE sobre a morte hei de triunfar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":370,
+            "titulo":"Cada Momento",
+            "titulo_ingles":"Moment By Moment",
+            "numero":370,
+            "numero_view":"370",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Daniel W. Whittle (1840-1901)"
+                },
+                {
+                    "nome":"Mary W. Moody (1870-1963)"
+                }
+            ],
+            "texto_biblico":"Salmo 68:19",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Cada momento me guia o Senhor,\nCada momento dispensa favor.\nSua presença me outorga vigor;\nCada momento sou Teu, ó Senhor."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Sendo remido por Cristo na cruz,\nSinto prazer caminhando na luz,\nCheio da graça que vem de Jesus;\nCada momento o Senhor me conduz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Junto com Cristo na luta moral,\nContra o pecado, o engano e o mal,\nErgo bem alto a bandeira real,\nCada momento mais firme e leal."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Nas minhas lutas me pode amparar,\nE do maligno também me livrar;\nCada momento por onde eu andar,\nCristo, meu Mestre, me pode amparar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":371,
+            "titulo":"Cuidará de Mim Também",
+            "titulo_ingles":"His Eye Is on the Sparrow",
+            "numero":371,
+            "numero_view":"371",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Civilla D. Martin (1866-1948)"
+                },
+                {
+                    "nome":"Charles H. Gabriel (1856-1932)"
+                }
+            ],
+            "texto_biblico":"Mateus 6:26",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Feliz e mui alegre,\nCantando viverei;\nSe Deus protege as aves,\nCuidará de mim também."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Por que estarei eu triste, por que na treva andar,\nSentir-me tão sozinho, sempre a desanimar,\nSe Cristo é meu conforto, amigo na aflição,\nSe até as aves esperam na Sua proteção?\nSe até as aves esperam na Sua proteção?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Quando estou abatido, se envolto em sombra vou,\nO coração ferido, ou perseguido sou,\nJesus é meu amparo, é meu consolador,\nEnvolve-me em Seus braços e alívio dá-me à dor;\nEnvolve-me em Seus braços e alívio dá-me à dor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ao me sentir cansado, em meio de aflição,\nOuço Jesus dizer-me, ao segurar-me a mão:\n''Confia em Mim somente, somente em Meu poder,\nE nas mansões eternas, comigo irás viver;\nE nas mansões eternas, comigo irás viver.''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":372,
+            "titulo":"Meu Jesus me Guia os Passos",
+            "titulo_ingles":"Must I go, and Empty Handed?",
+            "numero":372,
+            "numero_view":"372",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"C. C. Luther"
+                },
+                {
+                    "nome":"George C. Stebbins (1846-1945)"
+                }
+            ],
+            "texto_biblico":"Jeremias 10:23",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Meu Jesus me guia os passos,\nPois já veio em mim morar;\nNeste mundo perigoso,\nSó por mim não posso andar"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Todos falam dos perigos\nDo caminho em que eu estou,\nMas não vêem a luz que brilha\nAo redor por onde vou."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Falam só de muito engano\nE de dura provação;\nMas Jesus me ampara sempre\nE me dá consolação."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Sei que meu amor é fraco,\nSou propenso a pecar,\nMas, com Seu divino auxílio,\nHei de sempre triunfar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":373,
+            "titulo":"Deus Cuidará de Ti",
+            "titulo_ingles":"God Will Take Care of You",
+            "numero":373,
+            "numero_view":"373",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Civilla D. Martin (1866-1948)"
+                },
+                {
+                    "nome":"W. Stillman Martin (1862-1935)"
+                }
+            ],
+            "texto_biblico":"Salmo 40:17",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Deus cuidara de ti,\nEm cada dia proverá,\nSim, cuidará de ti;\nDeus cuidará de ti."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Aflito e triste coração,\nDeus cuidará de ti;\nPor ti opera a Sua mão;\nDeus cuidará de ti."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Na dor cruel, na provação,\nDeus cuidará de ti;\nSocorro dá e proteção;\nDeus cuidará de ti."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Sentes a fé a vacilar?\nDeus cuidará de ti;\nAo teu amor quer forças dar;\nDeus cuidará de ti."
+                }
+            ]
+        }
+        ,
+        {
+            "id":374,
+            "titulo":"Abrigo na Rocha",
+            "titulo_ingles":"he Hideth My Soul",
+            "numero":374,
+            "numero_view":"374",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Civilla D. Martin (1866-1948)"
+                },
+                {
+                    "nome":"W. Stillman Martin (1862-1935)"
+                }
+            ],
+            "texto_biblico":"Salmo 40:17",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"No abrigo da rocha me esconde ao calor,\nEm árida terra de sol;\nOculta minh'alma em Seu plácido amor,\nE cobre-me com Sua mão,\nSim, cobre-me com Sua mão."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Jesus, amoroso e fiel Salvador,\nTão maravilhoso pra mim!\nNo abrigo da rocha me esconde ao calor,\nE dá-me alegria sem fim."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Jesus, amoroso e fiel Salvador,\nAfasta-me a carga e o pesar;\nRestaura-me as forças, renova o fervor,\nE assim já não temo lutar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Coroa-me as horas com bênçãos a flux;\nNos lábios me põe o louvor;\nCantando, contente, dou glória a Jesus,\nExcelso e leal Salvador."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"E enfim, quando em glória eu feliz ressurgir,\nE for meu Jesus abraçar,\nDelícias perenes eu hei de fruir,\nNo reino sublime, sem-par."
+                }
+            ]
+        },
+        {
+            "id":375,
+            "titulo":"Ao Tomar Minha Frágil Mão",
+            "titulo_ingles":"The Touch of His Hand on Mine",
+            "numero":375,
+            "numero_view":"375",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Jessie B. Pounds (1861-1921)"
+                },
+                {
+                    "nome":"Henry P. Morton"
+                }
+            ],
+            "texto_biblico":"Isaías 41:13 e 14",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Ao tomar minha frágil mão,\nAo tomar minha frágil mão,\nSinto vir do além força em Seu poder,\nAo Jesus me tomar a mão."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Dias turvos há em que busco em vão\nO semblante de meu Jesus,\nMas em meio às trevas vislumbro a luz\nAo Jesus me tomar a mão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Quando as forças faltam no jornadear,\nE me vem tentação vulgar,\nSinto a fé voltar e me animo então,\nAo Jesus me tomar a mão."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quando a noite vem e não posso ver\nQue caminho seguir então,\nFulgurante luz vejo resplender,\nAo Jesus me tomar a mão."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Quando o instante atroz, derradeiro, enfim,\nFor chegado também a mim,\nHá de estar em calma meu coração,\nAo Jesus me tomar a mão."
+                }
+            ]
+        }
+        ,
+        {
+            "id":376,
+            "titulo":"Guia-me, Meu Salvador",
+            "titulo_ingles":"Lead Me Saviour",
+            "numero":376,
+            "numero_view":"376",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"F. M. D."
+                },
+                {
+                    "nome":"Franck M. Davis (1839-1896)"
+                }
+            ],
+            "texto_biblico":"Salmo 48:14",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Guia, guia,\nSempre guia, Salvador!\nCom ternura, com amor,\nGuia-me, meu Redentor!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Guia-me, meu Salvador!\nSempre me conduz, Senhor!\nSim, seguro e forte estou,\nPois contigo andando vou."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Sob a Tua proteção,\nFirme está meu coração\nOh, dirige-me, Senhor,\nNeste mundo enganador."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Tu me guiarás a mim,\nTé chegar da vida o fim;\nE ao voltares, ó Jesus,\nEu habitarei na luz."
+                }
+            ]
+        }
+        ,
+        {
+            "id":377,
+            "titulo":"Refúgio em Temporal",
+            "titulo_ingles":"A Shelter in the Time of Storm",
+            "numero":377,
+            "numero_view":"377",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Vernon J. Charlesworth (1839-1915)"
+                },
+                {
+                    "nome":"Franklin E. Belden (1858-1945)"
+                }
+            ],
+            "texto_biblico":"Salmo 46: 1 e 2",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Rocha eterna, nossa proteção,\nNosso abrigo, nosso Salvador,\nSempre certo na tribulação,\nPresente sempre em nossa dor"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eterna rocha é meu Jesus,\nRefúgio sempre em temporal.\nA confiança nele eu pus,\nRefúgio sempre em temporal."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Defesa forte e proteção,\nRefúgio sempre em temporal;\nNão temeremos provação,\nRefúgio sempre em temporal."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ó Rocha eterna, meu Jesus,\nRefúgio sempre em temporal,\nSê Tu meu guia, força e luz,\nRefúgio sempre em temporal."
+                }
+            ]
+        }
+        ,
+        {
+            "id":378,
+            "titulo":"Alguém me Vê",
+            "titulo_ingles":"Somebody Knows",
+            "numero":378,
+            "numero_view":"378",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Alfred H. Ackley (1887-1960)"
+                },
+                {
+                    "nome":"Bentley D. Acley (1872-1958)"
+                }
+            ],
+            "texto_biblico":"Gênesis 16:13 e 14",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Alguém me vê, Alguém me vê,\nQuando me oprimem as vis tentações.\nNunca me encontro sozinho,\nAlguém me vê: é Cristo."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Quando na luta me falta poder,\nAlguém me vê, Alguém me vê.\nE se tristezas me vêm abater,\nAlguém me vê: é Cristo."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Quando há pesares em meu coração,\nAlguém me vê, Alguém me vê;\nSe sobre mim desce o véu da aflição,\nAlguém me vê: é Cristo."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quando me ferem as setas do mal,\nAlguém me vê, Alguém me vê.\nQuando em saudade do lar celestial,\nAlguém me vê: é Cristo."
+                }
+            ]
+        }
+        ,
+        {
+            "id":379,
+            "titulo":"Ó Mestre, o Mar se Revolta",
+            "titulo_ingles":"Master, the tempest Is Raging!",
+            "numero":379,
+            "numero_view":"379",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Mary A. Baker (1831-1881)"
+                },
+                {
+                    "nome":"Horatio R. Palmer (1834-1907)"
+                }
+            ],
+            "texto_biblico":"Mateus 8: 23-27",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"''As ondas atendem ao Meu mandar: Sossegai!\nQuer seja este revolto mar,\nA ira dos homens, o gênio do mal,\nTais águas não podem a nau tragar,\nQue leva o Senhor, Rei do céu e mar,\nPois todos ouvem o Meu mandar:\nSossegai! Sossegai!\nConvosco estou para vos salvar;\nSim, sossegai.''"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó Mestre, o mar se revolta, as ondas nos dão pavor!\nO céu se reveste de trevas, não temos um salvador!\nNão se Te dá que morramos? Podes assim dormir,\nSe a cada momento nos vemos já prestes a submergir?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Mestre, na minha tristeza estou quase a sucumbir.\nA dor que perturba minh'alma, eu peço-Te, vem banir!\nDe ondas do mar que me encobrem, quem me fará sair?\nPereço sem Ti, ó meu Mestre! Vem logo, vem me acudir!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Mestre, chegou a bonança, em paz eis o céu e o mar!\nO meu coração goza calma que não poderá findar.\nFica comigo, ó meu Mestre, dono da Terra e Céu,\nE assim chegarei bem seguro ao porto, destino meu."
+                }
+            ]
+        }
+        ,
+        {
+            "id":380,
+            "titulo":"Ó Amante de Minh'Alma",
+            "titulo_ingles":"God Be Merciful to Me",
+            "numero":380,
+            "numero_view":"380",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Charles Wesley (1707-1788)"
+                },
+                {
+                    "nome":"Joseph P. Holbrook (1822-1888)"
+                }
+            ],
+            "texto_biblico":"João 15:9",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó Amante de minh'alma, deixa-me em Teu peito estar,\nQuando o vento rouba a calma, quando brame irado o mar.\nGuarda-me, bom Salvador, té o temporal passar;\nGuia-me em Teu terno amor, quero em Ti me refugiar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Só em Ti eu tenho abrigo, aos Teus pés está meu ser;\nNão me deixes, sê comigo, Teu conforto eu quero ter.\nSó confio em Ti, Senhor, meu auxílio de Ti vem;\nTu dissipas o temor, e o Teu braço me sustém."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Tu encerras quanto anseio, sim, e mais, e muito mais;\nJá não tenho mais receio, mesmo em meio a vendavais.\nJusto e santo és Tu, Jesus, só fraqueza habita em mim;\nAndarei em Tua luz, bem seguro até o fim."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Tua graça inesgotável pode me lavar do mal;\nTeu amor incomparável puro e bom faz-me, afinal.\nFonte eterna, meu Jesus, manancial de todo bem,\nCom ternura me conduz, ao eterno lar. Amém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":381,
+            "titulo":"Jesus Proverá",
+            "titulo_ingles":"Wenn mud und' beladen",
+            "numero":381,
+            "numero_view":"381",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Autor Desconhecido"
+                }
+            ],
+            "texto_biblico":"Gênesis 22:7 e 8",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Jesus proverá!\nSim, crê, pecador,\nNas ricas promessas\nDo teu Redentor!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó tu que, cansado, só buscas a luz,\nDo mundo enfadado, te apegas à cruz,\nNão tenhas cuidado do que sobrestá:\nSe doenças, se mágoas, Jesus proverá!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se laços amigos ameaçam quebrar,\nJesus é contigo, te pode amparar.\nNas lutas renhidas Seu braço te dá.\nPor que te afadigas? Jesus proverá!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"No fim desta lida, feliz entrarás,\nVencida a fadiga, no reino da paz.\nDo mundo os cuidados não mais haverá,\nSerão dissipados, Jesus proverá!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":382,
+            "titulo":"Não Ando Só",
+            "titulo_ingles":null,
+            "numero":382,
+            "numero_view":"382",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Alfred H. Ackley (1887-1960)"
+                },
+                {
+                    "nome":"Waldemar O. Wensell (1944- )"
+                }
+            ],
+            "texto_biblico":"Isaías 41:10",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Não ando só, Jesus ao lado tenho,\nE nEle achei Amigo sem igual.\nDe tal Amigo apoio e guia obtenho;\nNão ando só, pois Ele me é real."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Não ando só, pois Cristo me acompanha\nPor toda a parte, aonde quer que eu for;\nMeu coração se alegra em Sua graça,\nE quantos queiram, fruem Seu amor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Não ando só, em meio à tempestade;\nMesmo que o vento esteja a me açoitar,\nSeguro vou pois Cristo está comigo,\nE os braços Seus estão a me rodear."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Não ando só, se as tentações me assaltam,\nComigo está Jesus a me guiar,\nE quando enfim eu for ao lar eterno,\nAinda ali com Ele eu hei de andar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":383,
+            "titulo":"Importará?",
+            "titulo_ingles":"Does Jesus Care?",
+            "numero":383,
+            "numero_view":"383",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Frank E. Graeff (1860-1919)"
+                },
+                {
+                    "nome":"Joseph L. Hall (1866-1930)"
+                }
+            ],
+            "texto_biblico":"Mateus 10:29-31",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh! sim, eu sei, Jesus bem vê\nO que eu estou a sofrer!\nEm cruel peleja, pavor, inveja,\nJesus me quer valer."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Importará ao Senhor Jesus\nQue eu viva sempre a sofrer,\nTendo o coração cheio de aflição?\nSentirá meu triste viver?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Importará ao Senhor Jesus\nQue eu viva com dissabor?\nQue me falte a luz, a que vem da cruz?\nSentirá o meu Salvador?"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Importará ao Senhor Jesus\nQue eu caia na tentação?\nE se o mal puder minha fé vencer,\nDar-me-á de novo o perdão?"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Importará ao Senhor Jesus\nSe a morte ferir meu lar?\nSe eu disser adeus aos queridos meus,\nSentirá, Jesus, meu pesar?"
+                }
+            ]
+        }
+        ,
+        {
+            "id":384,
+            "titulo":"Jesus me Guia",
+            "titulo_ingles":"He Leadeth Me",
+            "numero":384,
+            "numero_view":"384",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Joseph H. Gilmore (1834-1918)"
+                },
+                {
+                    "nome":"William B. Bradbury (1816-1868)"
+                }
+            ],
+            "texto_biblico":"Isaías 58:11",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Jesus me guia, que prazer!\nÉ Sua mão que me conduz.\nEm cada passo me é mister\nQue me dirija meu Jesus."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Jesus me guia, que prazer!\nQue paz me vem ao coração!\nEm todo transe em que estiver\nMe guia sempre a Sua mão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Às vezes, quando em aflição,\nEm meio de perigo e dor,\nPor água mansa ou bravo mar\nMe guia a mão do meu Senhor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ajuda-me a não murmurar\nQualquer que seja a condição;\nContente vou, pois guiarás\nCom Tua mui bondosa mão."
+                }
+            ]
+        }
+        ,
+        {
+            "id":385,
+            "titulo":"Deus Está nas Sombras",
+            "titulo_ingles":null,
+            "numero":385,
+            "numero_view":"385",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Oswald J. Smith (1889-1985)"
+                },
+                {
+                    "nome":"Bentley D. Ackley (1872-1958)"
+                }
+            ],
+            "texto_biblico":"I Pedro 5:7",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sombras, Deus está nas sombras;\nFirme é Seu amor em cuidar de nós.\nSombras, Deus está nas sombras;\nNão nos deixará lutar em dor, a sós."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Se da noite as sombras te cercarem,\nE a obra finda parecer,\nAmanhã risonho, Deus promete,\nSem mais nuvens negras a temer."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se a Jesus anelas ver nas sombras,\nSe anseias dele Seu amor,\nHás de achar o Salvador ao lado,\nUm constante amigo e protetor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quando as sombras o meu céu toldarem,\nMesmo que o sol não possa ver,\nEm Jesus encontro meu refúgio,\nNas tormentas deste meu viver."
+                }
+            ]
+        }
+        ,
+        {
+            "id":386,
+            "titulo":"Nunca te Deixarei",
+            "titulo_ingles":"I Will Guide Thee",
+            "numero":386,
+            "numero_view":"386",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Nathaniel Niles (1835- ?)"
+                },
+                {
+                    "nome":"Philip P. Bliss (1838-1876)"
+                }
+            ],
+            "texto_biblico":"Isaías 41:10",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"''Ó, não temas, ó, não temas,\nPois Eu contigo sempre serei!\nÓ, não temas, ó, não temas,\nPois Eu nunca te deixarei.''"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Oh! como é grande e doce a promessa\nDo Salvador, Jesus, nosso Rei!\nAo que confia na Sua graça,\nEle diz: ''Sempre te guardarei.''"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"''Eu sou teu Deus e para livrar-te\nDe ti bem perto sempre estarei;\nNão tenhas medo, pois, bem seguro,\nEu pela mão te conduzirei.''"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"''Para remir-te dei o Meu sangue,\nPelo teu nome já te chamei;\nMeu para sempre tu és agora,\nCrê pois, que nunca te deixarei.''"
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"''Eras indigno, mas escolhi-te;\nNão temas, pois Eu muito te amei.\nQuem dos Meus braços pode arrancar-te?\nSempre seguro te guardarei.''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":387,
+            "titulo":"Deus vos Guarde",
+            "titulo_ingles":"God Be With You",
+            "numero":387,
+            "numero_view":"387",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Jeremiah E. Rankin (1828-1904)"
+                },
+                {
+                    "nome":"William G. Tomer (1833-1896)"
+                }
+            ],
+            "texto_biblico":"Números 6:24-26",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Pelo Seu poder  e no Seu amor,\nTé nos encontramos com Jesus.\nPelo Seu poder e no Seu amor,\nOh, que Deus vos guarde em Sua luz!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Deus vos guarde pelo Seu poder,\nProtegidos e velados,\nDesfrutando Seus cuidados;\nDeus vos guarde pelo Seu poder."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Deus vos guarde em Seu eterno amor,\nBem unidos e contentes,\nAchegados sempre aos crente,\nDeus vos guarde em Seu eterno amor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Deus vos guarde do poder do mal,\nDa ruína e do pecado,\nMui Felizes ao Seu lado;\nDeus vos guarde do poder do mal."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Deus vos guarde para o Seu louvor,\nSeu serviço tão glorioso,\nUm viver mui vitorioso;\nDeus vo guarde para o Seu louvor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":388,
+            "titulo":"Vem, Alma Cansada",
+            "titulo_ingles":"Go Bury Thy Sorrow",
+            "numero":388,
+            "numero_view":"388",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Mary A. Bachelor"
+                },
+                {
+                    "nome":"Philip P. Bliss (1838-1876)"
+                }
+            ],
+            "texto_biblico":"Mateus 11:28-30",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Vem, alma cansada, tão cheia de dor;\nVem, traze teus fardos aos pés do Senhor.\nA Cristo confia teu grande pesar,\nPois nEle descanso tu podes achar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Mágoas e tristezas, vem, traze ao Senhor;\nNão, oh, não receies vir tudo Lhe expor.\nDo mal que te oprime, te pode curar.\nTem Ele o desejo de te confortar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Se tu já provaste tal consolação,\nVai, leva aos contritos luz, paz e perdão;\nAs almas aflitas, em lutas e dor,\nVai, traze-as depressa aos pés do Senhor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":389,
+            "titulo":"Nas Agruras Desta Vida",
+            "titulo_ingles":"He Will Hide Me!",
+            "numero":389,
+            "numero_view":"389",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"M. E. Servoss (1849-1906)"
+                },
+                {
+                    "nome":"James McGranahan (1840-1907)"
+                }
+            ],
+            "texto_biblico":"Salmo 37:3-5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh, me ampara! Oh, me abriga,\nOnde o mal chegar não possa!\nSim, me ampara! Sim, me abriga!\nSê Tu, pois, minha salvação."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Nas agruras desta vida,\nNo descanso ou no labor,\nDá-me força na fadiga,\nVem guardar-me o Salvador."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Os perversos só me odeiam,\nE me querem destruir;\nMas os anjos me rodeiam,\nNão me deixam sucumbir."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Mesmo que o mal me assalte,\nVacilar não poderei;\nMesmo que a força falte,\nPor Jesus eu vencerei."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Eu, enquanto neste mundo,\nTenho sempre que lutar,\nMas de Cristo o amor profundo,\nCerto, faz-me descansar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":390,
+            "titulo":"Olhando Para Cima",
+            "titulo_ingles":null,
+            "numero":390,
+            "numero_view":"390",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"H. W."
+                },
+                {
+                    "nome":"Herbert Work (1904-1982)"
+                }
+            ],
+            "texto_biblico":"Isaías 45:22",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Ó, mantém teu olhar pra o Céu,\nSó Jesus dará poder.\nSua paz hás de então sentir,\nE conforto receber."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó, mantém teu olhar pra o Céu,\nPra sentir o poder do amor;\nEis que Deus responderá\nA oração do pecador\nQue buscar Sua mão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"A Jesus deves confiar\nTeus pesares, teu prantear,\nE verás que lá do Céu\nHás de forças receber\nPra vencer todo mal."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ao olhar para o Salvador,\nNova vida vais receber,\nE em luz sempre andarás,\nE desejo hás de ter\nDe servir a Jesus."
+                }
+            ]
+        }
+        ,
+        {
+            "id":391,
+            "titulo":"Cada Vez Mais Puro",
+            "titulo_ingles":"Pure yet and Purer",
+            "numero":391,
+            "numero_view":"391",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Petição",
+            "autores":[
+                {
+                    "nome":"Johann W. Goethe (1749-1832)"
+                },
+                {
+                    "nome":"Autor Desconhecido"
+                }
+            ],
+            "texto_biblico":"Salmo 51:10",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Ó, mantém teu olhar pra o Céu,\nPra sentir o poder do amor;\nEis que Deus responderá\nA oração do pecador\nQue buscar Sua mão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"A Jesus deves confiar\nTeus pesares, teu prantear,\nE verás que lá do Céu\nHás de forças receber\nPra vencer todo mal."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ao olhar para o Salvador,\nNova vida vais receber,\nE em luz sempre andarás,\nE desejo hás de ter\nDe servir a Jesus."
+                }
+            ]
+        }
     ],
     "categorias":[
         {
