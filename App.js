@@ -5,10 +5,9 @@ import {ThemeProvider} from 'styled-components';
 import MainStack from './src/stacks/MainStack';
 import {useStateValue} from './src/state/ContextProvider';
 import AsyncStorage from '@react-native-community/async-storage';
+
 export default () => {
-
   const [state,dispach]=useStateValue();
-
   useEffect(()=>{
     async function getStorageDarkMode(){
       const Theme= await AsyncStorage.getItem("Theme");

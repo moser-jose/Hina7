@@ -4,7 +4,7 @@ import FavoritesIcon from '../assets/img/favorites.svg';
 import hinario from '../api/hinario.json';
 import getRealm from '../api/realm/realm';
 import {useNavigation} from '@react-navigation/native';
-
+import {useStateValueFavorite} from '../state/ContextProviderFavoritos'
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
     margin-top:10px;
@@ -93,6 +93,7 @@ export default() =>{
     
     const navigation=useNavigation();
     const [list, setList]=useState([]);
+    const [data, setData]=useStateValueFavorite();
    async function handlerActClickf(){
     const realm =await getRealm();
     const d = realm.objects('Favoritos').filtered('favorito=true');
@@ -120,7 +121,8 @@ export default() =>{
     
     useEffect(()=> {
         handlerActClickf();
-    }, []);
+        setList(data);
+    }, [data]);
     return(
         <FlatListUp 
         horizontal

@@ -5,10 +5,8 @@ import {FlatList} from 'react-native'
 import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
 import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 import IconLeft from '../assets/img/Icon_left.svg';
-import IconPoint from '../assets/img/Icon_menu_point_v.svg';
-
+import { useStateValueFavorite } from '../state/ContextProviderFavoritos';
 import getRealm from '../api/realm/realm';
-
 const HinoContainer = styled.SafeAreaView`
 
 flex:1;
@@ -140,7 +138,7 @@ export default() =>{
     const navigation=useNavigation();
     const route=useRoute();
     const [favorited, setFavorited]=useState(false);
-
+    const [hine, setHine]=useStateValueFavorite();
    const [hinoInfo, setHinoInfo]=useState({
 
         id: route.params.id,
@@ -182,11 +180,21 @@ export default() =>{
     function handlerClick(){
         if(favorited){
             setFavorited(false);
+            setHine({
+                type:'hinos'
+            })
             RefreshFavorites(hinoInfo, false);
+            
         }
         else{
             setFavorited(true);
+            setHine({
+                type:'hinos'
+            })
             SaveFavorites(hinoInfo, true);
+            setHine({
+                type:'hinos'
+            })
         }
         
     }
@@ -200,7 +208,6 @@ export default() =>{
     useEffect(()=>{
         handlerActClickf();
     },[]);
-
     return(
         
         <HinoContainer>
@@ -226,7 +233,6 @@ export default() =>{
                                 <FavoritosIconWhite ></FavoritosIconWhite>
                             }
                         </TabTopTituloleftFavor>
-
                     </TabTopTituloLeft>
                     <TabTopTituloMiddle>
                         <TabTopTituloMiddleText>{hinoInfo.numero_view}</TabTopTituloMiddleText>

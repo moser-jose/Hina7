@@ -7,7 +7,7 @@ import FilterIcon from '../assets/img/filter.svg';
 import SearchIcon from '../assets/img/search.svg';
 import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
 import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
-
+import {useStateValueFavorite} from '../state/ContextProviderFavoritos'
 import getRealm from '../api/realm/realm';
 const HinoPesq = styled.SafeAreaView`
    
@@ -116,20 +116,8 @@ const FavoritosFText = styled.Text`
 export default() =>{
     const [data, setData]=useState([]);
     const [loading, setLoading]=useState(true);
+    const [list, setList]=useStateValueFavorite();
     const navigation=useNavigation();
-    filterItem = event => {
-        var query = event.nativeEvent.text;
-        setQuery(query);
-        if (query == '') {
-            setData(data);
-        } else {
-          var dataObj = data;
-          query = query.toLowerCase();
-          dataObj = dataObj.filter(l => l.numero.toString().toLowerCase().match(query));
-          setData(dataObj);
-        }
-    };
-
     async function handlerActClickf(){
         setLoading(true);
         const realm =await getRealm();
@@ -155,8 +143,8 @@ export default() =>{
         setLoading(false);
     }
     useEffect(()=> {
-        
         handlerActClickf();
+        setData(list);
     }, []);
     return(
         <Div>
@@ -164,7 +152,6 @@ export default() =>{
                 <FavoritosT>
                 {loading && <IconLoading size="large"  color="#29c17e"></IconLoading>}
                 <FlatListUp 
-                
                 data={data}
                 keyExtractor={(item) => item.titulo}
                 showsVerticalScrollIndicator={false}
