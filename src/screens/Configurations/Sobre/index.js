@@ -77,15 +77,12 @@ export default () => {
                     <SobreTextoCenterAutor>
                         Envie sugestões para:
                     </SobreTextoCenterAutor>
-                    <SobreContaneirBotao onPress={() => Linking.openURL('mailto:hina7@gmail.com')}>
+                    <SobreContaneirBotao onPress={() => Linking.openURL('mailto:mosmmy@gmail.com')}>
                         <SobreTextoCenterAutorT>
-                        hina7@gmail.com
+                        mosmmy@gmail.com
                         </SobreTextoCenterAutorT>
                     </SobreContaneirBotao>
                 </SobreContaneir>
-
-                
-                
                 <Versao>
                     <VersaoTexto>
                         Versão 1.0.1

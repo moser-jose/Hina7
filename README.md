@@ -1,6 +1,6 @@
 # `Hinário Adventista do 7º Dia`
 
-Este projecto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, com os seus respectivos ``autores``, ``compositores`` e ``textos bíblicos``, de forma totalmente organizada e com uma interface totalmente simples e interativa como nunca se viu.
+Este projeto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, com os seus respetivos ``autores``, ``compositores`` e ``textos bíblicos``, de forma totalmente organizada e com uma interface totalmente simples e interativa como nunca se viu.
 
 <p align="center">
     <img src="src/assets/img/logo.svg" width="30%">
@@ -29,7 +29,7 @@ Este projecto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``,
 
 ## Requisitos
 
-Todos os requisitos aqui listados são indispensáveis para o desenvolvimento do projecto.
+Todos os requisitos aqui listados são indispensáveis para o desenvolvimento do projeto.
 
 ### Android
 
@@ -43,7 +43,7 @@ Todos os requisitos aqui listados são indispensáveis para o desenvolvimento do
 
 ## Api
 
-Se quiser apenas utilizar o ficheiro onde tem todos os hinos, pode utilizar este link [https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json](https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json)
+Se quiser apenas utilizar o ficheiro `json` onde tem todos os hinos, pode utilizar este link [https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json](https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json)
     
 
 ## Como contribuir
@@ -52,12 +52,9 @@ Para fazer um pull-request, primeiramente crie um fork do projeto para a sua con
 
 `git clone https://github.com/moser-jose/Hina7.git`
 
-Agora pronto, você já pode começar a contribuir com o projeto!
+usa o comando `npm install` para instalar todas as dependências do projeto.
 
-
-### Reportando Issues
-
-Você pode criar uma issue [aqui](https://github.com/moser-jose/Hina7/issues), mas, lembre-se de ser claro e informar o máximo de detalhes possíveis.
+Faça as alterações necessárias para a melhoria do projeto, não se esqueça de ser claro e informar o máximo de detalhes possíveis.
 
 ### Submetendo Pull Requests
 
