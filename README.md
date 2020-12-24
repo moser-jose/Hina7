@@ -1,9 +1,9 @@
 # `Hinário Adventista do 7º Dia`
 
-Este projeto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, com os seus respetivos ``autores``, ``compositores`` e ``textos bíblicos``, de forma totalmente organizada e com uma interface totalmente simples e interativa como nunca se viu.
+Este projeto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, com os seus respetivos ``autores``, ``compositores`` e ``textos bíblicos``, de forma totalmente organizada e com uma interface totalmente simples e interativa como nunca se viu. Veja o site em [https://hinario-adventista.vercel.app/](https://hinario-adventista.vercel.app/)
 
 <p align="center">
-    <img src="src/assets/img/logo.svg" width="30%">
+    <img src="src/assets/img/logo.svg" width="20%">
 </p>
 
  <div align="center">
