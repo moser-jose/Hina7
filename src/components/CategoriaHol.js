@@ -5,7 +5,6 @@ import categoria from '../api/hinario.json';
 import {useNavigation,useRoute} from '@react-navigation/native';
 const CategoriaHol = styled.View`
     flex-direction:row;
-    margin-top:10px;
     height:70px;
     margin-right:10px;
 `;

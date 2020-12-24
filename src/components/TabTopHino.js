@@ -139,17 +139,16 @@ export default() =>{
     const route=useRoute();
     const [favorited, setFavorited]=useState(false);
     const [hine, setHine]=useStateValueFavorite();
-   const [hinoInfo, setHinoInfo]=useState({
-
-        id: route.params.id,
-        titulo: route.params.titulo,
-        numero_view: route.params.numero_view,
-        titulo_ingles: route.params.titulo_ingles,
-        autores: route.params.autores,
-        texto_biblico: route.params.texto_biblico,
-        coro: route.params.coro,
-        estrofes: route.params.estrofes
-   });
+    const [hinoInfo, setHinoInfo]=useState({
+            id: route.params.id,
+            titulo: route.params.titulo,
+            numero_view: route.params.numero_view,
+            titulo_ingles: route.params.titulo_ingles,
+            autores: route.params.autores,
+            texto_biblico: route.params.texto_biblico,
+            coro: route.params.coro,
+            estrofes: route.params.estrofes
+    });
     async function SaveFavorites(hinoInfo, favor){
         const data={
             id:hinoInfo.id,
@@ -158,18 +157,11 @@ export default() =>{
             favorito:favor,
         };
         const realm= await getRealm();
-
         realm.write(()=>{
             realm.create('Favoritos', data, 'modified');
         });
     }
-
-
-    async function RefreshFavorites(hinoInfo, favor){
-        await SaveFavorites(hinoInfo, favor);
-    }
-
-    async function handlerActClickf(){
+    async function getRealmData(){
         const realm =await getRealm();
         const dogs = realm.objects('Favoritos').filtered('id='+hinoInfo.id+'');
         for (let p of dogs) {
@@ -183,14 +175,11 @@ export default() =>{
             setHine({
                 type:'hinos'
             })
-            RefreshFavorites(hinoInfo, false);
+            SaveFavorites(hinoInfo, false);
             
         }
         else{
             setFavorited(true);
-            setHine({
-                type:'hinos'
-            })
             SaveFavorites(hinoInfo, true);
             setHine({
                 type:'hinos'
@@ -198,22 +187,15 @@ export default() =>{
         }
         
     }
-    function handlerActClick(){
-        handlerClick();
-    }
-    const voltar =()=>{
-        navigation.goBack();
-    }
-
     useEffect(()=>{
-        handlerActClickf();
+        getRealmData();
     },[]);
     return(
         
         <HinoContainer>
             <TabTopHino>
                     <TabTopVoltarBotao>
-                        <TabTopVoltar  onPress={voltar}>
+                        <TabTopVoltar  onPress={()=>navigation.goBack()}>
                             <IconLeft></IconLeft>
                             <TabText>Voltar</TabText>
                         </TabTopVoltar>
@@ -226,7 +208,7 @@ export default() =>{
                 </TabTopTituloEng>
                 <TabTopTituloBase>
                     <TabTopTituloLeft>
-                        <TabTopTituloleftFavor onPress={handlerActClick}>
+                        <TabTopTituloleftFavor onPress={handlerClick}>
                             {favorited ?
                                 <FavoritosIconFull fill="#29C17E" ></FavoritosIconFull>
                                     :
@@ -256,7 +238,6 @@ export default() =>{
                             <FlatList
                                 data={hinoInfo.estrofes.slice(0, 1)}
                                 keyExtractor={(item) => item.estrofe}
-                                
                                 showsVerticalScrollIndicator={false}
                                 renderItem={HinosGetEstrofes}>
                             </FlatList>

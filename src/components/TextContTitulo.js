@@ -6,7 +6,7 @@ const TextContTitulo = styled.View`
    
     flex-direction:row;
     justify-content:center;
-    margin-top:10px;
+    margin:10px 0 10px 0;
 
 `;
 
@@ -19,13 +19,13 @@ const BotaoVerTodos = styled.TouchableOpacity`
 
 `; 
 const TextoTituloLeft = styled.Text`
-    font-size:12px;
+    font-size:14px;
     font-weight:700;
     letter-spacing:1px;
     color:${props=>props.theme.title};
 `;
 const TextoTituloRight = styled.Text`
-    font-size:12px;
+    font-size:14px;
     font-weight:700;
     letter-spacing:1px;
     color:${props=>props.theme.title};

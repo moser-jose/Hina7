@@ -4,7 +4,7 @@ import hinario from '../api/hinario.json';
 import {useNavigation} from '@react-navigation/native';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
-    margin:10px 1px 0;
+    margin:0 1px 0;
     padding: 8px;
     border-radius:2px;
     margin-right:10px;

@@ -41,15 +41,6 @@ Todos os requisitos aqui listados são indispensáveis para o desenvolvimento do
 * Android Studio
 * Android SDK
 
-### iOS
-
-#### Ferramentas necessárias para a construção:
-
-* Node 8.3
-* npm
-* CocoaPods
-* XCode
-
 ## Api
 
 Se quiser apenas utilizar o ficheiro onde tem todos os hinos, pode utilizar este link [https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json](https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json)
