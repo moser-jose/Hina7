@@ -6,7 +6,7 @@ const TextContTitulo = styled.View`
    
     flex-direction:row;
     justify-content:center;
-    margin:10px 0 10px 0;
+    margin:20px 0 20px 0;
 
 `;
 
@@ -25,10 +25,14 @@ const TextoTituloLeft = styled.Text`
     color:${props=>props.theme.title};
 `;
 const TextoTituloRight = styled.Text`
-    font-size:14px;
+    font-size:12px;
     font-weight:700;
     letter-spacing:1px;
-    color:${props=>props.theme.title};
+    background-color:#29C17E;
+    border-radius:2px;
+    padding:2px 4px;
+    color:#FFF;
+    elevation:2;
 `;
 export default ({nome}) => {
     const navigation=useNavigation();

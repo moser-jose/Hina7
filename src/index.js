@@ -86,23 +86,6 @@ export default function index(){
                 };
         }
     }
-   /* 
-    async function SaveFavorites(hinoInfo, favor){
-        const data={
-            id:hinoInfo.id,
-            hino:hinoInfo.id,
-            titulo:hinoInfo.titulo,
-            favorito:favor,
-        };
-        const realm= await getRealm();
-
-        realm.write(()=>{
-            realm.create('Favoritos', data, 'modified');
-        });
-    } */
-    
-    /* const initialStateFavorite = {hinos:}; */
-    /* console.log(...list); */
     
     return(
         <StateProvider initialState={initialState} reducer={reducer}>

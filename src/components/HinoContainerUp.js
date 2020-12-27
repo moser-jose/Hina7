@@ -7,7 +7,9 @@ import SearchIcon from '../assets/img/search.svg';
 import IconDown from '../assets/img/Icon_down.svg';
 import IconCheck from '../assets/img/Icon_check.svg';
 import IconUnCheck from '../assets/img/Icon_uncheck.svg';
-
+import {useStateValueFavorite} from '../state/ContextProviderFavoritos';
+import getRealm from '../api/realm/realm';
+import FavoritoFull from '../assets/img/favorite_icon_full.svg';
 const HinoPesq = styled.View`
     width:100%;
 `;
@@ -62,6 +64,7 @@ const FavoritoAutor = styled.View`
     flex-direction:row;
     margin-top:2px;
     justify-content:space-between;
+    align-items:center;
 `; 
 
 const Autores = styled.View`
@@ -86,7 +89,7 @@ const TextoBiblico = styled.Text`
 `;
 
 const Div = styled.View`
-   
+    
 `;
 
 
@@ -209,39 +212,59 @@ const ModalBodyOpcaoTextoF =styled.Text`
     
 
 `;
+
 const ModalFec =styled.View`
     justify-content:center;
     margin-top:20px;
     flex-direction:row;
 
 `;
+const Favorito = styled.View`
+    margin-right:20px;
+`;
 
 export default() =>{
-
+    const [list, setList]=useStateValueFavorite();
+    const [fav, setFav]=useState([]);
     const [data, setData]=useState([]);
     const [pesquisa, setPesquisa]=useState(true);
     const [showModal, setShowModal]=useState(false);
-    const op=[];
     const getHinos=()=>{
         setData(hinario.hinos);
     }
     
-
+    async function handlerActClickf(){
+        const realm =await getRealm();
+        const d = realm.objects('Favoritos').filtered('favorito=true');
+        var dataObj = hinario.hinos;
+        var dataObj2 = [];
+        var datad='{"hinos":[';
+        var dataf="";
+        for (let p=0; p<d.length; p++) {
+            dataObj2=dataObj.filter((item, key)=>item.id==d[p].id);
+            const vb=JSON.stringify(dataObj2);
+            const lo=vb.slice(1,-1);
+            if(d.length-1==p){
+                dataf+=lo;
+            }
+            else{
+                dataf+=lo+",";
+            }
+        }
+        var go=datad+dataf+"]}"
+        var ad=JSON.parse(go);
+        setFav(ad.hinos);
+    }
     const navigation=useNavigation();
     
     filterItem = query => {
-        /* var query = event.nativeEvent.text; */
-        /* setQuery(query); */
         if (query == '') {
             setData(hinario.hinos);
         } else {
           var dataObj = [];
           query = query.toLowerCase();
-          /* setQuery(query); */
           if(pesquisa){
             dataObj = data.filter(l => l.numero.toString().toLowerCase().match(query));
-            console.log(dataObj);
-            console.log(query);
         }
           else{
             dataObj = dataObj.filter(l => l.titulo.toLowerCase().match(query));
@@ -288,9 +311,9 @@ export default() =>{
         setShowModal(false);
     }
     useEffect(()=> {
-       
         getHinos();
-    }, []);
+        handlerActClickf();
+    }, [list]);
     
     return(
         <Div>
@@ -308,9 +331,6 @@ export default() =>{
                            placeholder="Introduza o número do hino"
                            autoCapitalize="none"
                            autoCorrect={false}
-                           /* value={query} */
-                           
-                           /* onChange={this.filterItem.bind(this)} */
                            onChangeText={query=>this.filtrar(query)}
                            ></TextImput>
                            :
@@ -319,7 +339,6 @@ export default() =>{
                            placeholder="Introduza o titulo do hino"
                            autoCapitalize="none"
                            autoCorrect={false}
-                           /* value={query} */
                            onChangeText={query=>this.filtrar(query)}
                            ></TextImput>
                            }
@@ -339,9 +358,6 @@ export default() =>{
                 renderItem={HinosGet}
                 maxToRenderPerBatch={20}>
             </FlatListUp>
-
-
-
             <Modal 
                 transparent={true}
                 visible={showModal}
@@ -412,7 +428,7 @@ export default() =>{
         
         return(
             <HinoContainerUp>
-                    <Hino>
+                <Hino>
                     <HinoLeft>
                         <HinoBotao onPress={handleClick}>
                             <NumeroHino>{numero_view}</NumeroHino>
@@ -424,6 +440,12 @@ export default() =>{
                             <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
                         </BotaoTitulo>
                         <FavoritoAutor>
+                        {fav.map((value,index) => (
+                        value.id==id &&  
+                        <Favorito key={index}>
+                            <FavoritoFull></FavoritoFull>
+                        </Favorito>
+                    ))}
                             <TextoBiblico>{texto_biblico}</TextoBiblico>
                             <Autores>
                                 <FlatListUp 

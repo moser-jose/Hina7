@@ -83,6 +83,17 @@ export default () => {
                         </SobreTextoCenterAutorT>
                     </SobreContaneirBotao>
                 </SobreContaneir>
+                <SobreContaneir >
+                    <SobreTextoCenterAutor>
+                        Developer:
+                    </SobreTextoCenterAutor>
+                    <SobreContaneirBotao onPress={() => Linking.openURL('https://github.com/moser-jose')}>
+                        <SobreTextoCenterAutorT>
+                        @moser-jose
+                        </SobreTextoCenterAutorT>
+                    </SobreContaneirBotao>
+                </SobreContaneir>
+
                 <Versao>
                     <VersaoTexto>
                         Versão 1.0.1

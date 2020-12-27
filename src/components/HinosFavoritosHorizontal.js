@@ -1,13 +1,13 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
-import FavoritesIcon from '../assets/img/favorites.svg';
 import hinario from '../api/hinario.json';
 import getRealm from '../api/realm/realm';
 import {useNavigation} from '@react-navigation/native';
-import {useStateValueFavorite} from '../state/ContextProviderFavoritos'
+import {useStateValueFavorite} from '../state/ContextProviderFavoritos';
+import FavoritoFull from '../assets/img/favorite_icon_full.svg';
+import FavoritoWhite from '../assets/img/favorite_icon_white.svg';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
-    margin-top:10px;
     height:90px;
 `;
 
@@ -17,7 +17,7 @@ const Hino = styled.View`
     margin-right:10px;
     padding:4px 8px;
     background-color:${props=>props.theme.container};;
-    
+    border-radius:2px;
     overflow:hidden;
 `; 
 const HinoLeft = styled.View`
@@ -55,6 +55,7 @@ const FavoritoAutor = styled.View`
     flex-direction:row;
     margin-top:2px;
     justify-content:space-between;
+    align-items:center;
     
 `; 
 const Favoritos = styled.View`
@@ -88,13 +89,17 @@ const TextoBiblico = styled.Text`
     color:${props=>props.theme.title};
 
 `;
+const Favorito = styled.View`
+    margin-right:20px;
+`;
 
 export default() =>{
     
     const navigation=useNavigation();
     const [list, setList]=useState([]);
     const [data, setData]=useStateValueFavorite();
-   async function handlerActClickf(){
+
+    async function handlerActClickf(){
     const realm =await getRealm();
     const d = realm.objects('Favoritos').filtered('favorito=true');
     var dataObj = hinario.hinos;
@@ -163,11 +168,9 @@ export default() =>{
                                 <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
                             </BotaoTitulo>
                             <FavoritoAutor>
-                                {/* <Favoritos>
-                                    <FavoritosBotao>
-                                    <FavoritesIcon fill="#29C17E"/>
-                                    </FavoritosBotao>
-                                </Favoritos> */}
+                                <Favorito> 
+                                    <FavoritoFull></FavoritoFull>
+                                </Favorito>
                                     <TextoBiblico>{texto_biblico}</TextoBiblico>
                                 <Autores>
                                     <FlatListUp 

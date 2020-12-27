@@ -30,11 +30,11 @@ export default () => {
     }
     const handleClickShare=()=>{
         Share.share({
-            title:"Hina7",
-            url:"www.google.com",
-            message:"Instale o novo App do Hinário Adventista do 7º dia e desfrute do Hinário como nunca, faça o download em www.google.com"
+            title:"Hinário Adventista do 7º dia",
+            url:"https://www.hinario-adventista.vercel.app/",
+            message:"Instale o novo App do Hinário Adventista do 7º dia e desfrute do Hinário como nunca, faça o download em https://www.hinario-adventista.vercel.app/"
         },{
-            dialogTitle:"Partilhe o App Hina7"
+            dialogTitle:"Partilhe o Hinário Adventista do 7º dia"
         })
     }
     return(
@@ -51,21 +51,6 @@ export default () => {
 
                         <ConfigurationsBotaoMiddle>
                             <ConfigurationsBotaoMiddleText>Configurações</ConfigurationsBotaoMiddleText>
-                            
-                        </ConfigurationsBotaoMiddle>
-                        <ConfigurationsBotaoRight>
-                            <IconRight></IconRight>
-                        </ConfigurationsBotaoRight>
-                    
-                    </ConfigurationsBotao> 
-                    <Line></Line>
-                    <ConfigurationsBotao>
-                        <ConfigurationsBotaoLeft>
-                            <IconHand></IconHand>
-                        </ConfigurationsBotaoLeft>
-
-                        <ConfigurationsBotaoMiddle>
-                            <ConfigurationsBotaoMiddleText>Como Usar o App</ConfigurationsBotaoMiddleText>
                             
                         </ConfigurationsBotaoMiddle>
                         <ConfigurationsBotaoRight>

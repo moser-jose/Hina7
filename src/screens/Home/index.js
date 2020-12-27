@@ -16,16 +16,15 @@ import HinoContainerHorizontal from '../../components/HinoContainerHorizontal';
 import HinosFavoritosHorizontal from '../../components/HinosFavoritosHorizontal';
 
 import PartilharContainer from '../../components/PartilharContainer';
+import Brevemente from '../../components/Brevemente';
 
 
 export default () => {
     const navigation=useNavigation();
-    const [favorited, setFavorited]=useState(false);
+    
     const [list, setList]=useState([]);
     const [data, setData]=useStateValueFavorite();
-    const handlerClickFav=() =>{
-        setFavorited(!favorited);
-    }
+    
     async function handlerActClickf(){
         const realm =await getRealm();
         const d = realm.objects('Favoritos').filtered('favorito=true');
@@ -52,9 +51,7 @@ export default () => {
     useEffect(() => {
         handlerActClickf();
         setList(data);
-        
     }, [data])
-    console.log(list)
     return(
         <Container>
             <TabTop titulo={"Favoritos"}></TabTop>
@@ -72,6 +69,7 @@ export default () => {
             <HinosFavoritosHorizontal ></HinosFavoritosHorizontal>
                 </Favoritos>}
                 <PartilharContainer></PartilharContainer>
+                <Brevemente></Brevemente>
             </Scroler>
         
         </Container>
