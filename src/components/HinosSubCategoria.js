@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
-import FavoritesIcon from '../assets/img/favorites.svg';
 import AutoresHino from './Autores';
 import {useNavigation} from '@react-navigation/native';
 const HinoContainerUp = styled.View`
@@ -14,6 +13,7 @@ const Hino = styled.View`
     width:100%;
     elevation:2;
     padding:4px;
+    border-radius:2px;
     background-color:${props=>props.theme.container};
     overflow:hidden;
     `;

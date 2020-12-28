@@ -1,4 +1,7 @@
 {
+    "autor": "Moser José",
+    "github":"https://github.com/moser-jose",
+    "ultima_atualizacao":"28-12-2020",
     "hinos":[
         {
             "id":1,
@@ -21978,6 +21981,2306 @@
                 {
                     "numero":"III",
                     "estrofe":"Quando o teu registro apresentado for\nOuvirás Jesus dizer.\n''Pai, o sangue Meu por ele derramei,\nDeixa o pecador viver.''?"
+                }
+            ]
+        }
+        ,
+        {
+            "id":547,
+            "titulo":"Oh! Bela Terra de Esplendor",
+            "titulo_ingles":"There Is a Land of Corn and Wine",
+            "numero":547,
+            "numero_view":"547",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Edgar P. Stites (1836-1921)"
+                },
+                {
+                    "nome":"John R. Sweney (1837-1899)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 21:1-5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh, bela terra de esplendor,\nQuerida herança do Senhor;\nOlhando, velo além do mar\nQue em breve eu hei de atravessar,\nA linda praia perenal,\nDo eterno lar celestial."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Pra terra abençoada vou,\nAnsioso peregrino sou\nEm busca do feliz lugar\nNo qual eu hei de descansar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Comigo vai o meu Senhor,\nDo mal me guarda com amor,\nDe paz transborda o coração,\nE certo estou da salvação."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Na vastidão celestial\nHá de soar canto imortal\nDa triunfante multidão\nCantando a grande redenção."
+                }
+            ]
+        }
+        ,
+        {
+            "id":548,
+            "titulo":"Há um País de Eterna Luz",
+            "titulo_ingles":"There Is a Land of Pure Delight",
+            "numero":548,
+            "numero_view":"548",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Isaac Watts (1674-1748)"
+                },
+                {
+                    "nome":"George F. Root (1820-1895)"
+                }
+            ],
+            "texto_biblico":"Isaías 65:17-19",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Há um país de eterna luz, um lar feliz nos Céus;\nPra sempre ali está Jesus com os remidos Seus.\nHá primavera sempre ali, e as flores durarão.\nE longe não está daqui, dos salvos a mansão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"A terra é santa e pura, sim, e nela reina amor.\nNenhum pecado mancha ali, o reino do Senhor.\nAli não há de entrar o mal, nem chega a corrupção.\nNaquela terra sem igual os justos reinarão."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quisera já poder subir ao santo Céu de luz,\nPerfeito ser e a paz fruir aos pés de meu Jesus!\nSubindo o monte, com Moisés, avisto o bom país;\nEsqueço o mundo e pela fé, eu sinto-me feliz."
+                }
+            ]
+        }
+        ,
+        {
+            "id":549,
+            "titulo":"A Glória Suprema",
+            "titulo_ingles":"The Joy of May Lord",
+            "numero":549,
+            "numero_view":"549",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Autor Desconhecido"
+                },
+                {
+                    "nome":null
+                }
+            ],
+            "texto_biblico":"Daniel 12:3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Tenho ouvido falar da cidade\nMergulhada em reflexos de luz,\nE dos anjos que, com majestade,\nCantam hinos a Cristo Jesus.\nAlegria terei\nNa presença do Rei,\nMas a glória maior fruirei\nQuando vir almas salvas por mim!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Tenho ouvido da terra formosa,\nDe colinas e vales sem fim,\nDe campinas com flores mimosas\nE do rio no lindo jardim;\nVida eterna há de ser\nMeu quinhão, que prazer!\nMas o gozo supremo hei de ter\nQuando vir almas salvas por mim!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Cantaremos os frutos e as flores,\nE as mansões de ouro puro e cristal,\nA alegria perene, sem dores,\nQue terão os fiéis afinal;\nMas pra mim há de ser\nMais glorioso prazer\nQuando enfim Cristo me conceder\nVer no Céu almas salvas por mim!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":550,
+            "titulo":"Marchando Para Sião",
+            "titulo_ingles":"Marching to Zion",
+            "numero":550,
+            "numero_view":"550",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Isaac Watts (1674-1748)"
+                },
+                {
+                    "nome":"Robert Lowry (1826-1889)"
+                }
+            ],
+            "texto_biblico":"Isaías 35:10",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sião é a nossa\nSanta e Gloriosa Cidade;\nTambém perene morada\nDos salvos em Cristo Jesus."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"O filhos de Sião,\nHonrai o Rei dos Reis.\nLouvor em alta voz cantai,\nLouvor em alta voz cantai.\nEm breve ao Céu ireis,\nEm breve ao Céu ireis."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Os que do mundo são\nA Deus não dão louvor;\nMas, filhos do Celeste Rei,\nmas filhos do celeste Rei,\nLouvai o Salvador,\nLouvai o Salvador!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Erguei-vos ó cristãos,\nMarchando sem cessar,\nAté herdardes lá no além,\nAté herdades lá no além,\nSião, o eterno lar,\nSião o eterno lar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":551,
+            "titulo":"Muito Além do Sol",
+            "titulo_ingles":"Aunque en Esta Vida",
+            "numero":551,
+            "numero_view":"551",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"E. P."
+                },
+                {
+                    "nome":"Emiliano Ponce"
+                }
+            ],
+            "texto_biblico":"I Coríntios 2:9",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Muito além do Sol, muito além do Sol.\nEstá o meu lar, um belo lugar, muito além do Sol.\nMuito além do Sol, muito além do Sol.\nEstá o meu lar, um belo lugar, muito além do Sol."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eu aqui no mundo não tenho riquezas,\nMas sei que na Glória, eu terei mansão.\nCom minh' alma triste, em meio à pobreza,\nDe mim, Jesus Cristo teve compaixão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Assim pelo mundo, eu vou caminhando;\nEnfrentando lutas, prova e tentação.\nMas, Jesus Meu Mestre, que me fortalece,\nVai levar-me a salvo à real mansão."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Vinde, vós,cansados deste mundo escuro,\nCristo vos concede plena salvação;\nE também morada, feita não por homens,\nQuer oferecer-vos na eternal Sião."
+                }
+            ]
+        }
+        ,
+        {
+            "id":552,
+            "titulo":"Cristo Foi Preparar-nos Lugar",
+            "titulo_ingles":"The Home Over There",
+            "numero":552,
+            "numero_view":"552",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Dewitt C. Huntington (1830-1912)"
+                },
+                {
+                    "nome":"Tulius C. O'Kane (1830-1912)"
+                }
+            ],
+            "texto_biblico":"João 14:1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Cristo foi preparar-nos lugar\nNa celeste morada do Pai,\nOnde havemos de em breve chegar,\nE onde nunca o pecado nos trai.\nLá no Céu, lá no Céu,\nCristo foi preparar-nos lugar;\nLá no Céu, lá no Céu,\nNa celeste morada do Pai."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Estaremos ali com Jesus,\nDesfrutando sem fim Seu amor,\nNa perene morada de luz,\nInefável jardim do Senhor.\nLá no Céu, lá no Céu,\nEstaremos ali com Jesus;\nLá no Céu, lá no Céu,\nDesfrutando sem fim Seu amor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Nesse lar tão feliz e eternal,\nO pecado jamais há de entrar;\nSó há glória, pureza e prazer;\nLá os salvos com Cristo hão de estar.\nLá no Céu, lá no Céu,\nNesse lar tão feliz e eternal;\nLá no Céu, lá no Céu,\nAcharemos descanso afinal."
+                }
+            ]
+        }
+        ,
+        {
+            "id":553,
+            "titulo":"Há um Rio Cristalino ",
+            "titulo_ingles":"Shall We Gather at the River?",
+            "numero":553,
+            "numero_view":"553",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"R. L."
+                },
+                {
+                    "nome":"Robert Lowry (1826-1899)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 22:1",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Sim, às margens desse rio,\nNa mansão de glória e luz,\nCom os santos cantaremos\nEm louvor ao Rei Jesus!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Junto ao rio cristalino,\nNo país do bom Senhor,\nReunidos estaremos\nCom os salvos, em louvor?"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Antes que daquele rio\nNos possamos abeirar,\nA justiça e santidade\nCristo vai nos outorgar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Nós veremos breve o rio,\nFinda a peregrinação,\nE louvores sempiternos\nNossos lábios cantarão."
+                }
+            ]
+        }
+        ,
+        {
+            "id":554,
+            "titulo":"Vamos Ver Jesus Ali",
+            "titulo_ingles":"We Shall see the King Someday",
+            "numero":554,
+            "numero_view":"554",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"L. E. J."
+                },
+                {
+                    "nome":"Lewis E. Jones (1865-1936)"
+                }
+            ],
+            "texto_biblico":"Mateus 25:31 e 34",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Vamos ver Jesus ali,\nSua santa paz fruir;\nE com Ele estar, Seu rosto contemplar,\nE alegria desfrutar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Se infeliz nos corre a vida terreal,\nHemos de deixá-la um dia,\nPara ir morar no lar celestial,\nOnde tudo é mui feliz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Muitos são os males desta vida aqui;\nHemos de deixá-la um dia.\nRegozijo pleno vamos ter ali,\nOnde tudo é mui feliz."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"A vitória eterna que Jesus nos dá,\nVamos recebê-la um dia.\nAo findar a luta, calma nos virá,\nOnde tudo é mui feliz."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Todos os remidos se conhecerão,\nSim, ali no Céu, um dia.\nNa harmonia santa sempre viverão,\nOnde tudo é mui feliz."
+                }
+            ]
+        }
+        ,
+        {
+            "id":555,
+            "titulo":"Até Então",
+            "titulo_ingles":"Until Then",
+            "numero":555,
+            "numero_view":"555",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"S. H."
+                },
+                {
+                    "nome":"Stuart Hambien (1908-1989)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 21:1-4",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Mas té então eu seguirei cantando,\nTé então contente eu hei de estar,\nAté o dia em que a cidade eu veja,\nE ouça a Deus chamar-me ao lar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Meu coração alegre hoje canta,\nAo relembrar que as dores cessarão;\nVirá o fim a este mundo escuro;\nMeu lar será nas terras de Sião."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"A morte a e dor não mais pavor nos trazem,\nPois eu bem sei que em breve findarão.\nDe todo o mal que aqui nos faz trementes,\nAo recordar os salvos sorrirão."
+                }
+            ]
+        }
+        ,
+        {
+            "id":556,
+            "titulo":"A Bela Cidade",
+            "titulo_ingles":"The Beautiful City",
+            "numero":556,
+            "numero_view":"556",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Jonathan B. Atchinson (1840-1882)"
+                },
+                {
+                    "nome":"Otis F. Presbrey (1820-1901)"
+                }
+            ],
+            "texto_biblico":"I Coríntios 2:9",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Jamais se contou ao mortal;\nJamais se contou ao mortal;\nMetade da glória celeste\nJamais se contou ao mortal."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Tenho lido da bela cidade,\nConstruída por Cristo Jesus;\nÉ murada de jaspe luzente;\nToda cheia de glória e de luz;\nE no meio da praça há um rio;\nÉ qual fonte de vida eternal,\nMas metade da glória celeste\nJamais se contou ao mortal."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Tenho lido das lindas moradas\nQue Jesus foi, no Céu, preparar,\nOnde os crentes fiéis, para sempre,\nMui felizes irão habitar.\nNem tristeza, nem dor, nem temores\nEntrarão na mansão paternal,\nMas metade da glória celeste\nJamais se contou ao mortal."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Tenho lido das vestes brilhantes,\nDas coroas que os santos terão,\nQuando o Pai os chamar e disser-lhes:\n''Recebei o eternal galardão.''\nTenho lido que os santos na glória\nPisarão ruas de ouro e cristal,\nMas metade da glória celeste\nJamais se contou ao mortal."
+                }
+            ]
+        }
+        ,
+        {
+            "id":557,
+            "titulo":"Grandes Coisas, Mui Gloriosas",
+            "titulo_ingles":"Glorious Things of Thee Are Spoken",
+            "numero":557,
+            "numero_view":"557",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"John Newton (1725-1807)"
+                },
+                {
+                    "nome":"Franz J. Haydn (1732-1809)"
+                }
+            ],
+            "texto_biblico":"Isaías 35:10",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Grandes coisas mui gloriosas,\nDa cidade de Sião,\nQue palavras não traduzem,\nPreparadas já estão.\nSeus preciosos fundamentos,\nDeus os pôs, e eternos são.\nEm moradas sempiternas\nOs fiéis enfim reinarão."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Eis as fontes cristalinas\nD'aguas vivas a jorrar;\nNelas podem os remidos\nSua sede saciar.\nQue felizes habitantes\nLá pra sempre viverão!\nOh, que gozo, que alegria\nHá de haver em ti, ó Sião!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ó meu Mestre, quanto almejo\nCom os santos ir morar!\nNa cidade pelas portas,\nCoroado hei de entrar.\nPela graça inaudita\nViverei na redenção.\nGlória, glória, aleluia!\nCantarei em ti, ó Sião!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":558,
+            "titulo":"Meu Doce Lar",
+            "titulo_ingles":"My Home Sweet Home",
+            "numero":558,
+            "numero_view":"558",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"N. B. V."
+                },
+                {
+                    "nome":"N. B. Vandall (1896-1970)"
+                }
+            ],
+            "texto_biblico":"João 14:1-3",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Doce lar, doce lar,\nOnde eu irei morar;\nEu vejo ao longe a cidade de Luz,\nMeu doce lar!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Pela estrada um dia ouvi\nVoz melodiosa e mui gentil:\n''No Céu Eu estou a te preparar\nUm belo, belíssimo lar.''"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Lá hei de achar queridos meus\nDando louvores a Jesus;\nTambém vou louvá-lo nos altos Céus,\nNo belo, belíssimo lar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ao lar eterno em breve irei,\nJunto ao Senhor eu morarei.\nAlém, bela praia a convidar\nAo belo, belíssimo lar!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":559,
+            "titulo":"Feliz Manhã",
+            "titulo_ingles":"In the Dawn of Eternal Day",
+            "numero":559,
+            "numero_view":"559",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"E. M. R."
+                },
+                {
+                    "nome":"Elton M. Roth (1891-1951)"
+                }
+            ],
+            "texto_biblico":"Isaías 25:9",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Findarão as agruras da vida,\nQuando a névoa do mal passar.\nHá de a noite fugir ante o vivo luzir,\nQuando o dia eternal raiar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Já cansados seguimos de noite a penar,\nNa jornada da vida cristã,\nMas será para nós tão brilhante o raiar\nDa gloriosa e feliz manhã."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Há tão grandes mistérios na trilha a seguir,\nE prenúncios de lutas e dor,\nMas de nós fugirão quando virmos luzir\nSua face em real fulgor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Mesmo que nos pareça o caminho sem fim,\nTendo os olhos a lacrimejar,\nRecompensas gloriosas teremos enfim,\nNo bendito e eterno lar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":560,
+            "titulo":"A Cidade de Ouro e Cristal",
+            "titulo_ingles":null,
+            "numero":560,
+            "numero_view":"560",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Autor Desconhecido"
+                },
+                {
+                    "nome":null
+                }
+            ],
+            "texto_biblico":"Apocalipse 22:1-5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Irei para aquela cidade\nQue Deus para mim preparou;\nAli todos os redimidos\nSó cantam canções de louvor.\nÀs vezes eu sinto saudade\nDesta terra gloriosa eternal;\nQue alegria será ver o meu Salvador,\nNa cidade de ouro e cristal."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"No Céu não há nenhum desgosto,\nCansaço, tristeza nem dor,\nNenhum coração quebrantado,\nNem hino, senão de louvor.\nAs nuvens que aqui são escuras,\nNão mais haverão de existir,\nLá tudo será alegria,\nSem nunca um suspiro se ouvir."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Na pátria que Deus nos prepara\nDe graça teremos um lar,\nAs vestes serão sempre novas,\nNão hão de rasgar, nem manchar.\nLá não haverá fome ou sede,\nNem quem venha esmola pedir,\nPois Deus Suas vastas riquezas\nAos santos irá repartir."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Lá não haverá dor ou pranto,\nNem morte veremos jamais;\nLá não mais nos separaremos,\nNão mais se ouvirão tristes ais.\nOs salvos serão sempre jovens\nPois Cristo os transformará,\nE num abrir e fechar d'olhos,\nComo Ele, imortais nos fará."
+                }
+            ]
+        }
+        ,
+        {
+            "id":561,
+            "titulo":"No Celeste Lar Glorioso",
+            "titulo_ingles":null,
+            "numero":561,
+            "numero_view":"561",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Werden wir wiedersehen?"
+                },
+                {
+                    "nome":"Philip P. Bliss (1838-1876)"
+                }
+            ],
+            "texto_biblico":"Apocalipse 21: 9-27",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh, vem tu também comigo,\nÀ nova Jerusalém!\nPois a ti, ó meu amigo,\nQuero lá rever também."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"No celeste lar glorioso\nDa Jerusalém de Deus,\nEu espero mui ansioso\nEncontrar queridos meus!\nLá hei de rever amigos,\nQue me amavam como irmão,\nE que aguardam, no jazigo,\nA feliz ressurreição."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Lá anseio ver amados\nQue inda aqui em erro estão,\nPois Jesus, seu Advogado,\nInda faz intercessão.\nLá desejo ouvir louvores\nDe teus lábios meu irmão,\nQuando após terrestres dores,\nNós cantarmos em Sião."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Quando lá no lar divino\nAo teu lado eu caminhar,\nOh! Que gozo peregrino!\nOh! Que glória singular!\nQueres este gozo ansiado,\nEsta glória que seduz?\nSermos todos estreitados\nPelos braços de Jesus?"
+                }
+            ]
+        }
+        ,
+        {
+            "id":562,
+            "titulo":"Quão Doce é a Promessa",
+            "titulo_ingles":"Homesick for Heaven",
+            "numero":562,
+            "numero_view":"562",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"H. F."
+                },
+                {
+                    "nome":"Henry de Fluiter (1872-1970)"
+                }
+            ],
+            "texto_biblico":"João 14:1-3",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Anseio meu lar; no Céu desejo estar!\nQuando entrarei nas plagas de Sião?\nAli não há mágoa ou morte a prantear;\nAnseio a celeste mansão!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Quão doce e preciosa a promessa de Deus,\nDe um lar com Jesus nos Céus!\nAli peregrinos sem repouso ou paz,\nTerão descanso eficaz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Acima de tudo o que ali me seduz,\nÉ ver meu Senhor Jesus,\nBanhar-me na graça e aos pés do meu Senhor,\nDepor todo o meu louvor."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Oh, pátria de luz onde espero morar,\nE sempre com Cristo estar!\nAli, com remidos, sempre viverei,\nLouvando a Jesus, meu Rei!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":563,
+            "titulo":"Querido Lar",
+            "titulo_ingles":"Our Fatherland",
+            "numero":563,
+            "numero_view":"563",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"John R. Sweney (1837-1889)"
+                }
+            ],
+            "texto_biblico":"Isaías 65:17-19",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Querido lar, oh, doce lar!\nOnde eu pra sempre irei morar.\nUm pouco mais e eu partirei;\nNo eterno lar descansarei."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Querido lar, ali no Céu,\nAlem do mundo, além do véu!\nViver ali será prazer,\nOh, quanto almejo já o ver!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Querido lar, ditoso lar!\nAli ninguém vai mais chorar.\nTristeza e dor, ou tentação,\nNaquele lar não entrarão."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Só vai entrar no lar de luz\nQuem for remido por Jesus;\nEu sei que Cristo, meu Senhor,\nMe espera ali, no lar de amor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":564,
+            "titulo":"Jamais se Diz Adeus Ali",
+            "titulo_ingles":"We'll Never Say Good By",
+            "numero":564,
+            "numero_view":"564",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Azentia I. P. Chapman (1849-1889)"
+                },
+                {
+                    "nome":"John H. Tenney (1840-1918)"
+                }
+            ],
+            "texto_biblico":"Isaías 65:17-19",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Jamais se diz adeus ali,\nJamais se diz adeus;\nNo eterno lar de amor e paz,\nJamais se diz adeus;"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Quão bom, amigos meus, é termos encontro aqui feliz,\nMas sempre vem a hora triste em que adeus se diz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Quão doce é lembrarmos que quando Cristo aqui voltar,\nNós juntos viveremos pra nunca mais nos separar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Não mais teremos dor e nem despedida lá no lar,\nMas grata união e paz iremos pra sempre desfrutar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":565,
+            "titulo":"Oh! Nunca Separar!",
+            "titulo_ingles":"Never Part Again",
+            "numero":565,
+            "numero_view":"565",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Isaac Watts (1674-1748)"
+                },
+                {
+                    "nome":"TIMBREL OF ZION, 1853"
+                }
+            ],
+            "texto_biblico":"Apocalipse 21:3 e 4",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Marchamos para a terra além\nE vamos a Jerusalém;\nIremos com Jesus reinar\nE nunca mais nos separar.\nOh, nunca separar?\nNão, nunca separar!\nOh, nunca separar?\nNão, nunca separar!\nIremos com Jesus reinar\nE nunca mais nos separar!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Há um país de gozo e luz\nOnde só santos há;\nPrazeres há ali a flux;\nÉ sempre dia lá."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Há sempre primavera lá,\nFlores não murcharão;\nTão perto, sim, de nós está\nA eternal mansão."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Já nós estamos qual Moisés,\nVendo o futuro lar;\nE divisamos pela fé\nA morada sem par."
+                }
+            ]
+        }
+        ,
+        {
+            "id":566,
+            "titulo":"Doce Lar",
+            "titulo_ingles":"We're Bound for the Land of the Pure",
+            "numero":566,
+            "numero_view":"566",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"William Hunter (1811-1877)"
+                },
+                {
+                    "nome":"SALVATION ARMY MUSIC - I"
+                }
+            ],
+            "texto_biblico":"Mateus 25:34",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Doce lar! Doce lar! Doce lar! Doce lar!\nNo lar habitaremos com o nosso Jesus."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"À terra nós vamos dos fiéis e dos santos,\nPaís de glória infinda, de bênçãos e luz;\nJá fartos estamos de vaguear pelas trevas;\nAo lar em breve iremos com Cristo Jesus."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Não entram desgostos neste lar, nem tristeza\nSó paz e alegria ali reinarão.\nEm nosso caminho vamos, pois, animosos,\nPois Cristo, nosso Mestre, nos deu salvação."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Andemos ousados para o lar, bem contentes,\nEmbora carregando o opróbrio da cruz.\nA terra avistamos com os seus lindos campos;\nAli nós viveremos com nosso Jesus."
+                }
+            ]
+        }
+        ,
+        {
+            "id":567,
+            "titulo":"A Cidade de Luz ",
+            "titulo_ingles":null,
+            "numero":567,
+            "numero_view":"567",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"E. C. Baird (1872-1961)"
+                },
+                {
+                    "nome":"J. C. Blaker"
+                }
+            ],
+            "texto_biblico":"Apocalipse 22:1-5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh, cidade de luz onde noite não há!\nLá irei encontrar, eu bem sei,\nMeus queridos de aqui e também meu Jesus,\nNa cidade de glória e de luz."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"No livro de Deus eu já li de um lar,\nA cidade onde noite não há.\nO sol e o luar lá não hão de existir,\nA glória de Deus é a luz;\nA glória de Deus é a luz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Na praça central, bela árvore está,\nNela o fruto da vida se vê.\nE as folhas darão para os filhos do Rei,\nSaúde que não findará;\nSaúde que não findará."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Oh, doce porvir, de celeste fulgor,\nQuando os salvos na glória hão de entrar!\nAo lado de Deus, neste lar tão feliz,\nIrei para sempre morar;\nIrei para sempre morar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":568,
+            "titulo":"Lar, Doce Lar",
+            "titulo_ingles":"Home, Sweet Home",
+            "numero":568,
+            "numero_view":"568",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"John H. Payne (1791-1852)"
+                },
+                {
+                    "nome":"Henry R. Bishop (1786-1855)"
+                }
+            ],
+            "texto_biblico":"Isaías 66:22",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh, doce, doce lar!\nAli com Jesus vou pra sempre morar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Na pátria celeste, de Deus doce lar,\nPrepara Jesus para os Seus um lugar;\nPois longe do mal, do pecado e da dor,\nConsigo pra sempre os quer ter seu Senhor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Oh, lar sacrossanto, de paz e de amor;\nAli sobre o trono verei meu Senhor,\nO meigo Cordeiro, reinando na luz,\nPor todos louvado, bendito Jesus!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Não são teus prazeres que anseio gozar,\nMas, sim, com Jesus para sempre morar.\nCom Ele na glória, feliz, bendizer\nA quem, pra salvar-me, por mim quis morrer."
+                }
+            ]
+        }
+        ,
+        {
+            "id":569,
+            "titulo":"Oh, Vale do Éden, Formoso!",
+            "titulo_ingles":"Beautiful Valley of Eden",
+            "numero":569,
+            "numero_view":"569",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"William O. Cushing (1823-1902)"
+                },
+                {
+                    "nome":"William F. Sherwin (1826-1888)"
+                }
+            ],
+            "texto_biblico":"Isaías 51:3",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh, vale do Éden, formoso,\nPátria que não tem par!\nOh! Como eu me sinto saudoso\nDe ti, meu eterno lar!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Oh, vale do Éden, formoso,\nPátria de amor e luz!\nTrazes aos tristes o gozo,\nFala-nos de Jesus."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Bem cedo nossos anseios\nHão de se realizar;\nNão mais teremos receios,\nNem aflições, pesar."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Lá junto ao trono divino,\nOs salvos cantarão\nDoces acordes de um hino\nQue fala de perdão."
+                }
+            ]
+        }
+        ,
+        {
+            "id":570,
+            "titulo":"Além do Rio",
+            "titulo_ingles":null,
+            "numero":570,
+            "numero_view":"570",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"J. D. S."
+                },
+                {
+                    "nome":"Jader D. Santos (1962- )"
+                }
+            ],
+            "texto_biblico":"Salmo 46:4 e 5",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Além do rio existe um lugar pra mim,\nAlém do rio existe paz.\nAlém do rio a vida não terá mais fim;\nE com Jesus irei morar."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Tenho ouvido de uma Terra linda, encantada,\nDe um lugar onde a felicidade é total.\nOs meus olhos já divisam não tão distante,\nMeus ouvidos já escutam sons divinais.\nTão cansado estou da vida aqui deste lado,\nQue os meus braços quase já não podem remar,\nCalejados e feridos por tantos dias,\nQuerem em bálsamo daquele porto encontrar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Tenho já sonhado com aquelas moradas,\nQue olho algum aqui não viu e nunca verá;\nTêm beleza incapaz de ser comparada,\nPois a glória do Senhor presente está.\nMuito mais bonito que o sol no poente.\nOu a gota d'água em prisma, como cristal;\nÉ o encontro de irmãos de fé, redimidos;\nCompensou viver, lutar, vencer afinal."
+                }
+            ]
+        }
+        ,
+        {
+            "id":571,
+            "titulo":"Lindo País",
+            "titulo_ingles":null,
+            "numero":571,
+            "numero_view":"571",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Melodia Tradiciona Irlandesa"
+                }
+            ],
+            "texto_biblico":"Isaías 65:17-19",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Há um país nas terras de além rio,\nCheio de flores, de prazer e luz;\nÉ destinado às almas resgatadas;\nLá não terão mais lutas nem mais cruz.\nPois é ali que a morte não mais entra,\nNem mais pecado o brilho tirará.\nJesus, o Rei dessas mansões tão lindas,\nOs salvos todos com prazer abraçará."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Lindo país! Eu vejo a brisa mansa\nAcariciar campinas e jardins,\nE embalar as palmas prateadas\nDos perfumados vales com jasmins.\nE quando o Sol se põe no horizonte,\nEu julgo ver em sonhos este lar;\nVejo os amigos já ressuscitados,\nE todos nós o nosso bom Jesus louvar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":572,
+            "titulo":"Lar Feliz",
+            "titulo_ingles":"Sweet By and By",
+            "numero":572,
+            "numero_view":"572",
+            "categoria":"Igreja e Doutrinas",
+            "sub_categoria":"Nova Terra",
+            "autores":[
+                {
+                    "nome":"Sanford F. Bennett (1836-1898)"
+                },
+                {
+                    "nome":"Joseph P. Webster (1819-1875)"
+                }
+            ],
+            "texto_biblico":"João 14:1-3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eu avisto uma terra feliz,\nOnde irei para sempre morar;\nHá mansões neste lindo país\nQue Jesus foi, no Céu, preparar.\nVou morar, vou morar,\nNeste lar perenal e feliz;\nVou morar, vou morar,\nNeste lar perenal e feliz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Cantarei neste lindo país\nBelos hinos ao meu Salvador,\nPois ali viverei bem feliz,\nSem temor, sem tristeza, nem dor.\nVou cantar, vou cantar,\nNeste lar perenal e feliz;\nVou cantar, vou cantar,\nNeste lar perenal e feliz."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Deixarei este mundo afinal,\nPara ir a Jesus adorar;\nNeste lar mui feliz e eternal,\nCom Jesus para sempre hei de estar.\nHei de estar, hei de estar,\nNeste lar perenal e feliz;\nHei de estar, hei de estar,\nNeste lar perenal e feliz."
+                }
+            ]
+        }
+        ,
+        {
+            "id":573,
+            "titulo":"O Senhor Está em Seu Templo",
+            "titulo_ingles":"The Lord Is in His Holy Temple",
+            "numero":573,
+            "numero_view":"573",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Entrada à Plataforma",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"George F. Root (1820-1895)"
+                }
+            ],
+            "texto_biblico":"Habacuque 2:20",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"O Senhor está em Seu santo templo,\nO Senhor está em Seu santo templo;\nO Céu, o mar e a Terra,\nE vós guardai silêncio perante Deus;\nSilêncio, silêncio perante Deus.\nAmém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":574,
+            "titulo":"Deus Está Presente ",
+            "titulo_ingles":"God Himself Is With Us",
+            "numero":574,
+            "numero_view":"574",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Entrada à Plataforma",
+            "autores":[
+                {
+                    "nome":"Gerhard Terteegen (1697-1769)"
+                },
+                {
+                    "nome":"Joachim Neander (1650-1680)"
+                }
+            ],
+            "texto_biblico":"Salmo 46:10 e 11",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Deus está presente, Vamos adorá-lo\nCom fervor e zelo sem par;\nSim, humildemente, Em silêncio, honrá-lo:\nRei dos Céus, da Terra e do mar.\nVamos, pois, Lhe prestar\nCulto reverente.\nDeus está presente."
+                }
+            ]
+        }
+        ,
+        {
+            "id":575,
+            "titulo":"Silêncio",
+            "titulo_ingles":"Tread Softly",
+            "numero":575,
+            "numero_view":"575",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Entrada à Plataforma",
+            "autores":[
+                {
+                    "nome":"Fanny J. Crosby (1820-1915)"
+                },
+                {
+                    "nome":"William H. Doane (1832-1915)"
+                }
+            ],
+            "texto_biblico":"Salmo 46:10",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Silêncio!, Silêncio\nNa casa de Deus!\nEscuta a mensagem\nQue vem lá dos Céus!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Silêncio! Silêncio!\nÉ santo o lugar.\nEnsinos preciosos\nProvêm deste altar."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Silêncio! Silêncio!\nPerante o Senhor!\nAtenta às palavras\nDe luz e de amor!"
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Silêncio! Silêncio!\nÉ tempo de orar,\nE com reverência\nEm Deus meditar."
+                }
+
+            ]
+        }
+        ,
+        {
+            "id":576,
+            "titulo":"Pai, Sê Presente",
+            "titulo_ingles":null,
+            "numero":576,
+            "numero_view":"576",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Entrada à Plataforma",
+            "autores":[
+                {
+                    "nome":"Dario P. de Araújo (1937- )"
+                },
+                {
+                    "nome":"John B. Dykes (1823-1876)"
+                }
+            ],
+            "texto_biblico":"Salmo 145:18",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Pai, sê presente neste templo;\nFaz-nos ouvir a Tua voz;\nBrilhe em Jesus o nosso exemplo,\nE Habita em nós."
+                }
+            ]
+        }
+        ,
+        {
+            "id":577,
+            "titulo":"Santo És, Senhor",
+            "titulo_ingles":"Heilig, Heilig, Heilig",
+            "numero":577,
+            "numero_view":"577",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Entrada à Plataforma",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Franz P. Schbert (1797-1828)"
+                }
+            ],
+            "texto_biblico":"Salmo 145:17",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"Coro",
+                    "estrofe":"Santo, santo, santo, santo és, Senhor.\nSanto, santo, santo, Deus e Criador."
+                },
+                {
+                    "numero":"I",
+                    "estrofe":"Terra e céus formaste para o Teu louvor.\nSanto, santo, santo, sumo benfeitor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Teu, Senhor, é o reino, Teu é o poder,\nTua é a glória, para sempre, amém!"
+                }
+
+            ]
+        }
+        ,
+        {
+            "id":578,
+            "titulo":"Sinto a Presença do Senhor ",
+            "titulo_ingles":"Suretly the Presence of the Lord Is in this Place",
+            "numero":578,
+            "numero_view":"578",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Entrada à Plataforma",
+            "autores":[
+                {
+                    "nome":"L. W."
+                },
+                {
+                    "nome":"Lanny Wolfe (1942- )"
+                }
+            ],
+            "texto_biblico":"Gênesis 28:16 e 17",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Sinto a presença do Senhor neste lugar,\nSeu poder e Sua graça, Seu amor.\nPosso ver em cada face Sua beleza irradiar.\nSinto a presença do Senhor neste lugar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":579,
+            "titulo":"Eu Te Amo, ó Deus",
+            "titulo_ingles":"I Love You, Lord",
+            "numero":579,
+            "numero_view":"579",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Entrada à Plataforma",
+            "autores":[
+                {
+                    "nome":"L. K."
+                },
+                {
+                    "nome":"Laurie Klein (1950- )"
+                }
+            ],
+            "texto_biblico":"Salmo 116:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Eu te amo ó Deus, ergo meu louvor.\nMinh 'alma vem te adorar, Senhor.\nAceita, pois, este meu louvor,\nComo gratidão por teu grande amor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":580,
+            "titulo":"Invocação",
+            "titulo_ingles":null,
+            "numero":580,
+            "numero_view":"580",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Entrada à Plataforma",
+            "autores":[
+                {
+                    "nome":"E. M. S."
+                },
+                {
+                    "nome":"Ênio M. de Souza (1944- )"
+                }
+            ],
+            "texto_biblico":"Salmo 46:11",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Tua santa presença rogamos-Te, ó Senhor;\nManda-nos Teu Espírito;\nDá-nos Teu santo poder.\nQueremos dar-Te graças,\nQueremos cantar louvores a Ti,\nPor Teu infinito amor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":581,
+            "titulo":"Adoração",
+            "titulo_ingles":"Praise God, From Whom All Blessings",
+            "numero":581,
+            "numero_view":"581",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Doxologia",
+            "autores":[
+                {
+                    "nome":"Thomas Ken (1637-1710)"
+                },
+                {
+                    "nome":"Lois Bourgeois (c.1510-1561)"
+                }
+            ],
+            "texto_biblico":"Salmo 113: 1 e 2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"A Deus supremo Criador,\nVós, anjos e homens, dai louvor;\nA Deus, o Filho, a Deus, o Pai,\nA Deus, Espírito, glória dai."
+                }
+            ]
+        }
+        ,
+        {
+            "id":582,
+            "titulo":"Vem, Senhor",
+            "titulo_ingles":"There Is a Name I Love",
+            "numero":582,
+            "numero_view":"582",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Doxologia",
+            "autores":[
+                {
+                    "nome":"Albertina R. Simon (1896-1984)"
+                },
+                {
+                    "nome":"May Chenevix-Trench"
+                }
+            ],
+            "texto_biblico":"Salmo 106:1",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"No Teu sagrado templo vem,\nSenhor, oh, vem estar!\nAqui estamos todos nós\nPra Teu louvor cantar!"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"A Ti rendemos graças mil,\nPorque és justo e bom;\nSenhor, oh, vem, concede-nos\nO Teu sublime dom!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Oh, vem! Não te demores, não!\nVem dar aos filhos Teus,\nO Teu poder, e a Tua paz.\nOh, vem, Senhor, bom Deus!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":583,
+            "titulo":"Glória a Deus ",
+            "titulo_ingles":"Gloria Patri",
+            "numero":583,
+            "numero_view":"583",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Doxologia",
+            "autores":[
+                {
+                    "nome":"Doxologia Latina, séc. II"
+                },
+                {
+                    "nome":"Henry W. Greatorex (1813-1858)"
+                }
+            ],
+            "texto_biblico":"Salmo 66:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Glória ao Pai seja dada,\nAo Filho e ao Espírito Santo,\nComo era no princípio,\nÉ hoje e para sempre.\nGlória sem fim!\nAmém, amém!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":584,
+            "titulo":"Oh, Como é Bom Louvar ",
+            "titulo_ingles":"O for a Heart to Praise My God",
+            "numero":584,
+            "numero_view":"584",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Doxologia",
+            "autores":[
+                {
+                    "nome":"Charles Wesley (1707-1788)"
+                },
+                {
+                    "nome":"John B. Dykes (1823-1876)"
+                }
+            ],
+            "texto_biblico":"Salmo 92:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Oh, como é bom louvar a Deus,\nsempre louvá-lo assim!\nPor Seu amor, favores Seus,\nlouvor terá de mim."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Meu coração de pedra é,\nmas novo há de ser,\nuando por fim co'amor e fé,\nJesus mudar meu ser."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Ao palmilhar a senda aqui,\nfaze-me bom Senhor.\nPossa viver, viver por Ti,\nEm Teu divino amor."
+                }
+            ]
+        }
+        ,
+        {
+            "id":585,
+            "titulo":"Oh! Adorai",
+            "titulo_ingles":null,
+            "numero":585,
+            "numero_view":"585",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Doxologia",
+            "autores":[
+                {
+                    "nome":"F. A. S."
+                },
+                {
+                    "nome":"Flávio A. Santos (1963- )"
+                }
+            ],
+            "texto_biblico":"Salmo 29:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Oh! Adorai ao Deus triúno,\nPois Ele é Deus onipotente!\nOh! Adorai ao Rei divino,\nPois Ele reina, eternamente!\nAmém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":586,
+            "titulo":"Doxologia",
+            "titulo_ingles":null,
+            "numero":586,
+            "numero_view":"586",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Doxologia",
+            "autores":[
+                {
+                    "nome":"N. D. B."
+                },
+                {
+                    "nome":"Najla D. Bechara (1935-)"
+                }
+            ],
+            "texto_biblico":"Salmo 136:1",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Deus, Criador do Universo,\nRendo um louvor neste verso.\nÉs Redentor e Salvador;\nDeus Pai, Deus Filho, Deus Espírito Santo."
+                }
+            ]
+        }
+        ,
+        {
+            "id":587,
+            "titulo":"Santo, Santo ",
+            "titulo_ingles":"Holy, Holy",
+            "numero":587,
+            "numero_view":"587",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Doxologia",
+            "autores":[
+                {
+                    "nome":"J. O"
+                },
+                {
+                    "nome":"Jimmy Owwens (1930- )"
+                }
+            ],
+            "texto_biblico":"Salmo 95:6",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Santo, santo, Pai bondoso,\nSanto, santo, Deus poderoso,\nEntregamos nossos corações a Ti, em devoção.\nPai bondoso, Te adoramos."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Santo, santo, Cristo amado,\nPela cruz nós somos redimidos;\nElevamos nossas mentes em constante adoração.\nCristo amado, Te adoramos."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Santo, santo, Santo Espírito,\nEnche de poder nossas vidas.\nSuplicamos Tua graça, Teu auxilio e direção.\nSanto espírito, Te adoramos."
+                }
+            ]
+        }
+        ,
+        {
+            "id":588,
+            "titulo":"Bendito Jesus!",
+            "titulo_ingles":"Lift Up Your Heads",
+            "numero":588,
+            "numero_view":"588",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Doxologia",
+            "autores":[
+                {
+                    "nome":"Sarah P. Kailey (1825-1907)"
+                },
+                {
+                    "nome":"William Knapp (1698-1768)"
+                }
+            ],
+            "texto_biblico":"Salmo 106:4 e 5",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Bendito Jesus, divino Pastor,\nÓ vem conceder Teu rico favor.\nAs súplicas ouve, aceita dos Céus\nO culto ofertado a Ti, nosso Deus."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Não temos valor pra dar-te aqui;\nResgate nenhum trazemos a Ti,\nPois nosso pecado foi pago na cruz,\nDivino Cordeiro, bondoso Jesus."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Divino Senhor, ó, vem ensinar\nA alma a sentir e a língua a falar\nCom muita ternura e grande fervor,\nO santo evangelho, as novas do amor."
+                }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Concede-nos paz e amor no viver;\nDá forças à fé, aumenta o poder.\nOh! Faze a pureza em todos florir,\nE Cristo, a Verdade, em nós refulgir!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":589,
+            "titulo":"A Melhor Dádiva",
+            "titulo_ingles":"Something for Jesus",
+            "numero":589,
+            "numero_view":"589",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Ofertório",
+            "autores":[
+                {
+                    "nome":"Eben E. Rexford (1848-1916)"
+                },
+                {
+                    "nome":"Joseph Garrison"
+                }
+            ],
+            "texto_biblico":"Provérbios 23:26",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Também, Senhor eu quero\nTrazer-te este dom,\nIndigno, mas sincero:\nO impuro coração."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Traziam as ofertas aos pés do Salvador,\nE todo o sacrifício mostrava ser de amor.\nNenhuma oferenda tornava sem valor;\nA todas aceitava, o meigo Salvador."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Ao longe, retraído, está um pecador;\nAo ver os donativos, sua alma sofre em dor.\nNão tem nenhuma prenda pra dar ao Salvador!\nCom olhos lacrimosos, suplica com fervor:"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"''Ó Mestre'', exclama, aflito, ''eu sei quão mau eu sou;\nMas toma a pobre oferta: Meu coração Te dou.''\nJesus responde, manso: ''A dádiva aceitei;\nDe todas as ofertas, a tua Eu mais amei!''"
+                }
+            ]
+        }
+        ,
+        {
+            "id":590,
+            "titulo":"Adoração a Ti, Senhor",
+            "titulo_ingles":"With Praise, O God, We Worship Thee",
+            "numero":590,
+            "numero_view":"590",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Ofertório",
+            "autores":[
+                {
+                    "nome":"L. E. F."
+                },
+                {
+                    "nome":"LeRoy E. Froom (1890-1974)"
+                }
+            ],
+            "texto_biblico":"Salmo 96:7 e 8",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Queremos dar, em oração\nAdoração a Ti Senhor.\nAceita, pois, a gratidão:\nDemonstração do nosso amor.\nAmém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":591,
+            "titulo":"Ofertório",
+            "titulo_ingles":"O for a Closer Walk!",
+            "numero":591,
+            "numero_view":"591",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Ofertório",
+            "autores":[
+                {
+                    "nome":"Dario P. de Araújo (1937- )"
+                },
+                {
+                    "nome":"CHURCH MUSIC, 1851"
+                }
+            ],
+            "texto_biblico":"Malaquias 3:10",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"São Teus, ó Pai, os dízimos\nDaquilo que nos dás;\nE ofertas que Te damos\nDe coração, Aceitarás."
+                }
+            ]
+        }
+        ,
+        {
+            "id":592,
+            "titulo":"Pai, Imploramos ",
+            "titulo_ingles":"Almighty Father",
+            "numero":592,
+            "numero_view":"592",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Responsos",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Felix Mendelssohn-Bartholdy (1809-1847)"
+                }
+            ],
+            "texto_biblico":"Salmo 143:1",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Pai, imploramos Teu favor;\nConcede Tua santa paz, Senhor.\nAmém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":593,
+            "titulo":"Ao Orarmos, Senhor",
+            "titulo_ingles":"As We Come to You in Player",
+            "numero":593,
+            "numero_view":"593",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Responsos",
+            "autores":[
+                {
+                    "nome":"R. R. C."
+                },
+                {
+                    "nome":"Ralph R. Carmichael (1927- )"
+                }
+            ],
+            "texto_biblico":"Salmo 55:1",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Vem meu ser transformar pelo amor\nQue do alto dimana, ó Senhor.\nPossam todos os que aqui estão,\nBem unidos estar em oração."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Faze que ao orar,\neu esqueça tudo ao redor\nPra que nada me venha impedir\nDo Teu trono a graça fruir"
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Vem, Senhor elevar\nos que diante de Ti hoje estão\nEm espírito de oração,\nProcurando o mundo deixar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":594,
+            "titulo":"Ouve-nos, Senhor",
+            "titulo_ingles":"Hear Our Prayer, O Lord",
+            "numero":594,
+            "numero_view":"594",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Responsos",
+            "autores":[
+                {
+                    "nome":"G. W."
+                },
+                {
+                    "nome":"George Whelpton (1841-1930)"
+                }
+            ],
+            "texto_biblico":"Salmo 55:1",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Ouve-nos, Senhor,\nSanto Salvador;\nEnclina-Te a ouvir\nE dá-nos Tua paz. Amém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":595,
+            "titulo":"Ao Meu coração",
+            "titulo_ingles":"Into My Heart",
+            "numero":595,
+            "numero_view":"595",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Responsos",
+            "autores":[
+                {
+                    "nome":"H. D. C."
+                },
+                {
+                    "nome":"Harry D. Clarke (1888-1957)"
+                }
+            ],
+            "texto_biblico":"Salmo 61:1 e 2",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Vem, ó Jesus! Vem, ó Jesus!\nAo meu coração, Jesus, vem!\nVem hoje, vem;\nVem pra ficar,\nEm meu coração, ó Cristo!"
+                }
+            ]
+        }
+        ,
+        {
+            "id":596,
+            "titulo":"Vem Morar em Mim",
+            "titulo_ingles":"Spirit of the Living God",
+            "numero":596,
+            "numero_view":"596",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Responsos",
+            "autores":[
+                {
+                    "nome":"D. I."
+                },
+                {
+                    "nome":"Daniel Iverson (1890- ?)"
+                }
+            ],
+            "texto_biblico":"Salmo 71:3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Santo Espírito de Deus,\nVem morar em mim.\nSanto Espírito de Deus,\nVem morar em mim.\nVem moldar-me, transformar-me.\nSanto Espírito de Deus,\nVem morar em mim."
+                }
+            ]
+        }
+        ,
+        {
+            "id":597,
+            "titulo":"Humilde Oração",
+            "titulo_ingles":null,
+            "numero":597,
+            "numero_view":"597",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Responsos",
+            "autores":[
+                {
+                    "nome":"Ademir Rodrigues (1954- )"
+                },
+                {
+                    "nome":"Amauri Barboza (1962- )"
+                }
+            ],
+            "texto_biblico":"Salmo 51:10",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Em humilde oração,\nQuero dedicar, Senhor,\nMeu indigno coração,\npara Teu louvor.\nFaz-me puro, santo e bom\npra cumprir o Teu querer.\nDá-me amor, Teu grande dom;\nDá-me Teu poder"
+                }
+            ]
+        }
+        ,
+        {
+            "id":598,
+            "titulo":"Vem, Espírito Santo",
+            "titulo_ingles":null,
+            "numero":598,
+            "numero_view":"598",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Responsos",
+            "autores":[
+                {
+                    "nome":"A. B. O."
+                },
+                {
+                    "nome":"Ariney B. de Oliveira (1964- )"
+                }
+            ],
+            "texto_biblico":"Salmo 71:3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Vem Espírito Santo,\nVem transforma meu ser.\nDá-me Tua paz, a luz do Teu bem,\nÉ o que eu te peço, Amém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":599,
+            "titulo":"Paz",
+            "titulo_ingles":null,
+            "numero":599,
+            "numero_view":"599",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Responsos",
+            "autores":[
+                {
+                    "nome":"N. D. B."
+                },
+                {
+                    "nome":"Najla D. Bechara (1935-)"
+                }
+            ],
+            "texto_biblico":"Salmo 26:3",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Paz eu preciso sentir;\nPaz divinal.\nSó esta paz transmitir;\nDom real."
+                }
+            ]
+        }
+        ,
+        {
+            "id":600,
+            "titulo":"Deus Esteja em Mim",
+            "titulo_ingles":"God Be in My Head",
+            "numero":600,
+            "numero_view":"600",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":"SARUM PRIMER, 1558"
+                },
+                {
+                    "nome":"Lorayne Coombs (1919-1998)"
+                }
+            ],
+            "texto_biblico":"Salmo 121:7 e 8",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Deus esteja em mim,\nE em todo o meu pensar.\nSim, que o Deus do Céu,\nconduza meu olhar;\nE ao me despedir,\ndirija meu andar.\nÓ Pai, no coração,\nVem logo então reinar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":601,
+            "titulo":"A Mão de Deus ",
+            "titulo_ingles":"Bless Thou the Gifts",
+            "numero":601,
+            "numero_view":"601",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":"Dario P. de Araújo (1937- )"
+                },
+                {
+                    "nome":"Robert-Alexander Schumann (1810-1856)"
+                }
+            ],
+            "texto_biblico":"Salmo 73:23 e 24",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"A mão de Deus e Seu poder\nguardar-vos-ão de todo o mal;\nEm Sua luz possais viver,\nna doce paz do amor real.\nAmém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":602,
+            "titulo":"Graça, Amor e Comunhão",
+            "titulo_ingles":"Grace, Love, and Fellowship",
+            "numero":602,
+            "numero_view":"602",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":"T. E. F."
+                },
+                {
+                    "nome":"Thomas E. Fettke (1941- )"
+                }
+            ],
+            "texto_biblico":"II Coríntios 13:13",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Que a graça de Jesus, o amor de Deus o Pai,\nE a comunhão do Espírito habite em nós;\nQue a graça de Jesus, o amor de Deus o Pai,\nE a comunhão do Espírito em nós.\nEstejam pra sempre, Eternamente,\nAmém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":603,
+            "titulo":"Benditos Laços",
+            "titulo_ingles":"Blest Be the Tie That Binds",
+            "numero":603,
+            "numero_view":"603",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":"John Fawcett (1740-1817)"
+                },
+                {
+                    "nome":"Hans G. Naegeli (1768-1836)"
+                }
+            ],
+            "texto_biblico":"Salmo 133:1",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Benditos, sagrados serão\nOs laços fraternos do amor,\nSe juntos, com Cristo,\nFicarmos unidos,\nNa causa, na luta, na dor."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Se juntos orarmos a Deus,\nSe juntos buscarmos poder,\nAs hostes contrárias,\nAs forças das trevas,\nCom Cristo iremos vencer."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Se desta sagrada reunião\nNós vamos distantes ficar,\nNa pátria celeste,\nPra sempre com Cristo,\nUnidos havemos de estar."
+                }
+            ]
+        }
+        ,
+        {
+            "id":604,
+            "titulo":"Preitos de Louvor",
+            "titulo_ingles":"Saviour, Again to Thy DEar Name",
+            "numero":604,
+            "numero_view":"604",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":"John Ellerton (1826-1893)"
+                },
+                {
+                    "nome":"Edward J. Hopkins (1818-1901)"
+                }
+            ],
+            "texto_biblico":"Salmo 48:14",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Pai, Te rendemos preitos de louvor,\nPois Tua palavra mostra Teu amor.\nEm findo o culto conduzir-nos-ás,\nE para sempre Tu nos guiarás."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Vem conduzir-nos para o nosso lar,\nPois nós queremos só contigo andar.\nOh, purifica nosso coração;\nA cada intento dá Tua direção."
+                },
+                {
+                    "numero":"III",
+                    "estrofe":"Ao protegeres nosso caminhar,\nPai, quantas bênçãos Teu amor nos traz!\nMas, quando a luta nossa terminar,\nÓ Deus, concede Tua eterna paz."
+                }
+            ]
+        }
+        ,
+        {
+            "id":605,
+            "titulo":"Vem Despedir-nos",
+            "titulo_ingles":"Dismiss Us, Lord, With Blessing",
+            "numero":605,
+            "numero_view":"605",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":"L. E. F."
+                },
+                {
+                    "nome":"LeRoy E. Froom (1890-1974)"
+                }
+            ],
+            "texto_biblico":"Hebreus 13:20 e 21",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Vem despedir-nos ó Salvador,\nCom Tua graça, Teu santo amor.\nNossos caminhos guia-os aqui;\nDá-nos descanso junto de Ti.\nAmém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":606,
+            "titulo":"Amigo, Não Saia Sem Cristo",
+            "titulo_ingles":"Don't Go Away Without Jesus",
+            "numero":606,
+            "numero_view":"606",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":"L. F. T."
+                },
+                {
+                    "nome":"Lawrence F. Taylor, 1932"
+                }
+            ],
+            "texto_biblico":"Hebreus 4: 15 e 16",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Amigo, não saia sem Cristo.\nNão saia daqui sem Jesus,\nPois quer hoje mesmo salvá-lo;\nPor isso morreu numa cruz.\nReceba esta oferta de graça,\nE aceite de Cristo o perdão.\nAmigo, não saia sem Cristo\nNo seu coração."
+                }
+            ]
+        }
+        ,
+        {
+            "id":607,
+            "titulo":"Fim de Culto ",
+            "titulo_ingles":null,
+            "numero":607,
+            "numero_view":"607",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":"D. F. F."
+                },
+                {
+                    "nome":"Dalmer F. Freire (1953- )"
+                }
+            ],
+            "texto_biblico":"Judas 24 e 25",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Água da vida aqui jorrou,\nDa fonte eterna do viver;\nDela viemos nos saciar,\nE em Jesus renovar poder."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Findamos esta comunhão,\nCulto de glória ao Criador,\nReconsagrando o coração,\nNo altar do divino amor.\n\n\nAmém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":608,
+            "titulo":"Que Deus Te Abençoe",
+            "titulo_ingles":"The Lord Bless You and Keep You",
+            "numero":608,
+            "numero_view":"608",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Peter C. Lutkin (1858-1931)"
+                }
+            ],
+            "texto_biblico":"Números 6:24-26",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Que Deus te abençoe,\nE faça brilhar Seu rosto sobre ti;\nE que o Senhor te dê a paz;\nSim, que Deus sobre ti levante o rosto Seu;\nQue te guarde e abençoe sempre.\nMisericórdia tenha Deus de ti.\n(Améns...)"
+                }
+            ]
+        }
+        ,
+        {
+            "id":609,
+            "titulo":"Pai Nosso",
+            "titulo_ingles":"The Lord's Prayer",
+            "numero":609,
+            "numero_view":"609",
+            "categoria":"Cânticos Responsivos",
+            "sub_categoria":"Fim Culto",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Albert H. Malotte (1895-1964)"
+                }
+            ],
+            "texto_biblico":"Mateus 6:9-13",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"Pai nosso que estás nos céus,\nSantificado Teu nome;\nTeu reino venha, Tua vontade\n Na Terra e no Céu se faça\nO nosso pão vem hoje dar;\nNossas dívidas perdoa,\nComo nós a quem nos deve;\nE livra-nos das tentações\nE dos males deste mundo,\nPois Teu é o reino,\nO poder e a glória\nPra sempre.\nAmém, Amém."
+                }
+            ]
+        }
+        ,
+        {
+            "id":610,
+            "titulo":"Améns",
+            "titulo_ingles":null,
+            "numero":610,
+            "numero_view":"610",
+            "categoria":"Améns",
+            "sub_categoria":"Améns",
+            "autores":[
+                {
+                    "nome":null
+                },
+                {
+                    "nome":"Autor Desconhecido"
+                }
+            ],
+            "texto_biblico":"Salmo 72:18 e 19",
+            "coro":[
+                {
+                    "nome_coro":null,
+                    "coro":null
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":null,
+                    "estrofe":"A. Amém\n\n\nB. Amém\n\n\nC. Amém, Amém, Amém\n\n\nD. Amém, Amém, Amém"
                 }
             ]
         }
