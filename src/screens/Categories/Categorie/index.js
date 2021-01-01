@@ -1,7 +1,5 @@
-import React, { useState,useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components/native';
-import {useNavigation,useRoute} from '@react-navigation/native';
-import {Image,FlatList} from 'react-native';
 import TabTopConf from '../../../components/TabTopConf';
 import SubCategoria from '../../../components/SubCategorias';
 

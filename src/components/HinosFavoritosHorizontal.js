@@ -5,7 +5,6 @@ import getRealm from '../api/realm/realm';
 import {useNavigation} from '@react-navigation/native';
 import {useStateValueFavorite} from '../state/ContextProviderFavoritos';
 import FavoritoFull from '../assets/img/favorite_icon_full.svg';
-import FavoritoWhite from '../assets/img/favorite_icon_white.svg';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
     height:90px;

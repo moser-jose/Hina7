@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Share} from 'react-native';
+import {Share} from 'react-native';
 import styled from 'styled-components/native';
 
 import ShareIcon from '../assets/img/share.svg';

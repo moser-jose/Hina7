@@ -1,8 +1,8 @@
-import React,{useEffect, useState} from 'react';
+import React,{useEffect} from 'react';
 import {Image,FlatList} from 'react-native';
 import styled from 'styled-components/native';
 import categoria from '../api/hinario.json';
-import {useNavigation,useRoute} from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 const CategoriaHol = styled.View`
     flex-direction:row;
     height:70px;

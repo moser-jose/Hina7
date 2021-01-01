@@ -1,10 +1,5 @@
 import React from 'react';
-import {Text, LogBox} from 'react-native';
-//console.disableYellowBox = true;
-// Ignore log notification by message:
-/* LogBox.ignoreLogs(['Warning: ...']);
- */
-// Ignore all log notifications:
+import {LogBox} from 'react-native';
 LogBox.ignoreAllLogs();
 import { 
     Container,

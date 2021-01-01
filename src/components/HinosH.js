@@ -1,12 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
 import FavoritesIcon from '../assets/img/favorites.svg';
-import hinario from '../api/hinario.json';
-
-
 import AutoresHino from '../components/Autores';
-
-import {useNavigation} from '@react-navigation/native';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
     margin-top:10px;

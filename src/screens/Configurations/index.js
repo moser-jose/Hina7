@@ -16,7 +16,6 @@ import TabTop from '../../components/TabTopCustom';
 import IconSetings from '../../assets/img/settings.svg';
 import IconRight from '../../assets/img/Icon_right.svg';
 import IconInfo from '../../assets/img/info.svg';
-import IconHand from '../../assets/img/hand.svg';
 import IconShare from '../../assets/img/Icon_share.svg';
 import {useNavigation} from '@react-navigation/native';
 export default () => {

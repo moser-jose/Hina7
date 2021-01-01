@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components/native';
-import {useNavigation} from '@react-navigation/native';
 import IconCheck from '../assets/img/Icon_check.svg';
 import IconUnCheck from '../assets/img/Icon_uncheck.svg';
 import IconDown from '../assets/img/Icon_down.svg';

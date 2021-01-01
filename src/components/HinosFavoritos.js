@@ -1,17 +1,11 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
-import FavoritesIcon from '../assets/img/favorites.svg';
+
 import hinario from '../api/hinario.json';
 import {useNavigation} from '@react-navigation/native';
-import FilterIcon from '../assets/img/filter.svg';
-import SearchIcon from '../assets/img/search.svg';
-import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
-import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 import {useStateValueFavorite} from '../state/ContextProviderFavoritos'
 import getRealm from '../api/realm/realm';
-const HinoPesq = styled.SafeAreaView`
-   
-`;
+
 const HinoContainerUp = styled.View`
     flex-direction:row;
     margin-top:10px;

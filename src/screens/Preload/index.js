@@ -1,6 +1,5 @@
 import React,{useEffect} from 'react';
 import { useNavigation } from '@react-navigation/native';
-import Hinario from '../../api/hinario.json';
 import { 
     Container,
     IconLoading,
@@ -43,7 +42,7 @@ export default () => {
            </IconLoad>
             <BemvindoApp>
                 <BemvindoAppText>Bem Vindo</BemvindoAppText>
-                <BemvindoAppVersao>Versão 1.0.1</BemvindoAppVersao>
+                <BemvindoAppVersao>Versão 1.0.2</BemvindoAppVersao>
             </BemvindoApp>
         </Container>
     );

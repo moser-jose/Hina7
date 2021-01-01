@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react';
+import React,{useEffect } from 'react';
 import {Image,FlatList} from 'react-native';
 import styled from 'styled-components/native';
 import categoria from '../api/hinario.json';

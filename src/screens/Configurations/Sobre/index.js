@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Linking } from 'react-native';
-import styled from 'styled-components/native';
 import TabTopConf from '../../../components/TabTopConf';
 import Logo from '../../../assets/img/logo.svg';
 import {  
@@ -96,7 +95,7 @@ export default () => {
 
                 <Versao>
                     <VersaoTexto>
-                        Versão 1.0.1
+                        Versão 1.0.2
                     </VersaoTexto>
                 </Versao>
         </Scroller>

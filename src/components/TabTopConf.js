@@ -1,6 +1,6 @@
-import React,{useState,useEffect} from 'react';
+import React from 'react';
 import styled from 'styled-components/native';
-import {useNavigation,useRoute} from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 import IconLeft from '../assets/img/Icon_left.svg';
 
 const ConfContainer = styled.View`
@@ -12,12 +12,10 @@ const ConfContainerCont = styled.View`
 
 const TabTopVoltarBotao = styled.View`
     flex-direction:row;
-    /* flex:1; */
     padding:10px;
 `;
 const TabTopVoltar = styled.TouchableOpacity`
     flex-direction:row;
-    /* flex:1; */
     align-items:center;
 `;
 const TabText = styled.Text`

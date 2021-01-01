@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Share} from 'react-native';
+import {Share} from 'react-native';
 import styled from 'styled-components/native';
 
 import Brevemente from '../assets/img/Brevemente.svg';
@@ -48,22 +48,10 @@ const Bold = styled.Text`
 `;
 
 export default() =>{
-
-    const handleClickShare=()=>{
-        Share.share({
-            title:"Hina7",
-            url:"www.google.com",
-            message:"Instale o novo App do Hinário Adventista do 7º dia e desfrute do Hinário como nunca, faça o download em www.google.com"
-        },{
-            dialogTitle:"Partilhe o App Hina7"
-        })
-    }
-
-
     return(
         <PartilharContainer>
             <PartilharContainerLeft>
-                <Brevemente /* width="100%" heigth="190" */></Brevemente>
+                <Brevemente></Brevemente>
             </PartilharContainerLeft>
             <PartilharContainerRigth>
 
@@ -74,13 +62,6 @@ export default() =>{
                     e <Bold>Kimbundo</Bold>.
                     </PartilharCimaTexto>
                 </PartilharCima>
-
-               {/*  <PartilharBaixo>
-                    <PartilharBotao onPress={handleClickShare}>
-                        <ShareIconShare></ShareIconShare>
-                    </PartilharBotao>
-                </PartilharBaixo> */}
-            
             </PartilharContainerRigth>
         </PartilharContainer>
     );

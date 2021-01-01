@@ -2,16 +2,11 @@ import React, { useState,useEffect } from 'react';
 import styled from 'styled-components/native';
 import {useRoute} from '@react-navigation/native';
 import SubCategoriaItems from '../components/SubCategoriaItems';
-import TabTopConf from '../components/TabTopConf';
-import { ScrollView } from 'react-native-gesture-handler';
 
 const ListArea = styled.ScrollView`
     margin:10px;
 `;
 const Tab = styled.View`
-`;
-const TabF = styled.View`
-    
 `;
 export default () => {
 
