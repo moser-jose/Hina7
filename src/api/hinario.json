@@ -14042,6 +14042,46 @@
         }
         ,
         {
+            "id":350,
+            "titulo":"Eu Pertenço ao Meu Rei ",
+            "titulo_ingles":"I Belong to the King",
+            "numero":350,
+            "numero_view":"350",
+            "categoria":"Vida Cristã",
+            "sub_categoria":"Consolo e Segurança",
+            "autores":[
+                {
+                    "nome":"Ida L. Reed (1865-1951)"
+                },
+                {
+                    "nome":"Maurice A. Clifton (1866-1930)"
+                }
+            ],
+            "texto_biblico":"I Coríntios 6:19 e 20",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Eu pertenço ao meu Rei, filho sou do Senhor;\nEle nunca me esquece, eu o sei.\nDar-me-á salvação por Seu grande favor,\nE na glória perene estarei."
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Eu pertenço ao meu Rei, filho sou do Senhor,\nNas eternas mansões morarei.\nJá das glórias ouvi, lá da pátria de amor;\nCom Seus filhos as desfrutarei."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Eu pertenço ao meu Rei, é por mim Seu amor;\nSua paz e descanso terei.\nSeu conforto me vem mitigar qualquer dor;\nCom amor guardará Sua grei."
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Eu pertenço ao meu Rei, a promessa é real;\nSalvará os que amarem Sua lei.\nJunto ao trono de Deus, na cidade eternal,\nCom os salvos um dia estarei."
+                }
+            ]
+        }
+        ,
+        {
             "id":351,
             "titulo":"Nunca Me Deixar",
             "titulo_ingles":"Never Alone",
