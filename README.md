@@ -64,7 +64,15 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 
 ## Changelog
 
-* 1.0.1 Criação do projeto. 📱
+* 1.0.2 
+
+    * Diminuição do tamanho do app. 🧲
+    * Adicionado o hino 350. 📃
+    * Correção de alguns bugs. ⌨️
+
+* 1.0.1 
+
+    * Criação do projeto. 📱
 
 ## Licença
 
