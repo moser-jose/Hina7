@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import {LogBox} from 'react-native';
 LogBox.ignoreAllLogs();
 import { 
@@ -7,9 +7,12 @@ import {
 } from './styles';
 import TabTop from '../../components/TabTopCustom';
 import CategoriaContainerCatCat from '../../components/CategoriaContainerCatCat';
-
+import {useStateValueCategoria} from '../../state/ContextProviderCategorias';
 export default () => {
-
+    const [categoria, setCategoria]=useStateValueCategoria();
+    /* useEffect(() => {
+        setHinos({type:'categorias'})
+    }, []) */
     return(
         
         <Container>
@@ -17,7 +20,7 @@ export default () => {
             <Scroller 
                 showsVerticalScrollIndicator={false}
             >
-                <CategoriaContainerCatCat></CategoriaContainerCatCat>
+                <CategoriaContainerCatCat data={categoria.categorias}></CategoriaContainerCatCat>
             </Scroller>
         </Container>
         

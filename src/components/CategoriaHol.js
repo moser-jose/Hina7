@@ -1,7 +1,6 @@
 import React,{useEffect} from 'react';
 import {Image,FlatList} from 'react-native';
 import styled from 'styled-components/native';
-import categoria from '../api/hinario.json';
 import {useNavigation} from '@react-navigation/native';
 const CategoriaHol = styled.View`
     flex-direction:row;
@@ -45,7 +44,7 @@ const CategoriaText = styled.Text`
 
 
 
-export default() =>{
+export default({categoria}) =>{
     const navigation=useNavigation();
     useEffect(()=> {
     }, []);
@@ -53,7 +52,7 @@ export default() =>{
         <FlatList 
             horizontal
             showsHorizontalScrollIndicator={false}
-            data={categoria.categorias}
+            data={categoria}
             keyExtractor={(item, index) => item.categoria}
             contentContainerStyle={{flexGrow:1}}
             showsVerticalScrollIndicator={false}

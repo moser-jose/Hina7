@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react';
-import {useNavigation} from '@react-navigation/native';
 import { 
     Container,
     Scroler,
@@ -10,25 +9,23 @@ import TextContTitulo from '../../components/TextContTitulo';
 import TabTop from '../../components/TabTopHome';
 import CategoriaHol from '../../components/CategoriaHol';
 import {useStateValueFavorite} from '../../state/ContextProviderFavoritos';
-import hinario from '../../api/hinario.json';
-import getRealm from '../../api/realm/realm';
 import HinoContainerHorizontal from '../../components/HinoContainerHorizontal';
 import HinosFavoritosHorizontal from '../../components/HinosFavoritosHorizontal';
-
+import {useStateValueHino} from '../../state/ContextProviderHinos';
+import {useStateValueCategoria} from '../../state/ContextProviderCategorias';
 import PartilharContainer from '../../components/PartilharContainer';
-import Brevemente from '../../components/Brevemente';
-
+import getRealm from '../../api/realm/realm';
 
 export default () => {
-    const navigation=useNavigation();
-    
-    const [list, setList]=useState([]);
-    const [data, setData]=useStateValueFavorite();
-    
+    const [state, dispatch]=useStateValueFavorite();
+    const [categorias, setCategoria]=useStateValueCategoria();
+    const [hinos, setHinos]=useStateValueHino();
+    const [data, setData]=useState([]);
     async function handlerActClickf(){
         const realm =await getRealm();
         const d = realm.objects('Favoritos').filtered('favorito=true');
-        var dataObj = hinario.hinos;
+        var dataObj = hinos.hinos;
+        
         var dataObj2 = [];
         var datad='{"hinos":[';
         var dataf="";
@@ -45,31 +42,30 @@ export default () => {
         }
         var go=datad+dataf+"]}"
         var ad=JSON.parse(go);
-        setList(ad.hinos);
+        setData(ad.hinos);
     }
-       
+
     useEffect(() => {
+        setHinos();
         handlerActClickf();
-        setList(data);
-    }, [data])
+    }, [state])
     return(
         <Container>
             <TabTop titulo={"Favoritos"}></TabTop>
             <Scroler>
-                
+            
             <TextContTitulo  nome={"Hinos"}></TextContTitulo>
-            <HinoContainerHorizontal ></HinoContainerHorizontal>
+            <HinoContainerHorizontal  hinos={hinos.hinos} favoritos={data} ></HinoContainerHorizontal>
 
             <TextContTitulo nome={"Secções"} ></TextContTitulo>
-            <CategoriaHol></CategoriaHol>
-
-            { list != "" && 
+            <CategoriaHol categoria={categorias.categorias} ></CategoriaHol>
+            
             <Favoritos>
-                <TextContTitulo nome={"Favoritos"}></TextContTitulo>
+            {data != '' && <TextContTitulo nome={"Favoritos"}></TextContTitulo>}
             <HinosFavoritosHorizontal ></HinosFavoritosHorizontal>
-                </Favoritos>}
+                </Favoritos>
                 <PartilharContainer></PartilharContainer>
-                <Brevemente></Brevemente>
+                {/* <Brevemente></Brevemente> */}
             </Scroler>
         
         </Container>

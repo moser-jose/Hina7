@@ -160,32 +160,29 @@ export default() =>{
         realm.write(()=>{
             realm.create('Favoritos', data, 'modified');
         });
+        
     }
     async function getRealmData(){
         const realm =await getRealm();
         const dogs = realm.objects('Favoritos').filtered('id='+hinoInfo.id+'');
         for (let p of dogs) {
             setFavorited(p.favorito);
+            
         }
     }
 
     function handlerClick(){
-        if(favorited){
-            setFavorited(false);
-            setHine({
-                type:'hinos'
-            })
-            SaveFavorites(hinoInfo, false);
-            
-        }
-        else{
-            setFavorited(true);
-            SaveFavorites(hinoInfo, true);
-            setHine({
-                type:'hinos'
-            })
-        }
-        
+        var bool=favorited;
+            if(favorited==true){
+                setFavorited(false);
+                bool=false;
+            }
+            else{
+                setFavorited(true);
+                bool=true;
+            }
+            SaveFavorites(hinoInfo, bool);
+            setHine();
     }
     useEffect(()=>{
         getRealmData();
@@ -209,7 +206,7 @@ export default() =>{
                 <TabTopTituloBase>
                     <TabTopTituloLeft>
                         <TabTopTituloleftFavor onPress={handlerClick}>
-                            {favorited ?
+                            {favorited == true ?
                                 <FavoritosIconFull fill="#29C17E" ></FavoritosIconFull>
                                     :
                                 <FavoritosIconWhite ></FavoritosIconWhite>

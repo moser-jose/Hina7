@@ -4,4 +4,5 @@ export default{
     title:'#272A3F',
     iconMenu:'#8890A6',
     statusBarStyle:"dark-content",
+    icon:'#4f5363'
 };

@@ -107,46 +107,15 @@ const FavoritosFText = styled.Text`
 `;
 
 
-export default() =>{
-    const [data, setData]=useState([]);
-    const [loading, setLoading]=useState(true);
-    const [list, setList]=useStateValueFavorite();
+export default({hinos}) =>{
     const navigation=useNavigation();
-    async function handlerActClickf(){
-        setLoading(true);
-        const realm =await getRealm();
-        const d = realm.objects('Favoritos').filtered('favorito=true');
-        var dataObj = hinario.hinos;
-        var dataObj2 = [];
-        var datad='{"hinos":[';
-        var dataf="";
-        for (let p=0; p<d.length; p++) {
-            dataObj2=dataObj.filter((item, key)=>item.id==d[p].id);
-            const vb=JSON.stringify(dataObj2);
-            const lo=vb.slice(1,-1);
-            if(d.length-1==p){
-                dataf+=lo;
-            }
-            else{
-                dataf+=lo+",";
-            }
-        }
-        var go=datad+dataf+"]}"
-        var ad=JSON.parse(go);
-        setData(ad.hinos);
-        setLoading(false);
-    }
-    useEffect(()=> {
-        handlerActClickf();
-        setData(list);
-    }, []);
+console.log(hinos)
     return(
         <Div>
-            {data !="" ? 
+            {hinos !="" ? 
                 <FavoritosT>
-                {loading && <IconLoading size="large"  color="#29c17e"></IconLoading>}
                 <FlatListUp 
-                data={data}
+                data={hinos}
                 keyExtractor={(item) => item.titulo}
                 showsVerticalScrollIndicator={false}
                 renderItem={HinosGet}>

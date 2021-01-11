@@ -39,13 +39,13 @@ export default ({nome}) => {
 
     const handleClick=()=>{
         if(nome=="Hinos"){
-            navigation.navigate('HinosTodos');
+            navigation.navigate('Search');
         }
         else if(nome=="Secções"){
             navigation.navigate('AllCategories');
         }
         else{
-            navigation.navigate('AllFavorites');
+            navigation.navigate('Favorites');
         }
     }
 

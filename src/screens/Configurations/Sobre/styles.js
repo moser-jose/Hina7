@@ -1,6 +1,5 @@
 import styled from 'styled-components/native';
 
-
 export const Container = styled.SafeAreaView`
     background-color:${props=>props.theme.background};;
     flex: 1;
@@ -10,19 +9,26 @@ export const Container = styled.SafeAreaView`
 
 export const Scroller = styled.ScrollView`
     flex: 1;
-    padding:0 20px;
+    padding:0 10px;
     margin-top:10px;
 `;
 export const Versao = styled.View`
-margin-top:20px;
+    margin-top:20px;
+    justify-content:center;
+    align-items:center;
 `;
 
 export const VersaoTexto = styled.Text`
-    font-size:12px;
     font-family:"Poppins-Bold";
     text-align:center;
-    letter-spacing:1px;
-    color:${props=>props.theme.title};
+    background-color:#FF4B63;
+    padding:4px 10px;
+    border-radius:2px;
+    font-size:10px;
+    color:#FFF;
+    margin:10px 0;
+    text-align:center;
+    width:27%;
 
 `;
 export const TituloApp = styled.View`
@@ -54,28 +60,31 @@ export const SobreTexto = styled.Text`
 `;
 
 export const SobreContaneir = styled.View`
-   
 `;
 export const SobreContaneirBotao = styled.TouchableOpacity`
-   
+    flex:1;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    background-color:${props=>props.theme.container};
+    elevation:2;
+    padding:12px 10px;
+    margin:7px 1px;
+    border-radius:2px;
 `;
-
 
 export const SobreTextoCenterAutor = styled.Text`
     color:${props=>props.theme.title};
     font-size: 14px;
     font-family:"Poppins-Bold";
     letter-spacing: 1px;
-    text-align:center;
     margin-top:20px;
 `;
 
-
 export const SobreTextoCenterAutorT = styled.Text`
     color:${props=>props.theme.title};
-    font-size: 14px;
-    font-family:"Poppins-Light";
+    font-size: 12px;
+    font-family:"Poppins-Regular";
     letter-spacing: 1px;
-    text-align:center;
 `;
 

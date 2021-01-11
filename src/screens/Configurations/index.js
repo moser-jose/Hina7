@@ -31,7 +31,7 @@ export default () => {
         Share.share({
             title:"Hinário Adventista do 7º dia",
             url:"https://www.hinario-adventista.vercel.app/",
-            message:"Instale o novo App do Hinário Adventista do 7º dia e desfrute do Hinário como nunca, faça o download em https://www.hinario-adventista.vercel.app/"
+            message:"Instale o novo App do Hinário Adventista do 7º dia e desfrute do Hinário como nunca, faça o download em https://play.google.com/store/apps/details?id=com.hin7 ou visite a página em https://www.hinario-adventista.vercel.app/"
         },{
             dialogTitle:"Partilhe o Hinário Adventista do 7º dia"
         })

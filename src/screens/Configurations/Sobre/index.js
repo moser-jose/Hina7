@@ -2,6 +2,10 @@ import React from 'react';
 import { Linking } from 'react-native';
 import TabTopConf from '../../../components/TabTopConf';
 import Logo from '../../../assets/img/logo.svg';
+import Github from '../../../assets/img/github.svg';
+import Email from '../../../assets/img/email.svg';
+import Link from '../../../assets/img/IconSend.svg';
+import {useStateValue} from '../../../state/ContextProvider';
 import {  
     Container,
     Scroller,
@@ -19,6 +23,7 @@ import {
 } from './styles';
 
 export default () => {
+    const [state,dispach]=useStateValue();
     return(
         <Container>
             <TabTopConf Texto={"Sobre a App"}></TabTopConf>
@@ -41,11 +46,13 @@ export default () => {
                         <SobreTextoCenterAutorT>
                             https://musicaeadoracao.com.br
                         </SobreTextoCenterAutorT>
+                        <Link fill={state.theme.icon} width="20" height="20"></Link>
                     </SobreContaneirBotao>
                     <SobreContaneirBotao onPress={() => Linking.openURL('https://www.instagram.com/fabiosmoc/')}>
                         <SobreTextoCenterAutorT>
                             @fabiosmoc
                         </SobreTextoCenterAutorT>
+                        <Link fill={state.theme.icon} width="20" height="20"></Link>
                     </SobreContaneirBotao>
                
                 </SobreContaneir>
@@ -56,8 +63,9 @@ export default () => {
                     </SobreTextoCenterAutor>
                     <SobreContaneirBotao onPress={() => Linking.openURL('https://github.com/moser-jose/Hina7')}>
                         <SobreTextoCenterAutorT>
-                        https://github.com/moser-jose/Hina7
+                        @Hina7
                         </SobreTextoCenterAutorT>
+                        <Github fill={state.theme.icon} width="20" height="20"></Github>
                     </SobreContaneirBotao>
                 </SobreContaneir>
 
@@ -69,6 +77,7 @@ export default () => {
                         <SobreTextoCenterAutorT>
                         https://hinario-adventista.vercel.app/
                         </SobreTextoCenterAutorT>
+                        <Link fill={state.theme.icon} width="20" height="20"></Link>
                     </SobreContaneirBotao>
                 </SobreContaneir>
 
@@ -80,6 +89,7 @@ export default () => {
                         <SobreTextoCenterAutorT>
                         mosmmy@gmail.com
                         </SobreTextoCenterAutorT>
+                        <Email fill={state.theme.icon} width="20" height="20"></Email>
                     </SobreContaneirBotao>
                 </SobreContaneir>
                 <SobreContaneir >
@@ -90,12 +100,13 @@ export default () => {
                         <SobreTextoCenterAutorT>
                         @moser-jose
                         </SobreTextoCenterAutorT>
+                        <Github fill={state.theme.icon} width="20" height="20"></Github>
                     </SobreContaneirBotao>
                 </SobreContaneir>
 
                 <Versao>
                     <VersaoTexto>
-                        Versão 1.0.2
+                        Versão 1.0.3
                     </VersaoTexto>
                 </Versao>
         </Scroller>

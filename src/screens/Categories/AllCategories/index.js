@@ -7,9 +7,9 @@ import {
 } from './styles';
 import TabTopConf from '../../../components/TabTopConf';
 import CategoriaContainerCatCat from '../../../components/CategoriaContainerCatCat';
-
+import {useStateValueCategoria} from '../../../state/ContextProviderCategorias';
 export default () => {
-
+    const [categoria, setCategoria]=useStateValueCategoria();
     return(
         
         <Container>
@@ -17,7 +17,7 @@ export default () => {
             <Scroller 
                 showsVerticalScrollIndicator={false}
             >
-                <CategoriaContainerCatCat></CategoriaContainerCatCat>
+                <CategoriaContainerCatCat data={categoria.categorias}></CategoriaContainerCatCat>
             </Scroller>
         </Container>
         

@@ -1,14 +1,11 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState} from 'react';
 import styled from 'styled-components/native';
-import hinario from '../api/hinario.json';
 import {useNavigation} from '@react-navigation/native';
 import FilterIcon from '../assets/img/filter.svg';
 import SearchIcon from '../assets/img/search.svg';
 import IconDown from '../assets/img/Icon_down.svg';
 import IconCheck from '../assets/img/Icon_check.svg';
 import IconUnCheck from '../assets/img/Icon_uncheck.svg';
-import {useStateValueFavorite} from '../state/ContextProviderFavoritos';
-import getRealm from '../api/realm/realm';
 import FavoritoFull from '../assets/img/favorite_icon_full.svg';
 const HinoPesq = styled.View`
     width:100%;
@@ -223,43 +220,15 @@ const Favorito = styled.View`
     margin-right:20px;
 `;
 
-export default() =>{
-    const [list, setList]=useStateValueFavorite();
-    const [fav, setFav]=useState([]);
-    const [data, setData]=useState([]);
+export default({hinos,favoritos}) =>{
+    const [data, setData]=useState(hinos);
     const [pesquisa, setPesquisa]=useState(true);
     const [showModal, setShowModal]=useState(false);
-    const getHinos=()=>{
-        setData(hinario.hinos);
-    }
-    
-    async function handlerActClickf(){
-        const realm =await getRealm();
-        const d = realm.objects('Favoritos').filtered('favorito=true');
-        var dataObj = hinario.hinos;
-        var dataObj2 = [];
-        var datad='{"hinos":[';
-        var dataf="";
-        for (let p=0; p<d.length; p++) {
-            dataObj2=dataObj.filter((item, key)=>item.id==d[p].id);
-            const vb=JSON.stringify(dataObj2);
-            const lo=vb.slice(1,-1);
-            if(d.length-1==p){
-                dataf+=lo;
-            }
-            else{
-                dataf+=lo+",";
-            }
-        }
-        var go=datad+dataf+"]}"
-        var ad=JSON.parse(go);
-        setFav(ad.hinos);
-    }
     const navigation=useNavigation();
     
     filterItem = query => {
         if (query == '') {
-            setData(hinario.hinos);
+            setData(hinos);
         } else {
           var dataObj = [];
           query = query.toLowerCase();
@@ -278,10 +247,10 @@ export default() =>{
 
     filtrar = query => {
         if (query == '') {
-            return setData(hinario.hinos);
+            return setData(hinos);
         }
         else{
-            const ob=hinario.hinos;
+            const ob=hinos;
             var newData=[];
             if(pesquisa){
                 newData = ob.filter(item => {
@@ -310,11 +279,6 @@ export default() =>{
         setPesquisa(false);
         setShowModal(false);
     }
-    useEffect(()=> {
-        getHinos();
-        handlerActClickf();
-    }, [list]);
-    
     return(
         <Div>
             <HinoPesq>
@@ -440,7 +404,7 @@ export default() =>{
                             <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
                         </BotaoTitulo>
                         <FavoritoAutor>
-                        {fav.map((value,index) => (
+                        {favoritos.map((value,index) => (
                         value.id==id &&  
                         <Favorito key={index}>
                             <FavoritoFull></FavoritoFull>
