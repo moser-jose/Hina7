@@ -1,14 +1,14 @@
 import React,{useEffect} from 'react';
-import {StatusBar} from 'react-native';
+import {LogBox,StatusBar} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {ThemeProvider} from 'styled-components';
 import MainStack from './src/stacks/MainStack';
 import {useStateValue} from './src/state/ContextProvider';
 import AsyncStorage from '@react-native-community/async-storage';
-import {useStateValueFavorite} from './src/state/ContextProviderFavoritos';
 export default () => {
+  LogBox.ignoreLogs(['Warning: ...']); 
+  LogBox.ignoreAllLogs();
   const [state,dispach]=useStateValue();
-  const [data, setData]=useStateValueFavorite();
   useEffect(()=>{
     async function getStorageDarkMode(){
       const Theme= await AsyncStorage.getItem("Theme");
@@ -33,7 +33,6 @@ export default () => {
       }
     
     }
-    setData({type:'hinos'});
     getStorageDarkMode();
   },[]);
   return(

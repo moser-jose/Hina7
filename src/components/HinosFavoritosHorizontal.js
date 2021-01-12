@@ -4,14 +4,13 @@ import {useNavigation} from '@react-navigation/native';
 import FavoritoFull from '../assets/img/favorite_icon_full.svg';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
-    height:90px;
 `;
 
 const Hino = styled.View`
     flex-direction:row;
     elevation:2;
     margin-right:10px;
-    padding:4px 8px;
+    padding:8px;
     background-color:${props=>props.theme.container};;
     border-radius:2px;
     overflow:hidden;

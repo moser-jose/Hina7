@@ -1,6 +1,4 @@
 import React from 'react';
-import {LogBox} from 'react-native';
-LogBox.ignoreAllLogs();
 import { 
     Container,
     Scroller

@@ -106,7 +106,7 @@ export default () => {
 
                 <Versao>
                     <VersaoTexto>
-                        Versão 1.0.3
+                        Versão 1.0.4
                     </VersaoTexto>
                 </Versao>
         </Scroller>

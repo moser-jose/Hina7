@@ -64,6 +64,11 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 
 ## Changelog
 
+* 1.0.4 
+
+    * Performance nos hinos favoritos. ⚙️
+    * Correção de alguns bugs. ⌨️
+
 * 1.0.3 
 
     * Performance na busca dos hinos. 🧑🏻‍🚀
