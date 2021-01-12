@@ -7,9 +7,9 @@ import {
 } from './styles';
 import TabTopConf from '../../../components/TabTopConf';
 import CategoriaContainerCatCat from '../../../components/CategoriaContainerCatCat';
-import {useStateValueCategoria} from '../../../state/ContextProviderCategorias';
+import {useStateValueHino} from '../../../state/ContextProviderHinos';
 export default () => {
-    const [categoria, setCategoria]=useStateValueCategoria();
+    const {hinario}=useStateValueHino();
     return(
         
         <Container>
@@ -17,7 +17,7 @@ export default () => {
             <Scroller 
                 showsVerticalScrollIndicator={false}
             >
-                <CategoriaContainerCatCat data={categoria.categorias}></CategoriaContainerCatCat>
+                <CategoriaContainerCatCat data={hinario.categorias}></CategoriaContainerCatCat>
             </Scroller>
         </Container>
         

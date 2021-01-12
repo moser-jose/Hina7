@@ -3,7 +3,6 @@ import AsyncStorage from '@react-native-community/async-storage';
 import { StateProvider} from "./state/ContextProvider";
 import {StateProviderFavorite } from "./state/ContextProviderFavoritos";
 import {StateProviderHino } from "./state/ContextProviderHinos";
-import {StateProviderCategoria } from "./state/ContextProviderCategorias";
 import {useColorScheme} from 'react-native';
 import App from '../App'
 import Themes from './assets/themes/themes';
@@ -13,11 +12,7 @@ export default function index(){
     const device=useColorScheme();
     const initialState = {theme:Themes.light};
     const [list, setList] = useState([]);
-    const [hinos, setHino] = useState([]);
-    const [categorias, setCategoria] = useState([]);
     let initialStateFavorite = [];
-    let initialStateHinos = {hinos:hinario.hinos};
-    let initialStateCategorias = {categorias:hinario.categorias};
 
     async function updateStorage(state){
         try{
@@ -74,8 +69,6 @@ export default function index(){
         var go=datad+dataf+"]}"
         var ad=JSON.parse(go);
         setList(ad.hinos);
-        setHino(hinario.hinos);
-        setCategoria(hinario.categorias)
         initialStateFavorite=ad.hinos;
     }
     useEffect(() => {
@@ -88,29 +81,14 @@ export default function index(){
                     list
                 };
     }
-    const reducerHinos =(state)=>{
-       
-                return{
-                    hinos
-                };
-    }
-
-    const reducerCategorias=(state)=>{
-        return{
-            categorias
-        };
-    }
+ 
    /*  console.log(hino) */
     return(
         <StateProvider initialState={initialState} reducer={reducer}>
-            <StateProviderHino initialState={initialStateHinos} reducer={reducerHinos}>
-            <StateProviderCategoria initialState={initialStateCategorias} reducer={reducerCategorias}>
+            <StateProviderHino>
                 <StateProviderFavorite initialState={initialStateFavorite} reducer={reducerFavorites}>
-               
                     <App/>
-                
                 </StateProviderFavorite>
-                </StateProviderCategoria>
             </StateProviderHino>
         </StateProvider>
     );

@@ -5,7 +5,7 @@ import {FlatList} from 'react-native'
 import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
 import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 import IconLeft from '../assets/img/Icon_left.svg';
-import { useStateValueFavorite } from '../state/ContextProviderFavoritos';
+import { useStateValueHino } from '../state/ContextProviderHinos';
 import getRealm from '../api/realm/realm';
 const HinoContainer = styled.SafeAreaView`
 
@@ -138,7 +138,7 @@ export default() =>{
     const navigation=useNavigation();
     const route=useRoute();
     const [favorited, setFavorited]=useState(false);
-    const [hine, setHine]=useStateValueFavorite();
+    const {setClickFav}=useStateValueHino();
     const [hinoInfo, setHinoInfo]=useState({
             id: route.params.id,
             titulo: route.params.titulo,
@@ -167,7 +167,6 @@ export default() =>{
         const dogs = realm.objects('Favoritos').filtered('id='+hinoInfo.id+'');
         for (let p of dogs) {
             setFavorited(p.favorito);
-            
         }
     }
 
@@ -181,8 +180,8 @@ export default() =>{
                 setFavorited(true);
                 bool=true;
             }
+            setClickFav(true);
             SaveFavorites(hinoInfo, bool);
-            setHine();
     }
     useEffect(()=>{
         getRealmData();

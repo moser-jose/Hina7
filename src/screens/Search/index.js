@@ -3,7 +3,6 @@ import {
     Container,
     Scroller
 } from './styles';
-
 import HinoContainerUp from '../../components/HinoContainerUp';
 import TabTopCustom from '../../components/TabTopCustom';
 import {useStateValueFavorite} from '../../state/ContextProviderFavoritos';
@@ -11,7 +10,7 @@ import {useStateValueHino} from '../../state/ContextProviderHinos';
 import getRealm from '../../api/realm/realm';
 export default ()=>{
     const [state, dispatch]=useStateValueFavorite();
-    const [hinos, setHinos]=useStateValueHino();
+    const {hinario}=useStateValueHino();
     const [data, setData]=useState([]);
     async function handlerActClickf(){
         const realm =await getRealm();
@@ -38,14 +37,13 @@ export default ()=>{
     }
 
     useEffect(() => {
-        setHinos();
         handlerActClickf();
     }, [state])
         return(
             <Container>
                 <TabTopCustom titulo={"Pesquisar"}></TabTopCustom>
                 <Scroller>
-                    <HinoContainerUp hinos={hinos.hinos} favoritos={data}></HinoContainerUp>
+                    <HinoContainerUp hinos={hinario.hinos} favoritos={data}></HinoContainerUp>
                 </Scroller>
             </Container>
         );

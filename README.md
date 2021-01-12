@@ -67,6 +67,7 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 * 1.0.3 
 
     * Performance na busca dos hinos. 🧑🏻‍🚀
+    * Mudança do conteúdo da partilha do app 🌀
     * Mudança da página sobre. ⚙️
     * Correção de alguns bugs. ⌨️
 

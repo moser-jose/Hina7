@@ -1,9 +1,6 @@
-import React,{useState,useEffect} from 'react';
+import React from 'react';
 import styled from 'styled-components/native';
-import hinario from '../api/hinario.json';
-import getRealm from '../api/realm/realm';
 import {useNavigation} from '@react-navigation/native';
-import {useStateValueFavorite} from '../state/ContextProviderFavoritos';
 import FavoritoFull from '../assets/img/favorite_icon_full.svg';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
@@ -57,12 +54,6 @@ const FavoritoAutor = styled.View`
     align-items:center;
     
 `; 
-const Favoritos = styled.View`
-    align-self:center;
-`; 
-const FavoritosBotao = styled.View`
-    
-`; 
 const Autores = styled.View`
     
     justify-content:flex-end;
@@ -92,46 +83,13 @@ const Favorito = styled.View`
     margin-right:20px;
 `;
 
-export default() =>{
-    
+export default({favoritos}) =>{
     const navigation=useNavigation();
-    const [list, setList]=useState([]);
-    const [data, setData]=useStateValueFavorite();
-
-    async function handlerActClickf(){
-    const realm =await getRealm();
-    const d = realm.objects('Favoritos').filtered('favorito=true');
-    var dataObj = hinario.hinos;
-    var dataObj2 = [];
-    var datad='{"hinos":[';
-    var dataf="";
-    for (let p=0; p<d.length; p++) {
-        dataObj2=dataObj.filter((item, key)=>item.id==d[p].id);
-        const vb=JSON.stringify(dataObj2);
-        const lo=vb.slice(1,-1);
-        if(d.length-1==p){
-            dataf+=lo;
-        }
-        else{
-            dataf+=lo+",";
-        }
-    }
-    var go=datad+dataf+"]}"
-    var ad=JSON.parse(go);
-    setList(ad.hinos);
-}
-    
-   
-    
-    useEffect(()=> {
-        handlerActClickf();
-        setList(data);
-    }, [data]);
     return(
         <FlatListUp 
         horizontal
         showsHorizontalScrollIndicator={false}
-        data={list}
+        data={favoritos}
         keyExtractor={(item) => item.titulo}
         showsVerticalScrollIndicator={false}
         renderItem={HinosGet}>

@@ -11,7 +11,7 @@ import getRealm from '../../../api/realm/realm';
 
 export default () => {
     const [state, dispatch]=useStateValueFavorite();
-    const [hinos, setHinos]=useStateValueHino();
+    const {hinario}=useStateValueHino();
     const [data, setData]=useState([]);
     async function handlerActClickf(){
         const realm =await getRealm();
@@ -38,7 +38,6 @@ export default () => {
     }
 
     useEffect(() => {
-        setHinos();
         handlerActClickf();
     }, [state])
     return(
@@ -46,7 +45,7 @@ export default () => {
             
             <TabTopConf Texto={"Hinos"}></TabTopConf>
             <Scroller>
-                <HinoContainerUp hinos={hinos.hinos} favoritos={data}></HinoContainerUp>
+                <HinoContainerUp hinos={hinario.hinos} favoritos={data}></HinoContainerUp>
             </Scroller>
                 
         </Container>
