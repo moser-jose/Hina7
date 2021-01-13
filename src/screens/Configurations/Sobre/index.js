@@ -71,7 +71,7 @@ export default () => {
 
                 <SobreContaneir >
                     <SobreTextoCenterAutor>
-                        Visite o Site em:
+                        Visite o site em:
                     </SobreTextoCenterAutor>
                     <SobreContaneirBotao onPress={() => Linking.openURL('https://hinario-adventista.vercel.app/')}>
                         <SobreTextoCenterAutorT>

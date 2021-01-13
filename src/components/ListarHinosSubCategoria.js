@@ -2,14 +2,13 @@ import React, { useState,useEffect } from 'react';
 import styled from 'styled-components/native';
 import {useRoute} from '@react-navigation/native';
 import HinosSubCategoria from '../components/HinosSubCategoria';
-import Hinos from '../api/hinario.json';
 
 const Tab = styled.View`
 `;
 const IconLoading = styled.ActivityIndicator`
     margin: 10px 0;
 `;
-export default () => {
+export default ({hinos}) => {
     
     const route=useRoute();
     const [subcategoria]=useState({
@@ -18,13 +17,12 @@ export default () => {
    });
 
 
-   const hino=Hinos.hinos.filter((value) => {
+   const hino=hinos.filter((value) => {
        return value.sub_categoria==subcategoria.sub_categorias;
    })
 
    const [list, setList]=useState([]);
    const [loading, setLoading]=useState(true);
-   const [itemRender, setItemRender]=useState(10);
 
    const getHino=()=>{
         setList(hino);
@@ -38,7 +36,6 @@ export default () => {
         <Tab>
                 {loading && <IconLoading size="large"  color="#29c17e"></IconLoading>}
                 { list.map((item, k) => (
-                    
                     <HinosSubCategoria data={item} key={k}></HinosSubCategoria>
                     
                 ))}

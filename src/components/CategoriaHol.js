@@ -46,8 +46,6 @@ const CategoriaText = styled.Text`
 
 export default({categoria}) =>{
     const navigation=useNavigation();
-    useEffect(()=> {
-    }, []);
     return(
         <FlatList 
             horizontal
