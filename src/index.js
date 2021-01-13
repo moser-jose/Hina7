@@ -45,7 +45,7 @@ export default function index(){
     return(
         <StateProvider initialState={initialState} reducer={reducer}>
             <StateProviderHino>
-                    <App/>
+                <App/>
             </StateProviderHino>
         </StateProvider>
     );
