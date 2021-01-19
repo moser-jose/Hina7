@@ -178,6 +178,9 @@ const PlayerContainer = styled.View`
 const Botao = styled.TouchableOpacity`
     
 `;
+const SliderContainer = styled.View`
+    
+`;
 
 export default() =>{
     const navigation=useNavigation();
@@ -225,6 +228,24 @@ export default() =>{
 
     const HandlerPlay=()=>{
         
+        (async ()=>{
+            await TrackPlayer.setupPlayer().then(async ()=>{
+                await TrackPlayer.updateOptions({
+                    stopWithApp: true,
+                    alwaysPauseOnInterruption: true,
+                    capabilities: [
+                        Capability.Play,
+                        Capability.Pause,
+                        Capability.Stop/* ,
+                        Capability.SkipToNext,
+                        Capability.SkipToPrevious, */
+                    ],
+                });
+            });/* 
+            await TrackPlayer.reset(); */
+            await TrackPlayer.add([hinoInfo]);
+            
+        })();
             if (botaoPlay==true){
                 TrackPlayer.play();
                 setBotaoPlay(false);
@@ -269,24 +290,7 @@ export default() =>{
       };
     useEffect(()=>{
         
-        (async ()=>{
-            await TrackPlayer.setupPlayer().then(async ()=>{
-                await TrackPlayer.updateOptions({
-                    stopWithApp: true,
-                    alwaysPauseOnInterruption: true,
-                    capabilities: [
-                      Capability.Play,
-                      Capability.Pause,
-                      Capability.Stop/* ,
-                      Capability.SkipToNext,
-                      Capability.SkipToPrevious, */
-                    ],
-                  });
-            });
-            await TrackPlayer.reset();
-            await TrackPlayer.add([hinoInfo]);
-            
-        })();
+       
         
         getRealmData();
     },[]);
@@ -347,6 +351,7 @@ export default() =>{
                             <FontAudio>
                                 {formatTime(position)}
                             </FontAudio>
+                            <SliderContainer>
                             <Slider
                                 value={position}
                                 style={{width: 110}}
@@ -357,6 +362,7 @@ export default() =>{
                                 maximumTrackTintColor={state.theme.title}
                                 onSlidingComplete={handleChange}
                             />
+                            </SliderContainer>
                             <FontAudio>
                                 {formatTime(duration)}
                             </FontAudio>
