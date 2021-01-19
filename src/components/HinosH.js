@@ -102,8 +102,8 @@ export default({data}) =>{
                     </HinoLeft>
                     <HinoRigth>
                         <BotaoTitulo>
-                            <TituloHino>{data.titulo}</TituloHino>
-                            <TituloHinoIngles>{data.titulo_ingles}</TituloHinoIngles>
+                            <TituloHino>{data.title}</TituloHino>
+                            <TituloHinoIngles>{data.ingles}</TituloHinoIngles>
                         </BotaoTitulo>
                         <FavoritoAutor>
                             <Favoritos>

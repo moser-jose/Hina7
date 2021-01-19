@@ -5,6 +5,7 @@ export const StateContext = createContext();
 
 export const StateProviderHino= ({children})=>{
     const [favoritos, setFavoritos]=useState([]);
+    const [tamanho, setTamanho]=useState(20);
     const [clickFav, setClickFav]=useState(false);
     async function handlerActClickf(){
         const realm =await getRealm();
@@ -38,7 +39,7 @@ export const StateProviderHino= ({children})=>{
     }
 
     return(
-        <StateContext.Provider value={{hinario, favoritos, setClickFav}}>
+        <StateContext.Provider value={{hinario, favoritos, setClickFav,setTamanho,tamanho}}>
         {children}
         </StateContext.Provider>
     );

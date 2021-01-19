@@ -1,12 +1,27 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation,useRoute} from '@react-navigation/native';
-import {FlatList} from 'react-native'
+import {FlatList, Text} from 'react-native';
+import Slider from '@react-native-community/slider';
 import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
 import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
 import IconLeft from '../assets/img/Icon_left.svg';
 import { useStateValueHino } from '../state/ContextProviderHinos';
+import {useStateValue} from '../state/ContextProvider'; 
 import getRealm from '../api/realm/realm';
+import Play from '../assets/img/play.svg';
+import Stop from '../assets/img/stop.svg';
+import Pause from '../assets/img/pause.svg';
+import TrackPlayer, {
+    Capability,
+    useTrackPlayerEvents,
+    usePlaybackState,
+    TrackPlayerEvents,
+    STATE_PLAYING,
+    Event,
+    useProgress
+  } from 'react-native-track-player';
+import { useTrackPlayerProgress } from 'react-native-track-player';
 const HinoContainer = styled.SafeAreaView`
 
 flex:1;
@@ -36,7 +51,7 @@ const TabText = styled.Text`
 const TabTopTitulo = styled.View`
     
     width:100%;
-    padding:10px;
+    padding:10px 10px 0;
 `;
 const TabTopTituloText = styled.Text`
     font-size:18px;
@@ -78,15 +93,15 @@ const TabTopTituloRigthText = styled.Text`
    color:${props=>props.theme.title};
 `;
 const TabTopTituloMiddle = styled.View`
+    flex:1;
     justify-content:center;
     align-items:center;
-    
-    flex:1;
 `;
 const TabTopTituloMiddleText = styled.Text`
    font-size:25px;
    font-family:"Poppins-Bold";
    color:${props=>props.theme.title};
+   
 `;
 
 const Hino = styled.View`
@@ -133,27 +148,65 @@ const Scroller = styled.ScrollView`
     
 flex:1;
 `;
+const Configurations = styled.View`
+    flex-direction:row;
+    align-items:center;
+    padding:5px 10px 10px 10px;
+    justify-content:space-between;
+`;
+const Font = styled.Text`
+    font-size:16px;
+    font-weight:600;
+    font-family:"Poppins-SemiBold";
+    color:${props=>props.theme.title};;
+`;
+const FontAudio = styled.Text`
+    font-size:10px;
+    font-weight:400;
+    font-family:"Poppins-Light";
+    color:${props=>props.theme.title};;
+`;
+
+const FontContainer = styled.View`
+    flex-direction:row;
+    align-items:center;
+`;
+const PlayerContainer = styled.View`
+    flex-direction:row;
+    align-items:center;
+`;
+const Botao = styled.TouchableOpacity`
+    
+`;
 
 export default() =>{
     const navigation=useNavigation();
     const route=useRoute();
+    const [state,dispach]=useStateValue();
     const [favorited, setFavorited]=useState(false);
-    const {setClickFav}=useStateValueHino();
+    const {setClickFav,setTamanho,tamanho}=useStateValueHino();
     const [hinoInfo, setHinoInfo]=useState({
             id: route.params.id,
-            titulo: route.params.titulo,
+            title: route.params.title,
+            url:route.params.url,
+            artwork:route.params.artwork,
+            artist:route.params.artist,
             numero_view: route.params.numero_view,
-            titulo_ingles: route.params.titulo_ingles,
+            ingles: route.params.ingles,
             autores: route.params.autores,
             texto_biblico: route.params.texto_biblico,
             coro: route.params.coro,
             estrofes: route.params.estrofes
     });
+    const [botaoPlay, setBotaoPlay]=useState(true);
+    const playbackState = usePlaybackState();
+    const {position, duration} = useProgress();
+    const [stop, setStop] = useState('play'); //paused play loading
     async function SaveFavorites(hinoInfo, favor){
         const data={
             id:hinoInfo.id,
             hino:hinoInfo.id,
-            titulo:hinoInfo.titulo,
+            titulo:hinoInfo.title,
             favorito:favor,
         };
         const realm= await getRealm();
@@ -170,6 +223,34 @@ export default() =>{
         }
     }
 
+    const HandlerPlay=()=>{
+        
+            if (botaoPlay==true){
+                TrackPlayer.play();
+                setBotaoPlay(false);
+                setStop('play');
+            }
+            else{
+                TrackPlayer.pause();
+                setBotaoPlay(true);
+                setStop('play');
+            }
+          
+        
+    }
+    const formatTime = (secs) => {
+        let minutes = Math.floor(secs / 60);
+        let seconds = Math.ceil(secs - minutes * 60);
+    
+        if (seconds < 10) seconds = `0${seconds}`;
+    
+        return `${minutes}:${seconds}`;
+    }
+    const HandlerStop=()=>{
+       /*  TrackPlayer.stop(); */
+        navigation.goBack()
+        
+    }
     function handlerClick(){
         var bool=favorited;
             if(favorited==true){
@@ -183,7 +264,30 @@ export default() =>{
             setClickFav(true);
             SaveFavorites(hinoInfo, bool);
     }
+    const handleChange = (val) => {
+        TrackPlayer.seekTo(val);
+      };
     useEffect(()=>{
+        
+        (async ()=>{
+            await TrackPlayer.setupPlayer().then(async ()=>{
+                await TrackPlayer.updateOptions({
+                    stopWithApp: true,
+                    alwaysPauseOnInterruption: true,
+                    capabilities: [
+                      Capability.Play,
+                      Capability.Pause,
+                      Capability.Stop/* ,
+                      Capability.SkipToNext,
+                      Capability.SkipToPrevious, */
+                    ],
+                  });
+            });
+            await TrackPlayer.reset();
+            await TrackPlayer.add([hinoInfo]);
+            
+        })();
+        
         getRealmData();
     },[]);
     return(
@@ -191,19 +295,19 @@ export default() =>{
         <HinoContainer>
             <TabTopHino>
                     <TabTopVoltarBotao>
-                        <TabTopVoltar  onPress={()=>navigation.goBack()}>
+                        <TabTopVoltar  onPress={HandlerStop}>
                             <IconLeft></IconLeft>
                             <TabText>Voltar</TabText>
                         </TabTopVoltar>
                 </TabTopVoltarBotao> 
                 <TabTopTitulo>
-                <TabTopTituloText>{hinoInfo.titulo}</TabTopTituloText>
+                <TabTopTituloText>{hinoInfo.title}</TabTopTituloText>
                 <TabTopTituloEng>
-                    <TabTopTituloEngText>{hinoInfo.titulo_ingles}</TabTopTituloEngText>
+                    <TabTopTituloEngText>{hinoInfo.ingles}</TabTopTituloEngText>
                     <TabTopTituloEngTextBib>{hinoInfo.texto_biblico}</TabTopTituloEngTextBib>
                 </TabTopTituloEng>
                 <TabTopTituloBase>
-                    <TabTopTituloLeft>
+                <TabTopTituloLeft>
                         <TabTopTituloleftFavor onPress={handlerClick}>
                             {favorited == true ?
                                 <FavoritosIconFull fill="#29C17E" ></FavoritosIconFull>
@@ -225,7 +329,59 @@ export default() =>{
                             </FlatList>
                     </TabTopTituloRigth>
                 </TabTopTituloBase>
-            </TabTopTitulo>
+                </TabTopTitulo>
+                <Configurations>
+                    <PlayerContainer>
+                        <Botao onPress={HandlerPlay}>
+                            {botaoPlay ==true ? 
+                            
+                            <Play  style={{marginRight:8}} width="16" height="16" fill="#29C17E"></Play>
+                            :
+                            <Pause  style={{marginRight:8}} width="16" height="16" fill="#29C17E"></Pause>
+                            }
+                        </Botao>
+                        {/* <Botao onPress={HandlerStop}>
+                            <Stop style={{marginRight:8}} width="16" height="16" fill="#29C17E"></Stop>
+                        </Botao> */}
+                        <FontContainer>
+                            <FontAudio>
+                                {formatTime(position)}
+                            </FontAudio>
+                            <Slider
+                                value={position}
+                                style={{width: 110}}
+                                thumbTintColor="#29C17E"
+                                minimumValue={0}
+                                maximumValue={duration}
+                                minimumTrackTintColor={state.theme.title}
+                                maximumTrackTintColor={state.theme.title}
+                                onSlidingComplete={handleChange}
+                            />
+                            <FontAudio>
+                                {formatTime(duration)}
+                            </FontAudio>
+                        </FontContainer>
+                    </PlayerContainer>
+                
+                    <FontContainer>
+                    <Font>
+                        aA
+                    </Font>
+                <Slider
+                    value={tamanho}
+                    style={{width: 100}}
+                    thumbTintColor="#29C17E"
+                    minimumValue={20}
+                    maximumValue={50}
+                    minimumTrackTintColor={state.theme.title}
+                    maximumTrackTintColor={state.theme.title}
+                    onSlidingComplete={(itemValue, itemIndex) =>
+                        setTamanho(itemValue)
+                    }
+                />
+                    </FontContainer>
+                </Configurations>
+            
             </TabTopHino>
             <Scroller>
                 
@@ -270,8 +426,8 @@ export default() =>{
             if(coro!=null){
                 return(
                     <HinoEstrofes>
-                        <NumeroEstrofe>{nome_coro}</NumeroEstrofe>
-                        <Coro>{coro}</Coro>
+                        <NumeroEstrofe style={{fontSize:tamanho}}>{nome_coro}</NumeroEstrofe>
+                        <Coro style={{fontSize:tamanho}}>{coro}</Coro>
                     </HinoEstrofes>
                 )
             }
@@ -281,8 +437,8 @@ export default() =>{
 
             return(
                 <HinoEstrofes>
-                    <NumeroEstrofe>{numero}</NumeroEstrofe>
-                    <Estrofe>{estrofe}</Estrofe>
+                    <NumeroEstrofe style={{fontSize:tamanho}}>{numero}</NumeroEstrofe>
+                    <Estrofe style={{fontSize:tamanho}}>{estrofe}</Estrofe>
                 </HinoEstrofes>
             )
     }

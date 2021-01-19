@@ -8,7 +8,7 @@ export default () => {
 
     return(
         <Container>
-            <TabTopHino titulo={"Pesquisar"}></TabTopHino>
+            <TabTopHino></TabTopHino>
         </Container>
     );
 }

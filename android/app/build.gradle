@@ -132,8 +132,9 @@ android {
         applicationId "com.hin7"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 3
-        versionName "1.0.4"
+        versionCode 4
+        versionName "1.0.5"
+        multiDexEnabled true 
     }
     splits {
         abi {
@@ -191,6 +192,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.android.support:multidex:2.4.0'  
     implementation project(':realm')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion

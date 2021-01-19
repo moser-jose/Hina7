@@ -13,9 +13,7 @@ Este projeto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, 
 [![The MIT License](https://img.shields.io/github/license/moser-jose/Hina7)](http://opensource.org/licenses/MIT)
 [![Autor](https://img.shields.io/static/v1?label=autor&message=moser-jose&color=red)](https://github.com/moser-jose?tab=repositories)
 
-
 </div>
-
 
 ## Telas do App
 
@@ -64,25 +62,31 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 
 ## Changelog
 
-* 1.0.4 
+* 1.0.5
 
-    * Performance nos hinos favoritos. ⚙️
+    * Adicionado o aumento da fonte dos hinos.
+    * Actualização do cabeçalho dos hinos.
+
+* 1.0.4
+
+    * Performance nos hinos favoritos.  🧑🏻‍🚀
+    * Actualização dos hinos nas secções. 🔰
     * Correção de alguns bugs. ⌨️
 
-* 1.0.3 
+* 1.0.3
 
     * Performance na busca dos hinos. 🧑🏻‍🚀
     * Mudança do conteúdo da partilha do app 🌀
     * Mudança da página sobre. ⚙️
     * Correção de alguns bugs. ⌨️
 
-* 1.0.2 
+* 1.0.2
 
     * Diminuição do tamanho do app. 🧲
     * Adicionado o hino 350. 📃
     * Correção de alguns bugs. ⌨️
 
-* 1.0.1 
+* 1.0.1
 
     * Criação do projeto. 📱
 

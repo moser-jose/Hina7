@@ -96,20 +96,23 @@ export default({hinos, favoritos}) =>{
         horizontal
         showsHorizontalScrollIndicator={false}
         data={hinos}
-        keyExtractor={(item) => item.titulo}
+        keyExtractor={(item) => item.title}
         showsVerticalScrollIndicator={false}
         renderItem={HinosGet}>
         </FlatListUp>
     );
     function HinosGet(item){
 
-        const {id,titulo,numero_view,titulo_ingles,autores,texto_biblico,coro,estrofes}=item.item;
+        const {id,url,artwork,artist,title,numero_view,ingles,autores,texto_biblico,coro,estrofes}=item.item;
         const handleClick = () => {
             navigation.navigate('Hino',{
                 id:id,
-                titulo:titulo,
+                title:title,
+                url:url,
+                artwork:artwork,
+                artist:artist,
                 numero_view:numero_view,
-                titulo_ingles:titulo_ingles,
+                ingles:ingles,
                 autores:autores,
                 texto_biblico:texto_biblico,
                 coro:coro,
@@ -126,8 +129,8 @@ export default({hinos, favoritos}) =>{
                         </HinoLeft>
                         <HinoRigth>
                             <BotaoTitulo onPress={handleClick}>
-                                <TituloHino>{titulo}</TituloHino>
-                                <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
+                                <TituloHino>{title}</TituloHino>
+                                <TituloHinoIngles>{ingles}</TituloHinoIngles>
                             </BotaoTitulo>
                             <FavoritoAutor>
                             { favoritos.map((item,k) => (

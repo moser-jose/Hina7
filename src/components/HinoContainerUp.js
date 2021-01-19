@@ -236,7 +236,7 @@ export default({hinos,favoritos}) =>{
             dataObj = data.filter(l => l.numero.toString().toLowerCase().match(query));
         }
           else{
-            dataObj = dataObj.filter(l => l.titulo.toLowerCase().match(query));
+            dataObj = dataObj.filter(l => l.title.toLowerCase().match(query));
           }
           
           setData(dataObj);
@@ -259,7 +259,7 @@ export default({hinos,favoritos}) =>{
             }
             else{
                 query=query.toLowerCase();
-                newData = ob.filter(l => l.titulo.toLowerCase().match(query));
+                newData = ob.filter(l => l.title.toLowerCase().match(query));
             }
         }
         setData(newData);
@@ -317,7 +317,7 @@ export default({hinos,favoritos}) =>{
                     </HinoPesq>
             <FlatListUp 
                 data={data}
-                keyExtractor={(item) => item.titulo}
+                keyExtractor={(item) => item.title}
                 showsVerticalScrollIndicator={true}
                 renderItem={HinosGet}
                 maxToRenderPerBatch={20}>
@@ -376,13 +376,16 @@ export default({hinos,favoritos}) =>{
     );
     
     function HinosGet(item){
-        const {id,titulo,numero_view,titulo_ingles,autores,texto_biblico,coro,estrofes}=item.item;
+        const {id,url,artwork,artist,title,numero_view,ingles,autores,texto_biblico,coro,estrofes}=item.item;
         const handleClick = () => {
             navigation.navigate('Hino',{
                 id:id,
-                titulo:titulo,
+                title:title,
+                url:url,
+                artwork:artwork,
+                artist:artist,
                 numero_view:numero_view,
-                titulo_ingles:titulo_ingles,
+                ingles:ingles,
                 autores:autores,
                 texto_biblico:texto_biblico,
                 coro:coro,
@@ -400,8 +403,8 @@ export default({hinos,favoritos}) =>{
                     </HinoLeft>
                     <HinoRigth>
                         <BotaoTitulo onPress={handleClick}>
-                            <TituloHino>{titulo}</TituloHino>
-                            <TituloHinoIngles>{titulo_ingles}</TituloHinoIngles>
+                            <TituloHino>{title}</TituloHino>
+                            <TituloHinoIngles>{ingles}</TituloHinoIngles>
                         </BotaoTitulo>
                         <FavoritoAutor>
                         {favoritos.map((value,index) => (

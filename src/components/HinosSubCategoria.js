@@ -88,9 +88,12 @@ export default({data}) =>{
    const handleClick = () => {
     navigation.navigate('Hino',{
         id:data.id,
-        titulo:data.titulo,
+        title:data.title,
+        url:data.url,
+        artwork:data.artwork,
+        artist:data.artist,
         numero_view:data.numero_view,
-        titulo_ingles:data.titulo_ingles,
+        ingles:data.ingles,
         autores:data.autores,
         texto_biblico:data.texto_biblico,
         coro:data.coro,
@@ -109,8 +112,8 @@ export default({data}) =>{
             </HinoLeft>
             <HinoRigth>
                 <BotaoTitulo onPress={handleClick}>
-                    <TituloHino>{data.titulo}</TituloHino>
-                    <TituloHinoIngles>{data.titulo_ingles}</TituloHinoIngles>
+                    <TituloHino>{data.title}</TituloHino>
+                    <TituloHinoIngles>{data.ingles}</TituloHinoIngles>
                 </BotaoTitulo>
                 <FavoritoAutor>
                 { favoritos.map((item,k) => (

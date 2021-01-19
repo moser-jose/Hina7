@@ -24,13 +24,13 @@ export default({data}) =>{
     const handleClick = () => {
         navigation.navigate('HinosSubCategoria',{
             id:data.id,
-            tituloSubcategoria:data.titulo
+            tituloSubcategoria:data.title
         });
     }
         return(
             <SubCategoriaBotao onPress={handleClick}>
                 <SubCategoriaText>
-                        {data.titulo}
+                        {data.title}
                     </SubCategoriaText>
                     <SubCategoriaText>
                         {data.hinos}

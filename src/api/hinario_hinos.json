@@ -19,7 +19,16 @@
                     "nome":"John Hatton (c. 1710 - 1793)"
                 }
             ],
-            "texto_biblico":"Gênesis 1:1"
+            "texto_biblico":"Gênesis 1:1",
+            "musica":[
+                {
+                    "id":"1",
+                    "url": "https://stream31.hearthis.at/index.php?track=portal-vany-musik/anderson-mario-vai-dormir-zouk-www.vany-musik.com",
+                    "title":"Ó Deus de Amor",
+                    "artwork":"https://1.bp.blogspot.com/-Fi6mY00RU3M/X2Dy1iS2GdI/AAAAAAAANT8/x5TTVW_fHcgaH1w8zCzcXihyc00KbxYZwCLcBGAsYHQ/s0/Anderson%2BMario.jpg",
+                    "artist":"Hinário Adventista do 7º Dia"
+                }
+            ]
         },
         {
             "id":2,

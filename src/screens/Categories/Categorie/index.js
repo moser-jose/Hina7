@@ -1,16 +1,19 @@
 import React, {useState} from 'react';
 import styled from 'styled-components/native';
 import TabTopConf from '../../../components/TabTopConf';
-import SubCategoria from '../../../components/SubCategorias';
+import SubCategoriaItems from '../../../components/SubCategoriaItems';
 import {useRoute} from '@react-navigation/native';
 
 const Tudol = styled.ScrollView`
-   background-color:${props=>props.theme.background};
+    background-color:${props=>props.theme.background};
     flex:30;
 `;
 const Tudo = styled.View`
-   background-color:${props=>props.theme.background};
+    background-color:${props=>props.theme.background};
     flex:1;
+`;
+const ListArea = styled.ScrollView`
+    margin:10px;
 `;
 export default () => {
     const route=useRoute();
@@ -22,11 +25,16 @@ export default () => {
     });
     return(
         
-           <Tudo>
+        <Tudo>
                 <TabTopConf Texto={"Sub-Secções"}></TabTopConf>
                 <Tudol>
-                    <SubCategoria subCategorias={categoria}></SubCategoria>
+                    <ListArea >
+                        { categoria.sub_categorias.map((item,k) => (
+                                <SubCategoriaItems data={item} key={k}></SubCategoriaItems>
+                        )
+                        )}
+                    </ListArea>
                 </Tudol>
-           </Tudo>
+        </Tudo>
     );
 }
