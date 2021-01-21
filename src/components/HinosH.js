@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
-import FavoritesIcon from '../assets/img/favorites.svg';
 import AutoresHino from '../components/Autores';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
     margin-top:10px;
@@ -65,16 +65,6 @@ const Autores = styled.View`
     
     justify-content:flex-end;
 `; 
-const Autor = styled.Text`
-    font-size:10px;
-    text-align:right;
-    margin-top:2px;
-    color:${props=>props.theme.title};
-`;
-const FlatListUp = styled.FlatList`
-    
-`;
-
 const TextoBiblico = styled.Text`
     font-size:10px;
     text-align:right;
@@ -108,7 +98,7 @@ export default({data}) =>{
                         <FavoritoAutor>
                             <Favoritos>
                                 <FavoritosBotao>
-                                <FavoritesIcon fill="#29C17E"/>
+                                <Icon size={24} name="heart" color="#29C17E" ></Icon>
                                 </FavoritosBotao>
                             </Favoritos>
                                 <TextoBiblico>{data.texto_biblico}</TextoBiblico>

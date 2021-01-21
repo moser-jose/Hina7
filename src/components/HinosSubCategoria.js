@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 import AutoresHino from './Autores';
 import {useNavigation} from '@react-navigation/native';
 import {useStateValueHino} from '../state/ContextProviderHinos';
-import FavoritoFull from '../assets/img/favorite_icon_full.svg';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 const HinoContainerUp = styled.View`
     flex-direction:row;
     margin-top:10px;
@@ -119,7 +119,7 @@ export default({data}) =>{
                 { favoritos.map((item,k) => (
                                 item.id==data.id &&
                                 <Favorito key={k}>
-                                    <FavoritoFull></FavoritoFull>
+                                    <Icon size={24} name="heart" color="#29C17E" />
                                 </Favorito>
                                 
                                 )

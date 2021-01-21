@@ -2,10 +2,10 @@ import React from 'react';
 import { Linking } from 'react-native';
 import TabTopConf from '../../../components/TabTopConf';
 import Logo from '../../../assets/img/logo.svg';
-import Github from '../../../assets/img/github.svg';
-import Email from '../../../assets/img/email.svg';
-import Link from '../../../assets/img/IconSend.svg';
 import {useStateValue} from '../../../state/ContextProvider';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {  
     Container,
     Scroller,
@@ -46,13 +46,13 @@ export default () => {
                         <SobreTextoCenterAutorT>
                             https://musicaeadoracao.com.br
                         </SobreTextoCenterAutorT>
-                        <Link fill={state.theme.icon} width="20" height="20"></Link>
+                        <FontAwesome name="share-square-o" color={state.theme.icon} size={20}/>
                     </SobreContaneirBotao>
                     <SobreContaneirBotao onPress={() => Linking.openURL('https://www.instagram.com/fabiosmoc/')}>
                         <SobreTextoCenterAutorT>
                             @fabiosmoc
                         </SobreTextoCenterAutorT>
-                        <Link fill={state.theme.icon} width="20" height="20"></Link>
+                        <FontAwesome name="share-square-o" color={state.theme.icon} size={20}/>
                     </SobreContaneirBotao>
                
                 </SobreContaneir>
@@ -65,7 +65,7 @@ export default () => {
                         <SobreTextoCenterAutorT>
                         @Hina7
                         </SobreTextoCenterAutorT>
-                        <Github fill={state.theme.icon} width="20" height="20"></Github>
+                        <Ionicons name="logo-github" color={state.theme.icon} size={20}/>
                     </SobreContaneirBotao>
                 </SobreContaneir>
 
@@ -77,7 +77,7 @@ export default () => {
                         <SobreTextoCenterAutorT>
                         https://hinario-adventista.vercel.app/
                         </SobreTextoCenterAutorT>
-                        <Link fill={state.theme.icon} width="20" height="20"></Link>
+                        <FontAwesome name="share-square-o" color={state.theme.icon} size={20}/>
                     </SobreContaneirBotao>
                 </SobreContaneir>
 
@@ -89,7 +89,7 @@ export default () => {
                         <SobreTextoCenterAutorT>
                         mosmmy@gmail.com
                         </SobreTextoCenterAutorT>
-                        <Email fill={state.theme.icon} width="20" height="20"></Email>
+                        <MaterialCommunityIcons name="email-send" color={state.theme.icon} size={20}/>
                     </SobreContaneirBotao>
                 </SobreContaneir>
                 <SobreContaneir >
@@ -100,7 +100,7 @@ export default () => {
                         <SobreTextoCenterAutorT>
                         @moser-jose
                         </SobreTextoCenterAutorT>
-                        <Github fill={state.theme.icon} width="20" height="20"></Github>
+                        <Ionicons name="logo-github" color={state.theme.icon} size={20}/>
                     </SobreContaneirBotao>
                 </SobreContaneir>
 

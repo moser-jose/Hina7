@@ -1,17 +1,14 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation,useRoute} from '@react-navigation/native';
-import {FlatList, Text} from 'react-native';
+import {FlatList} from 'react-native';
 import Slider from '@react-native-community/slider';
-import FavoritosIconFull from '../assets/img/favorite_icon_full.svg';
-import FavoritosIconWhite from '../assets/img/favorite_icon_white.svg';
-import IconLeft from '../assets/img/Icon_left.svg';
 import { useStateValueHino } from '../state/ContextProviderHinos';
 import {useStateValue} from '../state/ContextProvider'; 
 import getRealm from '../api/realm/realm';
-import Play from '../assets/img/play.svg';
-import Stop from '../assets/img/stop.svg';
-import Pause from '../assets/img/pause.svg';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import Feather from 'react-native-vector-icons/Feather';
 import TrackPlayer, {
     Capability,
     useTrackPlayerEvents,
@@ -21,7 +18,6 @@ import TrackPlayer, {
     Event,
     useProgress
   } from 'react-native-track-player';
-import { useTrackPlayerProgress } from 'react-native-track-player';
 const HinoContainer = styled.SafeAreaView`
 
 flex:1;
@@ -157,13 +153,13 @@ const Configurations = styled.View`
 const Font = styled.Text`
     font-size:16px;
     font-weight:600;
-    font-family:"Poppins-SemiBold";
+    /* font-family:"Poppins-SemiBold"; */
     color:${props=>props.theme.title};;
 `;
 const FontAudio = styled.Text`
     font-size:10px;
     font-weight:400;
-    font-family:"Poppins-Light";
+    /* font-family:"Poppins-Light"; */
     color:${props=>props.theme.title};;
 `;
 
@@ -228,24 +224,7 @@ export default() =>{
 
     const HandlerPlay=()=>{
         
-        (async ()=>{
-            await TrackPlayer.setupPlayer().then(async ()=>{
-                await TrackPlayer.updateOptions({
-                    stopWithApp: true,
-                    alwaysPauseOnInterruption: true,
-                    capabilities: [
-                        Capability.Play,
-                        Capability.Pause,
-                        Capability.Stop/* ,
-                        Capability.SkipToNext,
-                        Capability.SkipToPrevious, */
-                    ],
-                });
-            });/* 
-            await TrackPlayer.reset(); */
-            await TrackPlayer.add([hinoInfo]);
-            
-        })();
+        
             if (botaoPlay==true){
                 TrackPlayer.play();
                 setBotaoPlay(false);
@@ -289,8 +268,14 @@ export default() =>{
         TrackPlayer.seekTo(val);
       };
     useEffect(()=>{
-        
-       
+        (async ()=>{
+            await TrackPlayer.setupPlayer().then(()=>{
+                console.log('ready')
+            });
+            await TrackPlayer.reset();
+            await TrackPlayer.add([hinoInfo]);
+            
+        })();
         
         getRealmData();
     },[]);
@@ -300,7 +285,7 @@ export default() =>{
             <TabTopHino>
                     <TabTopVoltarBotao>
                         <TabTopVoltar  onPress={HandlerStop}>
-                            <IconLeft></IconLeft>
+                        <FontAwesome5 size={18} name="caret-left" color="#8890A6"/>
                             <TabText>Voltar</TabText>
                         </TabTopVoltar>
                 </TabTopVoltarBotao> 
@@ -314,9 +299,9 @@ export default() =>{
                 <TabTopTituloLeft>
                         <TabTopTituloleftFavor onPress={handlerClick}>
                             {favorited == true ?
-                                <FavoritosIconFull fill="#29C17E" ></FavoritosIconFull>
+                                <Icon size={24} name="heart" color="#29C17E" ></Icon>
                                     :
-                                <FavoritosIconWhite ></FavoritosIconWhite>
+                                <Icon size={24} name="heart-outline" color="#29C17E" ></Icon>
                             }
                         </TabTopTituloleftFavor>
                     </TabTopTituloLeft>
@@ -339,14 +324,11 @@ export default() =>{
                         <Botao onPress={HandlerPlay}>
                             {botaoPlay ==true ? 
                             
-                            <Play  style={{marginRight:8}} width="16" height="16" fill="#29C17E"></Play>
+                            <Feather name="play"  style={{marginRight:8}} size={18} color="#29C17E"/>
                             :
-                            <Pause  style={{marginRight:8}} width="16" height="16" fill="#29C17E"></Pause>
+                            <Feather name="pause"  style={{marginRight:8}} size={18} color="#29C17E"/>
                             }
                         </Botao>
-                        {/* <Botao onPress={HandlerStop}>
-                            <Stop style={{marginRight:8}} width="16" height="16" fill="#29C17E"></Stop>
-                        </Botao> */}
                         <FontContainer>
                             <FontAudio>
                                 {formatTime(position)}
@@ -360,7 +342,8 @@ export default() =>{
                                 maximumValue={duration}
                                 minimumTrackTintColor={state.theme.title}
                                 maximumTrackTintColor={state.theme.title}
-                                onSlidingComplete={handleChange}
+                                onValueChange={handleChange}
+                                
                             />
                             </SliderContainer>
                             <FontAudio>
@@ -381,7 +364,7 @@ export default() =>{
                     maximumValue={50}
                     minimumTrackTintColor={state.theme.title}
                     maximumTrackTintColor={state.theme.title}
-                    onSlidingComplete={(itemValue, itemIndex) =>
+                    onValueChange={(itemValue, itemIndex) =>
                         setTamanho(itemValue)
                     }
                 />

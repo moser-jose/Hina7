@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
-import FavoritoFull from '../assets/img/favorite_icon_full.svg';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 const HinoContainerHorizontal = styled.View`
     flex-direction:row;
     margin:0 1px 0;
@@ -80,9 +80,7 @@ const TextoBiblico = styled.Text`
     color:${props=>props.theme.title};
 
 `;
-const Conta = styled.View`
-    
-`;
+
 
 const Favorito = styled.View`
     margin-right:20px;
@@ -136,7 +134,7 @@ export default({hinos, favoritos}) =>{
                             { favoritos.map((item,k) => (
                                 item.id==id &&
                                 <Favorito key={k}>
-                                    <FavoritoFull></FavoritoFull>
+                                    <Icon size={24} name="heart" color="#29C17E" ></Icon>
                                 </Favorito>
                                 
                                 )

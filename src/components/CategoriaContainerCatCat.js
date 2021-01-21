@@ -31,7 +31,7 @@ const CategoriaBotao = styled.TouchableOpacity`
 
 const CategoriaText = styled.Text`
     color:#fff;
-    font-size:16px;
+    font-size:14px;
     letter-spacing: 1px;
     font-family:"Poppins-Bold";
     text-align:center;

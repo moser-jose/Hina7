@@ -42,7 +42,7 @@ export default ({nome}) => {
             navigation.navigate('Search');
         }
         else if(nome=="Secções"){
-            navigation.navigate('AllCategories');
+            navigation.navigate('Categories');
         }
         else{
             navigation.navigate('Favorites');

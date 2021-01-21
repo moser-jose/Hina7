@@ -1,15 +1,8 @@
-import React,{useState} from 'react';
+import React from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
-import FilterIcon from '../assets/img/filter.svg';
-import SearchIcon from '../assets/img/search.svg';
-import IconDown from '../assets/img/Icon_down.svg';
-import IconCheck from '../assets/img/Icon_check.svg';
-import IconUnCheck from '../assets/img/Icon_uncheck.svg';
-import FavoritoFull from '../assets/img/favorite_icon_full.svg';
-const HinoPesq = styled.View`
-    width:100%;
-`;
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+
 const HinoContainerUp = styled.View`
     flex-direction:row;
     background-color:${props=>props.theme.container};
@@ -57,6 +50,9 @@ const TituloHinoIngles = styled.Text`
     margin-top:-5px;
 
 `; 
+const Favorito = styled.View`
+    margin-right:20px;
+`;
 const FavoritoAutor = styled.View`
     flex-direction:row;
     margin-top:2px;
@@ -89,288 +85,18 @@ const Div = styled.View`
     
 `;
 
-
-
-
-const PesquisarConp = styled.View`
-    background-color:${props=>props.theme.container};
-    flex-direction:row;
-    height: 50px;
-    elevation:2;
-    margin:10px .5px;
-    justify-content:space-between;
-    padding:0 5px;
-    border-radius:2px;
-`;
-
-const PesquisarConpLeft = styled.View`
-    flex:8;
-`;
-
-const PesquisarConpMiddle = styled.View`
-    flex-direction:row;
-    align-self:center;
-    justify-content:center;
-    
-`;
-const PesquisarCompMiddleBotao = styled.View`
-    
-`;
-
-
-const PesquisarConpRight = styled.View`
-    flex-direction:row;
-    justify-content:center;
-    align-self:center;
-    flex:1;
-    
-`;
-const PesquisarConpRightBotao = styled.TouchableOpacity`
-    
-`;
-const TextImput = styled.TextInput`
-    flex:1;
-    align-items:center;
-    font-size:16px;
-    color:${props=>props.theme.title};
-    background-color:${props=>props.theme.container};
-`;
-const Modal = styled.Modal`
-
-
-`;
-
-const ModalArea = styled.View`
-
-    flex:1;
-    background-color:rgba(0,0,0,.8);
-    justify-content:flex-end;
-`;
-const ModalBody =styled.View`
-    background-color:${props=>props.theme.container};
-    min-height:210px;
-    border-top-left-radius:30px;
-    border-top-right-radius:30px;
-    padding:10px 20px;
-    position:relative;
-
-`;
-
-const ModalBodyOpcao =styled.TouchableOpacity`
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
-    padding:14px 0;
-
-`;
-const ModalBodyOpcaoTexto =styled.Text`
-    font-size:17px;
-    letter-spacing:1px;
-    color:${props=>props.theme.title};
-
-`;
-
-const Line =styled.View`
-    background-color:#ccc;
-    width:100%;
-    height:1px;
-`; 
-const BotaoCancelar =styled.TouchableOpacity`
-    align-items:center;
-    flex-direction:row;
-    padding:0 0 10px;
-   
-
-`; 
-const BotaoCancelarTexto =styled.Text`
-    padding-left:10px;
-    font-size:16px;
-    letter-spacing:1px;
-    color:${props=>props.theme.title};
-`; 
-
-
-
-const ModalBodyOpcaoF =styled.TouchableOpacity`
-    flex-direction:row;
-    align-items:center;
-    justify-content:center;
-    padding:5px;
-    border: 2px solid #ccc;
-    border-radius:2px;
-    width:50%;
-
-`;
-const ModalBodyOpcaoTextoF =styled.Text`
-    font-size:16px;
-    letter-spacing:1px;
-    text-align:center;
-    color:${props=>props.theme.title};
-    
-
-`;
-
-const ModalFec =styled.View`
-    justify-content:center;
-    margin-top:20px;
-    flex-direction:row;
-
-`;
-const Favorito = styled.View`
-    margin-right:20px;
-`;
-
 export default({hinos,favoritos}) =>{
-    const [data, setData]=useState(hinos);
-    const [pesquisa, setPesquisa]=useState(true);
-    const [showModal, setShowModal]=useState(false);
     const navigation=useNavigation();
-    
-    filterItem = query => {
-        if (query == '') {
-            setData(hinos);
-        } else {
-          var dataObj = [];
-          query = query.toLowerCase();
-          if(pesquisa){
-            dataObj = data.filter(l => l.numero.toString().toLowerCase().match(query));
-        }
-          else{
-            dataObj = dataObj.filter(l => l.title.toLowerCase().match(query));
-          }
-          
-          setData(dataObj);
-        }
-
-        
-    };
-
-    filtrar = query => {
-        if (query == '') {
-            return setData(hinos);
-        }
-        else{
-            const ob=hinos;
-            var newData=[];
-            if(pesquisa){
-                newData = ob.filter(item => {
-                    return item.numero==query;
-                });
-            }
-            else{
-                query=query.toLowerCase();
-                newData = ob.filter(l => l.title.toLowerCase().match(query));
-            }
-        }
-        setData(newData);
-    };
-
-    const handleClickShowModal =()=>{
-        setShowModal(true);
-    }
-    const handleClickBack =()=>{
-        setShowModal(false);
-    }
-    const handleClickPesquisaT =()=>{
-        setPesquisa(true);
-        setShowModal(false);
-    }
-    const handleClickPesquisaF =()=>{
-        setPesquisa(false);
-        setShowModal(false);
-    }
     return(
         <Div>
-            <HinoPesq>
-                <PesquisarConp>
-                        <PesquisarConpMiddle>
-                            <PesquisarCompMiddleBotao>
-                                <SearchIcon fill="#8890A6"></SearchIcon>
-                            </PesquisarCompMiddleBotao>
-                        </PesquisarConpMiddle>
-                        <PesquisarConpLeft>
-                           {pesquisa ?
-                           <TextImput 
-                           placeholderTextColor="#aaa" 
-                           placeholder="Introduza o número do hino"
-                           autoCapitalize="none"
-                           autoCorrect={false}
-                           onChangeText={query=>this.filtrar(query)}
-                           ></TextImput>
-                           :
-                           <TextImput 
-                           placeholderTextColor="#aaa" 
-                           placeholder="Introduza o titulo do hino"
-                           autoCapitalize="none"
-                           autoCorrect={false}
-                           onChangeText={query=>this.filtrar(query)}
-                           ></TextImput>
-                           }
-                        </PesquisarConpLeft>
-                        
-                        <PesquisarConpRight>
-                            <PesquisarConpRightBotao onPress={handleClickShowModal}>
-                                <FilterIcon></FilterIcon>
-                            </PesquisarConpRightBotao>
-                        </PesquisarConpRight>
-                    </PesquisarConp>
-                    </HinoPesq>
             <FlatListUp 
-                data={data}
+                data={hinos}
                 keyExtractor={(item) => item.title}
                 showsVerticalScrollIndicator={true}
                 renderItem={HinosGet}
-                maxToRenderPerBatch={20}>
+                maxToRenderPerBatch={40}>
             </FlatListUp>
-            <Modal 
-                transparent={true}
-                visible={showModal}
-                animationType="slide"
-            >
-                <ModalArea>
-                    <ModalBody>
-                        
-                    <BotaoCancelar onPress={handleClickBack}>
-                        <IconDown></IconDown>
-                        <BotaoCancelarTexto>Opções de Pesquisa</BotaoCancelarTexto>
-                    </BotaoCancelar>
-                    <Line></Line>
-                        <ModalBodyOpcao onPress={handleClickPesquisaT}>
-                            <ModalBodyOpcaoTexto>
-                                Pesquisar pelo número
-                            </ModalBodyOpcaoTexto>
-                            {
-                                pesquisa ?
-                                <IconCheck></IconCheck>
-                                :
-                                <IconUnCheck></IconUnCheck>
-                            }
-                        </ModalBodyOpcao>
-                        <Line></Line>
-                        <ModalBodyOpcao onPress={handleClickPesquisaF}>
-                            <ModalBodyOpcaoTexto >
-                                Pesquisar pelo titulo
-                            </ModalBodyOpcaoTexto>
-                            {
-                                pesquisa ?
-                                <IconUnCheck></IconUnCheck>
-                                :
-                                <IconCheck></IconCheck>
-                            }
-                        </ModalBodyOpcao>
-                    <ModalFec>
-                        <ModalBodyOpcaoF onPress={handleClickPesquisaF}>
-                                <ModalBodyOpcaoTextoF >
-                                    Fechar
-                                </ModalBodyOpcaoTextoF>
-                        </ModalBodyOpcaoF>
-                    </ModalFec>
-                        
-                    </ModalBody>
-                </ModalArea>
             
-            </Modal>
-    
         </Div>
         
     );
@@ -410,7 +136,7 @@ export default({hinos,favoritos}) =>{
                         {favoritos.map((value,index) => (
                         value.id==id &&  
                         <Favorito key={index}>
-                            <FavoritoFull></FavoritoFull>
+                            <Icon size={24} name="heart" color="#29C17E" ></Icon>
                         </Favorito>
                     ))}
                             <TextoBiblico>{texto_biblico}</TextoBiblico>

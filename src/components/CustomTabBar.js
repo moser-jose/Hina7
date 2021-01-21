@@ -1,12 +1,8 @@
 import React from 'react';
 import styled from 'styled-components/native';
-
-import HomeIcon from '../assets/img/home.svg';
-import SearchIcon from '../assets/img/search.svg';
-import CategoriesIcon from '../assets/img/categories.svg';
-import FavoritesIcon from '../assets/img/favorites.svg';
-import ConfigurationsIcon from '../assets/img/configurations.svg';
-
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 const TabArea = styled.View`
     height:60px;
     flex-direction: row;
@@ -43,20 +39,21 @@ export default ({state, navigation}) => {
         <TabArea>
             
             <TabItem onPress={() =>goTo('Search')}>
-                <SearchIcon  fill={state.index===0? "#29C17E" : "#8890A6"}  width="24" height="24"  />
+                <Ionicons size={24} name="search"  color={state.index===0? "#29C17E" : "#8890A6"}  />
             </TabItem>
             <TabItem onPress={() =>goTo('Categories')}>
-                <CategoriesIcon fill={state.index===1? "#29C17E" : "#8890A6"} width="24" height="24" />
+                <AntDesign name="appstore1" size={22} color={state.index===1? "#29C17E" : "#8890A6"}/>
             </TabItem>
             <TabItemHome  onPress={() =>goTo('Home')}>
-            <HomeIcon fill="#fff" width="24" height="24" />
+            <Ionicons name="home" color="#fff" size={22} />
                 
             </TabItemHome>
             <TabItem onPress={() =>goTo('Favorites')} >
-                <FavoritesIcon fill={state.index===3? "#29C17E" : "#8890A6"} width="24" height="24" />
+
+            <Icon size={24} name="heart" color={state.index===3? "#29C17E" : "#8890A6"} ></Icon>
             </TabItem>
             <TabItem onPress={() =>goTo('Configurations')}>
-                <ConfigurationsIcon fill={state.index===4? "#29C17E" : "#8890A6"} width="24" height="24" />
+            <Icon size={24} name="cog" color={state.index===4? "#29C17E" : "#8890A6"} ></Icon>
             </TabItem>
         </TabArea>
     );

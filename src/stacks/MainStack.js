@@ -5,11 +5,11 @@ import Preload from '../screens/Preload';
 import MainTab from '../stacks/MainTab';
 import Hino from '../screens/Hino';
 import Search from '../screens/Search';
+import Categories from '../screens/Categories';
 import Config from '../screens/Configurations/Config';
 import Sobre from '../screens/Configurations/Sobre';
 import Categorie from '../screens/Categories/Categorie';
 import HinosSubCategoria from '../screens/Hino/ListarHinosSubCategoria/HinosSubCategoria';
-import AllCategories from '../screens/Categories/AllCategories';
 import Favorites from '../screens/Favorites';
 const Stack = createStackNavigator();
 
@@ -29,7 +29,7 @@ export default () => (
         <Stack.Screen name="Categorie" component={Categorie} />
         <Stack.Screen name="Sobre" component={Sobre} />
         <Stack.Screen name="HinosSubCategoria" component={HinosSubCategoria} />
-        <Stack.Screen name="AllCategories" component={AllCategories} />
+        <Stack.Screen name="Categories" component={Categories} />
         <Stack.Screen name="Favorites" component={Favorites} />
         
         

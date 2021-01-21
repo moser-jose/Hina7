@@ -13,6 +13,8 @@ target 'Hin7' do
   pod 'RealmJS', :path => '../node_modules/realm'
 
 
+  pod 'react-native-track-player', :path => '../node_modules/react-native-track-player'
+
   target 'Hin7Tests' do
     inherit! :complete
     # Pods for testing

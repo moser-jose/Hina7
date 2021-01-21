@@ -1,10 +1,8 @@
 import React from 'react';
 import {Share} from 'react-native';
 import styled from 'styled-components/native';
-
 import ShareIcon from '../assets/img/share.svg';
-import ShareIconShare from '../assets/img/share_icon.svg';
-
+import FontAwessome5 from 'react-native-vector-icons/FontAwesome5'
 const PartilharContainer = styled.View`
     flex-direction:row;
     margin-top:20px;
@@ -72,7 +70,6 @@ export default() =>{
                 <ShareIcon width="100%" heigth="190"></ShareIcon>
             </PartilharContainerLeft>
             <PartilharContainerRigth>
-
                 <PartilharCima>
                     <PartilharCimaTexto>
                     Partilha a aplicação {'\n'}
@@ -80,10 +77,9 @@ export default() =>{
                     e juntos louvem a Deus.
                     </PartilharCimaTexto>
                 </PartilharCima>
-
                 <PartilharBaixo>
                     <PartilharBotao onPress={handleClickShare}>
-                        <ShareIconShare></ShareIconShare>
+                        <FontAwessome5 name="share-alt" size={24} color="#8890A6"></FontAwessome5>
                     </PartilharBotao>
                 </PartilharBaixo>
             

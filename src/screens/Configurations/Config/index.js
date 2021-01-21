@@ -3,9 +3,9 @@ import AsyncStorage from '@react-native-community/async-storage';
 import TabTopConf from '../../../components/TabTopConf';
 import ThemeLight from '../../../assets/img/light.svg';
 import ThemeDark from '../../../assets/img/dark.svg';
-import IconCheck from '../../../assets/img/Icon_check.svg';
-import IconUnCheck from '../../../assets/img/Icon_uncheck.svg';
 import {useStateValue} from '../../../state/ContextProvider';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {
     Scroller,
     Container,
@@ -102,9 +102,11 @@ export default () => {
                                 {
                                     light ? 
                                     
-                                    <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
+                                    <Ionicons size={24} name="checkmark-circle" color="#8890A6"  style={{justifyContent:'center', alignSelf:'center'}}/>
                                     :
-                                    <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
+                                    <MaterialCommunityIcons name="checkbox-blank-circle-outline"
+                                    size={24}
+                                    color="#8890A6"  style={{justifyContent:'center', alignSelf:'center'}}/>
                                 }
                                 
                             </Lista>
@@ -112,18 +114,22 @@ export default () => {
                             <Lista onPress={handleClickDark}>
                                 <ListaLi>Escuro</ListaLi>
                                 {dark ?
-                                <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
+                                <Ionicons size={24} name="checkmark-circle" color="#8890A6"  style={{justifyContent:'center', alignSelf:'center'}}/>
                                 :
-                                <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
+                                <MaterialCommunityIcons name="checkbox-blank-circle-outline"
+                                size={24}
+                                color="#8890A6"  style={{justifyContent:'center', alignSelf:'center'}}/>
                                 }
                             </Lista>
                             <Line></Line>
                             <Lista onPress={handleClickPhone}>
                                 <ListaLi>Automático</ListaLi>
                                 {phone ? 
-                                <IconCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconCheck>
+                                <Ionicons size={24} name="checkmark-circle" color="#8890A6"  style={{justifyContent:'center', alignSelf:'center'}}/>
                                 :
-                                <IconUnCheck  style={{justifyContent:'center', alignSelf:'center'}}></IconUnCheck>
+                                <MaterialCommunityIcons name="checkbox-blank-circle-outline"
+                                size={24}
+                                color="#8890A6"  style={{justifyContent:'center', alignSelf:'center'}}/>
                                 }
                             </Lista>
                             <ListaLiInf>Usar as configurações do dispositivo</ListaLiInf>

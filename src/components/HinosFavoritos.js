@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
-import FavoritoFull from '../assets/img/favorite_icon_full.svg';
-
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 const HinoContainerUp = styled.View`
     flex-direction:row;
     margin-top:10px;
@@ -160,7 +159,7 @@ console.log(hinos)
                         </BotaoTitulo>
                         <FavoritoAutor>
                         <Favorito> 
-                                    <FavoritoFull></FavoritoFull>
+                        <Icon size={24} name="heart" color="#29C17E" ></Icon>
                                 </Favorito>
                             <TextoBiblico>{texto_biblico}</TextoBiblico>
                             <Autores>

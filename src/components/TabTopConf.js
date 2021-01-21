@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
-import IconLeft from '../assets/img/Icon_left.svg';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 const ConfContainer = styled.View`
     elevation:2;
@@ -60,7 +60,7 @@ export default({Texto}) =>{
                 <ConfContainerCont>
                         <TabTopVoltarBotao>
                             <TabTopVoltar  onPress={voltar}>
-                                <IconLeft></IconLeft>
+                                <FontAwesome5 size={18} name="caret-left" color="#8890A6"/>
                                 <TabText>Voltar</TabText>
                             </TabTopVoltar>
                     </TabTopVoltarBotao> 
