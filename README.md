@@ -68,6 +68,7 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 
     * Atualização dos Ícones do Hinário. ✅📲
     * Adicionado o audio para todos os hinos. ▶️🎶
+    * Adicionado o hino 54. 📃
     * Adicionado o aumento da fonte dos hinos. 🔍
     * Atualização do cabeçalho dos hinos. 🌀📃
 

@@ -2107,7 +2107,7 @@
                 }
             ],
             "texto_biblico":"Lucas 2: 4-7",
-            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/051.Num.Berco.de.Palha.mp3",
+            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/051.Clara.Noite.mp3",
             "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
             "artist":"Hinário Adventista do 7º Dia",
             "coro":[
@@ -2144,7 +2144,7 @@
                 }
             ],
             "texto_biblico":"Salmo 45:8",
-            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/052.Num.Berco.de.Palha.mp3",
+            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/052.Vestido.em.Linho.mp3",
             "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
             "artist":"Hinário Adventista do 7º Dia",
             "coro":[
@@ -2214,6 +2214,49 @@
         }
         ,
         {
+            "id":54,
+            "title":"A Doce História",
+            "ingles":"I Love to Tell the Story",
+            "numero":54,
+            "numero_view":"054",
+            "categoria":"Jesus Cristo",
+            "sub_categoria":"Vida e Ministério",
+            "autores":[
+                {
+                    "nome":"Arabella K. Hankey (1834-1911)"
+                },
+                {
+                    "nome":"William G. Fisher (1835-1912)"
+                }
+            ],
+            "texto_biblico":"Isaías 53:4 e 5",
+            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/054.A.Doce.Historia.mp3",
+            "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
+            "artist":"Hinário Adventista do 7º Dia",
+            "coro":[
+                {
+                    "nome_coro":"Coro",
+                    "coro":"Oh! doce e bela história\nDe Cristo, o Salvador!\nDe Sua eterna graça,\nDe Seu imenso amor!"
+                }
+            ],
+            "estrofes":[
+                {
+                    "numero":"I",
+                    "estrofe":"Alegro-me em proclamar a história de Jesus,\nQue veio lá da glória, morrer na amarga cruz!\nSim, quero proclamá-la, pois ela satisfaz\nAnseios de minh'alma, e enche-me de paz."
+                },
+                {
+                    "numero":"II",
+                    "estrofe":"Desejo sempre repetir a história desse amor;\nQue trouxe nova vida. Oh! glória ao Salvador!\nE Cristo ainda hoje, com terna compaixão\nE como ressuscitou.\nNessa história tão terna,\nProcura pecadores e dá-lhes o perdão!"
+                }
+                ,
+                {
+                    "numero":"III",
+                    "estrofe":"Sim, dessa história vou falar pra sempre, com fervor,\nPois muitos inda vivem nas trevas e na dor.\nE mesmo lá na glória, no bom e eterno lar,\nTão linda e doce história eu hei de celebrar!"
+                }
+            ]
+        }
+        ,
+        {
             "id":55,
             "title":"Cantarei a Linda História",
             "ingles":"I Will Sing the Wondrous Story",
@@ -2230,7 +2273,7 @@
                 }
             ],
             "texto_biblico":"I Timóteo 1: 14 e 15",
-            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/054.Num.Berco.de.Palha.mp3",
+            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/055.Cantarei.a.Linda.Historia.mp3",
             "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
             "artist":"Hinário Adventista do 7º Dia",
             "coro":[
@@ -2264,7 +2307,7 @@
             "numero_view":"056",
             "categoria":"Jesus Cristo",
             "sub_categoria":"Vida e Ministério",
-            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/055.Num.Berco.de.Palha.mp3",
+            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/056.As.Maos.do.Senhor.mp3",
             "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
             "artist":"Hinário Adventista do 7º Dia",
             "autores":[
@@ -2316,7 +2359,7 @@
                 }
             ],
             "texto_biblico":"Mateus 13:17",
-            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/056.Num.Berco.de.Palha.mp3",
+            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/057.Eu.Quisera.Andar.com.Cristo.mp3",
             "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
             "artist":"Hinário Adventista do 7º Dia",
             "coro":[
@@ -2364,7 +2407,7 @@
                 }
             ],
             "texto_biblico":"João 3:16",
-            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/057.Num.Berco.de.Palha.mp3",
+            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/058.Conta-me.a.Velha.Historia.mp3",
             "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
             "artist":"Hinário Adventista do 7º Dia",
             "coro":[
@@ -2407,7 +2450,7 @@
                 }
             ],
             "texto_biblico":"Marcos 15: 21-25",
-            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/058.Num.Berco.de.Palha.mp3",
+            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/059.Estavas.La.mp3",
             "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
             "artist":"Hinário Adventista do 7º Dia",
             "coro":[
@@ -2441,9 +2484,6 @@
             "numero_view":"060",
             "categoria":"Jesus Cristo",
             "sub_categoria":"Sofrimento e Morte",
-            "url": "https://github.com/moser-jose/Hina7/releases/download/vHinos/059.Num.Berco.de.Palha.mp3",
-            "artwork":"https://github.com/moser-jose/Hina7/releases/download/vHinos/capa.png",
-            "artist":"Hinário Adventista do 7º Dia",
             "autores":[
                 {
                     "nome":"W. S. C. J."
