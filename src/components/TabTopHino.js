@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation,useRoute} from '@react-navigation/native';
-import {FlatList} from 'react-native';
+import {FlatList,ActivityIndicator} from 'react-native';
 import Slider from '@react-native-community/slider';
 import { useStateValueHino } from '../state/ContextProviderHinos';
 import {useStateValue} from '../state/ContextProvider'; 
@@ -323,6 +323,8 @@ export default() =>{
                     <PlayerContainer>
                         <Botao onPress={HandlerPlay}>
                             {botaoPlay ==true ? 
+
+                            /* <ActivityIndicator color="#29C17E" size={20} style={{marginRight:10}} /> */
                             
                             <Feather name="play"  style={{marginRight:8}} size={18} color="#29C17E"/>
                             :
