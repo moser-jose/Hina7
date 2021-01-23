@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ memo } from 'react';
 import {Image,FlatList} from 'react-native';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
@@ -36,13 +36,7 @@ const CategoriaText = styled.Text`
     font-family:"Poppins-Bold";
     text-align:center;
 `; 
-
-
-
-
-
-
-export default({data}) =>{
+const Cat=({data}) =>{
     const navigation=useNavigation();
     return(
         <FlatList 
@@ -124,4 +118,4 @@ export default({data}) =>{
 
     }
 }
-                
+export default memo(Cat);               

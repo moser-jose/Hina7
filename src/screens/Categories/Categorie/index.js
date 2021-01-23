@@ -4,7 +4,7 @@ import TabTopConf from '../../../components/TabTopConf';
 import SubCategoriaItems from '../../../components/SubCategoriaItems';
 import {useRoute} from '@react-navigation/native';
 
-const Tudol = styled.ScrollView`
+const Tudol = styled.View`
     background-color:${props=>props.theme.background};
     flex:30;
 `;
@@ -12,7 +12,7 @@ const Tudo = styled.View`
     background-color:${props=>props.theme.background};
     flex:1;
 `;
-const ListArea = styled.ScrollView`
+const ListArea = styled.View`
     margin:10px;
 `;
 export default () => {

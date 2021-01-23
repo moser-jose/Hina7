@@ -1,5 +1,4 @@
-import React,{useState,useEffect} from 'react';
-import {ActivityIndicator} from 'react-native';
+import React,{useState,useMemo} from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {useStateValue} from '../../state/ContextProvider';
 import { 
@@ -21,55 +20,21 @@ import TabTopCustom from '../../components/TabTopCustom';
 import {useStateValueHino} from '../../state/ContextProviderHinos';
 export default ()=>{
     const {hinario, favoritos}=useStateValueHino();
-    const [data, setData]=useState();
     const [state,]=useStateValue();
     const [ativo, setAtivo]=useState(true);
-    const [loading, setLoading]=useState(true);
-    useEffect(() => {
-        setLoading(true);
-        setData(hinario.hinos);
-        setLoading(false);
-    }, [])
+    const [query, setQuery]=useState('');
 
-    filterItem = query => {
-        if (query == '') {
-            setData(hinario.hinos);
-        } 
-        else {
-            var dataObj = [];
-            query = query.toLowerCase();
-            if(ativo==true){
-                dataObj = data.filter(l => l.numero.toString().toLowerCase().match(query));
-            }
-            else{
-                dataObj = dataObj.filter(l => l.title.toLowerCase().match(query));
-            }
-            setData(dataObj);
+    const filtrarHino = useMemo(()=> {
+        if (!query) {
+            return hinario.hinos;
         }
-
-        
-    };
-
-    filtrar = query => {
-        if (query == '') {
-            return setData(hinario.hinos);
-        }
-        else{
-            const ob=hinario.hinos;
-            var newData=[];
-            if(ativo==true){
-                newData = ob.filter(item => {
-                    return item.numero==query;
-                });
-            }
-            else{
-                query=query.toLowerCase();
-                newData = ob.filter(l => l.title.toLowerCase().match(query));
-            }
-        }
-        setData(newData);
-    };
-
+        if(ativo==true)
+        return hinario.hinos.filter(item => {
+            return item.numero==query;
+        })
+        else
+            return hinario.hinos.filter(l => l.title.toLowerCase().match(query))
+    },[query, hinario.hinos]);
 
         return(
             <Container>
@@ -105,7 +70,8 @@ export default ()=>{
                             placeholder="Introduza o número do hino"
                             autoCapitalize="none"
                             autoCorrect={false}
-                            onChangeText={query=>this.filtrar(query)}
+                            value={query}
+                            onChangeText={(query)=>setQuery(query)}
                             ></TextImput>
                             :
                             <TextImput 
@@ -113,7 +79,8 @@ export default ()=>{
                             placeholder="Introduza o titulo do hino"
                             autoCapitalize="none"
                             autoCorrect={false}
-                            onChangeText={query=>this.filtrar(query)}
+                            value={query}
+                            onChangeText={(query)=>setQuery(query)}
                             ></TextImput>
                             }
                         </PesquisarConpLeft>
@@ -121,12 +88,7 @@ export default ()=>{
                     </PesquisarConp>
                     </HinoPesq>
             
-                    {
-                        loading==true ?
-                        <ActivityIndicator size="large" color="#29C17E"/>
-                        :
-                        <HinoContainerUp hinos={data} favoritos={favoritos}></HinoContainerUp>
-                    }
+                    <HinoContainerUp hinos={filtrarHino} favoritos={favoritos}></HinoContainerUp>
                 </Scroller>
             </Container>
         );

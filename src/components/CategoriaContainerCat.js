@@ -46,7 +46,7 @@ const CategoriaText = styled.Text`
 
 
 
-export default() =>{
+const Categ=() =>{
     const navigation=useNavigation();
     useEffect(()=> {
     }, []);
@@ -54,8 +54,7 @@ export default() =>{
         <FlatList 
             showsVerticalScrollIndicator={false}
             data={categoria.categorias}
-            keyExtractor={(item, index) => item.categoria}/* 
-            contentContainerStyle={{flexGrow:1}} */
+            keyExtractor={(item) => item.categoria}
             showsVerticalScrollIndicator={false}
             renderItem={getCategorias}>
         </FlatList>
@@ -132,4 +131,4 @@ export default() =>{
 
     }
 }
-                
+export default memo(Categ);                

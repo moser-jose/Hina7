@@ -12,7 +12,9 @@ flex:1;
     padding:0 10px;
 `;
 
-
+export const ScrollView=styled.View`
+flex:1;
+`;
 export const HinoPesq = styled.View`
     width:100%;
 `;

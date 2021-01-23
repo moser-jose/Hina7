@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ memo } from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -87,7 +87,7 @@ const Favorito = styled.View`
 `;
 
 
-export default({hinos, favoritos}) =>{
+const HinoHor=({hinos, favoritos}) =>{
     const navigation=useNavigation();
     return(
         <FlatListUp 
@@ -162,4 +162,4 @@ export default({hinos, favoritos}) =>{
             )
     }
 }
-                
+export default memo(HinoHor);               

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ memo }  from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 const SubCategoriaBotao = styled.TouchableOpacity`
@@ -19,7 +19,7 @@ const SubCategoriaText = styled.Text`
     letter-spacing:1px;
     color:${props=>props.theme.title};
 `;
-export default({data}) =>{
+const SubCategoriaaIt=({data}) =>{
     const navigation=useNavigation();
     const handleClick = () => {
         navigation.navigate('HinosSubCategoria',{
@@ -38,3 +38,5 @@ export default({data}) =>{
             </SubCategoriaBotao>
         )
     }
+
+    export default memo(SubCategoriaaIt);

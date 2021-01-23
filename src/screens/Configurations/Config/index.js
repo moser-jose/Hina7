@@ -19,8 +19,9 @@ import {
     TemasLista,
     ListaLiInf
 } from './styles'
+import { memo } from 'react';
 
-export default () => {
+const Configu=() => {
     const [, dispach]=useStateValue();
     const [light, setLight]=useState(true);
     const [dark, setDark]=useState(false);
@@ -139,3 +140,5 @@ export default () => {
             </Container>
     );
 }
+
+export default memo(Configu);

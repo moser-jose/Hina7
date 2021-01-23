@@ -1,9 +1,10 @@
-import React,{useState} from 'react';
+import React,{memo} from 'react';
 import styled from 'styled-components/native';
 import AutoresHino from './Autores';
 import {useNavigation} from '@react-navigation/native';
 import {useStateValueHino} from '../state/ContextProviderHinos';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { useMemo } from 'react';
 const HinoContainerUp = styled.View`
     flex-direction:row;
     margin-top:10px;
@@ -75,16 +76,9 @@ const Hin = styled.View`
 const Favorito = styled.View`
     margin-right:20px;
 `;
-export default({data}) =>{
+const HinosSub=({data}) =>{
     const navigation=useNavigation();
-
     const {favoritos}=useStateValueHino();
-    const [autores, setAutores]=useState([]);
-   /* useEffect(()=> {
-    
-    setList(data);
-    setAutores(data.autores);
-   }, []); */
    const handleClick = () => {
     navigation.navigate('Hino',{
         id:data.id,
@@ -99,9 +93,11 @@ export default({data}) =>{
         coro:data.coro,
         estrofes:data.estrofes
     });
+
 }
+
+
     return(
-        
         <Hin>
             <HinoContainerUp>
             <Hino>
@@ -138,4 +134,4 @@ export default({data}) =>{
         </Hin>
     )
 }
-                
+export default memo(HinosSub);                

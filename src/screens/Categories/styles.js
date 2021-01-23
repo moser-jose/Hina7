@@ -6,7 +6,7 @@ export const Container = styled.SafeAreaView`
     flex: 1;
     position: relative;
 `;
-export const Scroller = styled.ScrollView`
+export const Scroller = styled.View`
     flex:1;
     padding:10px 10px 0 10px;
 `;

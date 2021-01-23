@@ -9,7 +9,6 @@ import TextContTitulo from '../../components/TextContTitulo';
 import TabTop from '../../components/TabTopHome';
 import CategoriaHol from '../../components/CategoriaHol';
 import HinoContainerHorizontal from '../../components/HinoContainerHorizontal';
-import HinosFavoritosHorizontal from '../../components/HinosFavoritosHorizontal';
 import {useStateValueHino} from '../../state/ContextProviderHinos';
 import PartilharContainer from '../../components/PartilharContainer';
 
@@ -28,7 +27,7 @@ export default () => {
             
             <Favoritos>
             {favoritos != '' && <TextContTitulo nome={"Favoritos"}></TextContTitulo>}
-            <HinosFavoritosHorizontal favoritos={favoritos} ></HinosFavoritosHorizontal>
+            <HinoContainerHorizontal  hinos={favoritos} favoritos={favoritos} ></HinoContainerHorizontal>
                 </Favoritos>
                 <PartilharContainer></PartilharContainer>
             </Scroler>

@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react';
+import React,{useState,useEffect, useMemo} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation,useRoute} from '@react-navigation/native';
 import {FlatList,ActivityIndicator} from 'react-native';
@@ -9,6 +9,7 @@ import getRealm from '../api/realm/realm';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import Feather from 'react-native-vector-icons/Feather';
+import Estrofes from './Estrofes';
 import TrackPlayer, {
     Capability,
     useTrackPlayerEvents,
@@ -18,6 +19,8 @@ import TrackPlayer, {
     Event,
     useProgress
   } from 'react-native-track-player';
+import { memo } from 'react';
+import { useCallback } from 'react';
 const HinoContainer = styled.SafeAreaView`
 
 flex:1;
@@ -178,12 +181,12 @@ const SliderContainer = styled.View`
     
 `;
 
-export default() =>{
+const Hinos=() =>{
     const navigation=useNavigation();
     const route=useRoute();
     const [state,dispach]=useStateValue();
     const [favorited, setFavorited]=useState(false);
-    const {setClickFav,setTamanho,tamanho}=useStateValueHino();
+    const {setClickFav,setTamanho,tamanho,favoritos}=useStateValueHino();
     const [hinoInfo, setHinoInfo]=useState({
             id: route.params.id,
             title: route.params.title,
@@ -214,13 +217,19 @@ export default() =>{
         });
         
     }
-    async function getRealmData(){
-        const realm =await getRealm();
-        const dogs = realm.objects('Favoritos').filtered('id='+hinoInfo.id+'');
-        for (let p of dogs) {
-            setFavorited(p.favorito);
+    const getRealmData=useCallback(()=>{
+        if(favoritos.length == 0){
+            return setFavorited(false);
         }
-    }
+        else{
+            favoritos.map((value) => {
+                if(hinoInfo.id==value.id){
+                    return setFavorited(true);
+                }
+                else return setFavorited(false);
+            })
+        }
+    },[favoritos]);
 
     const HandlerPlay=()=>{
         
@@ -268,6 +277,7 @@ export default() =>{
         TrackPlayer.seekTo(val);
       };
     useEffect(()=>{
+        getRealmData();
         (async ()=>{
             await TrackPlayer.setupPlayer().then(()=>{
                 console.log('ready')
@@ -276,8 +286,6 @@ export default() =>{
             await TrackPlayer.add([hinoInfo]);
             
         })();
-        
-        getRealmData();
     },[]);
     return(
         
@@ -298,7 +306,9 @@ export default() =>{
                 <TabTopTituloBase>
                 <TabTopTituloLeft>
                         <TabTopTituloleftFavor onPress={handlerClick}>
-                            {favorited == true ?
+
+                            {
+                                favorited == true ?
                                 <Icon size={24} name="heart" color="#29C17E" ></Icon>
                                     :
                                 <Icon size={24} name="heart-outline" color="#29C17E" ></Icon>
@@ -309,13 +319,13 @@ export default() =>{
                         <TabTopTituloMiddleText>{hinoInfo.numero_view}</TabTopTituloMiddleText>
                     </TabTopTituloMiddle>
                     <TabTopTituloRigth>
-                            <FlatList
-                                    data={hinoInfo.autores}
-                                    keyExtractor={(item) => item.nome}
-                                    contentContainerStyle={{flexGrow:1}}
-                                    showsVerticalScrollIndicator={false}
-                                    renderItem={HinosGetAutores}>
-                            </FlatList>
+                        {
+                            hinoInfo.autores.map((value, index) => {
+                                return(
+                                <TabTopTituloRigthText key={index}>{value.nome}</TabTopTituloRigthText>
+                                )
+                            })
+                        }
                     </TabTopTituloRigth>
                 </TabTopTituloBase>
                 </TabTopTitulo>
@@ -378,26 +388,32 @@ export default() =>{
                 
                     <Hino>
                         <HinoT>
-                            <FlatList
-                                data={hinoInfo.estrofes.slice(0, 1)}
-                                keyExtractor={(item) => item.estrofe}
-                                showsVerticalScrollIndicator={false}
-                                renderItem={HinosGetEstrofes}>
-                            </FlatList>
+                            {
+                                hinoInfo.estrofes.slice(0, 1).map((value, index) => (
+                                    <Estrofes key={index} value={value} tamanho={tamanho}>
+                                    </Estrofes>
+                                ))
+                            }
 
-                            <FlatList
-                                data={hinoInfo.coro}
-                                keyExtractor={(item) => item.coro}
-                                showsVerticalScrollIndicator={false}
-                                renderItem={HinosGetCoro}>
-                            </FlatList>
-
-                            <FlatList
-                            data={hinoInfo.estrofes.slice(1, 5)}
-                            keyExtractor={(item) => item.estrofe}
-                            showsVerticalScrollIndicator={false}
-                            renderItem={HinosGetEstrofes}>
-                        </FlatList>
+                            {
+                                hinoInfo.coro.map((value, index) => {
+                                    if(value.coro!=null)
+                                    {
+                                        return(
+                                            <HinoEstrofes key={index}>
+                                                <NumeroEstrofe style={{fontSize:tamanho}}>{value.nome_coro}</NumeroEstrofe>
+                                                <Coro style={{fontSize:tamanho}}>{value.coro}</Coro>
+                                            </HinoEstrofes>
+                                        )
+                                    }
+                                })
+                            }
+                            {
+                                hinoInfo.estrofes.slice(1, 5).map((value, index) => (
+                                    <Estrofes key={index} value={value} tamanho={tamanho}>
+                                    </Estrofes>
+                                ))
+                            }
                         </HinoT>
                         
                     </Hino>
@@ -405,32 +421,5 @@ export default() =>{
 
               </HinoContainer>
     );
-    function HinosGetAutores(item){
-        const {nome}=item.item;
-        return(
-                <TabTopTituloRigthText>{nome}</TabTopTituloRigthText>
-            )
-    }
-    function HinosGetCoro(item){
-        const {coro,nome_coro}=item.item;
-
-            if(coro!=null){
-                return(
-                    <HinoEstrofes>
-                        <NumeroEstrofe style={{fontSize:tamanho}}>{nome_coro}</NumeroEstrofe>
-                        <Coro style={{fontSize:tamanho}}>{coro}</Coro>
-                    </HinoEstrofes>
-                )
-            }
-    }
-    function HinosGetEstrofes(item){
-        const {estrofe,numero}=item.item;
-
-            return(
-                <HinoEstrofes>
-                    <NumeroEstrofe style={{fontSize:tamanho}}>{numero}</NumeroEstrofe>
-                    <Estrofe style={{fontSize:tamanho}}>{estrofe}</Estrofe>
-                </HinoEstrofes>
-            )
-    }
 }
+export default memo(Hinos);

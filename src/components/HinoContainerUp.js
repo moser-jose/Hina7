@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -85,7 +85,7 @@ const Div = styled.View`
     
 `;
 
-export default({hinos,favoritos}) =>{
+const Hinarios=({hinos,favoritos}) =>{
     const navigation=useNavigation();
     return(
         <Div>
@@ -93,14 +93,11 @@ export default({hinos,favoritos}) =>{
                 data={hinos}
                 keyExtractor={(item) => item.title}
                 showsVerticalScrollIndicator={true}
-                renderItem={HinosGet}
-                maxToRenderPerBatch={40}>
+                
+                renderItem={HinosGet}>
             </FlatListUp>
-            
         </Div>
-        
     );
-    
     function HinosGet(item){
         const {id,url,artwork,artist,title,numero_view,ingles,autores,texto_biblico,coro,estrofes}=item.item;
         const handleClick = () => {
@@ -141,12 +138,13 @@ export default({hinos,favoritos}) =>{
                     ))}
                             <TextoBiblico>{texto_biblico}</TextoBiblico>
                             <Autores>
-                                <FlatListUp 
-                                    data={autores}
-                                    keyExtractor={(item) => item.nome}
-                                    showsVerticalScrollIndicator={false}
-                                    renderItem={HinosGetAutores}>
-                                </FlatListUp>
+                                {
+                                    autores.map((value, index) => {
+                                        return(
+                                            <Autor key={index}>{value.nome}</Autor>
+                                        )
+                                    })
+                                }
                             </Autores>   
                             
                         </FavoritoAutor>
@@ -155,11 +153,5 @@ export default({hinos,favoritos}) =>{
             </HinoContainerUp>
         )
     }
-    function HinosGetAutores(item){
-        const {nome}=item.item;
-        return(
-                <Autor>{nome}</Autor>
-            )
-    }
-
 }
+export default memo(Hinarios);

@@ -1,14 +1,14 @@
-import React from 'react';
+import React,{ memo } from 'react';
 import styled from 'styled-components/native';
 import TabTopConf from '../../../components/TabTopConf';
-import ListarHinos from '../../../components/ListarHinosSubCategoria';
+import ListarHinosSubCategoria from '../../../components/ListarHinosSubCategoria';
 import {useStateValueHino} from '../../../state/ContextProviderHinos';
 
-const Tudol = styled.ScrollView`
+const Tudol = styled.View`
    background-color:${props=>props.theme.background};
     padding:0 10px;
     margin-top:10px;
-    ;
+    flex:1;
     
 `;
 const Tudo = styled.View`
@@ -16,15 +16,15 @@ const Tudo = styled.View`
    flex:1;
    padding-bottom:10px;
 `;
-export default () => {
+const List= () => {
     const {hinario} = useStateValueHino();
     return(
-        
-           <Tudo>
-                <TabTopConf Texto={"Hinos"}></TabTopConf>
-                <Tudol>
-                    <ListarHinos  hinos={hinario.hinos}></ListarHinos>
-                </Tudol>
-           </Tudo>
+        <Tudo>
+            <TabTopConf Texto={"Hinos"}></TabTopConf>
+            <Tudol>
+                <ListarHinosSubCategoria  hinos={hinario.hinos}></ListarHinosSubCategoria>
+            </Tudol>
+        </Tudo>
     );
 }
+export default memo(List)
