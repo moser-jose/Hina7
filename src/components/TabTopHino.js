@@ -1,9 +1,7 @@
-import React,{useState,useEffect, useMemo} from 'react';
+import React,{useState,memo,useEffect} from 'react';
 import styled from 'styled-components/native';
-import {useNavigation,useRoute} from '@react-navigation/native';
-import {FlatList,ActivityIndicator} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 import Slider from '@react-native-community/slider';
-import { useStateValueHino } from '../state/ContextProviderHinos';
 import {useStateValue} from '../state/ContextProvider'; 
 import getRealm from '../api/realm/realm';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -11,17 +9,8 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import Feather from 'react-native-vector-icons/Feather';
 import Estrofes from './Estrofes';
 import TrackPlayer, {
-    Capability,
-    useTrackPlayerEvents,
-    usePlaybackState,
-    TrackPlayerEvents,
-    STATE_PLAYING,
-    Event,
-    useProgress,
     useTrackPlayerProgress 
-  } from 'react-native-track-player';
-import { memo } from 'react';
-import { useCallback } from 'react';
+} from 'react-native-track-player';
 const HinoContainer = styled.SafeAreaView`
 
 flex:1;
@@ -157,13 +146,11 @@ const Configurations = styled.View`
 const Font = styled.Text`
     font-size:16px;
     font-weight:600;
-    /* font-family:"Poppins-SemiBold"; */
     color:${props=>props.theme.title};;
 `;
 const FontAudio = styled.Text`
     font-size:10px;
     font-weight:400;
-    /* font-family:"Poppins-Light"; */
     color:${props=>props.theme.title};;
 `;
 
@@ -182,31 +169,12 @@ const SliderContainer = styled.View`
     
 `;
 
-const Hinos=() =>{
+const Hinos=({hinoInfo,setClickFav,setTamanho,tamanho,setFavorited, favorited}) =>{
     const navigation=useNavigation();
-    const route=useRoute();
     const [state,dispach]=useStateValue();
-    const [favorited, setFavorited]=useState(false);
-    const {setClickFav,setTamanho,tamanho,favoritos}=useStateValueHino();
-    const [hinoInfo, setHinoInfo]=useState({
-            id: route.params.id,
-            title: route.params.title,
-            url:route.params.url,
-            artwork:route.params.artwork,
-            artist:route.params.artist,
-            numero_view: route.params.numero_view,
-            ingles: route.params.ingles,
-            autores: route.params.autores,
-            texto_biblico: route.params.texto_biblico,
-            coro: route.params.coro,
-            estrofes: route.params.estrofes
-    });
-    const [isReady, setIsReady]=useState(false);
+    
     const [botaoPlay, setBotaoPlay]=useState(true);
-    const playbackState = usePlaybackState();/* 
-    const {position, duration} = useProgress(); */
-    const { position, bufferedPosition, duration } = useTrackPlayerProgress()
-    const [stop, setStop] = useState('play'); //paused play loading
+    const { position, duration } = useTrackPlayerProgress()
     async function SaveFavorites(hinoInfo, favor){
         const data={
             id:hinoInfo.id,
@@ -220,23 +188,9 @@ const Hinos=() =>{
         });
         
     }
-    const getRealmData=useCallback(()=>{
-        if(favoritos== ""){
-            return setFavorited(false);
-        }
-        else{
-
-            return favoritos.filter(item => {
-                if(item.id==hinoInfo.id){
-                    return setFavorited(true);
-                }
-            })
-            
-        }
-    },[favoritos]);
+    
 
     const HandlerPlay=()=>{
-        
         
             if (botaoPlay==true){
                 TrackPlayer.play();
@@ -245,7 +199,6 @@ const Hinos=() =>{
             else{
                 TrackPlayer.pause();
                 setBotaoPlay(true);
-                setStop('play');
             }
           
         
@@ -278,41 +231,23 @@ const Hinos=() =>{
     const handleChange = (val) => {
         TrackPlayer.seekTo(val);
       };
-    useEffect(()=>{
-        getRealmData();
 
-        (async ()=>{
+      useEffect(()=>{
+        let isMounted=false;
 
-            await TrackPlayer.setupPlayer().then(()=>{
-                console.log('ready');
+        if (!isMounted) {
+            TrackPlayer.addEventListener('playback-state', (state) => {
+                if(state.state==2)
+                    {
+                        setBotaoPlay(true);
+                    }
             });
-                await TrackPlayer.reset();
-                await TrackPlayer.add([hinoInfo]);
-                TrackPlayer.updateOptions({
-                stopWithApp: true,
-                alwaysPauseOnInterruption: true,
-                capabilities: [
-                    TrackPlayer.CAPABILITY_PLAY,
-                    TrackPlayer.CAPABILITY_PAUSE
-                ],
-            });
-        })();
 
-
-        TrackPlayer.addEventListener('playback-state', (state) => {
-            console.log(state.state)
-            if(state.state==2)
-                {
-                    TrackPlayer.pause();
-                    setBotaoPlay(true);
-                }
-        });
-
-        return () => {
-            TrackPlayer.destroy();
-        };
-    },[]);
-    
+            return () => {
+                isMounted=false;
+            };
+            } 
+      },[])
     
     return(
         
@@ -359,6 +294,7 @@ const Hinos=() =>{
                 <Configurations>
                     <PlayerContainer>
                         <Botao onPress={HandlerPlay}>
+                            
                             {botaoPlay ==true ? 
 
                                 <Feather name="play"  style={{marginRight:8}} size={18} color="#29C17E"/>
