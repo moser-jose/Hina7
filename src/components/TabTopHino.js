@@ -17,7 +17,8 @@ import TrackPlayer, {
     TrackPlayerEvents,
     STATE_PLAYING,
     Event,
-    useProgress
+    useProgress,
+    useTrackPlayerProgress 
   } from 'react-native-track-player';
 import { memo } from 'react';
 import { useCallback } from 'react';
@@ -200,9 +201,11 @@ const Hinos=() =>{
             coro: route.params.coro,
             estrofes: route.params.estrofes
     });
+    const [isReady, setIsReady]=useState(false);
     const [botaoPlay, setBotaoPlay]=useState(true);
-    const playbackState = usePlaybackState();
-    const {position, duration} = useProgress();
+    const playbackState = usePlaybackState();/* 
+    const {position, duration} = useProgress(); */
+    const { position, bufferedPosition, duration } = useTrackPlayerProgress()
     const [stop, setStop] = useState('play'); //paused play loading
     async function SaveFavorites(hinoInfo, favor){
         const data={
@@ -218,16 +221,17 @@ const Hinos=() =>{
         
     }
     const getRealmData=useCallback(()=>{
-        if(favoritos.length == 0){
+        if(favoritos== ""){
             return setFavorited(false);
         }
         else{
-            favoritos.map((value) => {
-                if(hinoInfo.id==value.id){
+
+            return favoritos.filter(item => {
+                if(item.id==hinoInfo.id){
                     return setFavorited(true);
                 }
-                else return setFavorited(false);
             })
+            
         }
     },[favoritos]);
 
@@ -237,7 +241,6 @@ const Hinos=() =>{
             if (botaoPlay==true){
                 TrackPlayer.play();
                 setBotaoPlay(false);
-                setStop('play');
             }
             else{
                 TrackPlayer.pause();
@@ -256,7 +259,6 @@ const Hinos=() =>{
         return `${minutes}:${seconds}`;
     }
     const HandlerStop=()=>{
-       /*  TrackPlayer.stop(); */
         navigation.goBack()
         
     }
@@ -278,15 +280,40 @@ const Hinos=() =>{
       };
     useEffect(()=>{
         getRealmData();
+
         (async ()=>{
+
             await TrackPlayer.setupPlayer().then(()=>{
-                console.log('ready')
+                console.log('ready');
             });
-            await TrackPlayer.reset();
-            await TrackPlayer.add([hinoInfo]);
-            
+                await TrackPlayer.reset();
+                await TrackPlayer.add([hinoInfo]);
+                TrackPlayer.updateOptions({
+                stopWithApp: true,
+                alwaysPauseOnInterruption: true,
+                capabilities: [
+                    TrackPlayer.CAPABILITY_PLAY,
+                    TrackPlayer.CAPABILITY_PAUSE
+                ],
+            });
         })();
+
+
+        TrackPlayer.addEventListener('playback-state', (state) => {
+            console.log(state.state)
+            if(state.state==2)
+                {
+                    TrackPlayer.pause();
+                    setBotaoPlay(true);
+                }
+        });
+
+        return () => {
+            TrackPlayer.destroy();
+        };
     },[]);
+    
+    
     return(
         
         <HinoContainer>
@@ -334,9 +361,7 @@ const Hinos=() =>{
                         <Botao onPress={HandlerPlay}>
                             {botaoPlay ==true ? 
 
-                            /* <ActivityIndicator color="#29C17E" size={20} style={{marginRight:10}} /> */
-                            
-                            <Feather name="play"  style={{marginRight:8}} size={18} color="#29C17E"/>
+                                <Feather name="play"  style={{marginRight:8}} size={18} color="#29C17E"/>
                             :
                             <Feather name="pause"  style={{marginRight:8}} size={18} color="#29C17E"/>
                             }
@@ -376,7 +401,7 @@ const Hinos=() =>{
                     maximumValue={50}
                     minimumTrackTintColor={state.theme.title}
                     maximumTrackTintColor={state.theme.title}
-                    onValueChange={(itemValue, itemIndex) =>
+                    onSlidingComplete={(itemValue, itemIndex) =>
                         setTamanho(itemValue)
                     }
                 />

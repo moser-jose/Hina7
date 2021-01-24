@@ -65,9 +65,11 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 ## Changelog
 
 * 1.0.5
-
+    
     * Atualização dos Ícones do Hinário. ✅📲
+    * Melhora no desempenho do App. 🧑🏾‍🚀
     * Adicionado o audio para todos os hinos. ▶️🎶
+    * Precisa ter Internet para ouvir os áudios. ✅📲
     * Adicionado o hino 54. 📃
     * Adicionado o aumento da fonte dos hinos. 🔍
     * Atualização do cabeçalho dos hinos. 🌀📃
