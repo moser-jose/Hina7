@@ -1,9 +1,5 @@
 import React from 'react';
-import { 
-    Container,
-    Scroler,
-    Favoritos
-} from './styles';
+import {Container, Scroler, Favoritos} from './styles';
 
 import TextContTitulo from '../../components/TextContTitulo';
 import TabTop from '../../components/TabTopHome';
@@ -13,25 +9,23 @@ import {useStateValueHino} from '../../state/ContextProviderHinos';
 import PartilharContainer from '../../components/PartilharContainer';
 
 export default () => {
-    const {hinario,favoritos}=useStateValueHino();
-    return(
-        <Container>
-            <TabTop titulo={"Favoritos"}></TabTop>
-            <Scroler>
-            
-            <TextContTitulo  nome={"Hinos"}></TextContTitulo>
-            <HinoContainerHorizontal  hinos={hinario.hinos} favoritos={favoritos} ></HinoContainerHorizontal>
+  const {hinario, favoritos} = useStateValueHino();
+  return (
+    <Container>
+      <TabTop titulo={'Favoritos'} />
+      <Scroler>
+        <TextContTitulo nome={'Hinos'} />
+        <HinoContainerHorizontal hinos={hinario.hinos} favoritos={favoritos} />
 
-            <TextContTitulo nome={"Secções"} ></TextContTitulo>
-            <CategoriaHol categoria={hinario.categorias} ></CategoriaHol>
-            
-            <Favoritos>
-            {favoritos != '' && <TextContTitulo nome={"Favoritos"}></TextContTitulo>}
-            <HinoContainerHorizontal  hinos={favoritos} favoritos={favoritos} ></HinoContainerHorizontal>
-                </Favoritos>
-                <PartilharContainer></PartilharContainer>
-            </Scroler>
-        
-        </Container>
-    );
-}
+        <TextContTitulo nome={'Secções'} />
+        <CategoriaHol categoria={hinario.categorias} />
+
+        <Favoritos>
+          {favoritos != '' && <TextContTitulo nome={'Favoritos'} />}
+          <HinoContainerHorizontal hinos={favoritos} favoritos={favoritos} />
+        </Favoritos>
+        <PartilharContainer />
+      </Scroler>
+    </Container>
+  );
+};

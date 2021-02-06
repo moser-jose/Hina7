@@ -1,6 +1,6 @@
 # `Hinário Adventista do 7º Dia`
 
-Este projeto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, com os seus respetivos ``autores``, ``compositores`` e ``textos bíblicos``, de forma totalmente organizada e com uma interface totalmente simples e interativa como nunca se viu. Veja o site em [https://hinario-adventista.vercel.app/](https://hinario-adventista.vercel.app/)
+Este projeto tras todos os `610 hinos` do `Hinário Adventista do 7º dia`, com os seus respetivos `autores`, `compositores` e `textos bíblicos`, de forma totalmente organizada e com uma interface totalmente simples e interativa como nunca se viu. Veja o site em [https://hinario-adventista.vercel.app/](https://hinario-adventista.vercel.app/)
 
 <p align="center">
     <img src="src/assets/img/logo.svg" width="20%">
@@ -27,6 +27,7 @@ Este projeto tras todos os ``610 hinos`` do ``Hinário Adventista do 7º dia``, 
 ## Download
 
 <a href='https://play.google.com/store/apps/details?id=com.hin7'><img alt='Get it on Google Play' width="200" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+
 ## Requisitos
 
 Todos os requisitos aqui listados são indispensáveis para o desenvolvimento do projeto.
@@ -35,16 +36,15 @@ Todos os requisitos aqui listados são indispensáveis para o desenvolvimento do
 
 #### Ferramentas necessárias para a construção:
 
-* Node 8.3
-* npm
-* Java SE Development Kit 8
-* Android Studio
-* Android SDK
+- Node 8.3
+- npm
+- Java SE Development Kit 8
+- Android Studio
+- Android SDK
 
 ## Api
 
 Se quiser apenas utilizar o ficheiro `json` onde tem todos os `hinos` e as `Secções`, pode utilizar este link [https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json](https://raw.githubusercontent.com/moser-jose/Hina7/main/src/api/hinario.json)
-    
 
 ## Como contribuir
 
@@ -58,44 +58,49 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 
 ### Submetendo Pull Requests
 
-* Crie pull requests pequenos, para que a revisão seja feita mais facilmente
-* Inclua detalhes do que está sendo feito na descrição
-* Altera a documentação se for necessário
+- Crie pull requests pequenos, para que a revisão seja feita mais facilmente
+- Inclua detalhes do que está sendo feito na descrição
+- Altera a documentação se for necessário
 
 ## Changelog
 
-* 1.0.5
-    
-    * Atualização dos Ícones do Hinário. ✅📲
-    * Melhora no desempenho do App. 🧑🏾‍🚀
-    * Adicionado o audio para todos os hinos. ▶️🎶
-    * Precisa ter Internet para ouvir os áudios. ✅📲
-    * Adicionado o hino 54. 📃
-    * Adicionado o aumento da fonte dos hinos. 🔍
-    * Atualização do cabeçalho dos hinos. 🌀📃
+- 1.0.6
 
-* 1.0.4
+  - Agora já se pesquisa pela letra do Hino. 📃
+  - melhora no hino 504. 📃
 
-    * Performance nos hinos favoritos.  🧑🏻‍🚀
-    * Atualização dos hinos nas secções. 🔰
-    * Correção de alguns bugs. ⌨️
+- 1.0.5
 
-* 1.0.3
+  - Atualização dos Ícones do Hinário. ✅📲
+  - Melhora no desempenho do App. 🧑🏾‍🚀
+  - Adicionado o audio para todos os hinos. ▶️🎶
+  - Precisa ter Internet para ouvir os áudios. ✅📲
+  - Adicionado o hino 54. 📃
+  - Adicionado o aumento da fonte dos hinos. 🔍
+  - Atualização do cabeçalho dos hinos. 🌀📃
 
-    * Performance na busca dos hinos. 🧑🏻‍🚀
-    * Mudança do conteúdo da partilha do app 🌀
-    * Mudança da página sobre. ⚙️
-    * Correção de alguns bugs. ⌨️
+- 1.0.4
 
-* 1.0.2
+  - Performance nos hinos favoritos. 🧑🏻‍🚀
+  - Atualização dos hinos nas secções. 🔰
+  - Correção de alguns bugs. ⌨️
 
-    * Diminuição do tamanho do app. 🧲
-    * Adicionado o hino 350. 📃
-    * Correção de alguns bugs. ⌨️
+- 1.0.3
 
-* 1.0.1
+  - Performance na busca dos hinos. 🧑🏻‍🚀
+  - Mudança do conteúdo da partilha do app 🌀
+  - Mudança da página sobre. ⚙️
+  - Correção de alguns bugs. ⌨️
 
-    * Criação do projeto. 📱
+- 1.0.2
+
+  - Diminuição do tamanho do app. 🧲
+  - Adicionado o hino 350. 📃
+  - Correção de alguns bugs. ⌨️
+
+- 1.0.1
+
+  - Criação do projeto. 📱
 
 ## Licença
 
@@ -105,4 +110,5 @@ Lembre-se apenas de ser uma pessoa legal e enviar de volta eventuais modificaç�
 ## Autor
 
 | [<img src="https://avatars0.githubusercontent.com/u/8234620?" width="115"><br><sub>@moser-jose</sub>](https://github.com/moser-jose) |
-| :---: |
+| :----------------------------------------------------------------------------------------------------------------------------------: |
+
