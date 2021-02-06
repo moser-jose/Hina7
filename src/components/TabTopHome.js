@@ -6,8 +6,8 @@ import Logo from '../assets/img/logo.svg';
 const TabTop = styled.View`
   background-color: ${(props) => props.theme.container};
   flex-direction: row;
-  height: 80px;
   elevation: 2;
+  padding: 24px 0 10px;
   margin-bottom: 10px;
 `;
 

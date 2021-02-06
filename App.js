@@ -31,12 +31,15 @@ export default () => {
       }
     }
     getStorageDarkMode();
-  }, []);
+  }, [dispach]);
   return (
     <ThemeProvider theme={state.theme}>
       <StatusBar
         barStyle={state.theme.statusBarStyle}
-        backgroundColor={state.theme.container}
+        /* backgroundColor={state.theme.container} */
+        hidden={true}
+        backgroundColor="transparent"
+        translucent={true} /* hidden={true} */
       />
       <NavigationContainer>
         <MainStack state={state.theme.container} />

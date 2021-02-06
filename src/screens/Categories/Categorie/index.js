@@ -12,8 +12,9 @@ const Tudo = styled.View`
   background-color: ${(props) => props.theme.background};
   flex: 1;
 `;
-const ListArea = styled.View`
+const ListArea = styled.ScrollView`
   margin: 10px;
+  flex: 1;
 `;
 export default () => {
   const route = useRoute();

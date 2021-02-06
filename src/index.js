@@ -6,6 +6,7 @@ import {useColorScheme} from 'react-native';
 import App from '../App';
 import Themes from './assets/themes/themes';
 export default function index() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const device = useColorScheme();
   const initialState = {theme: Themes.light};
 

@@ -66,8 +66,12 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 
 - 1.0.6
 
-  - Agora já se pesquisa pela letra do Hino. 📃
-  - melhora no hino 504. 📃
+  - Correções na estrutura das subsecções. ✅📲
+  - Mudanças na página das configurações. ⚙️
+  - Agora já se pesquisa pela letra do Hino. 🔍📃
+  - Adicionado o botão de limpar a caixa de pesquisa 🔍📃
+  - Correções no hino 504. 📃
+  - Correção de alguns bugs. ⌨️
 
 - 1.0.5
 

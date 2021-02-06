@@ -49,7 +49,7 @@ export default () => {
           <ConfigurationsBotao onPress={handleClickConf}>
             <ConfigurationsBotaoLeft>
               <MaterialCommunityIcons
-                name="cog-transfer-outline"
+                name="theme-light-dark"
                 size={24}
                 color="#8890A6"
               />
@@ -57,7 +57,7 @@ export default () => {
 
             <ConfigurationsBotaoMiddle>
               <ConfigurationsBotaoMiddleText>
-                Configurações
+                Temas
               </ConfigurationsBotaoMiddleText>
             </ConfigurationsBotaoMiddle>
             <ConfigurationsBotaoRight>

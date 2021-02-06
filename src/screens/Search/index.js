@@ -9,6 +9,7 @@ import {
   PesquisarConpLeft,
   PesquisarConpMiddle,
   PesquisarCompMiddleBotao,
+  PesquisarCompMiddleBotaoTouch,
   TextImput,
   EscolhaPesquisaContainer,
   EscolhaPesquisa,
@@ -137,6 +138,13 @@ export default () => {
                 )
               )}
             </PesquisarConpLeft>
+            {query != '' && (
+              <PesquisarConpMiddle>
+                <PesquisarCompMiddleBotaoTouch onPress={() => setQuery('')}>
+                  <Ionicons name="close-circle" size={22} color="#8890A6" />
+                </PesquisarCompMiddleBotaoTouch>
+              </PesquisarConpMiddle>
+            )}
           </PesquisarConp>
         </HinoPesq>
 

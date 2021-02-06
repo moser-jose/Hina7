@@ -25,7 +25,7 @@ export const PesquisarConp = styled.View`
   elevation: 2;
   margin: 10px 0.5px;
   justify-content: space-between;
-  padding: 0 5px;
+  padding: 0 10px;
   border-radius: 2px;
 `;
 
@@ -39,6 +39,7 @@ export const PesquisarConpMiddle = styled.View`
   justify-content: center;
 `;
 export const PesquisarCompMiddleBotao = styled.View``;
+export const PesquisarCompMiddleBotaoTouch = styled.TouchableOpacity``;
 
 export const TextImput = styled.TextInput`
   flex: 1;
@@ -60,7 +61,7 @@ export const EscolhaPesquisa = styled.TouchableOpacity`
   flex: 1;
   justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 8px 4px;
   background-color: ${(props) => props.theme.container};
 `;
 

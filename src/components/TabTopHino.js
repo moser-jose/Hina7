@@ -16,6 +16,7 @@ const TabTopHino = styled.View`
   background-color: ${(props) => props.theme.container};
   elevation: 2;
   margin-bottom: 10px;
+  padding: 28px 0 10px;
 `;
 
 const TabTopVoltarBotao = styled.View`

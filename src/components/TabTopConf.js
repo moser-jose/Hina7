@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
-
 const ConfContainer = styled.View`
   elevation: 2;
 `;
 const ConfContainerCont = styled.View`
   background-color: ${(props) => props.theme.container};
+  padding: 22px 0 10px;
 `;
 
 const TabTopVoltarBotao = styled.View`
@@ -46,7 +46,6 @@ const TabTopLeftText = styled.Text`
 
 export default ({Texto}) => {
   const navigation = useNavigation();
-
   const voltar = () => {
     navigation.goBack();
   };
