@@ -11,13 +11,11 @@ import {
   ConfigurationsBotaoRight,
   Line,
 } from './styles';
-
 import TabTop from '../../components/TabTopCustom';
 import {useNavigation} from '@react-navigation/native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import FontAwessome5 from 'react-native-vector-icons/FontAwesome5';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import AntDesign from 'react-native-vector-icons/AntDesign';
 export default () => {
   const navigation = useNavigation();
 
@@ -73,26 +71,6 @@ export default () => {
             <ConfigurationsBotaoMiddle>
               <ConfigurationsBotaoMiddleText>
                 Partilhar o App
-              </ConfigurationsBotaoMiddleText>
-            </ConfigurationsBotaoMiddle>
-            <ConfigurationsBotaoRight>
-              <FontAwessome5 name="caret-right" size={22} color="#8890A6" />
-            </ConfigurationsBotaoRight>
-          </ConfigurationsBotao>
-          <Line />
-          <ConfigurationsBotao
-            onPress={() =>
-              Linking.openURL(
-                'https://play.google.com/store/apps/details?id=com.hin7',
-              )
-            }>
-            <ConfigurationsBotaoLeft>
-              <AntDesign name="like1" size={24} color="#8890A6" />
-            </ConfigurationsBotaoLeft>
-
-            <ConfigurationsBotaoMiddle>
-              <ConfigurationsBotaoMiddleText>
-                Feedback
               </ConfigurationsBotaoMiddleText>
             </ConfigurationsBotaoMiddle>
             <ConfigurationsBotaoRight>

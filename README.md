@@ -24,10 +24,6 @@ Este projeto tras todos os `610 hinos` do `Hinário Adventista do 7º dia`, com 
     <img src="src/assets/img/img_readme/dark_seccoes.png" width="20%">
 </p>
 
-## Download
-
-<a href='https://play.google.com/store/apps/details?id=com.hin7'><img alt='Get it on Google Play' width="200" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
-
 ## Requisitos
 
 Todos os requisitos aqui listados são indispensáveis para o desenvolvimento do projeto.
@@ -63,6 +59,13 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 - Altera a documentação se for necessário
 
 ## Changelog
+
+- 1.0.7
+  - Correções no hino 308 (adicionado a segunda estrofe). 📃
+  - Correções na estrutura das subsecções. ✅📲
+  - Retirado o botão Feedback. 👍🏻
+  - Agora já se pesquisa pela letra do Hino. 🔍📃
+  - Correção de alguns bugs. ⌨️
 
 - 1.0.6
 

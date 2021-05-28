@@ -39,7 +39,7 @@ export default () => {
       </IconLoad>
       <BemvindoApp>
         <BemvindoAppText>Bem Vindo</BemvindoAppText>
-        <BemvindoAppVersao>Versão 1.0.6</BemvindoAppVersao>
+        <BemvindoAppVersao>Versão 1.0.7</BemvindoAppVersao>
       </BemvindoApp>
     </Container>
   );

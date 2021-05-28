@@ -1,8 +1,8 @@
 import React from 'react';
-import {Linking} from 'react-native';
+import { Linking } from 'react-native';
 import TabTopConf from '../../../components/TabTopConf';
 import Logo from '../../../assets/img/logo.svg';
-import {useStateValue} from '../../../state/ContextProvider';
+import { useStateValue } from '../../../state/ContextProvider';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -34,18 +34,30 @@ export default () => {
           <TituloLightItalic>Adventista do 7º dia</TituloLightItalic>
         </TituloApp>
 
-        <SobreTexto>
+        {/* <SobreTexto>
           São mais de 600 hinos, que podem ser entoados não apenas no culto
           congregacional mas também no culto familiar, nas reuniões de jovens,
           na devoção particular e muito mais. Tira o maior proveito. Deus o
           abençoe.
-        </SobreTexto>
+        </SobreTexto> */}
         <SobreContaneir>
           <SobreTextoCenterAutor>Agradecimentos:</SobreTextoCenterAutor>
           <SobreContaneirBotao
+            onPress={() => Linking.openURL('https://cpb.com.br')}>
+            <SobreTextoCenterAutorT>
+              Casa Publicadora Brasileira
+            </SobreTextoCenterAutorT>
+            <FontAwesome
+              name="share-square-o"
+              color={state.theme.icon}
+              size={20}
+            />
+          </SobreContaneirBotao>
+
+          <SobreContaneirBotao
             onPress={() => Linking.openURL('https://musicaeadoracao.com.br')}>
             <SobreTextoCenterAutorT>
-              https://musicaeadoracao.com.br
+              Música do Coração
             </SobreTextoCenterAutorT>
             <FontAwesome
               name="share-square-o"
@@ -118,7 +130,7 @@ export default () => {
         </SobreContaneir>
 
         <Versao>
-          <VersaoTexto>Versão 1.0.6</VersaoTexto>
+          <VersaoTexto>Versão 1.0.7</VersaoTexto>
         </Versao>
       </Scroller>
     </Container>

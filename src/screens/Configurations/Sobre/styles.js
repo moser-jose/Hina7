@@ -34,6 +34,7 @@ export const TituloApp = styled.View`
   width: 100%;
   text-align: center;
   margin-top: 5px;
+  margin-bottom: 20px;
 `;
 export const TituloBold = styled.Text`
   color: ${(props) => props.theme.title};
