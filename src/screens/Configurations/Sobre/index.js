@@ -1,8 +1,8 @@
 import React from 'react';
-import { Linking } from 'react-native';
+import {Linking} from 'react-native';
 import TabTopConf from '../../../components/TabTopConf';
 import Logo from '../../../assets/img/logo.svg';
-import { useStateValue } from '../../../state/ContextProvider';
+import {useStateValue} from '../../../state/ContextProvider';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -33,13 +33,6 @@ export default () => {
           <TituloBold>Hinário</TituloBold>
           <TituloLightItalic>Adventista do 7º dia</TituloLightItalic>
         </TituloApp>
-
-        {/* <SobreTexto>
-          São mais de 600 hinos, que podem ser entoados não apenas no culto
-          congregacional mas também no culto familiar, nas reuniões de jovens,
-          na devoção particular e muito mais. Tira o maior proveito. Deus o
-          abençoe.
-        </SobreTexto> */}
         <SobreContaneir>
           <SobreTextoCenterAutor>Agradecimentos:</SobreTextoCenterAutor>
           <SobreContaneirBotao
@@ -56,9 +49,7 @@ export default () => {
 
           <SobreContaneirBotao
             onPress={() => Linking.openURL('https://musicaeadoracao.com.br')}>
-            <SobreTextoCenterAutorT>
-              Música do Coração
-            </SobreTextoCenterAutorT>
+            <SobreTextoCenterAutorT>Música do Coração</SobreTextoCenterAutorT>
             <FontAwesome
               name="share-square-o"
               color={state.theme.icon}
@@ -130,7 +121,7 @@ export default () => {
         </SobreContaneir>
 
         <Versao>
-          <VersaoTexto>Versão 1.0.7</VersaoTexto>
+          <VersaoTexto>Versão 1.0.8</VersaoTexto>
         </Versao>
       </Scroller>
     </Container>
