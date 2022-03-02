@@ -3,16 +3,18 @@ import {Share} from 'react-native';
 import styled from 'styled-components/native';
 import ShareIcon from '../assets/img/share.svg';
 import FontAwessome5 from 'react-native-vector-icons/FontAwesome5';
+
+const Partilhar=styled.View`padding-right: 10px;`
 const PartilharContainer = styled.View`
   flex-direction: row;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
   margin-right: 10px;
   margin-bottom: 10px;
   background-color: ${(props) => props.theme.container};
   border-radius: 3px;
   justify-content: center;
-  elevation: 2;
+  elevation: 1;
   padding: 10px;
 `;
 
@@ -59,6 +61,7 @@ export default () => {
   };
 
   return (
+    <Partilhar>
     <PartilharContainer>
       <PartilharContainerLeft>
         <ShareIcon width="100%" heigth="190" />
@@ -77,5 +80,6 @@ export default () => {
         </PartilharBaixo>
       </PartilharContainerRigth>
     </PartilharContainer>
+    </Partilhar>
   );
 };

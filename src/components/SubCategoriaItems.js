@@ -3,8 +3,8 @@ import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 const SubCategoriaBotao = styled.TouchableOpacity`
   background-color: ${(props) => props.theme.container};
-  padding: 14px 5px;
-  elevation: 2;
+  padding: 20px 10px;
+  elevation: 1;
   border-radius: 2px;
   margin-top: 5px;
   margin-bottom: 5px;

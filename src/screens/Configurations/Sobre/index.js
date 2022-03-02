@@ -28,7 +28,7 @@ export default () => {
       <TabTopConf Texto={'Sobre a App'} />
 
       <Scroller showsVerticalScrollIndicator={false}>
-        <Logo width="100%" height="90" />
+        <Logo style={{marginTop:10}} width="100%" height="90" />
         <TituloApp>
           <TituloBold>Hinário</TituloBold>
           <TituloLightItalic>Adventista do 7º dia</TituloLightItalic>
@@ -121,7 +121,7 @@ export default () => {
         </SobreContaneir>
 
         <Versao>
-          <VersaoTexto>Versão 1.0.8</VersaoTexto>
+          <VersaoTexto>Versão 1.0.9</VersaoTexto>
         </Versao>
       </Scroller>
     </Container>

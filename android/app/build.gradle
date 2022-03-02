@@ -133,8 +133,8 @@ android {
         applicationId "com.hin7"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 7
-        versionName "1.0.8"
+        versionCode 8
+        versionName "1.0.9"
         multiDexEnabled true 
     }
     splits {

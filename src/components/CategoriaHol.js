@@ -6,11 +6,12 @@ const CategoriaHol = styled.View`
   flex-direction: row;
   height: 70px;
   margin-right: 10px;
+  margin-bottom:10px
 `;
 
 const CategoriaContainer = styled.View`
   flex-direction: row;
-  elevation: 2;
+  elevation: 1;
   overflow: hidden;
   height: 70px;
   border-radius: 2px;

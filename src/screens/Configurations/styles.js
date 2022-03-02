@@ -15,7 +15,6 @@ export const Configurations = styled.View`
   background-color: ${(props) => props.theme.container};
   elevation: 4;
   border-radius: 2px;
-  margin: 1px;
   padding: 6px 16px;
   margin-top: 10px;
 `;

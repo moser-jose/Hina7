@@ -11,7 +11,7 @@ export const Container = styled.SafeAreaView`
 
 export const Scroler = styled.ScrollView`
   flex: 1;
-  padding: 0 10px;
+  padding: 0 0 0 10px;
 `;
 
 export const TabTop = styled.View`
@@ -19,6 +19,7 @@ export const TabTop = styled.View`
   flex-direction: row;
   height: 80px;
   elevation: 2;
+  
 `;
 
 export const Favoritos = styled.View``;

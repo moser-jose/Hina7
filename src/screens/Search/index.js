@@ -1,6 +1,9 @@
-import React, {useState, useMemo, useCallback} from 'react';
+import React, {useState,useEffect, useMemo, useCallback} from 'react';
+import {Keyboard} from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {useStateValue} from '../../state/ContextProvider';
+//import { URL, URLSearchParams } from 'react-native-url-polyfill';
+
 import {
   Container,
   Scroller,
@@ -24,6 +27,7 @@ export default () => {
   const [state] = useStateValue();
   const [ativo, setAtivo] = useState(1);
   const [query, setQuery] = useState('');
+ 
 
   const filtrarHino = useMemo(() => {
     if (!query) {
@@ -34,12 +38,12 @@ export default () => {
         return item.numero == query;
       });
     } else if (ativo == 2) {
-      return hinario.hinos.filter((l) => l.title.toLowerCase().match(query));
+      return hinario.hinos.filter((l) => l.title.toLowerCase().match(query.toLowerCase()));
     } else {
       var hn = [];
       hinario.hinos.map((v) => {
         const vb = v.estrofes.filter((l) =>
-          l.estrofe.toLowerCase().match(query),
+          l.estrofe.toLowerCase().match(query.toLowerCase()),
         );
         if (vb != '') {
           hn.push(v);
@@ -49,10 +53,14 @@ export default () => {
     }
   }, [query, ativo, hinario.hinos]);
 
+
+
+
+
   return (
     <Container>
       <TabTopCustom titulo={'Pesquisar'} />
-      <Scroller>
+      <Scroller showsVerticalScrollIndicator={false}>
         <HinoPesq>
           <EscolhaPesquisaContainer>
             <EscolhaPesquisa
@@ -66,7 +74,7 @@ export default () => {
                 style={
                   ativo == 1 ? {color: '#fff'} : {color: state.theme.title}
                 }>
-                Busca por Número
+                Busca por número
               </TextoPesquisa>
             </EscolhaPesquisa>
             <Barra />
@@ -81,7 +89,7 @@ export default () => {
                 style={
                   ativo === 2 ? {color: '#fff'} : {color: state.theme.title}
                 }>
-                Busca por Titulo
+                Busca por título
               </TextoPesquisa>
             </EscolhaPesquisa>
             <Barra />
@@ -96,7 +104,7 @@ export default () => {
                 style={
                   ativo === 3 ? {color: '#fff'} : {color: state.theme.title}
                 }>
-                Busca por Letra
+                Busca por letra
               </TextoPesquisa>
             </EscolhaPesquisa>
           </EscolhaPesquisaContainer>
@@ -112,9 +120,12 @@ export default () => {
                   placeholderTextColor="#aaa"
                   placeholder="Introduza o número do hino"
                   autoCapitalize="none"
+                  keyboardType="numeric"
+                  
                   autoCorrect={false}
                   value={query}
                   onChangeText={(query) => setQuery(query)}
+                  onSubmitEditing={Keyboard.dismiss}
                 />
               ) : ativo === 2 ? (
                 <TextImput
@@ -129,7 +140,7 @@ export default () => {
                 ativo === 3 && (
                   <TextImput
                     placeholderTextColor="#aaa"
-                    placeholder="Introduza parte da letra do hino"
+                    placeholder="Introduza parte da estrofe"
                     autoCapitalize="none"
                     autoCorrect={false}
                     value={query}
@@ -147,7 +158,6 @@ export default () => {
             )}
           </PesquisarConp>
         </HinoPesq>
-
         <HinoContainerUp hinos={filtrarHino} favoritos={favoritos} />
       </Scroller>
     </Container>

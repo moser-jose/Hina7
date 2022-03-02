@@ -14,9 +14,8 @@ const HinoContainer = styled.SafeAreaView`
 `;
 const TabTopHino = styled.View`
   background-color: ${(props) => props.theme.container};
-  elevation: 2;
-  margin-bottom: 10px;
-  padding: 28px 0 10px;
+  elevation: 1;
+  padding: 35px 0 10px;
 `;
 
 const TabTopVoltarBotao = styled.View`
@@ -330,7 +329,7 @@ const Hinos = ({
           </FontContainer>
         </Configurations>
       </TabTopHino>
-      <Scroller>
+      <Scroller >
         <Hino>
           <HinoT>
             {hinoInfo.estrofes.slice(0, 1).map((value, index) => (

@@ -12,7 +12,7 @@ export const Container = styled.SafeAreaView`
 `;
 export const Temas = styled.View`
   flex-direction: row;
-  elevation: 2;
+  elevation: 1;
   height: 160px;
   width: 100%;
   margin: 20px 1px;
@@ -27,7 +27,7 @@ export const TemasLeft = styled.View`
 `;
 export const TemasLeftTheme = styled.TouchableOpacity`
   flex: 1;
-  elevation: 2;
+  elevation: 1;
   height: 100px;
   width: 80px;
   border-radius: 2px;
@@ -56,7 +56,7 @@ export const Line = styled.View`
   width: 100%;
 `;
 export const TemasLista = styled.View`
-  elevation: 2;
+  elevation: 1;
   width: 100%;
   margin: 0 1px 20px 1px;
   background-color: ${(props) => props.theme.container};

@@ -7,9 +7,9 @@ const HinoContainerUp = styled.View`
   flex-direction: row;
   background-color: ${(props) => props.theme.container};
   border-radius: 2px;
-  padding: 8px;
-  margin: 10px 1px 0 1px;
-  elevation: 2;
+  padding: 10px;
+  margin: 0 0 10px;
+  elevation: 1;
 `;
 
 const Hino = styled.View`
@@ -84,7 +84,7 @@ const Hinarios = ({hinos, favoritos}) => {
       <FlatListUp
         data={hinos}
         keyExtractor={(item) => item.title}
-        showsVerticalScrollIndicator={true}
+        showsVerticalScrollIndicator={false}
         renderItem={HinosGet}
       />
     </Div>

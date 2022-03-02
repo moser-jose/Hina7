@@ -6,7 +6,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 const TabArea = styled.View`
   height: 60px;
   flex-direction: row;
-  elevation: 2;
+  elevation: 1;
   background-color: ${(props) => props.theme.container}; ;
 `;
 

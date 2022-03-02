@@ -8,7 +8,8 @@ const HinoContainerHorizontal = styled.View`
   padding: 8px;
   border-radius: 2px;
   margin-right: 10px;
-  elevation: 2;
+  margin-bottom:10px;
+  elevation: 1;
   background-color: ${(props) => props.theme.container}; ;
 `;
 const Hino = styled.View`

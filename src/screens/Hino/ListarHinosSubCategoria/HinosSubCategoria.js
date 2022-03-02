@@ -6,14 +6,14 @@ import {useStateValueHino} from '../../../state/ContextProviderHinos';
 
 const Tudol = styled.View`
   background-color: ${(props) => props.theme.background};
-  padding: 0 10px;
-  margin-top: 10px;
+  padding: 10px 10px 0;
+  
   flex: 1;
 `;
 const Tudo = styled.View`
   background-color: ${(props) => props.theme.background};
   flex: 1;
-  padding-bottom: 10px;
+  
 `;
 const List = () => {
   const {hinario} = useStateValueHino();

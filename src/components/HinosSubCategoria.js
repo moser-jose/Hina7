@@ -13,7 +13,7 @@ const HinoContainerUp = styled.View`
 const Hino = styled.View`
   flex-direction: row;
   width: 100%;
-  elevation: 2;
+  elevation: 1;
   padding: 8px;
   border-radius: 2px;
   background-color: ${(props) => props.theme.container};

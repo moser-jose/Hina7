@@ -1,6 +1,14 @@
 # Changelog
 
+- 1.0.9
+  
+  - Correções nos hinos 17, 126, 152, 282. 📃
+  - Mudança do teclado (Busca por número) para o teclado numérico. ⌨️
+  - Já é possível saber se existe uma nova versão do app. 🔍📃
+  - Melhoria na busca dos hinos. 🔍📃
+
 - 1.0.8
+  
   - Correções no hino 316 (retirada a última estrofe, não fazia parte do hino). 📃
   - Melhoria na compatibilidade de app com dispositivos menos recente. 📱
   - Melhoria nas secções e subsecções do app. ✅📲
@@ -9,6 +17,7 @@
   - Agora já se pesquisa pela letra do Hino. 🔍📃
 
 - 1.0.7
+  
   - Correções no hino 308 (adicionado a segunda estrofe). 📃
   - Correções na estrutura das subsecções. ✅📲
   - Retirado o botão Feedback. 👍🏻
@@ -16,7 +25,7 @@
   - Correção de alguns bugs. ⌨️
 
 - 1.0.6
-
+  
   - Correções na estrutura das subsecções. ✅📲
   - Mudanças na página das configurações. ⚙️
   - Agora já se pesquisa pela letra do Hino. 🔍📃

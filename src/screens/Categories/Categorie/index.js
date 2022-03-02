@@ -7,13 +7,14 @@ import {useRoute} from '@react-navigation/native';
 const Tudol = styled.View`
   background-color: ${(props) => props.theme.background};
   flex: 30;
+  
 `;
 const Tudo = styled.View`
   background-color: ${(props) => props.theme.background};
   flex: 1;
 `;
 const ListArea = styled.ScrollView`
-  margin: 10px;
+  margin: 0 10px;
   flex: 1;
 `;
 export default () => {
@@ -28,7 +29,7 @@ export default () => {
     <Tudo>
       <TabTopConf Texto={'Sub-Secções'} />
       <Tudol>
-        <ListArea>
+        <ListArea showsVerticalScrollIndicator={false}>
           {categoria.sub_categorias.map((item, k) => (
             <SubCategoriaItems data={item} key={k} />
           ))}

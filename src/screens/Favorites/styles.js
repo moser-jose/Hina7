@@ -11,4 +11,5 @@ export const Container = styled.SafeAreaView`
 export const Scroller = styled.View`
   flex: 1;
   padding: 0 10px;
+  margin-top:10px
 `;

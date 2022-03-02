@@ -21,8 +21,8 @@ export default () => {
         translucent={true} /* hidden={true} */
       />
       <Container>
-        <TabTop titulo={'Favoritos'} />
-        <Scroler>
+        <TabTop titulo={''} />
+        <Scroler showsVerticalScrollIndicator={false} >
           <TextContTitulo nome={'Hinos'} />
           <HinoContainerHorizontal
             hinos={hinario.hinos}

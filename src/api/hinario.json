@@ -3,6 +3,8 @@
     "github":"https://github.com/moser-jose",
     "ultima_atualizacao":"07-02-2021",
     "url":"https://hinario-adventista.vercel.app/",
+    "versao":109,
+    "app":"https://github.com/moser-jose/Hina7/releases/download/v1.0.9/hinario-v1.0.9.apk",
     "hinos":[
         {
             "id":1,
@@ -138,7 +140,7 @@
             "sub_categoria":"Adoração e Louvor",
             "autores":[
                 {
-                    "nome":"Folliott S. Pierpoint (1835-1917)"
+                    "nome":"Folliott S. P. (1835-1917)"
                 },
                 {
                     "nome":"Conrad Kocher (1786-1872)"
@@ -220,7 +222,7 @@
             "sub_categoria":"Adoração e Louvor",
             "autores":[
                 {
-                    "nome":"Folliott S. Pierpoint (1835-1917)"
+                    "nome":"Folliott S. P. (1835-1917)"
                 },
                 {
                     "nome":"Conrad Kocher (1786-1872)"
@@ -692,15 +694,15 @@
             "estrofes":[
                 {
                     "numero":"I",
-                    "estrofe":"Nós Te adoramos, Deus infinito,\nE a Teu Filho, Rei, Salvador;\nTeu nome e terno é sempre bendito;\nTeu Espírito traz-nos amor.\nGlória rendemos, honra, louvor,\nE adoraçăo a Ti, ó Senhor!"
+                    "estrofe":"Nós Te adoramos, Deus infinito,\nE a Teu Filho, Rei, Salvador;\nTeu nome e terno é sempre bendito;\nTeu Espírito traz-nos amor.\nGlória rendemos, honra, louvor,\nE adoração a Ti, ó Senhor!"
                 },
                 {
                     "numero":"II",
-                    "estrofe":"Éramos presos pelo pecado,\nTu nos livras-te dessa prisăo;\nE por Teu Filho imaculado,\nOfertaste-nos a salvaçăo.\nGlória rendemos, honra, louvor,\nE adoraçăo a Ti, Redentor!"
+                    "estrofe":"Éramos presos pelo pecado,\nTu nos livras-te dessa prisão;\nE por Teu Filho imaculado,\nOfertaste-nos a salvação.\nGlória rendemos, honra, louvor,\nE adoração a Ti, Redentor!"
                 },
                 {
                     "numero":"III",
-                    "estrofe":"Tu nos convences dos vis pecados,\nE da justiça, luzes nos dás,\nE ŕ verdade somos guiados,\nÓ Espírito Santo de paz.\nGlória rendemos, honra, louvor,\nE adoraçăo, ó consolador!"
+                    "estrofe":"Tu nos convences dos vis pecados,\nE da justiça, luzes nos dás,\nE à verdade somos guiados,\nÓ Espírito Santo de paz.\nGlória rendemos, honra, louvor,\nE adoração, ó consolador!"
                 }
             ]
         },
@@ -1843,7 +1845,8 @@
             "sub_categoria":"Natal",
             "autores":[
                 {
-                    "nome":"Robert H. Moreton (1844-1917)"
+                    "nome":"Robert H. M. (1844-1917)"
+                    
                 },
                 {
                     "nome":"Robert Lowry (1826-1899)"
@@ -5403,6 +5406,11 @@
                     "numero":"III",
                     "estrofe":"Reinos e nações se abalam!\nProclamai a todo o mundo\nQue Jesus a vir Se apressa,\nE que tem amor profundo!"
                 }
+                ,
+                {
+                    "numero":"IV",
+                    "estrofe":"Pecadores, vinde todos,\nCristo ainda intercede!\nVinde enquanto graça existe,\nVinde enquanto Deus vos pede!"
+                }
             ]
         }
         ,
@@ -6495,7 +6503,7 @@
             "estrofes":[
                 {
                     "numero":"I",
-                    "estrofe":"Já refulge a glória eterna de Jesus o Rei dos Reis;\nBreve os reinos deste mundo ouvirão as Suas leis!\nOs finais da Sua vinda mais se mostram cada vez.\nVencendo vem Jesus!"
+                    "estrofe":"Já refulge a glória eterna de Jesus o Rei dos Reis;\nBreve os reinos deste mundo ouvirão as Suas leis!\nOs sinais da Sua vinda mais se mostram cada vez.\nVencendo vem Jesus!"
                 },
                 {
                     "numero":"II",
@@ -12274,7 +12282,7 @@
                 ,
                 {
                     "numero":"IV",
-                    "estrofe":"Tempo de ser útil tu deves guardas;\nMui calmo nas lutas, em Deus confiar;\nTer para os aflitos voz e atos de amor;\nSim, mais semelhante ser ao Salvador."
+                    "estrofe":"Tempo de ser útil tu deves guardar;\nMui calmo nas lutas, em Deus confiar;\nTer para os aflitos voz e atos de amor;\nSim, mais semelhante ser ao Salvador."
                 }
             ]
         }

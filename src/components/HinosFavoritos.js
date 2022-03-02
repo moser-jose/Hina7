@@ -25,7 +25,7 @@ const Favoritos = ({hinos}) => {
         <HinoContainerUpH hinos={hinos} favoritos={favoritos} />
       ) : (
         <FavoritosF>
-          <FavoritosFText>Não Existem Hinos Favoritos</FavoritosFText>
+          <FavoritosFText>Não existem hinos nos favoritos</FavoritosFText>
         </FavoritosF>
       )}
     </Div>

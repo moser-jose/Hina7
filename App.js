@@ -12,7 +12,6 @@ export default () => {
   useEffect(() => {
     async function getStorageDarkMode() {
       const Theme = await AsyncStorage.getItem('Theme');
-
       if (Theme === '1') {
         dispach({
           type: 'lighTheme',

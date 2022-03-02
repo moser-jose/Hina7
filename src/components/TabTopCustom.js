@@ -5,10 +5,11 @@ import ImagemTop from '../assets/img/imagem-top.svg';
 const TabTop = styled.View`
   background-color: ${(props) => props.theme.container};
   flex-direction: row;
-  elevation: 2;
-  margin-bottom: 10px;
+  elevation: 1;
+  
   justify-content: space-between;
-  padding: 28px 10px 10px;
+  padding: 35px 10px 10px;
+  align-items: center;
 `;
 
 const TabTopLeft = styled.View`

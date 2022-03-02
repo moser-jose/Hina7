@@ -4,13 +4,12 @@ export const Container = styled.SafeAreaView`
   background-color: ${(props) => props.theme.background};
   flex: 1;
   position: relative;
-  padding-bottom: 20px;
+  
 `;
 
 export const Scroller = styled.ScrollView`
   flex: 1;
   padding: 0 10px;
-  margin-top: 10px;
 `;
 export const Versao = styled.View`
   margin-top: 20px;
@@ -66,8 +65,8 @@ export const SobreContaneirBotao = styled.TouchableOpacity`
   align-items: center;
   justify-content: space-between;
   background-color: ${(props) => props.theme.container};
-  elevation: 2;
-  padding: 12px 10px;
+  elevation: 1;
+  padding: 14px 10px;
   margin: 7px 1px;
   border-radius: 2px;
 `;

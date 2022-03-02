@@ -8,7 +8,7 @@ const HinoContainerHorizontal = styled.View`
 
 const Hino = styled.View`
   flex-direction: row;
-  elevation: 2;
+  elevation: 1;
   margin-right: 10px;
   padding: 8px;
   background-color: ${(props) => props.theme.container};

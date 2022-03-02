@@ -6,9 +6,10 @@ import Logo from '../assets/img/logo.svg';
 const TabTop = styled.View`
   background-color: ${(props) => props.theme.container};
   flex-direction: row;
-  elevation: 2;
-  padding: 24px 0 10px;
-  margin-bottom: 10px;
+  elevation: 1;
+  padding: 35px 0 10px;
+  justify-content: center;
+  align-items: center;
 `;
 
 const TabTopLeft = styled.View`

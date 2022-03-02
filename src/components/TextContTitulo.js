@@ -5,7 +5,8 @@ import {useNavigation} from '@react-navigation/native';
 const TextContTitulo = styled.View`
   flex-direction: row;
   justify-content: center;
-  margin: 20px 0 20px 0;
+  margin: 10px 0 20px 0;
+  padding-right:10px
 `;
 
 const TextoTituloConatiner = styled.View`
@@ -28,7 +29,7 @@ const TextoTituloRight = styled.Text`
   border-radius: 2px;
   padding: 2px 4px;
   color: #fff;
-  elevation: 2;
+  elevation: 1;
 `;
 export default ({nome}) => {
   const navigation = useNavigation();

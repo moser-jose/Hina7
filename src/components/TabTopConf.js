@@ -3,11 +3,12 @@ import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 const ConfContainer = styled.View`
-  elevation: 2;
+  
 `;
 const ConfContainerCont = styled.View`
   background-color: ${(props) => props.theme.container};
-  padding: 22px 0 10px;
+  padding: 35px 0 15px;
+  elevation: 1;
 `;
 
 const TabTopVoltarBotao = styled.View`
@@ -26,7 +27,9 @@ const TabText = styled.Text`
   color: ${(props) => props.theme.title};
 `;
 
-const Scroller = styled.View``;
+const Scroller = styled.View`
+  
+`;
 
 const TabTop = styled.View`
   flex-direction: row;

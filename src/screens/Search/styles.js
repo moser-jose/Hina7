@@ -3,13 +3,13 @@ import styled from 'styled-components/native';
 export const Container = styled.SafeAreaView`
   background-color: ${(props) => props.theme.background};
   flex: 1;
-  position: relative;
-  padding-bottom: 108px;
 `;
 
 export const Scroller = styled.View`
   flex: 1;
   padding: 0 10px;
+  margin-bottom: 100px;
+  margin-top:10px
 `;
 
 export const ScrollView = styled.View`
@@ -17,13 +17,14 @@ export const ScrollView = styled.View`
 `;
 export const HinoPesq = styled.View`
   width: 100%;
+  margin: 0 0 10px;
 `;
 export const PesquisarConp = styled.View`
   background-color: ${(props) => props.theme.container};
   flex-direction: row;
   height: 50px;
   elevation: 2;
-  margin: 10px 0.5px;
+  margin: 10px 0.5px 0;
   justify-content: space-between;
   padding: 0 10px;
   border-radius: 2px;
@@ -50,7 +51,7 @@ export const TextImput = styled.TextInput`
 `;
 
 export const EscolhaPesquisaContainer = styled.View`
-  height: 40px;
+  
   width: 100%;
   border-radius: 2px;
   elevation: 2;

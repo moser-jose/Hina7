@@ -11,7 +11,7 @@ const CategoriaHol = styled.View`
 `;
 
 const CategoriaContainer = styled.View`
-  elevation: 2;
+  elevation: 1;
   overflow: hidden;
   border-radius: 2px;
   height: 70px;

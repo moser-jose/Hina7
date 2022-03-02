@@ -12,7 +12,7 @@ const CategoriaHol = styled.View`
 
 const CategoriaContainer = styled.View`
   flex-direction: row;
-  elevation: 2;
+  elevation: 1;
   overflow: hidden;
   height: 70px;
   border-radius: 2px;
@@ -105,7 +105,7 @@ const Categ = () =>{
     return (
       <CategoriaHol>
         <CategoriaContainer>
-
+        <Image
             source={getBackgroundSource(background)}
             style={{height: 70, resizeMode: 'cover'}}></Image>
           <CategoriaBotao onPress={handleClick}>
