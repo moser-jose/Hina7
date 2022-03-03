@@ -62,7 +62,7 @@ Faça as alterações necessárias para a melhoria do projeto, não se esqueça 
 
 Acompanhe as atualizações do aplicativo desde a versão da criação do projeto até a versão atual. Tenha o seu app atualizado
 
-veja [o que há de novo no app](/CHANGELOG.md).
+veja [o que há de novo no app](/CHANGELOG.MD).
 
 ## Licença
 
