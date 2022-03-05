@@ -1,4 +1,4 @@
-import React, {useState, memo, useEffect} from 'react';
+import React, {useState, memo,useCallback} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 import Slider from '@react-native-community/slider';
@@ -9,18 +9,19 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import Feather from 'react-native-vector-icons/Feather';
 import Estrofes from './Estrofes';
 import TrackPlayer, {useTrackPlayerProgress} from 'react-native-track-player';
+import { useStateValueHino } from '../state/ContextProviderHinos';
 const HinoContainer = styled.SafeAreaView`
   flex: 1;
 `;
 const TabTopHino = styled.View`
   background-color: ${(props) => props.theme.container};
   elevation: 1;
-  padding: 35px 0 10px;
+  padding: 35px 0 0px;
 `;
 
 const TabTopVoltarBotao = styled.View`
   flex-direction: row;
-  padding: 10px;
+  padding: 5px 10px 0px;
 `;
 const TabTopVoltar = styled.TouchableOpacity`
   flex-direction: row;
@@ -35,7 +36,7 @@ const TabText = styled.Text`
 
 const TabTopTitulo = styled.View`
   width: 100%;
-  padding: 10px 10px 0;
+  padding: 5px 10px 0;
 `;
 const TabTopTituloText = styled.Text`
   font-size: 18px;
@@ -95,13 +96,6 @@ const HinoT = styled.View`
   padding: 10px;
   flex: 1;
 `;
-const Estrofe = styled.Text`
-  font-size: 16px;
-  font-family: 'Poppins-Regular';
-  margin-bottom: 5px;
-  color: ${(props) => props.theme.title};
-  letter-spacing: 1px;
-`;
 
 const Coro = styled.Text`
   font-size: 16px;
@@ -127,7 +121,7 @@ const Scroller = styled.ScrollView`
 const Configurations = styled.View`
   flex-direction: row;
   align-items: center;
-  padding: 5px 10px 10px 10px;
+  padding: 5px 10px 3px 10px;
   justify-content: space-between;
 `;
 const Font = styled.Text`
@@ -151,9 +145,50 @@ const PlayerContainer = styled.View`
 `;
 const Botao = styled.TouchableOpacity``;
 const SliderContainer = styled.View``;
+const NextPreview=styled.View`
+  flex:1;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-end;
+
+`;
+const TabTextB =styled.Text`
+  padding-left: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  color:#29C17E;
+  `;
+  const TabTextT =styled.Text`
+    padding-left: 6px;
+    font-size: 16px;
+    font-weight: 300;
+    color: ${(props) => props.theme.title}; ;
+  `;
+  const TabTextH =styled.Text`
+  font-size: 16px;
+  font-weight: 300;
+  color: ${(props) => props.theme.title}; ;
+`;
+  const TabTextC =styled.Text`
+  padding-left: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: right;
+  color: ${(props) => props.theme.title}; ;
+`;
+const TabTextD =styled.Text`
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  color: ${(props) => props.theme.title}; ;
+`;
+const TabTopNextPreview =styled.TouchableOpacity`
+  flex-direction: column;
+  justify-content: flex-end;
+`;
 
 const Hinos = ({
-  hinoInfo,
+  //hinoInfo,
   setClickFav,
   setTamanho,
   tamanho,
@@ -161,8 +196,8 @@ const Hinos = ({
   favorited,
 }) => {
   const navigation = useNavigation();
-  const [state, dispach] = useStateValue();
-
+  const [state, ] = useStateValue();
+  const{hinoInfo,setHinoInfo,hinario}=useStateValueHino();
   const [botaoPlay, setBotaoPlay] = useState(true);
   const {position, duration} = useTrackPlayerProgress();
   async function SaveFavorites(hinoInfo, favor) {
@@ -216,22 +251,40 @@ const Hinos = ({
     TrackPlayer.seekTo(val);
   };
 
-  useEffect(() => {
-    let isMounted = false;
+  const filter=(numl)=>{
+    hinario.hinos.map((item)=>{
+      if (item.id===numl){
+        setHinoInfo({
+          id: item.id,
+          title: item.title,
+          url: item.url,
+          artwork: item.artwork,
+          artist: item.artist,
+          numero_view: item.numero_view,
+          ingles: item.ingles,
+          autores: item.autores,
+          texto_biblico: item.texto_biblico,
+          coro: item.coro,
+          estrofes: item.estrofes,
+          anterior:hinario.hinos.find((i)=> i.id==item.id-1),
+          proximo:hinario.hinos.find((i)=> i.id==item.id+1)
+        }) 
+      }
+    })
+  }
 
-    if (!isMounted) {
-      TrackPlayer.addEventListener('playback-state', (state) => {
-        if (state.state == 2) {
-          setBotaoPlay(true);
-        }
-      });
+  const hinoAnterior = () => {
+    TrackPlayer.stop();
+    setBotaoPlay(true);
+    filter(hinoInfo.anterior.numero);
+  };
 
-      return () => {
-        isMounted = false;
-      };
-    }
-  }, []);
-
+  const hinoProximo =() => {
+    TrackPlayer.stop();
+    setBotaoPlay(true);
+    filter(hinoInfo.proximo.numero);
+  };
+  
   return (
     <HinoContainer>
       <TabTopHino>
@@ -240,6 +293,32 @@ const Hinos = ({
             <FontAwesome5 size={18} name="caret-left" color="#8890A6" />
             <TabText>Voltar</TabText>
           </TabTopVoltar>
+          <NextPreview>
+            {
+              hinoInfo.id >= 2 && hinoInfo.id <= 609  ?
+              <>
+                <TabTopNextPreview onPress={hinoAnterior}>
+                  <TabTextH>Anterior</TabTextH>
+                  <TabTextD>{hinoInfo.anterior.numero_view}</TabTextD>
+                </TabTopNextPreview>
+                <TabTextB>|</TabTextB>
+                <TabTopNextPreview onPress={hinoProximo}>
+                  <TabTextT>Próximo</TabTextT>
+                  <TabTextC>{hinoInfo.proximo.numero_view}</TabTextC>
+                </TabTopNextPreview>
+              </>:hinoInfo.id === 1 ? 
+              <TabTopNextPreview onPress={hinoProximo}>
+                <TabTextT>Próximo</TabTextT>
+                <TabTextC>{hinoInfo.proximo.numero_view}</TabTextC>
+              </TabTopNextPreview>:hinoInfo.id === 610 & 
+              <TabTopNextPreview onPress={hinoProximo}>
+                <TabTextH>Anterior</TabTextH>
+                <TabTextD>{hinoInfo.anterior.numero_view}</TabTextD>
+              </TabTopNextPreview>
+            }
+            
+            
+          </NextPreview>
         </TabTopVoltarBotao>
         <TabTopTitulo>
           <TabTopTituloText>{hinoInfo.title}</TabTopTituloText>

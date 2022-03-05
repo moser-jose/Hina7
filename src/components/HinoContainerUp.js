@@ -2,7 +2,7 @@ import React, {memo} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-
+import { useStateValueHino } from '../state/ContextProviderHinos';
 const HinoContainerUp = styled.View`
   flex-direction: row;
   background-color: ${(props) => props.theme.container};
@@ -79,6 +79,7 @@ const Div = styled.View``;
 
 const Hinarios = ({hinos, favoritos}) => {
   const navigation = useNavigation();
+  const{setHinoInfo}=useStateValueHino();
   return (
     <Div>
       <FlatListUp
@@ -104,7 +105,7 @@ const Hinarios = ({hinos, favoritos}) => {
       estrofes,
     } = item.item;
     const handleClick = () => {
-      navigation.navigate('Hino', {
+      setHinoInfo({
         id: id,
         title: title,
         url: url,
@@ -116,7 +117,10 @@ const Hinarios = ({hinos, favoritos}) => {
         texto_biblico: texto_biblico,
         coro: coro,
         estrofes: estrofes,
-      });
+        anterior:hinos.find((i)=> i.id==id-1),
+        proximo:hinos.find((i)=> i.id==id+1)
+      })
+      navigation.navigate('Hino');
     };
 
     return (

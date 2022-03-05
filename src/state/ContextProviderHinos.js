@@ -7,7 +7,7 @@ export const StateProviderHino = ({children}) => {
   const [favoritos, setFavoritos] = useState([]);
   const [tamanho, setTamanho] = useState(20);
   const [clickFav, setClickFav] = useState(false);
-  const [hinoInfo, setHinoInfo] =useState({});
+  const [hinoInfo, setHinoInfo] =useState([]);
   async function handlerActClickf() {
     const realm = await getRealm();
     const d = realm.objects('Favoritos').filtered('favorito=true');
@@ -30,6 +30,7 @@ export const StateProviderHino = ({children}) => {
     setFavoritos(ad.hinos);
   }
   useEffect(() => {
+    
     handlerActClickf();
   }, []);
 
@@ -37,6 +38,7 @@ export const StateProviderHino = ({children}) => {
     handlerActClickf();
     setClickFav(false);
   }
+  
 
   return (
     <StateContext.Provider

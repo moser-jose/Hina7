@@ -6,6 +6,7 @@
   - Mudança do teclado (Busca por número) para o teclado numérico. ⌨️
   - Já é possível saber se existe uma nova versão do app. 🔍📃
   - Melhoria na busca dos hinos. 🔍📃
+  - Já se pode ir para o hino seguinte ou o anterior sem voltar nas buscas 🔍
 
 - 1.0.8
   

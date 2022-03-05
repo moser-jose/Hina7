@@ -2,6 +2,7 @@ import React, {memo} from 'react';
 import styled from 'styled-components/native';
 import {useNavigation} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import { useStateValueHino } from '../state/ContextProviderHinos';
 const HinoContainerHorizontal = styled.View`
   flex-direction: row;
   margin: 0 1px 0;
@@ -77,6 +78,7 @@ const Favorito = styled.View`
 
 const HinoHor = ({hinos, favoritos}) => {
   const navigation = useNavigation();
+  const{setHinoInfo}=useStateValueHino();
   return (
     <FlatListUp
       horizontal
@@ -102,7 +104,7 @@ const HinoHor = ({hinos, favoritos}) => {
       estrofes,
     } = item.item;
     const handleClick = () => {
-      navigation.navigate('Hino', {
+      setHinoInfo({
         id: id,
         title: title,
         url: url,
@@ -114,7 +116,10 @@ const HinoHor = ({hinos, favoritos}) => {
         texto_biblico: texto_biblico,
         coro: coro,
         estrofes: estrofes,
-      });
+        anterior:hinos.find((item)=> item.id==id-1),
+        proximo:hinos.find((item)=> item.id==id+1)
+      })
+      navigation.navigate('Hino');
     };
     return (
       <HinoContainerHorizontal>

@@ -130,7 +130,7 @@ export default () => {
               ) : ativo === 2 ? (
                 <TextImput
                   placeholderTextColor="#aaa"
-                  placeholder="Introduza o titulo do hino"
+                  placeholder="Introduza o título do hino"
                   autoCapitalize="none"
                   autoCorrect={false}
                   value={query}
